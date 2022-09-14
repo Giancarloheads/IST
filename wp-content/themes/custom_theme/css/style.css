@@ -3311,6 +3311,13 @@ footer .social-links li a {
   cursor: pointer;
 }
 
+.edu-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -3328,6 +3335,11 @@ a {
   color: #000;
 }
 
+.x-pad-section {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
 .cta-black path {
   stroke: black;
 }
@@ -3342,6 +3354,11 @@ a {
 
 a:visited {
   color: inherit;
+}
+
+img {
+  width: 100%;
+  height: auto;
 }
 
 /**********************************/
@@ -3811,15 +3828,6 @@ a:visited {
   border-top-left-radius: 50px;
 }
 
-.students-video-container {
-  height: 60vh;
-}
-@media (max-width: 897px) {
-  .students-video-container {
-    height: 70vh;
-  }
-}
-
 .related-content-container {
   position: relative;
   left: 8%;
@@ -3960,18 +3968,21 @@ a:visited {
 }
 
 .only-mobile-section {
-  padding-bottom: 15px;
-  padding-top: 15px;
   color: #fff;
-  font-size: 60px;
+  font-size: 40px;
   font-weight: 300;
 }
 .only-mobile-section span {
-  display: block;
   font-size: 20px;
   font-weight: 400;
 }
 
+@media (max-width: 1199px) {
+  .jumbotron-caption {
+    width: 100vw !important;
+    padding-top: 50px;
+  }
+}
 header {
   z-index: 1001;
 }

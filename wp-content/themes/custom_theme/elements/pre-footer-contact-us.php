@@ -39,7 +39,17 @@
             <div class="row">
                 <div class="col-12 text-center">
                     <h1 class="w-50 m-auto text-center p-b-70" style="color:#000;">
+                    <?php 
+                        if(is_page(11)){
+                    ?>
                         WANT TO JOIN OUR SCHOOL?
+                    <?php
+                        }else if(is_page(13)){
+                    ?>
+                    WANT TO JOIN OUR SCHOOL?
+                    <?php 
+                        }
+                    ?>
                     </h1>
                     <div class="contact-us-link ist-cta cta-black">
                         INQUIRE NOW <img onload="SVGInject(this)" src="<?= get_template_directory_uri() . '/resources/icons/arrow.svg'; ?>" alt="">

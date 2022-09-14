@@ -158,15 +158,20 @@
  }
 
  .only-mobile-section{
-    padding-bottom:15px;
-    padding-top: 15px;
     color: #fff;
-    font-size : 60px;
+    font-size : 40px;
     font-weight:300;
     span{
-        display: block;
         font-size: 20px;
         font-weight: 400;
     }
 
+ }
+
+
+ @media(max-width:1199px){
+    .jumbotron-caption{
+        width:100vw!important;
+        padding-top:50px;
+    }
  }

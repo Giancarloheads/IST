@@ -1,5 +1,5 @@
 <?php
-get_header();
+    get_header();
 ?>
 
 <!-- JUMBOTRON -->
@@ -16,7 +16,7 @@ get_header();
                                     <img onload="SVGInject(this);" src="<?= get_template_directory_uri() . '/resources/icons/ib-logo.svg'; ?>" alt="">
                                 </div>
                                 <div class="col-10">
-                                    <div class="jumbotron-caption p-l-30">
+                                    <div class="jumbotron-caption p-l-30 p-md-l-0">
                                         Find out why IST is a <br>
                                         premier IB World School
                                         <div id="jumbotron-arrow" class="jumbotron-arrow p-b-5 p-l-20">
@@ -314,7 +314,7 @@ get_header();
                 </div>
                 <div class="col-12 students-video-container">
                     <!-- <img class="w-100" src="<?= get_template_directory_uri() . '/resources/img/students.jpg'; ?>" alt=""> -->
-                    <img class="d-lg-block d-none w-100" src="https://via.placeholder.com/2450x400" alt="">
+                    <img class="d-lg-block d-none w-100" src="https://via.placeholder.com/2450x600" alt="">
                     <img class="d-md-block d-lg-none w-100" src="https://via.placeholder.com/600x400" alt="">
                 </div>
             </div>
@@ -514,19 +514,18 @@ get_header();
             </div>
         </div>
         <!-- MOBILE ONLY SECTION  !!!!!-->
-        
-       <!--  <div class="col-12 only-mobile-section p-t-60">
+       <div class="col-4 only-mobile-section">
             100% <br>
             <span>Collage acceptance</span>            
         </div>
-        <div class="col-12 only-mobile-section">
+        <div class="col-4 only-mobile-section">
             $ 2.9M <br>
             <span>Collage acceptance</span>
         </div>
-        <div class="col-12 only-mobile-section">
+        <div class="col-4 only-mobile-section">
             12+ <br>
             <span>Countries where graduates attend university</span>
-        </div> -->
+        </div>
     </div>
 </section>
 <div class="slide-2-container">

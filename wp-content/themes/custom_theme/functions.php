@@ -167,3 +167,13 @@ if ( defined( 'JETPACK__VERSION' ) ) {
 	require get_template_directory() . '/inc/jetpack.php';
 }
 
+
+
+//REMOVE TEXTAREA FOR DOWNLOAD CPT
+
+
+add_action('init', 'my_rem_editor_from_post_type');
+
+function my_rem_editor_from_post_type() {
+    remove_post_type_support('download' , 'editor' );
+}

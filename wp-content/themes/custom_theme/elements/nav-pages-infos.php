@@ -4,7 +4,19 @@
             <div class="row justify-content-center">
                 <div class="col-6 text-center p-b-120 ist-section-title-2">
                     <!-- INSERIRE ACF -->
-                    Twenty-eight years of educational excellence.
+                    <?php 
+                        if(is_page(15)){
+                    ?>
+                        Lorem Ipsum dolor sit amet constetur.
+                    <?php 
+                        }else if(is_page(13)){
+                    ?>
+                        The school of choice where students come first
+                    <?php 
+                        }else if(is_page(11)){
+                    ?>
+                        Twenty-eight years of educational excellence.
+                    <?php }?>
                 </div>
             </div>
             <div class="row justify-content-center">

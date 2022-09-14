@@ -30,11 +30,11 @@
 				<div class="row justify-content-center">
 					<div class="col-12">
 						<nav class="row">
-							<div class="col-2">
+							<div class="col-lg-2 col-4">
 								<div class="header-logo-container">
 									<div>
 										<a class="d-flex justify-content-start align-items-center" href="<?= get_site_url(); ?>">
-											<img onload="SVGInject(this)" src="<?= get_template_directory_uri() . '/resources/icons/ist-logo.svg' ?>" alt="">
+											<img class="header-logo" src="<?= get_template_directory_uri() . '/resources/icons/ist-logo.svg' ?>" alt="">
 											<div class="m-l-20 d-lg-block d-none">
 												International <br> School of Tianjin
 											</div>
@@ -42,7 +42,7 @@
 									</div>
 								</div>
 							</div>
-							<div class="col-6 offset-2 justify-content-center">
+							<div class="col-lg-6 offset-lg-2 col-4 offset-0 justify-content-center">
 								<div class="header-links-container d-lg-block d-none text-center">
 									<ul>
 										<li>
@@ -63,7 +63,7 @@
 									</ul>
 								</div>
 							</div>
-							<div class="col-2">
+							<div class="col-lg-2 col-4">
 								<div class="header-btn-container">
 									<div id="search-btn d-lg-block d-none">
 										<img class="search-btn-desktop d-none d-lg-block" id="header-search-btn" onload="SVGInject(this)" src="<?= get_template_directory_uri() . '/resources/icons/search-btn.svg' ?>" alt="">

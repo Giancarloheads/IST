@@ -134,6 +134,7 @@ jQuery(document).ready(function ($) {
                 }, 1200);
             }
         }
+
         //IMG HOME 2
         if (home2img) {
             if (isInViewport(home2img)) {
@@ -152,6 +153,7 @@ jQuery(document).ready(function ($) {
                 }, 1400);
             }
         }
+
         //Blured header
         if (header && section) {
 
@@ -165,8 +167,9 @@ jQuery(document).ready(function ($) {
                 $('.jumbotron').css('display', 'block');
             }
         }
-        if (!$(window).scrollTop()) {
-            header.classList.add('blured')
+        
+        if ($(window).scrollTop() < 900) {
+            header.classList.remove('blured')
         }
     });
 
@@ -238,7 +241,7 @@ jQuery(document).ready(function ($) {
     })
     
     //Blur effect on header if windows load already scrolled
-    if(window.scrollY > 400){
+    if(window.scrollY > 1080){
         $('header').addClass('blured');
     }
 });
