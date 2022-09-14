@@ -1,0 +1,86 @@
+// TYPOGRAPHY
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&display=swap');
+
+$font-1 : 'Degular' , sans-serif;
+
+a:hover{
+    color: inherit!important;
+}
+
+.ist-subtitle-1 {
+    font-size: 32px;
+    line-height: 1.2;
+    font-weight: 400;
+}
+
+.txt-white {
+    color: #fff !important;
+    position: relative;
+    top: 20%;
+    z-index: 1000;
+    font-size:70px;
+}
+
+h1 {
+    font-family: $font-1;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 90px;
+    line-height: 1;
+    color: #fff;
+    @media(max-width:1199px){
+        font-size: 60px;
+    }
+}
+
+.ist-section-title {
+    font-family: $font-1;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 1;
+    color: #000;
+}
+
+.ist-section-title-1{
+    font-size:32px;
+    line-height:1;
+    font-weight: 500;
+}
+
+.ist-caption-1 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 1.2;
+}
+
+.ist-section-title-2 {
+    font-size: 60px;
+    font-weight: 300;
+    line-height: 1;
+    color: #000;
+    @media(max-width:987px){
+        font-size:38px;
+    }
+}
+
+.ist-title-3{
+    font-size: 90px;
+    text-align:  center;
+    color:#fff;
+    font-weight:300;
+    @media(max-width: 987px){
+        font-size: 60px;
+        line-height : .9;
+    }
+}
+
+.ist-par-1{
+    line-height:1.2;
+    font-size: 32px;
+    font-weight: 400;
+    @media(max-width: 987px){
+        font-size: 28px;
+    }
+}

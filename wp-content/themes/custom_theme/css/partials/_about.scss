@@ -1,0 +1,73 @@
+// PAGE HISTORY
+
+.page-nav {
+    padding: 5px;
+    background-color: #fff;
+    margin: auto;
+    border-radius: 55px;
+    display: inline-block;
+
+    ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+
+        li {
+            display: inline-block;
+            padding: 10px 20px 12px;
+            border-radius: 50px;
+            color: #000 !important;
+            background-color: #fff;
+            transition: all ease .3s;
+
+            &:hover {
+                color: #fff !important;
+                background-color: $red;
+            }
+
+            a {
+                font-size: 16px;
+                font-weight: 500;
+            }
+        }
+        .active-link-nav {
+            color: #fff !important;
+            background-color: $red;
+        }
+    }
+}
+
+.slider-history-section {
+    .years-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: nowrap;
+
+        div {
+            position: relative;
+            font-size: 32px;
+            font-weight: 400;
+            line-height: 1.2;
+            transition: color ease .3s;
+            &:before {
+                content: '';
+                height: 30%;
+                width: 1px;
+                background-color: silver;
+                position: absolute;
+                left: 50%;
+                top: -42%;
+                transform: translate(-50%, -50%);
+            }
+        }
+    }
+}
+
+.history-slide-active{
+    color: $red;
+}
+
+.years-container div{
+    cursor:pointer;
+}

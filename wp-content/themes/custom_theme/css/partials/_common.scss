@@ -1,0 +1,17 @@
+// BTNS & COMMON CLASSES
+
+.ist-cta {
+    svg {
+        margin-left: 10px;
+        transition: all ease .4s;
+    }
+}
+
+.ist-cta:hover {
+    cursor: pointer;
+
+    
+    svg {
+        transform: rotate(45deg);
+    }
+}

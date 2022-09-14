@@ -1,0 +1,35 @@
+@import 'partials/_variables.scss';
+@import 'partials/_common.scss';
+@import 'partials/_typography.scss';
+@import 'partials/_mixins.scss';
+@import 'partials/_header.scss';
+@import 'partials/_footer.scss';
+@import 'partials/_animations.scss';
+@import 'partials/_about.scss';
+@import 'partials/_main.scss';
+@import 'partials/_responsive.scss';
+
+
+header{
+    z-index: 1001;
+}
+
+section{
+    position: relative;
+    z-index: 999;
+}
+
+footer{
+    z-index : 1002;
+    background-color:#fff;
+}
+
+.slide-2-container{
+    position:relative;
+    z-index: 1000;
+}
+
+.footer-wrapper{
+    position:relative;
+    z-index: 1002;
+}
