@@ -30,19 +30,19 @@
 				<div class="row justify-content-center">
 					<div class="col-12">
 						<nav class="row">
-							<div class="col-lg-2 col-4">
+							<div class="col-lg-3 col-4">
 								<div class="header-logo-container">
 									<div>
 										<a class="d-flex justify-content-start align-items-center" href="<?= get_site_url(); ?>">
-											<img class="header-logo" src="<?= get_template_directory_uri() . '/resources/icons/ist-logo.svg' ?>" alt="">
-											<div class="m-l-20 d-lg-block d-none">
+											<img style="width:100px;height:50px;" class="header-logo" src="<?= get_template_directory_uri() . '/resources/icons/ist-logo.svg' ?>" alt="">
+											<div style="color:#fff;line-height:1;"class="m-l-20 d-lg-block d-none">
 												International <br> School of Tianjin
 											</div>
 										</a>
 									</div>
 								</div>
 							</div>
-							<div class="col-lg-6 offset-lg-2 col-4 offset-0 justify-content-center">
+							<div class="col-lg-5 offset-lg-2 col-4 offset-0 justify-content-center">
 								<div class="header-links-container d-lg-block d-none text-center">
 									<ul>
 										<li>
@@ -65,9 +65,13 @@
 							</div>
 							<div class="col-lg-2 col-4">
 								<div class="header-btn-container">
-									<div id="search-btn d-lg-block d-none">
-										<img class="search-btn-desktop d-none d-lg-block" id="header-search-btn" onload="SVGInject(this)" src="<?= get_template_directory_uri() . '/resources/icons/search-btn.svg' ?>" alt="">
-										<img class="search-btn-mobile d-block d-lg-none" id="header-search-btn" onload="SVGInject(this)" src="<?= get_template_directory_uri() . '/resources/icons/search-btn.svg' ?>" alt="">
+									<div id="search-btn">
+										<div class="search-btn-desktop">
+											<img class="d-none d-lg-block" id="header-search-btn" onload="SVGInject(this)" src="<?= get_template_directory_uri() . '/resources/icons/search-btn.svg' ?>" alt="">
+										</div>
+										<div class="search-btn-mobile">
+											<img class="search-btn-mobile d-block d-lg-none" id="header-search-btn" onload="SVGInject(this)" src="<?= get_template_directory_uri() . '/resources/icons/search-btn.svg' ?>" alt="">
+										</div>
 									</div>
 									<div id="ham-btn" class="d-lg-block d-none">
 										<img id="header-ham-btn" onload="SVGInject(this)" src="<?= get_template_directory_uri() . '/resources/icons/ham-btn.svg' ?>" alt="">
@@ -85,7 +89,7 @@
 				<div class="close-ham-btn-container">
 					<img id="header-ham-close-btn" onload="SVGInject(this)" src="<?= get_template_directory_uri() . '/resources/icons/ham-close.svg'; ?>" alt="">
 				</div>
-				<div class="container-fluid p-t-100 p-b-100">
+				<div class="container-fluid p-t-80 p-b-80">
 					<div class="row justify-content-center">
 						<div class="col-10">
 							<div class="row link-lists-header">
@@ -134,7 +138,7 @@
 											</a>
 										</li>
 										<li>
-											<a href="">
+											<a style="font-size:24px; font-weight:500;"href="">
 												Learning support
 											</a>
 										</li>
@@ -157,7 +161,7 @@
 										</li>
 										<li>
 											<a class="<?= is_page(15) ? 'active-link' : '';  ?>" href="<?= get_permalink(15); ?>">
-												Accreditattion
+												Accreditation
 											</a>
 										</li>
 									</ul>
@@ -262,7 +266,7 @@
 									</ul>
 								</div>
 							</div>
-							<div class="row desktop-nav-footer">
+							<div class="row desktop-nav-footer align-items-end p-b-80">
 								<div class="col-6">
 									<div class="ist-cta">
 										Contact us
@@ -479,13 +483,13 @@
 							<div class="search-input">
 								<input id="input-txt-search-desktop" @keyup="getResult()" class="desktop-search-input" placeholder="Find what you need using Smart Search..." type="text">
 								<div>
-									<img onload="SVGInject(this); " src="<?= get_template_directory_uri() . '/resources/icons/search-btn.svg' ?>" alt="">
+									<img style="width:60px; height:60px;" onload="SVGInject(this); " src="<?= get_template_directory_uri() . '/resources/icons/search-btn.svg' ?>" alt="">
 								</div>
 							</div>
 							<div id="search-result-desktop" class="results-container">
 								<div v-for="post in posts">
 									<a v-bind:href="post.url">
-										{{post.title}}
+										<div v-html="post.title"></div>
 									</a>
 								</div>
 							</div>
@@ -507,15 +511,13 @@
 							<div class="search-input">
 								<input id="input-txt-search-mobile" @keyup="getResult()" class="mobile-search-input" placeholder="Find what you need using Smart Search..." type="text">
 								<div>
-									<img onload="SVGInject(this); " src="<?= get_template_directory_uri() . '/resources/icons/search-btn.svg' ?>" alt="">
+									<img onload="SVGInject(this);" style="width:60px;height:60px;" src="<?= get_template_directory_uri() . '/resources/icons/search-btn.svg' ?>" alt="">
 								</div>
 							</div>
 							<div id="search-result-mobile" class="results-container">
 								<div v-for="post in posts">
 									<a v-bind:href="post.url">
-									<div v-html="post.title">
-										
-									</div>	
+										<div v-html="post.title"></div>	
 									</a>
 								</div>
 							</div>

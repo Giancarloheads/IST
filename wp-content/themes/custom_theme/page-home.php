@@ -1,7 +1,7 @@
 <?php
-    get_header();
+get_header();
 ?>
-
+<div class="menu-open-layover"></div>
 <!-- JUMBOTRON -->
 <section class="container-fluid jumbotron" style="background-image:url('<?= get_template_directory_uri() . '/resources/img/jumbotron.jpg'; ?>')">
     <div class="row justify-content-center">
@@ -16,7 +16,7 @@
                                     <img onload="SVGInject(this);" src="<?= get_template_directory_uri() . '/resources/icons/ib-logo.svg'; ?>" alt="">
                                 </div>
                                 <div class="col-10">
-                                    <div class="jumbotron-caption p-l-30 p-md-l-0">
+                                    <div class="jumbotron-caption p-l-20 p-md-l-0">
                                         Find out why IST is a <br>
                                         premier IB World School
                                         <div id="jumbotron-arrow" class="jumbotron-arrow p-b-5 p-l-20">
@@ -65,26 +65,33 @@
                         </div>
                         <div class="main-logos-container">
                             <div class="grey-logo-container">
-                                <img style="width:82px; height:82px" class="grey-svg dis-block" src="<?= get_template_directory_uri() . '/resources/icons/ib-grey.svg'; ?>" alt="">
-                                <img style="width:82px; height:82px" class="grey-svg dis-none" src="<?= get_template_directory_uri() . '/resources/icons/ib-logo.svg'; ?>" alt="">
+                                <a href="">
+                                    <img style="width:82px; height:82px" class="grey-svg dis-block" src="<?= get_template_directory_uri() . '/resources/icons/ib-grey.svg'; ?>" alt="">
+                                    <img style="width:82px; height:82px" class="grey-svg dis-none" src="<?= get_template_directory_uri() . '/resources/icons/ib-logo.svg'; ?>" alt="">
+                                </a>
                             </div>
                             <div class="grey-logo-container">
-                                <img style="width:185px; height: 40px;" class="grey-svg dis-block" src="<?= get_template_directory_uri() . '/resources/icons/cis-grey.svg'; ?>" alt="">
-                                <img style="width:185px; height: 40px;" class="grey-svg dis-none" src="<?= get_template_directory_uri() . '/resources/icons/cis-logo.svg'; ?>" alt="">
+                                <a href="">
+                                    <img style="width:185px; height: 40px;" class="grey-svg dis-block" src="<?= get_template_directory_uri() . '/resources/icons/cis-grey.svg'; ?>" alt="">
+                                    <img style="width:185px; height: 40px;" class="grey-svg dis-none" src="<?= get_template_directory_uri() . '/resources/icons/cis-logo.svg'; ?>" alt="">
+                                </a>
                             </div>
                             <div class="grey-logo-container">
-                                <img style="width:110px; height:35px;" class="grey-svg dis-block" src="<?= get_template_directory_uri() . '/resources/icons/wasc-grey.svg'; ?>" alt="">
-                                <img style="width:110px; height:35px;" class="grey-svg dis-none" src="<?= get_template_directory_uri() . '/resources/icons/wasc-logo.svg'; ?>" alt="">
+                                <a href="">
+                                    <img style="width:110px; height:35px;" class="grey-svg dis-block" src="<?= get_template_directory_uri() . '/resources/icons/wasc-grey.svg'; ?>" alt="">
+                                    <img style="width:110px; height:35px;" class="grey-svg dis-none" src="<?= get_template_directory_uri() . '/resources/icons/wasc-logo.svg'; ?>" alt="">
+                                </a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
 </section>
 
 <!--EXPANDED IMG -->
-<section class="p-md-t-0" style="background-color:#fff;">
+<section class="p-md-t-0" style="background-color:#fff;height:100vh;border-radius:0;">
     <div class="expand-img-container">
         <div id="img-1-home" style="background-image:url('<?= get_template_directory_uri() . '/resources/img/home-1.jpg'; ?>')"></div>
         <div class="img-1-overlay"></div>
@@ -301,21 +308,20 @@
         </div>
     </div>
 </section>
-<section style="height:100vh!important;" id="student-section" class="student-section container-fluid p-t-60 scrreveal pin-section">
+<section id="student-section" class="student-section container-fluid p-t-60 scrreveal">
     <div class="row justify-content-center">
         <div class="col-12">
             <div class="row justify-content-center">
                 <div class="col-12">
-                    <div class="text-center m-auto txt-white" style="width:80%;">
+                    <div class="scrreveal2 text-center m-auto txt-white" style="width:60%;">
                         <h1>
                             OUR STUDENTS ATTEND THE WORLS'S TOP UNIVERSITY
                         </h1>
                     </div>
                 </div>
-                <div class="col-12 students-video-container">
-                    <!-- <img class="w-100" src="<?= get_template_directory_uri() . '/resources/img/students.jpg'; ?>" alt=""> -->
-                    <img class="d-lg-block d-none w-100" src="https://via.placeholder.com/2450x600" alt="">
-                    <img class="d-md-block d-lg-none w-100" src="https://via.placeholder.com/600x400" alt="">
+                <div class="col-12 students-video-container scrreveal3">
+                    <img class="w-100" src="<?= get_template_directory_uri() . '/resources/img/students.jpg'; ?>" alt="">
+                    <img class="d-md-block d-lg-none w-100" src="https://via.placeholder.com/600x850" alt="">
                 </div>
             </div>
         </div>
@@ -323,215 +329,96 @@
         <div class="col-12">
             <div class="college-slider-home">
                 <div>
-                    <img src="<?= get_template_directory_uri() . '/resources/home/cornell.png' ?>" alt="">
+                    <img style="width:200px;height:50px;" src="<?= get_template_directory_uri() . '/resources/home/uni.svg' ?>" alt="">
                 </div>
                 <div>
-                    <img src="<?= get_template_directory_uri() . '/resources/home/mcgill.png' ?>" alt="">
+                    <img style="width:200px;height:50px;" src="<?= get_template_directory_uri() . '/resources/home/uni2.svg' ?>" alt="">
                 </div>
                 <div>
-                    <img src="<?= get_template_directory_uri() . '/resources/home/stanford.png' ?>" alt="">
+                    <img style="width:200px;height:50px;" src="<?= get_template_directory_uri() . '/resources/home/uni3.svg' ?>" alt="">
                 </div>
                 <div>
-                    <img src="<?= get_template_directory_uri() . '/resources/home/cornell.png' ?>" alt="">
+                    <img style="width:200px;height:50px;" src="<?= get_template_directory_uri() . '/resources/home/uni.svg' ?>" alt="">
                 </div>
                 <div>
-                    <img src="<?= get_template_directory_uri() . '/resources/home/mcgill.png' ?>" alt="">
+                    <img style="width:200px;height:50px;" src="<?= get_template_directory_uri() . '/resources/home/uni2.svg' ?>" alt="">
                 </div>
                 <div>
-                    <img src="<?= get_template_directory_uri() . '/resources/home/stanford.png' ?>" alt="">
+                    <img style="width:200px;height:50px;" src="<?= get_template_directory_uri() . '/resources/home/uni3.svg' ?>" alt="">
                 </div>
                 <div>
-                    <img src="<?= get_template_directory_uri() . '/resources/home/cornell.png' ?>" alt="">
+                    <img style="width:200px;height:50px;" src="<?= get_template_directory_uri() . '/resources/home/uni.svg' ?>" alt="">
                 </div>
                 <div>
-                    <img src="<?= get_template_directory_uri() . '/resources/home/mcgill.png' ?>" alt="">
+                    <img style="width:200px;height:50px;" src="<?= get_template_directory_uri() . '/resources/home/uni2.svg' ?>" alt="">
                 </div>
                 <div>
-                    <img src="<?= get_template_directory_uri() . '/resources/home/stanford.png' ?>" alt="">
+                    <img style="width:200px;height:50px;" src="<?= get_template_directory_uri() . '/resources/home/uni3.svg' ?>" alt="">
                 </div>
                 <div>
-                    <img src="<?= get_template_directory_uri() . '/resources/home/cornell.png' ?>" alt="">
+                    <img style="width:200px;height:50px;" src="<?= get_template_directory_uri() . '/resources/home/uni.svg' ?>" alt="">
                 </div>
                 <div>
-                    <img src="<?= get_template_directory_uri() . '/resources/home/mcgill.png' ?>" alt="">
+                    <img style="width:200px;height:50px;" src="<?= get_template_directory_uri() . '/resources/home/uni2.svg' ?>" alt="">
                 </div>
                 <div>
-                    <img src="<?= get_template_directory_uri() . '/resources/home/stanford.png' ?>" alt="">
+                    <img style="width:200px;height:50px;" src="<?= get_template_directory_uri() . '/resources/home/uni3.svg' ?>" alt="">
                 </div>
                 <div>
-                    <img src="<?= get_template_directory_uri() . '/resources/home/cornell.png' ?>" alt="">
+                    <img style="width:200px;height:50px;" src="<?= get_template_directory_uri() . '/resources/home/uni.svg' ?>" alt="">
                 </div>
                 <div>
-                    <img src="<?= get_template_directory_uri() . '/resources/home/mcgill.png' ?>" alt="">
+                    <img style="width:200px;height:50px;" src="<?= get_template_directory_uri() . '/resources/home/uni2.svg' ?>" alt="">
                 </div>
                 <div>
-                    <img src="<?= get_template_directory_uri() . '/resources/home/stanford.png' ?>" alt="">
+                    <img style="width:200px;height:50px;" src="<?= get_template_directory_uri() . '/resources/home/uni3.svg' ?>" alt="">
                 </div>
                 <div>
-                    <img src="<?= get_template_directory_uri() . '/resources/home/cornell.png' ?>" alt="">
+                    <img style="width:200px;height:50px;" src="<?= get_template_directory_uri() . '/resources/home/uni.svg' ?>" alt="">
                 </div>
                 <div>
-                    <img src="<?= get_template_directory_uri() . '/resources/home/mcgill.png' ?>" alt="">
+                    <img style="width:200px;height:50px;" src="<?= get_template_directory_uri() . '/resources/home/uni2.svg' ?>" alt="">
                 </div>
                 <div>
-                    <img src="<?= get_template_directory_uri() . '/resources/home/stanford.png' ?>" alt="">
+                    <img style="width:200px;height:50px;" src="<?= get_template_directory_uri() . '/resources/home/uni3.svg' ?>" alt="">
                 </div>
                 <div>
-                    <img src="<?= get_template_directory_uri() . '/resources/home/cornell.png' ?>" alt="">
+                    <img style="width:200px;height:50px;" src="<?= get_template_directory_uri() . '/resources/home/uni.svg' ?>" alt="">
                 </div>
                 <div>
-                    <img src="<?= get_template_directory_uri() . '/resources/home/mcgill.png' ?>" alt="">
+                    <img style="width:200px;height:50px;" src="<?= get_template_directory_uri() . '/resources/home/uni2.svg' ?>" alt="">
                 </div>
                 <div>
-                    <img src="<?= get_template_directory_uri() . '/resources/home/stanford.png' ?>" alt="">
+                    <img style="width:200px;height:50px;" src="<?= get_template_directory_uri() . '/resources/home/uni3.svg' ?>" alt="">
                 </div>
                 <div>
-                    <img src="<?= get_template_directory_uri() . '/resources/home/cornell.png' ?>" alt="">
+                    <img style="width:200px;height:50px;" src="<?= get_template_directory_uri() . '/resources/home/uni.svg' ?>" alt="">
                 </div>
                 <div>
-                    <img src="<?= get_template_directory_uri() . '/resources/home/mcgill.png' ?>" alt="">
+                    <img style="width:200px;height:50px;" src="<?= get_template_directory_uri() . '/resources/home/uni2.svg' ?>" alt="">
                 </div>
                 <div>
-                    <img src="<?= get_template_directory_uri() . '/resources/home/stanford.png' ?>" alt="">
+                    <img style="width:200px;height:50px;" src="<?= get_template_directory_uri() . '/resources/home/uni3.svg' ?>" alt="">
                 </div>
                 <div>
-                    <img src="<?= get_template_directory_uri() . '/resources/home/cornell.png' ?>" alt="">
+                    <img style="width:200px;height:50px;" src="<?= get_template_directory_uri() . '/resources/home/uni.svg' ?>" alt="">
                 </div>
                 <div>
-                    <img src="<?= get_template_directory_uri() . '/resources/home/mcgill.png' ?>" alt="">
+                    <img style="width:200px;height:50px;" src="<?= get_template_directory_uri() . '/resources/home/uni2.svg' ?>" alt="">
                 </div>
                 <div>
-                    <img src="<?= get_template_directory_uri() . '/resources/home/stanford.png' ?>" alt="">
+                    <img style="width:200px;height:50px;" src="<?= get_template_directory_uri() . '/resources/home/uni3.svg' ?>" alt="">
                 </div>
-                <div>
-                    <img src="<?= get_template_directory_uri() . '/resources/home/cornell.png' ?>" alt="">
-                </div>
-                <div>
-                    <img src="<?= get_template_directory_uri() . '/resources/home/mcgill.png' ?>" alt="">
-                </div>
-                <div>
-                    <img src="<?= get_template_directory_uri() . '/resources/home/stanford.png' ?>" alt="">
-                </div>
-                <div>
-                    <img src="<?= get_template_directory_uri() . '/resources/home/cornell.png' ?>" alt="">
-                </div>
-                <div>
-                    <img src="<?= get_template_directory_uri() . '/resources/home/mcgill.png' ?>" alt="">
-                </div>
-                <div>
-                    <img src="<?= get_template_directory_uri() . '/resources/home/stanford.png' ?>" alt="">
-                </div>
-                <div>
-                    <img src="<?= get_template_directory_uri() . '/resources/home/cornell.png' ?>" alt="">
-                </div>
-                <div>
-                    <img src="<?= get_template_directory_uri() . '/resources/home/mcgill.png' ?>" alt="">
-                </div>
-                <div>
-                    <img src="<?= get_template_directory_uri() . '/resources/home/stanford.png' ?>" alt="">
-                </div>
-                <div>
-                    <img src="<?= get_template_directory_uri() . '/resources/home/cornell.png' ?>" alt="">
-                </div>
-                <div>
-                    <img src="<?= get_template_directory_uri() . '/resources/home/mcgill.png' ?>" alt="">
-                </div>
-                <div>
-                    <img src="<?= get_template_directory_uri() . '/resources/home/stanford.png' ?>" alt="">
-                </div>
-                <div>
-                    <img src="<?= get_template_directory_uri() . '/resources/home/cornell.png' ?>" alt="">
-                </div>
-                <div>
-                    <img src="<?= get_template_directory_uri() . '/resources/home/mcgill.png' ?>" alt="">
-                </div>
-                <div>
-                    <img src="<?= get_template_directory_uri() . '/resources/home/stanford.png' ?>" alt="">
-                </div>
-                <div>
-                    <img src="<?= get_template_directory_uri() . '/resources/home/cornell.png' ?>" alt="">
-                </div>
-                <div>
-                    <img src="<?= get_template_directory_uri() . '/resources/home/mcgill.png' ?>" alt="">
-                </div>
-                <div>
-                    <img src="<?= get_template_directory_uri() . '/resources/home/stanford.png' ?>" alt="">
-                </div>
-                <div>
-                    <img src="<?= get_template_directory_uri() . '/resources/home/cornell.png' ?>" alt="">
-                </div>
-                <div>
-                    <img src="<?= get_template_directory_uri() . '/resources/home/mcgill.png' ?>" alt="">
-                </div>
-                <div>
-                    <img src="<?= get_template_directory_uri() . '/resources/home/stanford.png' ?>" alt="">
-                </div>
-                <div>
-                    <img src="<?= get_template_directory_uri() . '/resources/home/cornell.png' ?>" alt="">
-                </div>
-                <div>
-                    <img src="<?= get_template_directory_uri() . '/resources/home/mcgill.png' ?>" alt="">
-                </div>
-                <div>
-                    <img src="<?= get_template_directory_uri() . '/resources/home/stanford.png' ?>" alt="">
-                </div>
-                <div>
-                    <img src="<?= get_template_directory_uri() . '/resources/home/cornell.png' ?>" alt="">
-                </div>
-                <div>
-                    <img src="<?= get_template_directory_uri() . '/resources/home/mcgill.png' ?>" alt="">
-                </div>
-                <div>
-                    <img src="<?= get_template_directory_uri() . '/resources/home/stanford.png' ?>" alt="">
-                </div>
-                <div>
-                    <img src="<?= get_template_directory_uri() . '/resources/home/cornell.png' ?>" alt="">
-                </div>
-                <div>
-                    <img src="<?= get_template_directory_uri() . '/resources/home/mcgill.png' ?>" alt="">
-                </div>
-                <div>
-                    <img src="<?= get_template_directory_uri() . '/resources/home/stanford.png' ?>" alt="">
-                </div>
-                <div>
-                    <img src="<?= get_template_directory_uri() . '/resources/home/cornell.png' ?>" alt="">
-                </div>
-                <div>
-                    <img src="<?= get_template_directory_uri() . '/resources/home/mcgill.png' ?>" alt="">
-                </div>
-                <div>
-                    <img src="<?= get_template_directory_uri() . '/resources/home/stanford.png' ?>" alt="">
-                </div>
-                <div>
-                    <img src="<?= get_template_directory_uri() . '/resources/home/cornell.png' ?>" alt="">
-                </div>
-                <div>
-                    <img src="<?= get_template_directory_uri() . '/resources/home/mcgill.png' ?>" alt="">
-                </div>
-                <div>
-                    <img src="<?= get_template_directory_uri() . '/resources/home/stanford.png' ?>" alt="">
-                </div>
+                
+               
             </div>
-        </div>
-        <!-- MOBILE ONLY SECTION  !!!!!-->
-       <div class="col-4 only-mobile-section">
-            100% <br>
-            <span>Collage acceptance</span>            
-        </div>
-        <div class="col-4 only-mobile-section">
-            $ 2.9M <br>
-            <span>Collage acceptance</span>
-        </div>
-        <div class="col-4 only-mobile-section">
-            12+ <br>
-            <span>Countries where graduates attend university</span>
         </div>
     </div>
 </section>
 <div class="slide-2-container">
     <section class="community-section p-b-100 container-fluid bg-grey rounded-section pos-rel">
         <div class="row justify-content-center">
-            <div class="col-md-10 col-xs-12">
+            <div class="col-md-10 col-sm-12">
                 <div class="row">
                     <div class="col-12">
                         <div class="ist-section-title-2 p-b-50">WHAT OUR <br> COMMUNITY SAYS</div>
@@ -539,8 +426,11 @@
                 </div>
             </div>
         </div>
+    </section>
+    <section class="container-fluid" style="background-color:#F3F0EF;">
         <div class="row">
             <div class="col-12 community-slider">
+                <div class="community-slider-placeholder" style="height:100%;background-color:transparent;width:100px!important;" class="community-item"></div>
                 <?php
                 $reviews = get_field('reviews', get_the_ID());
                 foreach ($reviews as $r) :
@@ -563,179 +453,185 @@
             </div>
         </div>
     </section>
-    <section style="background-color:#fff;" class="pt-anim">
-        <div class="expand-img-container">
-            <div id="img-2-home" style="background-image:url('<?= get_template_directory_uri() . '/resources/img/home-2.jpg'; ?>')"></div>
-            <div class="img-2-overlay"></div>
-            <div class="img-2-caption">
-                <div style="color:#fff" class="ist-subtitle-1 text-center p-b-10">Tianjin's</div>
-                <div class="title">MOST DIVERSE LEARNING COMMUNITY</div>
-                <div class="img-2-cta">
-                    <a href="#" class="ist-cta" href="">Learn more <img onload="SVGInject(this);" src="<?= get_template_directory_uri() . '/resources/icons/arrow.svg' ?>" alt=""> </a>
+</div>
+<section style="background-color:#f3f0ef" class="pt-anim">
+    <div class="expand-img-container">
+        <div id="img-2-home" style="background-image:url('<?= get_template_directory_uri() . '/resources/img/home-2.jpg'; ?>')"></div>
+        <div class="img-2-overlay"></div>
+        <div class="img-2-caption">
+            <div style="color:#fff" class="ist-subtitle-1 text-center p-b-10">Tianjin's</div>
+            <div class="title">MOST DIVERSE LEARNING COMMUNITY</div>
+            <div class="img-2-cta">
+                <a href="#" class="ist-cta" href="">Learn more <img onload="SVGInject(this);" src="<?= get_template_directory_uri() . '/resources/icons/arrow.svg' ?>" alt=""> </a>
+            </div>
+        </div>
+    </div>
+</section>
+<section style="height:100vh;" class="container-fluid bg-grey p-t-100 p-b-100 pin-section">
+    <div class="row justify-content-center">
+        <div class="col-md-10 col-xs-12">
+            <div class="row align-items-center p-b-100">
+                <div class="col-lg-5 col-sx-12">
+                    <div class="ist-section-title-2">
+                        LEARNING BEYOND THE CLASSROOM
+                    </div>
+                    <div class="ist-caption-1 p-t-25 p-b-90">
+                        We offer a variety of experiences and activities intended to meet the different interest in development levels of our student body.
+                    </div>
+                    <ul class="beyond-list d-lg-block d-none">
+                        <li>
+                            <a class="ist-cta" href="">
+                                Co-curricular activities <img class="cta-black" onload="SVGInject(this);" src="<?= get_template_directory_uri() . '/resources/icons/arrow.svg' ?>" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a class="ist-cta" href="">
+                                Athletics <img class="cta-black" onload="SVGInject(this);" src="<?= get_template_directory_uri() . '/resources/icons/arrow.svg' ?>" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a class="ist-cta" href="">
+                                Community & Service <img class="cta-black" onload="SVGInject(this);" src="<?= get_template_directory_uri() . '/resources/icons/arrow.svg' ?>" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a class="ist-cta" href="">
+                                Trips & Events <img class="cta-black" onload="SVGInject(this);" src="<?= get_template_directory_uri() . '/resources/icons/arrow.svg' ?>" alt="">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="scrreveal col-lg-6 offset-lg-1 offset-0 col-12 p-md-t-60">
+                    <img style="margin:auto!important;" src="<?= get_template_directory_uri() . '/resources/home/home-3.png' ?>" alt="">
+                </div>
+                <div class="col-12">
+                    <ul class="beyond-list d-lg-none d-block p-t-40">
+                        <li>
+                            <a class="ist-cta" href="">
+                                Co-curricular activities <img class="cta-black" onload="SVGInject(this);" src="<?= get_template_directory_uri() . '/resources/icons/arrow.svg' ?>" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a class="ist-cta" href="">
+                                Athletics <img class="cta-black" onload="SVGInject(this);" src="<?= get_template_directory_uri() . '/resources/icons/arrow.svg' ?>" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a class="ist-cta" href="">
+                                Community & Service <img class="cta-black" onload="SVGInject(this);" src="<?= get_template_directory_uri() . '/resources/icons/arrow.svg' ?>" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a class="ist-cta" href="">
+                                Trips & Events <img class="cta-black" onload="SVGInject(this);" src="<?= get_template_directory_uri() . '/resources/icons/arrow.svg' ?>" alt="">
+                            </a>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>
-    </section>
-    <section class="container-fluid bg-grey p-t-100 p-b-100">
-        <div class="row justify-content-center">
-            <div class="col-md-10 col-xs-12">
-                <div class="row align-items-center p-b-100">
-                    <div class="col-lg-5 col-sx-12">
-                        <div class="ist-section-title-2">
-                            LEARNING BEYOND THE CLASSROOM
-                        </div>
-                        <div class="ist-caption-1 p-t-25">
-                            We offer a variety of experiences and activities intended to meet the different interest in development levels of our student body.
-                        </div>
-                        <ul class="beyond-list d-lg-block d-none">
-                            <li>
-                                <a class="ist-cta" href="">
-                                    Co-curricular activities <img class="cta-black" onload="SVGInject(this);" src="<?= get_template_directory_uri() . '/resources/icons/arrow.svg' ?>" alt="">
-                                </a>
-                            </li>
-                            <li>
-                                <a class="ist-cta" href="">
-                                    Athletics <img class="cta-black" onload="SVGInject(this);" src="<?= get_template_directory_uri() . '/resources/icons/arrow.svg' ?>" alt="">
-                                </a>
-                            </li>
-                            <li>
-                                <a class="ist-cta" href="">
-                                    Community & Service <img class="cta-black" onload="SVGInject(this);" src="<?= get_template_directory_uri() . '/resources/icons/arrow.svg' ?>" alt="">
-                                </a>
-                            </li>
-                            <li>
-                                <a class="ist-cta" href="">
-                                    Trips & Events <img class="cta-black" onload="SVGInject(this);" src="<?= get_template_directory_uri() . '/resources/icons/arrow.svg' ?>" alt="">
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="col-lg-6 offset-lg-1 offset-0 col-12 p-md-t-60">
-                        <img style="padding:80px; margin:auto!important;" src="<?= get_template_directory_uri() . '/resources/home/home-3.png' ?>" alt="">
-                    </div>
-                    <div class="col-12">
-                        <ul class="beyond-list d-lg-none d-block p-t-40">
-                            <li>
-                                <a class="ist-cta" href="">
-                                    Co-curricular activities <img class="cta-black" onload="SVGInject(this);" src="<?= get_template_directory_uri() . '/resources/icons/arrow.svg' ?>" alt="">
-                                </a>
-                            </li>
-                            <li>
-                                <a class="ist-cta" href="">
-                                    Athletics <img class="cta-black" onload="SVGInject(this);" src="<?= get_template_directory_uri() . '/resources/icons/arrow.svg' ?>" alt="">
-                                </a>
-                            </li>
-                            <li>
-                                <a class="ist-cta" href="">
-                                    Community & Service <img class="cta-black" onload="SVGInject(this);" src="<?= get_template_directory_uri() . '/resources/icons/arrow.svg' ?>" alt="">
-                                </a>
-                            </li>
-                            <li>
-                                <a class="ist-cta" href="">
-                                    Trips & Events <img class="cta-black" onload="SVGInject(this);" src="<?= get_template_directory_uri() . '/resources/icons/arrow.svg' ?>" alt="">
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
+    </div>
+</section>
+<section style="height:100vh;" class="container-fluid bg-grey p-t-100 p-b-100 pin-section">
+    <div class="row justify-content-center">
+        <div class="col-md-10 col-xs-12">
+            <div class="row">
+                <div class="col-12">
+                    <div class="ist-section-title-2 p-b-50">RECENT UPDATES</div>
                 </div>
-                <div class="row">
-                    <div class="col-12">
-                        <div class="ist-section-title-2 p-b-50">RECENT UPDATES</div>
-                    </div>
-                </div>
-                <div class="row">
+            </div>
+            <div class="row">
 
-                    <?php
-                    $args = array(
-                        'post_type' => 'post',
-                        'postsnumber' => 4,
-                        'order' => 'DESC',
-                        'orderBy' => 'date'
-                    );
-                    /* $posts = wp_get_posts($args); */
+                <?php
+                $args = array(
+                    'post_type' => 'post',
+                    'postsnumber' => 4,
+                    'order' => 'DESC',
+                    'orderBy' => 'date'
+                );
+                /* $posts = wp_get_posts($args); */
 
-                    $posts = array(
-                        array(
-                            'title' => 'Titolo 1',
-                            'data' => "24 May, 2022",
-                            'img' => "https://via.placeholder.com/350",
-                            'cat' => 1,
-                            'caption' => 'lorem ipsum sit dolor amet consetetur'
-                        ),
-                        array(
-                            'title' => 'Title 2',
-                            'data' => '22 May, 2022',
-                            'img' => "https://via.placeholder.com/350/FF00FF",
-                            'cat' => 2,
-                            'caption' => 'lorem ipsum sit dolor amet consetetur'
-                        ),
-                        array(
-                            'title' => 'Title 3',
-                            'data' => '20 May, 2022',
-                            'img' => 'https://via.placeholder.com/350/FFFF00',
-                            'cat' => 3,
-                            'caption' => 'lorem ipsum sit dolor amet consetetur'
-                        ),
-                        array(
-                            'title' => 'Title 4',
-                            'data' => '10 May, 2022',
-                            'img' => 'https://via.placeholder.com/350/000FFF',
-                            'cat' => 4,
-                            'caption' => 'lorem ipsum sit dolor amet consetetur '
-                        )
-                    );
-                    foreach ($posts as $p) :
-                        $cat_color;
+                $posts = array(
+                    array(
+                        'title' => 'Titolo 1',
+                        'data' => "24 May, 2022",
+                        'img' => "https://via.placeholder.com/350",
+                        'cat' => 1,
+                        'caption' => 'lorem ipsum sit dolor amet consetetur'
+                    ),
+                    array(
+                        'title' => 'Title 2',
+                        'data' => '22 May, 2022',
+                        'img' => "https://via.placeholder.com/350/FF00FF",
+                        'cat' => 2,
+                        'caption' => 'lorem ipsum sit dolor amet consetetur'
+                    ),
+                    array(
+                        'title' => 'Title 3',
+                        'data' => '20 May, 2022',
+                        'img' => 'https://via.placeholder.com/350/FFFF00',
+                        'cat' => 3,
+                        'caption' => 'lorem ipsum sit dolor amet consetetur'
+                    ),
+                    array(
+                        'title' => 'Title 4',
+                        'data' => '10 May, 2022',
+                        'img' => 'https://via.placeholder.com/350/000FFF',
+                        'cat' => 4,
+                        'caption' => 'lorem ipsum sit dolor amet consetetur '
+                    )
+                );
+                foreach ($posts as $p) :
+                    $cat_color;
 
-                        switch ($p['cat']) {
-                            case '1':
-                                $cat_color = 'hover-yellow';
-                                break;
-                            case '2':
-                                $cat_color = 'hover-white';
-                                break;
-                            case '3':
-                                $cat_color = 'hover-green';
-                                break;
-                            default:
-                                $cat_color = 'hover-red';
-                                break;
-                        }
-                    ?>
-                        <div class="col-lg-3 col-md-6 col-sm-12 g-4">
-                            <div class="recent-news">
-                                <div class="news-cover">
-                                    <div class="news-img">
-                                        <img src="<?= $p['img']; ?>" alt="">
-                                    </div>
-                                    <div class="news-caption">
-                                        <div class="news-title">
-                                            <?= $p['title'] ?>
-                                        </div>
-                                        <div class="news-date">
-                                            <?= $p['data'] ?>
-                                        </div>
-                                    </div>
+                    switch ($p['cat']) {
+                        case '1':
+                            $cat_color = 'hover-yellow';
+                            break;
+                        case '2':
+                            $cat_color = 'hover-white';
+                            break;
+                        case '3':
+                            $cat_color = 'hover-green';
+                            break;
+                        default:
+                            $cat_color = 'hover-red';
+                            break;
+                    }
+                ?>
+                    <div class="col-lg-3 col-md-6 col-sm-12 g-4">
+                        <div class="recent-news">
+                            <div class="news-cover">
+                                <div class="news-img">
+                                    <img src="<?= $p['img']; ?>" alt="">
                                 </div>
-                                <div class="hidden-side-news  <?= ' ' . $cat_color; ?>">
-                                    <div class="news-title-hidden">
-                                        <?= $p['caption']; ?>
+                                <div class="news-caption">
+                                    <div class="news-title">
+                                        <?= $p['title'] ?>
                                     </div>
-                                    <div class="news-caption">
-                                        <div class="news-title"><?= $p['title']; ?></div>
-                                        <div class="news-date"><?= $p['data']; ?></div>
+                                    <div class="news-date">
+                                        <?= $p['data'] ?>
                                     </div>
                                 </div>
                             </div>
+                            <div class="hidden-side-news  <?= ' ' . $cat_color; ?>">
+                                <div class="news-title-hidden">
+                                    <?= $p['caption']; ?>
+                                </div>
+                                <div class="news-caption">
+                                    <div class="news-title"><?= $p['title']; ?></div>
+                                    <div class="news-date"><?= $p['data']; ?></div>
+                                </div>
+                            </div>
                         </div>
-                    <?php
-                    endforeach;
-                    ?>
-                </div>
+                    </div>
+                <?php
+                endforeach;
+                ?>
             </div>
         </div>
-    </section>
-</div>
+    </div>
+</section>
 <section class="container-fluid pre-footer bg-orange pin-section">
     <div class="row h-100">
         <div class="col-12 h-100 d-flex justify-content-center align-items-center pos-rel">

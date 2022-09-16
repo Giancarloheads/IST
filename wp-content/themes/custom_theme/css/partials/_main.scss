@@ -40,10 +40,10 @@ a:visited {
     color: inherit;
 }
 
-img{
+/* img{
     width:100%;
     height:auto;
-}
+} */
 
 /**********************************/
 /***********HOMEPAGE***************/
@@ -62,7 +62,7 @@ img{
     background-position: center;
 
     .jumbotron-caption-container {
-        padding-top: calc(50vh - 150px);
+        padding-top: 250px;
         display: flex;
         flex-direction: column;
         align-items: flex-start;
@@ -80,6 +80,12 @@ img{
                 color: #fff;
                 text-decoration: underline rgba(255, 255, 255, 0);
                 transition: all ease .4s;
+                display:flex;
+                align-items:end;
+                justify-content:center;
+                @media(max-width:980px){
+                    justify-content:flex-start;
+                }
             }
 
             .jumbotron-arrow {
@@ -188,7 +194,7 @@ img{
             justify-content: flex-start;
             padding-bottom: 25px;
             border-bottom: 1px solid #C0C0C0;
-
+            margin-bottom:50px;
             @media(max-width:987px) {
                 flex-direction: column;
                 align-items: flex-start;
@@ -227,7 +233,6 @@ img{
 
 .student-section {
     background-color: $red;
-    height:100vh!important;
 }
 
 .college-slider-home {
@@ -252,15 +257,17 @@ img{
 .community-section{
     padding-top:100px;
 }
+
 .community-slider {
-    position: relative;
-    left: 8%;
+    /* padding-left:8%; */
     @media(max-width:987px) {
         left:0;
     }
 
     .community-item {
         padding: 10px;
+        width:600px;
+        border-radius:6px;
         >div {
             background-color: #fff;
             padding: 25px 20px;
@@ -334,7 +341,7 @@ img{
         background-color: #fff;
         padding: 15px 50px;
         width:unset!important;
-        border-radius: 50px;
+        border-radius: 25px;
         font-size: 16px;
         font-weight: 500;
         line-height: 1.4;
@@ -558,4 +565,39 @@ img{
 .related-content-container{
     position:relative;
     left:8%;
+}
+
+.next-arrow-classes{
+    position: absolute;
+    left: -100px;
+    top: 50%;
+    transform: translateY(-50%)rotate(225deg);
+    svg{
+        path{
+            stroke: #000;
+        }
+    }
+}
+
+.prev-arrow-classes{
+    position: absolute;
+    right: -100px;
+    top: 50%;
+    transform: translateY(-50%)rotate(45deg);
+    svg{
+        path{
+            stroke: #000;
+        }
+    }
+}
+.prev-arrow-classes , .next-arrow-classes{
+    cursor:pointer;
+}
+
+.link-list{
+    ul{
+        li{
+            margin-bottom: 7px;
+        }
+    }
 }

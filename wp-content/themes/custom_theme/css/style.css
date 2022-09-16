@@ -18,9 +18,27 @@
 
 .ist-cta:hover {
   cursor: pointer;
+  text-decoration: underline;
 }
 .ist-cta:hover svg {
   transform: rotate(45deg);
+}
+
+.close-search-desktop-container {
+  cursor: pointer;
+}
+
+.menu-open-layover {
+  position: fixed;
+  left: 0;
+  top: 0;
+  background-color: #000;
+  z-index: 101;
+  opacity: 0;
+  display: none;
+  transition: opacity ease 0.3s;
+  height: 100%;
+  width: 100%;
 }
 
 a:hover {
@@ -46,7 +64,7 @@ h1 {
   font-style: normal;
   font-weight: 300;
   font-size: 90px;
-  line-height: 1;
+  line-height: 0.9;
   color: #fff;
 }
 @media (max-width: 1199px) {
@@ -2706,18 +2724,19 @@ h1 {
 }
 
 header {
-  height: 100px;
+  height: 85px;
   background-color: transparent;
   position: fixed;
   left: 0;
   top: 0;
   width: 100%;
+  transition: all ease 0.3s;
 }
 header nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 100px;
+  height: 85px;
 }
 header nav .header-links-container {
   display: flex;
@@ -2744,6 +2763,10 @@ header nav .header-links-container ul li:hover a {
   color: #000 !important;
 }
 
+.hide-header {
+  top: -85px;
+}
+
 .header-btn-container {
   display: flex;
   align-items: center;
@@ -2753,7 +2776,6 @@ header nav .header-links-container ul li:hover a {
 #header-search-btn {
   width: 45px;
   height: 45px;
-  margin-right: 15px;
 }
 #header-search-btn:hover {
   cursor: pointer;
@@ -2769,7 +2791,7 @@ header nav .header-links-container ul li:hover a {
 #header-ham-btn {
   width: 45px;
   height: 45px;
-  margin-left: 15px;
+  margin-left: 10px;
 }
 #header-ham-btn:hover rect {
   fill-opacity: 1;
@@ -2843,10 +2865,7 @@ header nav .header-links-container ul li:hover a {
   padding: 0;
   margin: 0;
   list-style: none;
-}
-.classes-slider .link-list ul li {
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-bottom: 7px;
 }
 .classes-slider .link-list ul li a {
   font-size: 32px;
@@ -2951,8 +2970,8 @@ header nav .header-links-container ul li:hover a {
 .link-lists-header > div:nth-child(3) ul li,
 .link-lists-header > div:nth-child(3) ul li,
 .link-lists-header > div:nth-child(4) ul li {
-  padding-top: 15px;
-  padding-bottom: 15px;
+  padding-top: 6px;
+  padding-bottom: 6px;
 }
 .link-lists-header > div:nth-child(2) ul li a,
 .link-lists-header > div:nth-child(3) ul li a,
@@ -2980,7 +2999,7 @@ header nav .header-links-container ul li:hover a {
 }
 
 .desktop-nav-footer {
-  padding-top: 80px;
+  padding-top: 60px;
   color: #CC0001;
 }
 .desktop-nav-footer .ist-cta {
@@ -2998,8 +3017,7 @@ header nav .header-links-container ul li:hover a {
 }
 .desktop-nav-footer ul li {
   color: #CC0001 !important;
-  padding-top: 15px;
-  padding-bottom: 15px;
+  padding-top: 12px;
 }
 .desktop-nav-footer ul li a {
   color: #CC0001 !important;
@@ -3089,11 +3107,15 @@ header nav .header-links-container ul li:hover a {
   font-size: 22px !important;
 }
 
+.close-search-mobile-btn {
+  cursor: pointer;
+}
+
 footer {
   padding-top: 60px;
   padding-bottom: 120px;
-  border-top-left-radius: 80px;
-  border-top-right-radius: 80px;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
 }
 @media (max-width: 987px) {
   footer {
@@ -3166,10 +3188,12 @@ footer .social-links li a {
   margin: auto;
   border-radius: 80px;
   position: relative;
+  width: 500px;
+  height: 500px;
 }
 .expand-img-container > div:first-child {
-  width: 65vw;
-  height: auto;
+  width: 500px;
+  height: 500px;
   margin: auto;
   background-size: cover;
   background-repeat: no-repeat;
@@ -3230,7 +3254,7 @@ footer .social-links li a {
 
 .expanded {
   border-radius: 0 !important;
-  width: 100% !important;
+  width: 100vw !important;
   height: 100vh !important;
 }
 
@@ -3244,6 +3268,20 @@ footer .social-links li a {
 
 .grey-logo-container:hover .dis-block {
   display: none;
+}
+
+.slick-next {
+  position: absolute;
+  right: -100px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.slick-prev {
+  position: absolute;
+  left: -100px;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 .page-nav {
@@ -3356,11 +3394,10 @@ a:visited {
   color: inherit;
 }
 
-img {
-  width: 100%;
-  height: auto;
-}
-
+/* img{
+    width:100%;
+    height:auto;
+} */
 /**********************************/
 /***********HOMEPAGE***************/
 /**********************************/
@@ -3375,7 +3412,7 @@ img {
   background-position: center;
 }
 .jumbotron .jumbotron-caption-container {
-  padding-top: calc(50vh - 150px);
+  padding-top: 250px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -3394,6 +3431,14 @@ img {
   -webkit-text-decoration: underline rgba(255, 255, 255, 0);
           text-decoration: underline rgba(255, 255, 255, 0);
   transition: all ease 0.4s;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+@media (max-width: 980px) {
+  .jumbotron .jumbotron-caption-container > div .jumbotron-caption {
+    justify-content: flex-start;
+  }
 }
 .jumbotron .jumbotron-caption-container > div .jumbotron-arrow {
   transition: all ease 0.4s;
@@ -3496,6 +3541,7 @@ img {
   justify-content: flex-start;
   padding-bottom: 25px;
   border-bottom: 1px solid #C0C0C0;
+  margin-bottom: 50px;
 }
 @media (max-width: 987px) {
   .compare-section ul li {
@@ -3533,7 +3579,6 @@ img {
 
 .student-section {
   background-color: #CC0001;
-  height: 100vh !important;
 }
 
 .college-slider-home {
@@ -3561,8 +3606,7 @@ img {
 }
 
 .community-slider {
-  position: relative;
-  left: 8%;
+  /* padding-left:8%; */
 }
 @media (max-width: 987px) {
   .community-slider {
@@ -3571,6 +3615,8 @@ img {
 }
 .community-slider .community-item {
   padding: 10px;
+  width: 600px;
+  border-radius: 6px;
 }
 .community-slider .community-item > div {
   background-color: #fff;
@@ -3640,7 +3686,7 @@ img {
   background-color: #fff;
   padding: 15px 50px;
   width: unset !important;
-  border-radius: 50px;
+  border-radius: 25px;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.4;
@@ -3833,6 +3879,34 @@ img {
   left: 8%;
 }
 
+.next-arrow-classes {
+  position: absolute;
+  left: -100px;
+  top: 50%;
+  transform: translateY(-50%) rotate(225deg);
+}
+.next-arrow-classes svg path {
+  stroke: #000;
+}
+
+.prev-arrow-classes {
+  position: absolute;
+  right: -100px;
+  top: 50%;
+  transform: translateY(-50%) rotate(45deg);
+}
+.prev-arrow-classes svg path {
+  stroke: #000;
+}
+
+.prev-arrow-classes, .next-arrow-classes {
+  cursor: pointer;
+}
+
+.link-list ul li {
+  margin-bottom: 7px;
+}
+
 .close-nav-mobile-btn:hover {
   cursor: pointer;
 }
@@ -3992,8 +4066,12 @@ section {
   z-index: 999;
 }
 
+.menu-open-layover {
+  z-index: 1000;
+}
+
 footer {
-  z-index: 1002;
+  z-index: 1000;
   background-color: #fff;
 }
 

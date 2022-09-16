@@ -5,12 +5,13 @@ jQuery(document).ready(function ($) {
     if (SLIDER_CLASSES) {
         SLIDER_CLASSES.slick({
             fade: true,
-            autoplay: true,
-            autoplaySpeed: 2800,
-            arrows: false,
+            arrows: true,
             dots: false,
             infinite: true,
             swipe: false,
+            autoplay :false,
+            nextArrow : '<div class="next-arrow-classes"><img onload="SVGInject(this);" src="'+ arrow.arrowUrl +'"></div>',
+            prevArrow : '<div class="prev-arrow-classes"><img onload="SVGInject(this);" src="'+ arrow.arrowUrl +'"></div>',
         });
 
         SLIDER_CLASSES.on('beforeChange', function (event, slick, currentSlide, nextSlide) {
@@ -18,6 +19,7 @@ jQuery(document).ready(function ($) {
             $('.dots-classes-slider-2').removeClass('active-slide-cta');
             if (nextSlide == 1) {
                 $('.dots-classes-slider-2').addClass('active-slide-cta');
+                
             } else {
                 $('.dots-classes-slider-1').addClass('active-slide-cta');
             }
@@ -34,7 +36,6 @@ jQuery(document).ready(function ($) {
 
 
     // SLIDER COLLEGE
-
 
     const SLIDER_COLLEGE = $('.college-slider-home');
     if (SLIDER_COLLEGE) {
@@ -53,23 +54,24 @@ jQuery(document).ready(function ($) {
 
     //SLIDER SEZIONE COMMUNITY HOMEPAGE
 
-    const SLIDER_COMMUNITY = $('.community-slider');
-
+    var SLIDER_COMMUNITY = $('.community-slider');
+    
     if (SLIDER_COMMUNITY) {
         SLIDER_COMMUNITY.slick({
-            slidesToShow: 3,
+            slidesToShow: 4,
+            centered: true,
             slidesToScroll: 1,
-            infinite: true,
-            speed: 250,
-            cssEase: 'ease',
+            infinite: true, 
             autoplay: true,
             dots: false,
             arrows: false,
+            variableWidth: true,
+            infinite : true, 
             "responsive": [
                 {
                     breakpoint: 987,
                     settings: {
-                        slidesToShow: 1,
+                        slidesToShow: 2,
                         slidesToScroll: 1,
                         infinite: true,
                     }
@@ -77,6 +79,14 @@ jQuery(document).ready(function ($) {
             ]
         })
     }
+     
+    SLIDER_COMMUNITY.on('afterChange' , function(event , slick , currentSlide, nextSlide){
+        $('.community-slider-placeholder').css({
+            'display' : 'none'
+        });
+    })
+
+    
 
     //SLIDER HISTORY
 

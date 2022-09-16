@@ -27,6 +27,9 @@
         wp_localize_script('search-js' , 'api_url' , array(
             'url' => get_rest_url(null , 'wp/v2/search')
         ));
+        wp_localize_script('sliders' , 'arrow' , array(
+            'arrowUrl' => get_template_directory_uri() . '/resources/icons/arrow.svg'
+        ));
     }
 
     add_action( 'wp_enqueue_scripts', 'custom_theme_scripts' );

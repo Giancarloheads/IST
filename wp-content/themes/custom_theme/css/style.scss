@@ -21,10 +21,15 @@ section{
     z-index: 999;
 }
 
+.menu-open-layover{
+    z-index:1000;
+}
 footer{
-    z-index : 1002;
+    z-index : 1000;
     background-color:#fff;
 }
+
+
 
 .slide-2-container{
     position:relative;

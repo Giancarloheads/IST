@@ -9,9 +9,26 @@
 
 .ist-cta:hover {
     cursor: pointer;
-
+    text-decoration:underline;
     
     svg {
         transform: rotate(45deg);
     }
+}
+
+.close-search-desktop-container{
+    cursor: pointer;
+}
+
+.menu-open-layover{
+    position:fixed;
+    left:0;
+    top:0;
+    background-color: #000;
+    z-index:101;
+    opacity : 0;
+    display:none;
+    transition: opacity ease .3s;
+    height:100%;
+    width:100%;
 }

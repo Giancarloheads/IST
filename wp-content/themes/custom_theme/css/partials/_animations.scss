@@ -7,11 +7,13 @@
     margin: auto;
     border-radius: 80px;
     position: relative;
+    width:500px;
+    height:500px;
     
 
     >div:first-child {
-        width: 65vw;
-        height: auto;
+        width: 500px;
+        height: 500px;
         margin: auto;
         background-size: cover;
         background-repeat: no-repeat;
@@ -69,7 +71,7 @@
 
 .expanded {
     border-radius: 0 !important;
-    width: 100% !important;
+    width: 100vw !important;
     height: 100vh !important;
 }
 
@@ -83,4 +85,18 @@
 
 .grey-logo-container:hover .dis-block {
     display: none;
+}
+
+.slick-next {
+    position:absolute;
+    right: -100px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.slick-prev{
+    position:absolute;
+    left:-100px;
+    top:50%;
+    transform:translateY(-50%);
 }

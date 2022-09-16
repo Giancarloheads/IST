@@ -24,10 +24,13 @@ jQuery(document).ready(function ($) {
                 $('#header-ham-close-btn').css('display', 'block');
             });
             $('body').css('overflow', 'hidden');
+            $('.menu-open-layover').css({'opacity' : '0.4',
+                'display':'block'                            
+            });
         };
     });
 
-    $('#header-ham-close-btn').on('click', function () {
+    $('.close-ham-btn-container').on('click', function () {
         var navMenu = $('#desktop-nav-menu');
         if (isMenuOpen) {
                 $('body').css('overflow', 'auto');
@@ -41,6 +44,7 @@ jQuery(document).ready(function ($) {
                 $('#header-ham-btn').css('display', 'block');
                 $('#header-ham-close-btn').css('display', 'none');
                 navMenu.removeClass('menu-open');
+                $('.menu-open-layover').css('opacity' , '0');
             })
         }
     })
@@ -49,8 +53,10 @@ jQuery(document).ready(function ($) {
 
     var searchBtn = $('.search-btn-desktop');
     var SearchDesktopContainer = $('#desktop-search-container');
-
+    var menuLayover = $('.menu-open-layover');
+    
     searchBtn.on('click' , function(){
+        console.log('open search console');
         SearchDesktopContainer.addClass('menu-open');
         SearchDesktopContainer.animate({
             'left': '19.5%',
@@ -58,9 +64,16 @@ jQuery(document).ready(function ($) {
             'width': '80%',
             'height': '97vh'
         });
+
+        menuLayover.css({
+            'opacity' : '0.4',
+            'display' : 'block'
+        });
+
+        $('body').css('overflow' , 'hidden');
     });
 
-    $('#close-search-desktop-btn').on('click' , function(){
+    $('.close-search-desktop-container').on('click' , function(){
         SearchDesktopContainer.animate({
             'left': '100%',
             'top': '0px',
@@ -69,19 +82,13 @@ jQuery(document).ready(function ($) {
         }, function(){
             SearchDesktopContainer.removeClass('menu-open');
         });
-    });
 
-    var searchBtn = $('.search-btn-desktop');
+        menuLayover.css({
+            'opacity' : '0' , 
+            'display' : 'none'
+        });
 
-    searchBtn.on('click' , function(){
-        var container = $('.desktop-search-container');
-            container.addClass('menu-open');
-            container.animate({
-                'left': '19.5%',
-                'top': '20px',
-                'width': '80%',
-                'height': '97vh'
-            });
+        $('body').css('overflow' , 'auto');
     });
     
     var mobileSearchBtn = $('.search-btn-mobile');
@@ -90,7 +97,28 @@ jQuery(document).ready(function ($) {
         $('#mobile-search-container').animate({
             top: '0'
         }, 400);
+        
+        menuLayover.css({
+            'opacity' : '.4',
+            'display':'block'
+        });
+
+        $(document).css('overflow' , 'hidden');
     });
+
+    $('.close-search-mobile-btn').on('click' , function(){
+        $('#mobile-search-container').animate({
+            top: '-100vh'
+        }, 400);
+        
+        menuLayover.css({
+            'opacity' : '0',
+            'display':'none'
+        });
+
+        $(document).css('overflow' , 'auto');
+    })
+
 
     $('.jumbotron-caption').mouseenter(() => {
         $('#jumbotron-arrow').css({
@@ -116,24 +144,34 @@ jQuery(document).ready(function ($) {
 
         );
     };
-
+    
     document.addEventListener('scroll', function (e) {
         var scroll = $(window).scrollTop();
-
         //IMG HOME 1
         if (home1img) {
             if (isInViewport(home1img)) {
-                home1img.classList.add('expanded');
+                home1img.classList.add('expanded'); 
+                $('.expand-img-container').animate({
+                    width:'100vw',
+                    height:'100vh'
+                },800);
+                
+                home1img.animate({
+                    width:'100vw',
+                    height: '100vh',
+                    'border-radius' : '0'
+                },900);
                 $('.img-1-overlay').animate({
-                    'opacity': '.4'
+                    'opacity': '.4',
+                    width:'100%',
+                    height:'100%'
                 }, 900);
-
+                
                 $('.img-1-caption').animate({
                     opacity: 1,
                     top: '50%'
-                }, 1200);
+                }, 1500);
             }
-        }
 
         //IMG HOME 2
         if (home2img) {
@@ -171,7 +209,8 @@ jQuery(document).ready(function ($) {
         if ($(window).scrollTop() < 900) {
             header.classList.remove('blured')
         }
-    });
+    }
+});
 
 
     function elementsOverlap(el1, el2) {
@@ -186,13 +225,6 @@ jQuery(document).ready(function ($) {
     }
 
     //SCROLL REVEAL EFFECTS 
-
-    var scrollRevealAnimation = {
-        delay: 300,
-        origin: 'bottom',
-        distance: '200%',
-        duration: '800'
-    }
 
     var scrollRevealAnimationString = {
         delay: 800,
@@ -215,6 +247,30 @@ jQuery(document).ready(function ($) {
         duration: '700'
     };
 
+    var scrollRevealAnimation = {
+        delay: 300,
+        origin: 'bottom',
+        distance: '200%',
+        duration: '800'
+    }
+
+    var scrreveal2 = {
+        delay : 600,
+        orgin : 'bottom',
+        distance : '180%',
+        duration : '600'
+    }
+
+    var scrreveal3 = {
+        delay : 900,
+        origin : 'bottom',
+        distance : '150%',
+        duration : '600'
+    }
+
+    ScrollReveal().reveal('.scrreveal', scrollRevealAnimation);
+    ScrollReveal().reveal('.scrreveal2', scrreveal2);
+    ScrollReveal().reveal('.scrreveal3', scrreveal3);
     ScrollReveal().reveal('.scrreveal', scrollRevealAnimation);
     ScrollReveal().reveal('.scrrevealtext', scrollRevealAnimationString);
     ScrollReveal().reveal('.scrrevealtext2', scrollRevealAnimationString2);
@@ -244,4 +300,38 @@ jQuery(document).ready(function ($) {
     if(window.scrollY > 1080){
         $('header').addClass('blured');
     }
+
+
+// Hide Header on on scroll down
+var didScroll;
+var lastScrollTop = 0;
+var delta = 5;
+var navbarHeight = $('header').outerHeight();
+console.log(navbarHeight);
+
+$(window).scroll(function(event){
+    didScroll = true;
+});
+
+setInterval(function() {
+    if (didScroll) {
+        hasScrolled();
+        didScroll = false;
+    }
+}, 250);
+
+function hasScrolled() {
+    var st = $(this).scrollTop();
+    if(Math.abs(lastScrollTop - st) <= delta)
+        return;
+    if (st > lastScrollTop && st > navbarHeight){
+        $('header').addClass('hide-header');
+    } else {
+        if(st + $(window).height() < $(document).height()) {
+            $('header').removeClass('hide-header');
+        }
+    }
+    
+    lastScrollTop = st;
+}
 });

@@ -1,17 +1,17 @@
 //HEADER
 header {
-    height: 100px;
+    height: 85px;
     background-color: transparent;
     position: fixed;
     left: 0;
     top: 0;
     width: 100%;
-
+    transition: all ease .3s;
     nav {
         display: flex;
         align-items: center;
         justify-content: space-between;
-        height: 100px;
+        height: 85px;
 
         .header-links-container {
             display: flex;
@@ -44,6 +44,10 @@ header {
     }
 }
 
+.hide-header{
+     top: -85px;
+}
+
 .header-btn-container {
     display: flex;
     align-items: center;
@@ -53,8 +57,6 @@ header {
 #header-search-btn {
     width: 45px;
     height: 45px;
-    margin-right: 15px;
-
     &:hover {
         rect {
             fill: #fff;
@@ -72,15 +74,13 @@ header {
 #header-ham-btn {
     width: 45px;
     height: 45px;
-    margin-left: 15px;
-
+    margin-left: 10px;
     &:hover {
         rect {
             fill-opacity: 1;
             fill: #fff;
             cursor: pointer;
         }
-
         circle {
             fill: #000;
         }
@@ -170,11 +170,8 @@ header {
             padding: 0;
             margin: 0;
             list-style: none;
-
+            padding-bottom:7px;
             li {
-                padding-top: 10px;
-                padding-bottom: 10px;
-
                 a {
                     font-size: 32px;
                     line-height: 1.2;
@@ -294,8 +291,8 @@ header {
             padding: 0;
 
             li {
-                padding-top: 15px;
-                padding-bottom: 15px;
+                padding-top: 6px;
+                padding-bottom: 6px;
 
                 a {
                     font-size: 16px;
@@ -321,7 +318,7 @@ header {
 }
 
 .desktop-nav-footer {
-    padding-top: 80px;
+    padding-top: 60px;
     color: $red;
 
     .ist-cta {
@@ -343,9 +340,7 @@ header {
 
         li {
             color: $red  !important;
-            padding-top: 15px;
-            padding-bottom: 15px;
-
+            padding-top: 12px;
             a {
                 color: $red  !important;
                 transition: color ease .3s;
@@ -445,5 +440,8 @@ header {
 .mobile-search-input{
     @extend .desktop-search-input;
     font-size: 22px!important;
+}
 
+.close-search-mobile-btn{
+    cursor: pointer;
 }
