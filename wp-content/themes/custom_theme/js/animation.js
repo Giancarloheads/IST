@@ -8,16 +8,22 @@ jQuery(document).ready(function ($) {
         }
     });
 
-    // get all slides
-    var slides = document.querySelectorAll(".pin-section");
+    var w = window.innerWidth;
 
-    // create scene for every slide
-    for (var i=0; i<slides.length; i++) {
-        new ScrollMagic.Scene({
+    if (w >= 1400) {
+
+        // get all slides
+        var slides = document.querySelectorAll(".pin-section");
+
+        // create scene for every slide
+        for (var i = 0; i < slides.length; i++) {
+            slides[i].classList.add('vh-100');
+            new ScrollMagic.Scene({
                 triggerElement: slides[i]
             })
-            .setPin(slides[i], {pushFollowers: false})
-           /*  .addIndicators() // add indicators (requires plugin) */
-            .addTo(controller);
+                .setPin(slides[i], { pushFollowers: false })
+                /*  .addIndicators() // add indicators (requires plugin) */
+                .addTo(controller);
+        }
     }
 });

@@ -56,7 +56,7 @@ jQuery(document).ready(function ($) {
 
     var SLIDER_COMMUNITY = $('.community-slider');
     
-    if (SLIDER_COMMUNITY) {
+    /* if (SLIDER_COMMUNITY) {
         SLIDER_COMMUNITY.slick({
             slidesToShow: 4,
             centered: true,
@@ -84,7 +84,18 @@ jQuery(document).ready(function ($) {
         $('.community-slider-placeholder').css({
             'display' : 'none'
         });
-    })
+    }) */
+
+
+    SLIDER_COMMUNITY.flickity({
+        freeScroll : true,
+        prevNextButtons : false,
+        pageDots : false,
+        autoPlay : false,
+        wrapAround : true
+    });
+
+
 
     
 

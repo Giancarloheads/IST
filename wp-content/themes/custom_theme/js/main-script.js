@@ -5,10 +5,8 @@ jQuery(document).ready(function ($) {
     var header = document.querySelector('header');
     var section = document.querySelector('#first-section');
     /* var jumbo = document.getElementsByClassName('jumbotron')[0]; */
-    
-
     var isMenuOpen = false;
-
+    
     $('#ham-btn').on('click', () => {
         var navMenu = $('#desktop-nav-menu');
         if (!isMenuOpen) {
@@ -248,10 +246,10 @@ jQuery(document).ready(function ($) {
     };
 
     var scrollRevealAnimation = {
-        delay: 300,
+        delay: 650,
         origin: 'bottom',
-        distance: '200%',
-        duration: '800'
+        distance: '240%',
+        duration: '1000'
     }
 
     var scrreveal2 = {

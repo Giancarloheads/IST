@@ -1,6 +1,7 @@
 <?php
 get_header();
 ?>
+
 <div class="menu-open-layover"></div>
 <!-- JUMBOTRON -->
 <section class="container-fluid jumbotron" style="background-image:url('<?= get_template_directory_uri() . '/resources/img/jumbotron.jpg'; ?>')">
@@ -126,10 +127,10 @@ get_header();
                 <div class="col-12 classes-slider">
                     <div>
                         <div class="row justify-content-between align-items-center">
-                            <div class="col-4">
+                            <div class="col-5">
                                 <img style="width:100%;height:auto;" src="<?= get_template_directory_uri() . '/resources/img/classes_1.svg' ?>" alt="">
                             </div>
-                            <div class="col-6 offset-2">
+                            <div class="col-6 offset-1">
                                 <div class="title p-b-30">ELEMENTARY EDUCATION</div>
                                 <div class="par p-b-100">
                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra amet pellentesque adipiscing sagittis, hac sit. Blandit nunc, arcu fusce at proin scelerisque auctor nibh.
@@ -161,10 +162,10 @@ get_header();
                     </div>
                     <div>
                         <div class="row justify-content-center align-items-center">
-                            <div class="col-4 ">
+                            <div class="col-5">
                                 <img style="width:100%;height:auto;" src="<?= get_template_directory_uri() . '/resources/img/classes_2.svg' ?>" alt="">
                             </div>
-                            <div class="col-6 offset-2">
+                            <div class="col-6 offset-1">
                                 <div class="title p-b-30">SECONDARY EDUCATION</div>
                                 <div class="par p-b-100">
                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra amet pellentesque adipiscing sagittis, hac sit. Blandit nunc, arcu fusce at proin scelerisque auctor nibh.
@@ -252,7 +253,7 @@ get_header();
         </div>
     </div>
 </section>
-<section class="container-fluid p-t-80 p-b-80 bg-white">
+<section class="container-fluid p-t-80 p-b-80 bg-red">
     <div class="row justify-content-center">
         <div class="col-md-10 col-sm-12">
             <div class="row">
@@ -308,19 +309,19 @@ get_header();
         </div>
     </div>
 </section>
-<section id="student-section" class="student-section container-fluid p-t-60 scrreveal">
+<section id="student-section" class="student-section container-fluid p-t-20">
     <div class="row justify-content-center">
         <div class="col-12">
             <div class="row justify-content-center">
                 <div class="col-12">
-                    <div class="scrreveal2 text-center m-auto txt-white" style="width:60%;">
+                    <div class="scrreveal2 text-center m-auto txt-white var-width-section-h1">
                         <h1>
                             OUR STUDENTS ATTEND THE WORLS'S TOP UNIVERSITY
                         </h1>
                     </div>
                 </div>
                 <div class="col-12 students-video-container scrreveal3">
-                    <img class="w-100" src="<?= get_template_directory_uri() . '/resources/img/students.jpg'; ?>" alt="">
+                    <img class="d-none d-lg-block" src="<?= get_template_directory_uri() . '/resources/img/students.jpg'; ?>" alt="">
                     <img class="d-md-block d-lg-none w-100" src="https://via.placeholder.com/600x850" alt="">
                 </div>
             </div>
@@ -409,8 +410,6 @@ get_header();
                 <div>
                     <img style="width:200px;height:50px;" src="<?= get_template_directory_uri() . '/resources/home/uni3.svg' ?>" alt="">
                 </div>
-                
-               
             </div>
         </div>
     </div>
@@ -421,22 +420,26 @@ get_header();
             <div class="col-md-10 col-sm-12">
                 <div class="row">
                     <div class="col-12">
-                        <div class="ist-section-title-2 p-b-50">WHAT OUR <br> COMMUNITY SAYS</div>
+                        <div class="ist-section-title-2">WHAT OUR <br> COMMUNITY SAYS</div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <section class="container-fluid" style="background-color:#F3F0EF;">
+    <section class="container-fluid p-b-100"  style="background-color:#F3F0EF;">
         <div class="row">
             <div class="col-12 community-slider">
-                <div class="community-slider-placeholder" style="height:100%;background-color:transparent;width:100px!important;" class="community-item"></div>
                 <?php
                 $reviews = get_field('reviews', get_the_ID());
                 foreach ($reviews as $r) :
                 ?>
                     <div class="community-item">
-                        <div>
+                        
+                        <?php 
+                            $bg = $r['background_color'];                
+                        ?>
+
+                        <div style="background-color:<?= $r['background_color'];?>;color:<?= $bg == '#003e6b' ? 'white!important' : 'black!important'; ?>">
                             <div class="title"><?= $r['review_title'] ?></div>
                             <div class="par"><?= $r['review_text'] ?></div>
                             <div class="name-container">
@@ -467,7 +470,7 @@ get_header();
         </div>
     </div>
 </section>
-<section style="height:100vh;" class="container-fluid bg-grey p-t-100 p-b-100 pin-section">
+<section class="container-fluid bg-grey p-t-100 pin-section">
     <div class="row justify-content-center">
         <div class="col-md-10 col-xs-12">
             <div class="row align-items-center p-b-100">
@@ -475,7 +478,7 @@ get_header();
                     <div class="ist-section-title-2">
                         LEARNING BEYOND THE CLASSROOM
                     </div>
-                    <div class="ist-caption-1 p-t-25 p-b-90">
+                    <div class="ist-caption-1 p-t-25 p-b-90 p-md-b-30">
                         We offer a variety of experiences and activities intended to meet the different interest in development levels of our student body.
                     </div>
                     <ul class="beyond-list d-lg-block d-none">
@@ -501,7 +504,7 @@ get_header();
                         </li>
                     </ul>
                 </div>
-                <div class="scrreveal col-lg-6 offset-lg-1 offset-0 col-12 p-md-t-60">
+                <div class="scrreveal col-lg-6 offset-lg-1 offset-0 col-12 p-md-t-30">
                     <img style="margin:auto!important;" src="<?= get_template_directory_uri() . '/resources/home/home-3.png' ?>" alt="">
                 </div>
                 <div class="col-12">
@@ -532,7 +535,7 @@ get_header();
         </div>
     </div>
 </section>
-<section style="height:100vh;" class="container-fluid bg-grey p-t-100 p-b-100 pin-section">
+<section class="container-fluid bg-white p-t-100 p-b-100 pin-section pin-section-border">
     <div class="row justify-content-center">
         <div class="col-md-10 col-xs-12">
             <div class="row">
@@ -632,7 +635,7 @@ get_header();
         </div>
     </div>
 </section>
-<section class="container-fluid pre-footer bg-orange pin-section">
+<section class="container-fluid pre-footer bg-orange pin-section pin-section-border">
     <div class="row h-100">
         <div class="col-12 h-100 d-flex justify-content-center align-items-center pos-rel">
             <img class="pre-footer-img" onload="SVGInject(this);" src="<?= get_template_directory_uri() . '/resources/home/pre-footer-img.svg'; ?>" alt="">

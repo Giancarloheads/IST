@@ -117,7 +117,7 @@
         </div>
     </div>
 </div>
-<div class="container-fluid p-t-30 p-b-30" style="background-color:#fff;">
+<div class="container-fluid p-t-40 p-b-40" style="background-color:#fff;">
     <div class="row justify-content-center">
         <div class="col-lg-10 col-xs-12">
             <div class="row align-items-center justify-content-between post-footer">
