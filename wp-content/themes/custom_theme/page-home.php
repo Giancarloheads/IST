@@ -4,9 +4,14 @@ get_header();
 
 <div class="menu-open-layover"></div>
 <!-- JUMBOTRON -->
-<section class="container-fluid jumbotron" style="background-image:url('<?= get_template_directory_uri() . '/resources/img/jumbotron.jpg'; ?>')">
+
+<section class="container-fluid jumbotron">
+    <div class="video-container">
+        <div style="background-image:url('<?= get_template_directory_uri() . '/resources/img/jumbotron.jpg'; ?>')" ></div>
+        <!-- <iframe src="https://www.youtube.com/embed/rUWxSEwctFU?mute=1&modestbranding=0&autoplay=1&autohide=1&rel=0&showinfo=0&controls=0&disablekb=1&enablejsapi=1&iv_load_policy=3&loop=1&playsinline=1&fs=0&playlist=rUWxSEwctFU"></iframe> -->
+    </div>
     <div class="row justify-content-center">
-        <div class="col-md-10 col-sm-12">
+        <div class="col-md-10 col-sm-11">
             <div class="row">
                 <div class="col-6">
                     <div class="jumbotron-caption-container">
@@ -37,7 +42,7 @@ get_header();
 <section id="first-section" class="main-section p-t-100 p-b-100">
     <div class="container-fluid">
         <div class="row justify-content-center">
-            <div class="col-md-10 col-sm-12">
+            <div class="col-md-10 col-sm-11">
                 <div class="row">
                     <div class="col-lg-4 col-md-12 d-flex flex-column align-items-start justify-content-start p-md-b-60">
                         <div class="ist-section-title p-b-20">
@@ -99,7 +104,7 @@ get_header();
         <div class="img-1-caption">
             <div class="title">WORLD CLASS FACILITIES</div>
             <div class="img-1-cta">
-                <a class="ist-cta" href="">Explore our Campus <img onload="SVGInject(this);" src="<?= get_template_directory_uri() . '/resources/icons/arrow.svg' ?>" alt=""> </a>
+                <a class="ist-cta justify-content-center" href="">Explore our Campus <img onload="SVGInject(this);" src="<?= get_template_directory_uri() . '/resources/icons/arrow.svg' ?>" alt=""> </a>
             </div>
         </div>
     </div>
@@ -108,7 +113,7 @@ get_header();
 <!-- SLIDER CLASSI -->
 <section id="slider-classes-container" class="container-fluid p-t-100 p-b-100 d-lg-block d-none">
     <div class="row justify-content-center">
-        <div class="col-md-10 col-sm-12">
+        <div class="col-md-10 col-sm-11">
             <div class="row">
                 <div class="col-12">
                     <div class="slider-cta-container">
@@ -118,11 +123,11 @@ get_header();
                 </div>
             </div>
         </div>
-    </div>
+    </div>      
 </section>
-<section class="container-fluid p-b-100 bg-grey d-lg-block d-none">
+<section class="container-fluid p-b-100 d-lg-block d-none">
     <div class="row justify-content-center">
-        <div class="col-md-10 col-sm-12">
+        <div class="col-md-10 col-sm-11">
             <div class="row justify-content-center">
                 <div class="col-12 classes-slider">
                     <div>
@@ -174,13 +179,13 @@ get_header();
                                     <ul>
                                         <li>
                                             <a class="ist-cta" href="">
-                                                MYP GRADES 6 - 10
+                                                MYP Grades 6 - 10
                                                 <img class="cta-black" onload="SVGInject(this); " src="<?= get_template_directory_uri() . '/resources/icons/arrow.svg' ?>" alt="">
                                             </a>
                                         </li>
                                         <li>
                                             <a class="ist-cta" href="">
-                                                DP GRADES 11 - 12
+                                                DP Grades 11 - 12
                                                 <img class="cta-black" onload="SVGInject(this); " src="<?= get_template_directory_uri() . '/resources/icons/arrow.svg' ?>" alt="">
                                             </a>
                                         </li>
@@ -255,7 +260,7 @@ get_header();
 </section>
 <section class="container-fluid p-t-80 p-b-80 bg-red">
     <div class="row justify-content-center">
-        <div class="col-md-10 col-sm-12">
+        <div class="col-md-10 col-sm-11">
             <div class="row">
                 <div class="col-lg-3 col-12 p-md-b-40">
                     <div class="ist-section-title">
@@ -311,7 +316,7 @@ get_header();
 </section>
 <section id="student-section" class="student-section container-fluid p-t-20">
     <div class="row justify-content-center">
-        <div class="col-12">
+        <div class="col-lg-12 col-sm-12">
             <div class="row justify-content-center">
                 <div class="col-12">
                     <div class="scrreveal2 text-center m-auto txt-white var-width-section-h1">
@@ -321,7 +326,7 @@ get_header();
                     </div>
                 </div>
                 <div class="col-12 students-video-container scrreveal3">
-                    <img class="d-none d-lg-block" src="<?= get_template_directory_uri() . '/resources/img/students.jpg'; ?>" alt="">
+                    <img class="d-none d-lg-block w-100" src="<?= get_template_directory_uri() . '/resources/img/students.jpg'; ?>" alt="">
                     <img class="d-md-block d-lg-none w-100" src="https://via.placeholder.com/600x850" alt="">
                 </div>
             </div>
@@ -415,9 +420,9 @@ get_header();
     </div>
 </section>
 <div class="slide-2-container">
-    <section class="community-section p-b-100 container-fluid bg-grey rounded-section pos-rel">
+    <section class="community-section p-b-100 container-fluid rounded-section pos-rel">
         <div class="row justify-content-center">
-            <div class="col-md-10 col-sm-12">
+            <div class="col-md-10 col-sm-11">
                 <div class="row">
                     <div class="col-12">
                         <div class="ist-section-title-2">WHAT OUR <br> COMMUNITY SAYS</div>
@@ -426,20 +431,20 @@ get_header();
             </div>
         </div>
     </section>
-    <section class="container-fluid p-b-100"  style="background-color:#F3F0EF;">
+    <section class="container-fluid p-b-100">
         <div class="row">
             <div class="col-12 community-slider">
                 <?php
                 $reviews = get_field('reviews', get_the_ID());
-                foreach ($reviews as $r) :
-                ?>
-                    <div class="community-item">
-                        
-                        <?php 
-                            $bg = $r['background_color'];                
+                foreach ($reviews as $i => $r) :
+                    ?>  
+                    <div class="community-item" style="<?= $i == 0 ? 'padding-left:9%;width:calc(52% + 9%);' : '' ; ?> <?= $i == count($reviews) - 1 ? 'padding-right:9%;width:calc(52% + 9%);' : ''; ?>">
+
+                        <?php
+                        $bg = $r['background_color'];
                         ?>
 
-                        <div style="background-color:<?= $r['background_color'];?>;color:<?= $bg == '#003e6b' ? 'white!important' : 'black!important'; ?>">
+                        <div style="background-color:<?= $r['background_color']; ?>;color:<?= $bg == '#003e6b' ? 'white!important' : 'black!important'; ?>">
                             <div class="title"><?= $r['review_title'] ?></div>
                             <div class="par"><?= $r['review_text'] ?></div>
                             <div class="name-container">
@@ -465,14 +470,14 @@ get_header();
             <div style="color:#fff" class="ist-subtitle-1 text-center p-b-10">Tianjin's</div>
             <div class="title">MOST DIVERSE LEARNING COMMUNITY</div>
             <div class="img-2-cta">
-                <a href="#" class="ist-cta" href="">Learn more <img onload="SVGInject(this);" src="<?= get_template_directory_uri() . '/resources/icons/arrow.svg' ?>" alt=""> </a>
+                <a href="#" class="ist-cta justify-content-center" href="">Learn more <img onload="SVGInject(this);" src="<?= get_template_directory_uri() . '/resources/icons/arrow.svg' ?>" alt=""> </a>
             </div>
         </div>
     </div>
 </section>
-<section class="container-fluid bg-grey p-t-100 pin-section">
+<section class="container-fluid bg-white p-t-100">
     <div class="row justify-content-center">
-        <div class="col-md-10 col-xs-12">
+        <div class="col-md-10 col-xs-11">
             <div class="row align-items-center p-b-100">
                 <div class="col-lg-5 col-sx-12">
                     <div class="ist-section-title-2">
@@ -535,9 +540,9 @@ get_header();
         </div>
     </div>
 </section>
-<section class="container-fluid bg-white p-t-100 p-b-100 pin-section pin-section-border">
+<section class="container-fluid bg-white p-t-100 p-b-100 pin-section pin-section-mobile">
     <div class="row justify-content-center">
-        <div class="col-md-10 col-xs-12">
+        <div class="col-md-10 col-xs-11">
             <div class="row">
                 <div class="col-12">
                     <div class="ist-section-title-2 p-b-50">RECENT UPDATES</div>
@@ -602,7 +607,7 @@ get_header();
                             break;
                     }
                 ?>
-                    <div class="col-lg-3 col-md-6 col-sm-12 g-4">
+                    <div class="col-lg-3 col-6 g-4">
                         <div class="recent-news">
                             <div class="news-cover">
                                 <div class="news-img">
@@ -635,7 +640,7 @@ get_header();
         </div>
     </div>
 </section>
-<section class="container-fluid pre-footer bg-orange pin-section pin-section-border">
+<section class="container-fluid pre-footer bg-orange pin-section pin-section-border pin-section-mobile">
     <div class="row h-100">
         <div class="col-12 h-100 d-flex justify-content-center align-items-center pos-rel">
             <img class="pre-footer-img" onload="SVGInject(this);" src="<?= get_template_directory_uri() . '/resources/home/pre-footer-img.svg'; ?>" alt="">

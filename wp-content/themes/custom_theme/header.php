@@ -35,7 +35,7 @@
 									<div>
 										<a class="d-flex justify-content-start align-items-center" href="<?= get_site_url(); ?>">
 											<img style="width:100px;height:50px;" class="header-logo" src="<?= get_template_directory_uri() . '/resources/icons/ist-logo.svg' ?>" alt="">
-											<div style="color:#fff;line-height:1;"class="m-l-20 d-lg-block d-none">
+											<div class="logo-text m-l-20 d-lg-block d-none" style="color:#fff;line-height:1;">
 												International <br> School of Tianjin
 											</div>
 										</a>
@@ -93,21 +93,22 @@
 					<div class="row justify-content-center">
 						<div class="col-10">
 							<div class="row link-lists-header">
-								<div class="col-3">
+								<div class="col-4">
 									<ul>
 										<li>
-											PROGRAMS
+											<a style="font-size:24px; font-weight:500;" href="">
+
+												PROGRAMS
+											</a>
 										</li>
 										<li>
-											Overview
+											<a style="font-size:24px; font-weight:500;" href="">
+												Overview
+											</a>
 										</li>
 										<li>
-											Elementary Education
-										</li>
-										<li>
-											<a href="">
-												Baby Dragon Playgroup <br>
-												0 - 3 years
+											<a style="font-size:24px; font-weight:500;" href="">
+												Elementary Education
 											</a>
 										</li>
 										<li>
@@ -123,7 +124,15 @@
 											</a>
 										</li>
 										<li>
-											Secondary Education
+											<a href="">
+												Baby Dragon Playgroup <br>
+												0 - 3 years
+											</a>
+										</li>
+										<li>
+											<a style="font-size:24px; font-weight:500;" href="">
+												Secondary Education
+											</a>
 										</li>
 										<li>
 											<a href="">
@@ -138,7 +147,7 @@
 											</a>
 										</li>
 										<li>
-											<a style="font-size:24px; font-weight:500;"href="">
+											<a style="font-size:24px; font-weight:500;" href="">
 												Learning support
 											</a>
 										</li>
@@ -197,17 +206,17 @@
 											CAMPUS
 										</li>
 										<li>
-											<a href="">
+											<a href="<?= get_permalink(108); ?>">
 												Facilities
 											</a>
 										</li>
 										<li>
-											<a href="">
+											<a href="<?= get_permalink(111); ?>">
 												School Services
 											</a>
 										</li>
 										<li>
-											<a href="">
+											<a href="<?= get_permalink(113); ?>">
 												Safeguarding
 											</a>
 										</li>
@@ -238,7 +247,7 @@
 										</li>
 									</ul>
 								</div>
-								<div class="col-3">
+								<div class="col-2">
 									<ul>
 										<li>
 											COMMUNITY
@@ -404,7 +413,6 @@
 								Accreditation
 							</a>
 						</li>
-
 					</ul>
 				</div>
 				<div class="collapse-container" data-bs-toggle="collapse" href="#collapse-campus" role="button" aria-expanded="false" aria-controls="collapse-campus">
@@ -415,7 +423,23 @@
 					</div>
 				</div>
 				<div class="collapse" id="collapse-campus">
-					Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi expedita deleniti nobis doloribus earum magnam sint sit, vero repellendus assumenda perspiciatis, quidem doloremque nisi eligendi? Voluptatibus nesciunt reprehenderit neque tempore.
+					<ul class="link-list-mobile-nav">
+						<li>
+							<a href="<?= get_permalink(108); ?>">
+								Facilities
+							</a>
+						</li>
+						<li>
+							<a href="<?= get_permalink(111); ?>">
+								School Services
+							</a>
+						</li>
+						<li>
+							<a href="<?= get_permalink(113); ?>">
+								Safeguarding
+							</a>
+						</li>
+					</ul>
 				</div>
 				<div class="collapse-container" data-bs-toggle="collapse" href="#collapse-student" role="button" aria-expanded="false" aria-controls="collapse-student">
 					<div>
@@ -425,7 +449,28 @@
 					</div>
 				</div>
 				<div class="collapse" id="collapse-student">
-					Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi expedita deleniti nobis doloribus earum magnam sint sit, vero repellendus assumenda perspiciatis, quidem doloremque nisi eligendi? Voluptatibus nesciunt reprehenderit neque tempore.
+					<ul class="link-list-mobile-nav">
+						<li>
+							<a href="#">
+								Co-curricular Activities
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								Athletics
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								Community & Service
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								Trips & Events
+							</a>
+						</li>
+					</ul>
 				</div>
 				<div class="collapse-container" data-bs-toggle="collapse" href="#collapse-admission" role="button" aria-expanded="false" aria-controls="collapse-admission">
 					<div>
@@ -435,7 +480,28 @@
 					</div>
 				</div>
 				<div class="collapse" id="collapse-admission">
-					Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi expedita deleniti nobis doloribus earum magnam sint sit, vero repellendus assumenda perspiciatis, quidem doloremque nisi eligendi? Voluptatibus nesciunt reprehenderit neque tempore.
+					<ul class="link-list-mobile-nav">
+						<li>
+							<a href="#">
+								Selection policies
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								Application forms
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								Fees
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								Scholarship
+							</a>
+						</li>
+					</ul>
 				</div>
 				<div class="collapse-container" data-bs-toggle="collapse" href="#collapse-community" role="button" aria-expanded="false" aria-controls="collapse-community">
 					<div>
@@ -445,7 +511,28 @@
 					</div>
 				</div>
 				<div class="collapse" id="collapse-community">
-					Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi expedita deleniti nobis doloribus earum magnam sint sit, vero repellendus assumenda perspiciatis, quidem doloremque nisi eligendi? Voluptatibus nesciunt reprehenderit neque tempore.
+					<ul class="link-list-mobile-nav">
+						<li>
+							<a href="#">
+								Students
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								Team
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								Parent Faculty Organization
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								Alunni
+							</a>
+						</li>
+					</ul>
 				</div>
 				<ul class="mobile-header-bottom-links">
 					<li>
@@ -517,7 +604,7 @@
 							<div id="search-result-mobile" class="results-container">
 								<div v-for="post in posts">
 									<a v-bind:href="post.url">
-										<div v-html="post.title"></div>	
+										<div v-html="post.title"></div>
 									</a>
 								</div>
 							</div>

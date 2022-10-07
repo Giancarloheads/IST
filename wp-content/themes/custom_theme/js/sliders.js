@@ -1,5 +1,6 @@
 //SLIDERS JS
 jQuery(document).ready(function ($) {
+    
     //SLIDER CLASSI
     const SLIDER_CLASSES = $('.classes-slider');
     if (SLIDER_CLASSES) {
@@ -34,9 +35,7 @@ jQuery(document).ready(function ($) {
         });
     };
 
-
     // SLIDER COLLEGE
-
     const SLIDER_COLLEGE = $('.college-slider-home');
     if (SLIDER_COLLEGE) {
         SLIDER_COLLEGE.slick({
@@ -48,61 +47,45 @@ jQuery(document).ready(function ($) {
             "speed": 3000,
             "cssEase": "linear",
             "arrows": false,
-            "dots": false
+            "dots": false,
+            "responsive": [
+                {
+                    breakpoint: 1199,
+                    settings: {
+                        slidesToShow: 4,
+                        slidesToScroll: 1
+                    }
+                },{
+                    breakpoint : 746,
+                    settings : {
+                        slidesToShow : 3,
+                        slidesToScroll : 1
+                    }
+                },{
+                    breakpoint: 546,
+                    settings : {
+                        slidesToShow : 2,
+                        slidesToScroll : 1
+                    }
+                }
+            ]
         });
     }
 
     //SLIDER SEZIONE COMMUNITY HOMEPAGE
-
-    var SLIDER_COMMUNITY = $('.community-slider');
-    
-    /* if (SLIDER_COMMUNITY) {
-        SLIDER_COMMUNITY.slick({
-            slidesToShow: 4,
-            centered: true,
-            slidesToScroll: 1,
-            infinite: true, 
-            autoplay: true,
-            dots: false,
-            arrows: false,
-            variableWidth: true,
-            infinite : true, 
-            "responsive": [
-                {
-                    breakpoint: 987,
-                    settings: {
-                        slidesToShow: 2,
-                        slidesToScroll: 1,
-                        infinite: true,
-                    }
-                }
-            ]
-        })
-    }
-     
-    SLIDER_COMMUNITY.on('afterChange' , function(event , slick , currentSlide, nextSlide){
-        $('.community-slider-placeholder').css({
-            'display' : 'none'
+    const SLIDER_COMMUNITY = $('.community-slider');
+    if(SLIDER_COMMUNITY){
+        SLIDER_COMMUNITY.flickity({
+            freeScroll : true,
+            prevNextButtons : false,
+            pageDots : false,
+            autoPlay : false,
+            contain : true
         });
-    }) */
-
-
-    SLIDER_COMMUNITY.flickity({
-        freeScroll : true,
-        prevNextButtons : false,
-        pageDots : false,
-        autoPlay : false,
-        wrapAround : true
-    });
-
-
-
-    
+    }
 
     //SLIDER HISTORY
-
     const SLIDER_HISTORY = $('.history-slider-container');
-
     if (SLIDER_HISTORY) {
         SLIDER_HISTORY.slick({
             dots: false,
@@ -129,7 +112,6 @@ jQuery(document).ready(function ($) {
     });
 
     //HISTORY SLIDER BTNS
-
     $('.years-container div').on('click', function () {
         let slide = $(this).attr('data-slider');
         console.log(slide);
@@ -137,8 +119,6 @@ jQuery(document).ready(function ($) {
     });
 
     //SLIDER RELATED PAGES
-
-
     const SLIDER_RELATED = $('.related-content-container');
     if (SLIDER_RELATED) {
         SLIDER_RELATED.slick({
@@ -171,4 +151,16 @@ jQuery(document).ready(function ($) {
             }]
         })
     };
+
+    //SLIDER NEWS HOMEPAGE *****TEST*******
+    /* const SLIDER_NEWS = $('.slider-news-home');
+    if(SLIDER_NEWS){
+        SLIDER_NEWS.flickity({
+            freeScroll : true,
+            prevNextButtons : false,
+            pageDots : false,
+            autoPlay : false,
+            wrapAround : true
+        });
+    } */
 });

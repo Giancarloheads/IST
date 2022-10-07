@@ -1,3 +1,5 @@
+
+
 //MAIN
 .red-bg{
     background-color:$red;
@@ -12,7 +14,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: $font-1;
+    font-family: 'Degular';
 }
 
 body {
@@ -56,8 +58,8 @@ a:visited {
 }
 
 .pin-section-border{
-    border-top-left-radius: 50px;
-    border-top-right-radius:50px;
+    border-top-left-radius: 25px;
+    border-top-right-radius:25px;
     @media(max-width:768px){
         border-top-left-radius:0px;
         border-top-right-radius:0px;
@@ -142,8 +144,8 @@ a:visited {
 .main-section {
     margin-top: 100vh;
     position: relative;
-    border-top-right-radius: 40px;
-    border-top-left-radius: 40px;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
     background-color: #fff;
     width: 100%;
 }
@@ -294,6 +296,12 @@ a:visited {
         @media(max-width:765px){
             width:100%;
         }
+        @media(max-width:546px){
+            width:100%!important;
+            padding:10px!important;
+            padding-right:10px!important;
+            padding-left:10px!important;
+        }
         >div {
             border-radius:8px;
             background-color: #fff;
@@ -335,15 +343,15 @@ a:visited {
 }
 
 .prefooter {
-    border-top-left-radius: 50px;
-    border-top-right-radius: 50px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
 }
 
 .pre-footer-cta-container {
     position: absolute;
     left: 50%;
-    top: 60%;
-    transform: translate(-50%, -50%);
+    bottom:5%;
+    transform: translateX(-50%);
 
     >div:first-child {
         display: flex;
@@ -389,7 +397,8 @@ a:visited {
         svg {
             transition: all ease .3s;
             margin-left: 15px;
-
+            width:16px!important;
+            height:16px!important;
             path {
                 stroke: #000;
             }
@@ -438,6 +447,8 @@ a:visited {
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
+    width:100%;
+    height:100%;
 }
 
 
@@ -583,12 +594,12 @@ a:visited {
 }
 
 #slider-classes-container {
-    background-color: $bg-grey;
+    background-color: #FFF;
 }
 
 .rounded-section{
-    border-top-right-radius:50px;
-    border-top-left-radius:50px;
+    border-top-right-radius:25px;
+    border-top-left-radius:25px;
 }
 
 .related-content-container{
@@ -644,4 +655,46 @@ a:visited {
 
 .vh-100{
     height:100vh!important;
+}
+
+//PAGE FACILITIES
+
+.top-building-collapse{
+    font-size: 32px;
+    font-family: 'Degular' ,  sans-serif;
+    font-weight: 400;
+    line-height:1.2;
+    color: $red;
+    padding-top:20px;
+    padding-bottom:20px;
+    border-top:solid 1px black;
+    border-bottom:solid 1px black;
+}
+
+#collapse-top-building{
+     > div{
+        display: flex;
+        align-items:center;
+        justify-content:space-between;
+        padding-top:40px;
+        padding-bottom:40px;
+        ul{
+            list-style: square;
+            margin:0;
+            li{
+                color: #000;
+                font-size: 15px;
+                span{
+                    font-size: 24px;
+                    line-height: 1.5;
+                    color:#000;
+                }
+            }
+        }
+    }
+}
+
+.image-1-overlay{
+    width:100%;
+    height:100%;
 }
