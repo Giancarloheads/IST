@@ -32,9 +32,13 @@ h1 {
     font-family: $font-1;
     font-style: normal;
     font-weight: 400;
-    font-size: 48px;
+    font-size: 45px;
     line-height: 1;
     color: #000;
+    @media(max-width:1199px){
+        font-size: 38px; 
+        line-height:1;
+    }
 }
 
 .ist-section-title-1{
@@ -46,7 +50,7 @@ h1 {
 .ist-caption-1 {
     font-style: normal;
     font-weight: 400;
-    font-size: 24px;
+    font-size: 20px;
     line-height: 1.2;
 }
 
@@ -65,6 +69,7 @@ h1 {
     text-align:  center;
     color:#fff;
     font-weight:300;
+    line-height:.9;
     @media(max-width: 987px){
         font-size: 60px;
         line-height : .9;

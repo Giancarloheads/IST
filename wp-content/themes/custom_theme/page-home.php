@@ -72,20 +72,20 @@ get_header();
                         <div class="main-logos-container">
                             <div class="grey-logo-container">
                                 <a href="">
-                                    <img style="width:82px; height:82px" class="grey-svg dis-block" src="<?= get_template_directory_uri() . '/resources/icons/ib-grey.svg'; ?>" alt="">
-                                    <img style="width:82px; height:82px" class="grey-svg dis-none" src="<?= get_template_directory_uri() . '/resources/icons/ib-logo.svg'; ?>" alt="">
+                                    <img class="ib-logo-home grey-svg dis-block" src="<?= get_template_directory_uri() . '/resources/icons/ib-grey.svg'; ?>" alt="">
+                                    <img class="ib-logo-home grey-svg dis-none" src="<?= get_template_directory_uri() . '/resources/icons/ib-logo.svg'; ?>" alt="">
                                 </a>
                             </div>
                             <div class="grey-logo-container">
                                 <a href="">
-                                    <img style="width:185px; height: 40px;" class="grey-svg dis-block" src="<?= get_template_directory_uri() . '/resources/icons/cis-grey.svg'; ?>" alt="">
-                                    <img style="width:185px; height: 40px;" class="grey-svg dis-none" src="<?= get_template_directory_uri() . '/resources/icons/cis-logo.svg'; ?>" alt="">
+                                    <img class="cis-logo-home grey-svg dis-block" src="<?= get_template_directory_uri() . '/resources/icons/cis-grey.svg'; ?>" alt="">
+                                    <img class="cis-logo-home grey-svg dis-none" src="<?= get_template_directory_uri() . '/resources/icons/cis-logo.svg'; ?>" alt="">
                                 </a>
                             </div>
                             <div class="grey-logo-container">
                                 <a href="">
-                                    <img style="width:110px; height:35px;" class="grey-svg dis-block" src="<?= get_template_directory_uri() . '/resources/icons/wasc-grey.svg'; ?>" alt="">
-                                    <img style="width:110px; height:35px;" class="grey-svg dis-none" src="<?= get_template_directory_uri() . '/resources/icons/wasc-logo.svg'; ?>" alt="">
+                                    <img class="wasc-logo-home grey-svg dis-block" src="<?= get_template_directory_uri() . '/resources/icons/wasc-grey.svg'; ?>" alt="">
+                                    <img class="wasc-logo-home grey-svg dis-none" src="<?= get_template_directory_uri() . '/resources/icons/wasc-logo.svg'; ?>" alt="">    
                                 </a>
                             </div>
                         </div>
@@ -136,9 +136,9 @@ get_header();
                                 <img style="width:100%;height:auto;" src="<?= get_template_directory_uri() . '/resources/img/classes_1.svg' ?>" alt="">
                             </div>
                             <div class="col-6 offset-1">
-                                <div class="title p-b-30">ELEMENTARY EDUCATION</div>
-                                <div class="par p-b-100">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra amet pellentesque adipiscing sagittis, hac sit. Blandit nunc, arcu fusce at proin scelerisque auctor nibh.
+                                <div class="title p-b-25">ELEMENTARY EDUCATION</div>
+                                <div class="par p-b-60">
+                                    Our Elementary School is fully authorized to offer the International Baccalaureate Primary Years Program (IB-PYP) and an internationally celebrated curriculum framework for children from KG1 (Nursery) to Grade 5 specifically designed to facilitate a smooth transition between both international and national school systems.
                                 </div>
                                 <div class="link-list">
                                     <ul>
@@ -258,7 +258,7 @@ get_header();
         </div>
     </div>
 </section>
-<section class="container-fluid p-t-80 p-b-80 bg-red">
+<section class="container-fluid p-t-80 p-b-80 bg-red bg-wh-mobile">
     <div class="row justify-content-center">
         <div class="col-md-10 col-sm-11">
             <div class="row">
@@ -439,12 +439,7 @@ get_header();
                 foreach ($reviews as $i => $r) :
                     ?>  
                     <div class="community-item" style="<?= $i == 0 ? 'padding-left:9%;width:calc(52% + 9%);' : '' ; ?> <?= $i == count($reviews) - 1 ? 'padding-right:9%;width:calc(52% + 9%);' : ''; ?>">
-
-                        <?php
-                        $bg = $r['background_color'];
-                        ?>
-
-                        <div style="background-color:<?= $r['background_color']; ?>;color:<?= $bg == '#003e6b' ? 'white!important' : 'black!important'; ?>">
+                        <div>
                             <div class="title"><?= $r['review_title'] ?></div>
                             <div class="par"><?= $r['review_text'] ?></div>
                             <div class="name-container">
@@ -467,7 +462,7 @@ get_header();
         <div id="img-2-home" style="background-image:url('<?= get_template_directory_uri() . '/resources/img/home-2.jpg'; ?>')"></div>
         <div class="img-2-overlay"></div>
         <div class="img-2-caption">
-            <div style="color:#fff" class="ist-subtitle-1 text-center p-b-10">Tianjin's</div>
+            <div style="color:#fff" class="ist-subtitle-1 text-center p-b-10 d-none d-lg-block">Tianjin's</div>
             <div class="title">MOST DIVERSE LEARNING COMMUNITY</div>
             <div class="img-2-cta">
                 <a href="#" class="ist-cta justify-content-center" href="">Learn more <img onload="SVGInject(this);" src="<?= get_template_directory_uri() . '/resources/icons/arrow.svg' ?>" alt=""> </a>
@@ -475,15 +470,15 @@ get_header();
         </div>
     </div>
 </section>
-<section class="container-fluid bg-white p-t-100">
+<section class="container-fluid bg-white learning-section">
     <div class="row justify-content-center">
         <div class="col-md-10 col-xs-11">
-            <div class="row align-items-center p-b-100">
-                <div class="col-lg-5 col-sx-12">
+            <div class="row align-items-center p-lg-b-100">
+                <div class="col-lg-6 col-sx-12">
                     <div class="ist-section-title-2">
                         LEARNING BEYOND THE CLASSROOM
                     </div>
-                    <div class="ist-caption-1 p-t-25 p-b-90 p-md-b-30">
+                    <div class="ist-caption-1 caption-padding-r p-t-25 p-b-90 p-md-b-30">
                         We offer a variety of experiences and activities intended to meet the different interest in development levels of our student body.
                     </div>
                     <ul class="beyond-list d-lg-block d-none">
@@ -509,7 +504,7 @@ get_header();
                         </li>
                     </ul>
                 </div>
-                <div class="scrreveal col-lg-6 offset-lg-1 offset-0 col-12 p-md-t-30">
+                <div class="scrreveal col-lg-6 col-12 p-md-t-30">
                     <img style="margin:auto!important;" src="<?= get_template_directory_uri() . '/resources/home/home-3.png' ?>" alt="">
                 </div>
                 <div class="col-12">
@@ -651,7 +646,7 @@ get_header();
             </div>
             <div class="pre-footer-cta-container w-100">
                 <div class="w-100">
-                    <div class="row w-50 d-flex align-items-center justify-content-evenly">
+                    <div class="row d-flex align-items-center">
                         <div class="cta-pre-footer ist-cta-1 m-md-b-40 col-lg-5 col-md-10">
                             <div>
                                 INQUIRE NOW
@@ -669,7 +664,7 @@ get_header();
                     </div>
                 </div>
                 <div class="pre-footer-cta-2">
-                    OR <div class="d-mg-block d-lg-none p-b-20"><br></div> <span>LEARN MORE ABOUT OUR PROGRAMMES</span> <img class="m-l-10 " onload="SVGInject(this);" src="<?= get_template_directory_uri() . '/resources/icons/arrow.svg'; ?>" alt="">
+                    OR <div class="d-block d-lg-none p-md-b-20"><br></div> <span>LEARN MORE ABOUT OUR PROGRAMMES</span> <img class="m-l-10 " onload="SVGInject(this);" src="<?= get_template_directory_uri() . '/resources/icons/arrow.svg'; ?>" alt="">
                 </div>
             </div>
         </div>

@@ -11,12 +11,13 @@ jQuery(document).ready(function ($) {
         var navMenu = $('#desktop-nav-menu');
         if (!isMenuOpen) {
             navMenu.addClass('menu-open');
+            console.log('opening-menu');
             navMenu.animate({
                 'left': '19.5%',
-                'top': '20px',
+                'top': '1vh',
                 'width': '80%',
-                'height': '97vh'
-            }, 200, function () {
+                'height': '98vh'
+            }, 150, function () {
                 isMenuOpen = !isMenuOpen;
                 $('#header-ham-btn').css('display', 'none');
                 $('#header-ham-close-btn').css('display', 'block');
@@ -37,8 +38,8 @@ jQuery(document).ready(function ($) {
                 'left': '97%',
                 'top': '20px',
                 'width': '2%',
-                'height': '50px',
-            }, 250, function () {
+                'height': '0',
+            }, 100, function () {
                 isMenuOpen = !isMenuOpen;
                 $('#header-ham-btn').css('display', 'block');
                 $('#header-ham-close-btn').css('display', 'none');

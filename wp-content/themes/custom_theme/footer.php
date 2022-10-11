@@ -117,7 +117,7 @@
         </div>
     </div>
 </div>
-<div class="container-fluid p-t-40 p-b-40" style="background-color:#fff;">
+<div class="container-fluid p-t-20 p-b-20" style="background-color:#fff;">
     <div class="row justify-content-center">
         <div class="col-lg-10 col-xs-12">
             <div class="row align-items-center justify-content-between post-footer">
@@ -130,9 +130,9 @@
                     </div>
                 </div>
                 <div class="d-flex justify-content-lg-end justify-content-center align-items-center col-lg-8 col-xs-12 order-1 order-lg-2">
-                    <img src="<?= get_template_directory_uri() . '/resources/icons/ib-logo.svg' ?>" alt="">
-                    <img src="<?= get_template_directory_uri() . '/resources/icons/cis-logo.svg' ?>" alt="">
-                    <img src="<?= get_template_directory_uri() . '/resources/icons/wasc-footer-logo.svg' ?>" alt="">
+                    <img class="footer-svgs" src="<?= get_template_directory_uri() . '/resources/icons/ib-logo.svg' ?>" alt="">
+                    <img class="footer-svgs" src="<?= get_template_directory_uri() . '/resources/icons/cis-logo.svg' ?>" alt="">
+                    <img class="footer-svgs" src="<?= get_template_directory_uri() . '/resources/icons/wasc-footer-logo.svg' ?>" alt="">
                 </div>
             </div>
         </div>

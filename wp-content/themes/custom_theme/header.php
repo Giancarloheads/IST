@@ -89,25 +89,24 @@
 				<div class="close-ham-btn-container">
 					<img id="header-ham-close-btn" onload="SVGInject(this)" src="<?= get_template_directory_uri() . '/resources/icons/ham-close.svg'; ?>" alt="">
 				</div>
-				<div class="container-fluid p-t-80 p-b-80">
+				<div class="container-fluid p-t-40 p-b-40">
 					<div class="row justify-content-center">
-						<div class="col-10">
+						<div class="col-11">
 							<div class="row link-lists-header">
 								<div class="col-4">
 									<ul>
 										<li>
-											<a style="font-size:24px; font-weight:500;" href="">
-
+											<a style="font-size:20px; font-weight:500;" href="">
 												PROGRAMS
 											</a>
 										</li>
 										<li>
-											<a style="font-size:24px; font-weight:500;" href="">
+											<a style="font-size:20px; font-weight:500;" href="">
 												Overview
 											</a>
 										</li>
 										<li>
-											<a style="font-size:24px; font-weight:500;" href="">
+											<a style="font-size:20px; font-weight:500;" href="">
 												Elementary Education
 											</a>
 										</li>
@@ -130,7 +129,7 @@
 											</a>
 										</li>
 										<li>
-											<a style="font-size:24px; font-weight:500;" href="">
+											<a style="font-size:20px; font-weight:500;" href="">
 												Secondary Education
 											</a>
 										</li>
@@ -147,7 +146,7 @@
 											</a>
 										</li>
 										<li>
-											<a style="font-size:24px; font-weight:500;" href="">
+											<a style="font-size:20px; font-weight:500;" href="">
 												Learning support
 											</a>
 										</li>

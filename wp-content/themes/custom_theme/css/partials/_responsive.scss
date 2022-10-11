@@ -150,9 +150,16 @@
          padding: 0;
          padding-top: 40px;
          list-style: none;
+         li{
+            a{
+                font-size:22px;
+                line-height:1.2;
+                font-weight:400;
+            }
+         }
      }
      >img{
-        padding:80px;
+        padding:45px;
         margin:auto; 
      }
  }
@@ -173,5 +180,44 @@
     .jumbotron-caption{
         width:100vw!important;
         padding-top:50px;
+    }
+    .bg-wh-mobile{
+        .compare-section{
+            ul{
+                li{
+                    div:first-child{
+                    }
+                    div:last-child{
+                        font-size:20px;
+                        line-height:1;
+                        strong{
+                            font-weight:bolder;
+                        }
+                    }
+                }
+            }
+        }
+    }
+ }
+
+
+ .p-lg-b-100{
+    padding-bottom:100px!important;
+    @media(max-width:1199px){
+        padding-bottom:0px!important;
+    }
+ }
+
+
+ .m-md-b-40{
+   @media(max-width:756px){
+    margin-bottom:10px!important;
+   } 
+ }
+
+ .p-md-b-20{
+    padding-bottom:20px!important;
+    @media(max-width:1199px){
+        padding-bottom:5px!important;
     }
  }
