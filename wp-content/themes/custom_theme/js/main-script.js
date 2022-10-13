@@ -13,16 +13,15 @@ jQuery(document).ready(function ($) {
             navMenu.addClass('menu-open');
             console.log('opening-menu');
             navMenu.animate({
-                'left': '19.5%',
+                'left': '29%',
                 'top': '1vh',
-                'width': '80%',
+                'width': '70%',
                 'height': '98vh'
             }, 150, function () {
                 isMenuOpen = !isMenuOpen;
                 $('#header-ham-btn').css('display', 'none');
                 $('#header-ham-close-btn').css('display', 'block');
-            });
-            $('body').css('overflow', 'hidden');
+            }); 
             $('.menu-open-layover').css({
                 'opacity': '0.4',
                 'display': 'block'
@@ -33,7 +32,6 @@ jQuery(document).ready(function ($) {
     $('.close-ham-btn-container').on('click', function () {
         var navMenu = $('#desktop-nav-menu');
         if (isMenuOpen) {
-            $('body').css('overflow', 'auto');
             navMenu.animate({
                 'left': '97%',
                 'top': '20px',
@@ -44,7 +42,10 @@ jQuery(document).ready(function ($) {
                 $('#header-ham-btn').css('display', 'block');
                 $('#header-ham-close-btn').css('display', 'none');
                 navMenu.removeClass('menu-open');
-                $('.menu-open-layover').css('opacity', '0');
+                $('.menu-open-layover').css({
+                    'opacity' : '0', 
+                    'display' : 'none'
+                });
             })
         }
     })
@@ -61,16 +62,14 @@ jQuery(document).ready(function ($) {
         SearchDesktopContainer.animate({
             'left': '19.5%',
             'top': '20px',
-            'width': '80%',
+            'width': '66%',
             'height': '97vh'
         });
 
         menuLayover.css({
-            'opacity': '0.4',
+            'opacity': '0.6',
             'display': 'block'
         });
-
-        $('body').css('overflow', 'hidden');
     });
 
     $('.close-search-desktop-container').on('click', function () {
@@ -87,8 +86,6 @@ jQuery(document).ready(function ($) {
             'opacity': '0',
             'display': 'none'
         });
-
-        $('body').css('overflow', 'auto');
     });
 
     var mobileSearchBtn = $('.search-btn-mobile');
@@ -102,8 +99,6 @@ jQuery(document).ready(function ($) {
             'opacity': '.4',
             'display': 'block'
         });
-
-        $(document).css('overflow', 'hidden');
     });
 
     $('.close-search-mobile-btn').on('click', function () {
@@ -115,8 +110,6 @@ jQuery(document).ready(function ($) {
             'opacity': '0',
             'display': 'none'
         });
-
-        $(document).css('overflow', 'auto');
     })
 
 
@@ -280,14 +273,12 @@ jQuery(document).ready(function ($) {
         $('#mobile-nav-menu').animate({
             top: '0'
         }, 400);
-        $('body').css('overflow-y', 'hidden');
     });
 
     $('.close-nav-mobile-btn').on('click', function () {
         $('#mobile-nav-menu').animate({
             top: '-100vh'
         }, 400);
-        $('body').css('overflow-y', 'auto');
     })
 
     $('.close-search-mobile-btn').on('click', function () {
@@ -301,11 +292,9 @@ jQuery(document).ready(function ($) {
         $('header').addClass('blured');
     }
 
-
-    // Hide Header on on scroll down
     var didScroll;
     var lastScrollTop = 0;
-    var delta = 5;
+    var delta = 25;
     var navbarHeight = $('header').outerHeight();
     console.log(navbarHeight);
 
@@ -337,9 +326,11 @@ jQuery(document).ready(function ($) {
 
     var facilitiesCollapse = $('.top-building-collapse');
     var isCollapseOpen = false;
+    var beliefsCollapse = $('.beliefs-collapse');
+    var isBeliefsCollapseOpen = false;
 
     facilitiesCollapse.on('click' ,function(){
-        console.log('click collapse');
+        
         if(!isCollapseOpen){
             $('.facilities-collapse-1-icon').attr('src' , icons.minus);        
             isCollapseOpen = !isCollapseOpen;
@@ -348,4 +339,16 @@ jQuery(document).ready(function ($) {
             isCollapseOpen = !isCollapseOpen;
         }
     })
+
+    beliefsCollapse.on('click' ,function(){
+        var pos = $(this).attr('data-collapse-pos');
+        isOpen = $(this).find('div[data-bs-toggle]').hasClass('collapsed');
+        if(!isOpen){
+            $('#beliefs-collapse-' + pos + '-icon').attr('src' , icons.minus);
+            $(this).find('.collapse-title-about').css('color' , '#CC0001');
+        } else {
+            $('#beliefs-collapse-' + pos +'-icon').attr('src' , icons.plus);
+            $(this).find('.collapse-title-about').css('color' , '#000000');
+        }
+    });
 });

@@ -1,22 +1,21 @@
-<section class="container-fluid p-t-240 p-b-120 bg-grey">
+<section class="container-fluid p-t-240 p-b-120">
     <div class="row justify-content-center">
-        <div class="col-10">
+        <div class="col-12">
             <div class="row justify-content-center">
-                <div class="col-6 text-center p-b-120 ist-section-title-2">
-                    <!-- INSERIRE ACF -->
+                <div class="col-6 text-center p-b-90 ist-section-title-2">
                     <?php 
                         if(is_page(15)){
                     ?>
-                        Lorem Ipsum dolor sit amet constetur.
+                        Accredited by world’s leading agencies.
                     <?php 
                         }else if(is_page(13)){
                     ?>
-                        The school of choice where students come first
+                        The school of choice where students come first.
                     <?php 
                         }else if(is_page(11)){
                     ?>
-                        Twenty-eight years of educational excellence.
-                    <?php }?>
+                        Over 25 years of educational excellence.
+                    <?php } ?>
                 </div>
             </div>
             <div class="row justify-content-center">

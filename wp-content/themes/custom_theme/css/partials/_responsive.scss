@@ -221,3 +221,20 @@
         padding-bottom:5px!important;
     }
  }
+
+
+ @media(min-width:1680px) {
+    .container-fluid {
+        padding-left: 10% !important;
+        padding-right: 10% !important;
+    }
+    .community-item{
+        max-width:600px;
+        padding:20px!important;
+    }
+}
+
+li[aria-expanded="true"]{
+    color: $red!important;
+    transition: all ease .3s;
+}

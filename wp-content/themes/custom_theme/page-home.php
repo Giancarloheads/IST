@@ -38,8 +38,7 @@ get_header();
         </div>
     </div>
 </section>
-
-<section id="first-section" class="main-section p-t-100 p-b-100">
+<section id="first-section" class="main-section p-t-60 p-b-100">
     <div class="container-fluid">
         <div class="row justify-content-center">
             <div class="col-md-10 col-sm-11">
@@ -111,14 +110,14 @@ get_header();
 </section>
 
 <!-- SLIDER CLASSI -->
-<section id="slider-classes-container" class="container-fluid p-t-100 p-b-100 d-lg-block d-none">
+<section id="slider-classes-container" class="container-fluid p-t-40 p-b-100 d-lg-block d-none">
     <div class="row justify-content-center">
         <div class="col-md-10 col-sm-11">
             <div class="row">
                 <div class="col-12">
                     <div class="slider-cta-container">
-                        <div class=" active-slide-cta dots-classes-slider-1">ELEMENTARY EDUCATION</div>
-                        <div class="dots-classes-slider-2">SECONDARY EDUCATION</div>
+                        <div class=" active-slide-cta dots-classes-slider-1 class-dot">ELEMENTARY SCHOOL</div>
+                        <div class="class-dot dots-classes-slider-2">SECONDARY SCHOOL</div>
                     </div>
                 </div>
             </div>
@@ -136,7 +135,7 @@ get_header();
                                 <img style="width:100%;height:auto;" src="<?= get_template_directory_uri() . '/resources/img/classes_1.svg' ?>" alt="">
                             </div>
                             <div class="col-6 offset-1">
-                                <div class="title p-b-25">ELEMENTARY EDUCATION</div>
+                                <div class="title p-b-25">ELEMENTARY SCHOOL</div>
                                 <div class="par p-b-60">
                                     Our Elementary School is fully authorized to offer the International Baccalaureate Primary Years Program (IB-PYP) and an internationally celebrated curriculum framework for children from KG1 (Nursery) to Grade 5 specifically designed to facilitate a smooth transition between both international and national school systems.
                                 </div>
@@ -171,9 +170,9 @@ get_header();
                                 <img style="width:100%;height:auto;" src="<?= get_template_directory_uri() . '/resources/img/classes_2.svg' ?>" alt="">
                             </div>
                             <div class="col-6 offset-1">
-                                <div class="title p-b-30">SECONDARY EDUCATION</div>
+                                <div class="title p-b-30">SECONDARY SCHOOL</div>
                                 <div class="par p-b-100">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra amet pellentesque adipiscing sagittis, hac sit. Blandit nunc, arcu fusce at proin scelerisque auctor nibh.
+                                    Our Secondary School offers a dynamic, academically rigorous and holistic curriculum aimed to prepare students to become life-long learners. IST is fully authorized to offer the International Baccalaureate Middle Years (IB-MYP) and Diploma (IB-DP) curriculum frameworks.
                                 </div>
                                 <div class="link-list">
                                     <ul>
@@ -457,7 +456,7 @@ get_header();
         </div>
     </section>
 </div>
-<section style="background-color:#f3f0ef" class="pt-anim">
+<section style="background-color:#fff" class="pt-anim">
     <div class="expand-img-container">
         <div id="img-2-home" style="background-image:url('<?= get_template_directory_uri() . '/resources/img/home-2.jpg'; ?>')"></div>
         <div class="img-2-overlay"></div>
@@ -535,7 +534,7 @@ get_header();
         </div>
     </div>
 </section>
-<section class="container-fluid bg-white p-t-100 p-b-100 pin-section pin-section-mobile">
+<section class="container-fluid bg-white p-t-60 p-b-100 pin-section pin-section-mobile">
     <div class="row justify-content-center">
         <div class="col-md-10 col-xs-11">
             <div class="row">
@@ -635,7 +634,7 @@ get_header();
         </div>
     </div>
 </section>
-<section class="container-fluid pre-footer bg-orange pin-section pin-section-border pin-section-mobile">
+<section style="border-radius:25px 25px 0 0" class="container-fluid pre-footer bg-orange pin-section pin-section-border pin-section-mobile">
     <div class="row h-100">
         <div class="col-12 h-100 d-flex justify-content-center align-items-center pos-rel">
             <img class="pre-footer-img" onload="SVGInject(this);" src="<?= get_template_directory_uri() . '/resources/home/pre-footer-img.svg'; ?>" alt="">

@@ -109,11 +109,8 @@
 </footer>
 <div class="conteiner-fluid">
     <div class="row">
-        <div class="col-12 d-none d-lg-block" style="background-color:#fff;">
+        <div class="col-12" style="background-color:#fff;">
             <img class="w-100" src="<?= get_template_directory_uri() .'/resources/img/footer-bg.png'; ?>" alt="">
-        </div>
-        <div class="col-12 d-lg-none d-block" style="background-color:#fff;">
-            <img class="w-100" src="<?= get_template_directory_uri() .'/resources/img/footer-mobile-img.png'; ?>" alt="">
         </div>
     </div>
 </div>

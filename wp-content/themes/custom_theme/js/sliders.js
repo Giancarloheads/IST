@@ -84,26 +84,35 @@ jQuery(document).ready(function ($) {
         });
     }
 
+    const SLIDER_DATAS = $('.years-container');
+    if(SLIDER_DATAS){
+        SLIDER_DATAS.flickity({
+            freeScroll : true,
+            prevNextButtons :  false,
+            pageDots :false,
+            autoPlay : false,
+            cellAlign : 'left',
+            selectedAttraction: 0.01,
+            friction: 0.15
+        });
+    };
+
     //SLIDER HISTORY
     const SLIDER_HISTORY = $('.history-slider-container');
     if (SLIDER_HISTORY) {
         SLIDER_HISTORY.slick({
             dots: false,
             arrows: false,
-            infinite: true,
-            autoplay: true,
-            autoplaySpeed: 1500,
             slidesToShow: 1,
             slidesToScroll: 1,
+            fade : true,
+            swipe : false
         });
     }
 
     SLIDER_HISTORY.on('beforeChange', function (event, slick, currentSlide, nextSlide) {
         let pos = nextSlide;
         let dots = $('div[data-slider]');
-        console.log(dots);
-        console.log(pos);
-
         dots.each(function () {
             $(this).removeClass('history-slide-active');
         });
@@ -114,7 +123,6 @@ jQuery(document).ready(function ($) {
     //HISTORY SLIDER BTNS
     $('.years-container div').on('click', function () {
         let slide = $(this).attr('data-slider');
-        console.log(slide);
         SLIDER_HISTORY.slick('slickGoTo', slide);
     });
 
@@ -152,7 +160,31 @@ jQuery(document).ready(function ($) {
         })
     };
 
-    //SLIDER NEWS HOMEPAGE *****TEST*******
+    const SLIDER_BELIEFS = $('.beliefs-slider');
+    if(SLIDER_BELIEFS){
+        SLIDER_BELIEFS.flickity({
+            freeScroll : true,
+            prevNextButtons :  false,
+            pageDots :false,
+            autoPlay : false,
+            cellAlign : 'left'
+        })
+    }
+
+    //SLIDER RELATED PAGES ABOUT
+
+    const SLIDER_RELATED_ABOUT = $('.related-slider');
+    if(SLIDER_RELATED_ABOUT){
+        SLIDER_RELATED_ABOUT.flickity({
+            freeScroll : true,
+            prevNextButtons :  false,
+            pageDots :false,
+            autoPlay : false,
+            cellAlign : 'left'
+        });
+    }
+
+    //SLIDER NEWS HOMEPAGE
     /* const SLIDER_NEWS = $('.slider-news-home');
     if(SLIDER_NEWS){
         SLIDER_NEWS.flickity({

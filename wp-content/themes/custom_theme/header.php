@@ -30,12 +30,12 @@
 				<div class="row justify-content-center">
 					<div class="col-12">
 						<nav class="row">
-							<div class="col-lg-3 col-4">
+							<div class="col-lg-3 col-5">
 								<div class="header-logo-container">
 									<div>
 										<a class="d-flex justify-content-start align-items-center" href="<?= get_site_url(); ?>">
 											<img style="width:100px;height:50px;" class="header-logo" src="<?= get_template_directory_uri() . '/resources/icons/ist-logo.svg' ?>" alt="">
-											<div class="logo-text m-l-20 d-lg-block d-none" style="color:#fff;line-height:1;">
+											<div class="logo-text m-l-20" style="color:#fff;line-height:1;">
 												International <br> School of Tianjin
 											</div>
 										</a>
@@ -63,7 +63,7 @@
 									</ul>
 								</div>
 							</div>
-							<div class="col-lg-2 col-4">
+							<div class="col-lg-2 col-3">
 								<div class="header-btn-container">
 									<div id="search-btn">
 										<div class="search-btn-desktop">
@@ -154,7 +154,7 @@
 								</div>
 								<div class="col-3">
 									<ul>
-										<li>
+										<li style="font-weight:500;font-size:20px;">
 											ABOUT
 										</li>
 										<li>
@@ -174,7 +174,7 @@
 										</li>
 									</ul>
 									<ul>
-										<li>
+										<li style="font-weight:500;font-size:20px;">
 											STUDENT LIFE
 										</li>
 										<li>
@@ -201,7 +201,7 @@
 								</div>
 								<div class="col-3">
 									<ul>
-										<li>
+										<li style="font-weight:500;font-size:20px;">
 											CAMPUS
 										</li>
 										<li>
@@ -221,7 +221,7 @@
 										</li>
 									</ul>
 									<ul>
-										<li>
+										<li style="font-weight:500;font-size:20px;">
 											ADMISSION
 										</li>
 										<li>
@@ -248,7 +248,7 @@
 								</div>
 								<div class="col-2">
 									<ul>
-										<li>
+										<li style="font-weight:500;font-size:20px;">
 											COMMUNITY
 										</li>
 										<li>
@@ -318,14 +318,14 @@
 				<div class="header-mobile-ham p-b-60">
 					<img onload="SVGInject(this); " src="<?= get_template_directory_uri() . '/resources/icons/ist-logo.svg'; ?>" alt="">
 					<div class="close-nav-mobile-btn">
-						<img onload="SVGInject(this); " src="<?= get_template_directory_uri() . '/resources/icons/ham-close.svg'; ?>" alt="">
+						<image onload="SVGInject(this); " src="<?= get_template_directory_uri() . '/resources/icons/ham-close.svg'; ?>" alt="">
 					</div>
 				</div>
 				<div class="collapse-container" data-bs-toggle="collapse" href="#collapse-program" role="button" aria-expanded="false" aria-controls="collapse-program">
 					<div>
 						Programs
-						<img src="<?= get_template_directory_uri() . '/resources/icons/plus.svg'; ?>" alt="">
-						<img src="<?= get_template_directory_uri() . '/resources/icons/min.svg;' ?>" alt="">
+						<image src="<?= get_template_directory_uri() . '/resources/icons/plus.svg'; ?>" alt="">
+						<image src="<?= get_template_directory_uri() . '/resources/icons/min.svg;' ?>" alt="">
 					</div>
 				</div>
 				<div class="collapse-links-container">
@@ -336,8 +336,8 @@
 							</li>
 							<li class="collapse-2-container" data-bs-toggle="collapse" href="#collapse-elementary" role="button" aria-expanded="false" aria-controls="collapse-elementary">
 								Elementary Education
-								<img src="<?= get_template_directory_uri() . '/resources/icons/plus.svg'; ?>" alt="">
-								<img src="<?= get_template_directory_uri() . '/resources/icons/min.svg;' ?>" alt="">
+								<image src="<?= get_template_directory_uri() . '/resources/icons/plus.svg'; ?>" alt="">
+								<image src="<?= get_template_directory_uri() . '/resources/icons/min.svg;' ?>" alt="">
 							</li>
 							<li class="collapse" id="collapse-elementary">
 								<div>
@@ -362,8 +362,8 @@
 							</li>
 							<li class="collapse-2-container" data-bs-toggle="collapse" href="#collapse-secondary" role="button" aria-expanded="false" aria-controls="collapse-secondary">
 								Secondary Education
-								<img src="<?= get_template_directory_uri() . '/resources/icons/plus.svg'; ?>" alt="">
-								<img src="<?= get_template_directory_uri() . '/resources/icons/min.svg;' ?>" alt="">
+								<image src="<?= get_template_directory_uri() . '/resources/icons/plus.svg'; ?>" alt="">
+								<image src="<?= get_template_directory_uri() . '/resources/icons/min.svg;' ?>" alt="">
 							</li>
 							<li class="collapse-links-container collapse" id="collapse-secondary">
 								<ul>
@@ -388,8 +388,8 @@
 				<div class="collapse-container" data-bs-toggle="collapse" href="#collapse-about" role="button" aria-expanded="false" aria-controls="collapse-about">
 					<div>
 						About
-						<img src="<?= get_template_directory_uri() . '/resources/icons/plus.svg'; ?>" alt="">
-						<img src="<?= get_template_directory_uri() . '/resources/icons/min.svg;' ?>" alt="">
+						<image src="<?= get_template_directory_uri() . '/resources/icons/plus.svg'; ?>" alt="">
+						<image src="<?= get_template_directory_uri() . '/resources/icons/min.svg;' ?>" alt="">
 					</div>
 				</div>
 				<div class="collapse collapse-links-container" id="collapse-about">
@@ -417,8 +417,8 @@
 				<div class="collapse-container" data-bs-toggle="collapse" href="#collapse-campus" role="button" aria-expanded="false" aria-controls="collapse-campus">
 					<div>
 						Campus
-						<img src="<?= get_template_directory_uri() . '/resources/icons/plus.svg'; ?>" alt="">
-						<img src="<?= get_template_directory_uri() . '/resources/icons/min.svg;' ?>" alt="">
+						<image src="<?= get_template_directory_uri() . '/resources/icons/plus.svg'; ?>" alt="">
+						<image src="<?= get_template_directory_uri() . '/resources/icons/min.svg;' ?>" alt="">
 					</div>
 				</div>
 				<div class="collapse" id="collapse-campus">
@@ -443,8 +443,8 @@
 				<div class="collapse-container" data-bs-toggle="collapse" href="#collapse-student" role="button" aria-expanded="false" aria-controls="collapse-student">
 					<div>
 						Student Life
-						<img src="<?= get_template_directory_uri() . '/resources/icons/plus.svg'; ?>" alt="">
-						<img src="<?= get_template_directory_uri() . '/resources/icons/min.svg;' ?>" alt="">
+						<image src="<?= get_template_directory_uri() . '/resources/icons/plus.svg'; ?>" alt="">
+						<image src="<?= get_template_directory_uri() . '/resources/icons/min.svg;' ?>" alt="">
 					</div>
 				</div>
 				<div class="collapse" id="collapse-student">
@@ -474,8 +474,8 @@
 				<div class="collapse-container" data-bs-toggle="collapse" href="#collapse-admission" role="button" aria-expanded="false" aria-controls="collapse-admission">
 					<div>
 						Admission
-						<img src="<?= get_template_directory_uri() . '/resources/icons/plus.svg'; ?>" alt="">
-						<img src="<?= get_template_directory_uri() . '/resources/icons/min.svg;' ?>" alt="">
+						<image src="<?= get_template_directory_uri() . '/resources/icons/plus.svg'; ?>" alt="">
+						<image src="<?= get_template_directory_uri() . '/resources/icons/min.png;' ?>" alt="">
 					</div>
 				</div>
 				<div class="collapse" id="collapse-admission">
@@ -505,8 +505,8 @@
 				<div class="collapse-container" data-bs-toggle="collapse" href="#collapse-community" role="button" aria-expanded="false" aria-controls="collapse-community">
 					<div>
 						Community
-						<img src="<?= get_template_directory_uri() . '/resources/icons/plus.svg'; ?>" alt="">
-						<img src="<?= get_template_directory_uri() . '/resources/icons/min.svg;' ?>" alt="">
+						<image src="<?= get_template_directory_uri() . '/resources/icons/plus.svg'; ?>" alt="">
+						<image src="<?= get_template_directory_uri() . '/resources/icons/min.svg;' ?>" alt="">
 					</div>
 				</div>
 				<div class="collapse" id="collapse-community">

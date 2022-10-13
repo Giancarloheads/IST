@@ -18,7 +18,7 @@ jQuery(document).ready(function ($) {
         }
     });
 
-    const monileAPP = new Vue({
+    const mobsileAPP = new Vue({
         el: '#vue-search-container-mobile',
         data: {
             'posts': []
