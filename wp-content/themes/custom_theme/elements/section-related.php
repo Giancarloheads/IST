@@ -27,7 +27,8 @@ $pages = get_posts($args);
             <div class="p-10">
                 <!-- background-image: url('<?php /* get_the_post_thumbnail_url($p) */; ?>') -->
                 <a class="related-item" href="<?= get_permalink($p -> ID); ?>">
-                    <div class="related-img" style="background-image:url('http://via.placeholder.com/800/FF00FF'); background-position:center; background-size:cover;background-repeat:no-repeat;"></div>
+                <div class="related-img" style="background-image:url('<?= get_template_directory_uri() . '/resources/img/placeholder.jpg'; ?>'); background-position:center; background-size:cover;background-repeat:no-repeat;"></div>
+                    <div class="layover-related"></div>
                     <div class="related-title">
                         <?= $p->post_title; ?> <img class="related-cta-img" onload="SVGInject(this)" src="<?= get_template_directory_uri() . '/resources/icons/arrow.svg'; ?>" alt="">
                     </div>

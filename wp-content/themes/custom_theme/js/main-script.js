@@ -7,6 +7,9 @@ jQuery(document).ready(function ($) {
     /* var jumbo = document.getElementsByClassName('jumbotron')[0]; */
     var isMenuOpen = false;
 
+    
+    //HAMBURGER MENU
+
     $('#ham-btn').on('click', () => {
         var navMenu = $('#desktop-nav-menu');
         if (!isMenuOpen) {
@@ -51,7 +54,6 @@ jQuery(document).ready(function ($) {
     })
 
     // SEARCH CONTAINER
-
     var searchBtn = $('.search-btn-desktop');
     var SearchDesktopContainer = $('#desktop-search-container');
     var menuLayover = $('.menu-open-layover');
@@ -112,7 +114,7 @@ jQuery(document).ready(function ($) {
         });
     })
 
-
+    // JUMBOTRON HOVER
     $('.jumbotron-caption').mouseenter(() => {
         $('#jumbotron-arrow').css({
             'margin-bottom': '10px',
@@ -327,7 +329,7 @@ jQuery(document).ready(function ($) {
     var facilitiesCollapse = $('.top-building-collapse');
     var isCollapseOpen = false;
     var beliefsCollapse = $('.beliefs-collapse');
-    var isBeliefsCollapseOpen = false;
+    var accreditationCollapse = $('.accreditation-collapse');
 
     facilitiesCollapse.on('click' ,function(){
         
@@ -350,5 +352,19 @@ jQuery(document).ready(function ($) {
             $('#beliefs-collapse-' + pos +'-icon').attr('src' , icons.plus);
             $(this).find('.collapse-title-about').css('color' , '#000000');
         }
+    });
+
+    accreditationCollapse.on('click' ,function(){
+        console.log('click');
+        var pos = $(this).attr('data-collapse-pos');
+        isOpen = $(this).find('div[data-bs-toggle]').hasClass('collapsed');
+        if(!isOpen){
+            $('#accreditation-collapse-' + pos + '-icon').attr('src' , icons.minus);
+            $(this).find('.accreditation-collapse-title').css('color' , '#CC0001');
+        } else {
+            $('#accreditation-collapse-' + pos +'-icon').attr('src' , icons.plus);
+            $(this).find('.accreditation-collapse-title').css('color' , '#000000');
+        }
+
     });
 });

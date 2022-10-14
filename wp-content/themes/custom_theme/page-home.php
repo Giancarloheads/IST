@@ -98,7 +98,7 @@ get_header();
 <!--EXPANDED IMG -->
 <section class="p-md-t-0" style="background-color:#fff;height:100vh;border-radius:0;">
     <div class="expand-img-container">
-        <div id="img-1-home" style="background-image:url('<?= get_template_directory_uri() . '/resources/img/home-1.jpg'; ?>')"></div>
+        <div id="img-1-home" style="background-image:url('<?= get_template_directory_uri() . '/resources/img/home-1.jpg'; ?>');object-fit:fill; background-position:center;"></div>
         <div class="img-1-overlay"></div>
         <div class="img-1-caption">
             <div class="title">WORLD CLASS FACILITIES</div>

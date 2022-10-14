@@ -114,24 +114,12 @@ if ($layouts) :
             </div>
         </div>
     </section>
-    <!-- KEY RESOURCES -->
-    <section class="container-fluid">
-        <div class="row justify-content-center">
-            <div class="col-lg-10 col-12">
-                <?php 
-                    $key_resources = get_field('key_resources' , get_the_ID());
-                    echo '<pre>'; print_r($key_resources); echo '</pre>';
-                    foreach($key_resources as $k ){
-                        echo get_the_Title($k) . '<br><br>';
-                        echo'<a href="'.get_field('file' , $k).'" target="_blank" >Download</a>';
-                    };
-                ?>
-            </div>
-        </div>               
-    </section>
-
 <?php
 endif;
+?>
+
+<?php 
+    include_once 'elements/key-resources.php';
 ?>
 
 <?php
