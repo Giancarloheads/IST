@@ -7,7 +7,7 @@ get_header();
 
 <section class="container-fluid jumbotron">
     <div class="video-container">
-        <div style="background-image:url('<?= get_template_directory_uri() . '/resources/img/jumbotron.jpg'; ?>')" ></div>
+        <div style="background-image:url('<?= get_template_directory_uri() . '/resources/img/jumbotron.jpg'; ?>')"></div>
         <!-- <iframe src="https://www.youtube.com/embed/rUWxSEwctFU?mute=1&modestbranding=0&autoplay=1&autohide=1&rel=0&showinfo=0&controls=0&disablekb=1&enablejsapi=1&iv_load_policy=3&loop=1&playsinline=1&fs=0&playlist=rUWxSEwctFU"></iframe> -->
     </div>
     <div class="row justify-content-center">
@@ -84,7 +84,7 @@ get_header();
                             <div class="grey-logo-container">
                                 <a href="">
                                     <img class="wasc-logo-home grey-svg dis-block" src="<?= get_template_directory_uri() . '/resources/icons/wasc-grey.svg'; ?>" alt="">
-                                    <img class="wasc-logo-home grey-svg dis-none" src="<?= get_template_directory_uri() . '/resources/icons/wasc-logo.svg'; ?>" alt="">    
+                                    <img class="wasc-logo-home grey-svg dis-none" src="<?= get_template_directory_uri() . '/resources/icons/wasc-logo.svg'; ?>" alt="">
                                 </a>
                             </div>
                         </div>
@@ -122,7 +122,7 @@ get_header();
                 </div>
             </div>
         </div>
-    </div>      
+    </div>
 </section>
 <section class="container-fluid p-b-100 d-lg-block d-none">
     <div class="row justify-content-center">
@@ -430,14 +430,14 @@ get_header();
             </div>
         </div>
     </section>
-    <section class="container-fluid p-b-100">
+    <div id="review-container" class="container-fluid p-b-100">
         <div class="row">
             <div class="col-12 community-slider">
                 <?php
                 $reviews = get_field('reviews', get_the_ID());
                 foreach ($reviews as $i => $r) :
-                    ?>  
-                    <div class="community-item" style="<?= $i == 0 ? 'padding-left:9%;width:calc(52% + 9%);' : '' ; ?> <?= $i == count($reviews) - 1 ? 'padding-right:9%;width:calc(52% + 9%);' : ''; ?>">
+                ?>
+                    <div class="community-item" style="<?= $i == 0 ? 'padding-left:9%;width:calc(52% + 9%);' : ''; ?> <?= $i == count($reviews) - 1 ? 'padding-right:9%;width:calc(52% + 9%);' : ''; ?>">
                         <div>
                             <div class="title"><?= $r['review_title'] ?></div>
                             <div class="par"><?= $r['review_text'] ?></div>
@@ -454,7 +454,7 @@ get_header();
                 ?>
             </div>
         </div>
-    </section>
+    </div>
 </div>
 <section style="background-color:#fff" class="pt-anim">
     <div class="expand-img-container">
@@ -534,104 +534,127 @@ get_header();
         </div>
     </div>
 </section>
-<section class="container-fluid bg-white p-t-60 p-b-100 pin-section pin-section-mobile">
+
+<section class="container-fluid bg-white p-t-60">
     <div class="row justify-content-center">
         <div class="col-md-10 col-xs-11">
             <div class="row">
                 <div class="col-12">
-                    <div class="ist-section-title-2 p-b-50">RECENT UPDATES</div>
+                    <div class="ist-section-title-2">RECENT UPDATES</div>
                 </div>
             </div>
-            <div class="row">
+        </div>
+    </div>
+</section>
+<section class="recent-news-slider-section">
+    <div class="recent-news-slider-container">
+        <?php
+        $args = array(
+            'post_type' => 'post',
+            'postsnumber' => 4,
+            'order' => 'DESC',
+            'orderBy' => 'date'
+        );
+        /* $posts = wp_get_posts($args); */
 
-                <?php
-                $args = array(
-                    'post_type' => 'post',
-                    'postsnumber' => 4,
-                    'order' => 'DESC',
-                    'orderBy' => 'date'
-                );
-                /* $posts = wp_get_posts($args); */
+        $posts = array(
+            array(
+                'title' => 'Titolo 1',
+                'data' => "24 May, 2022",
+                'img' => "https://via.placeholder.com/320x400",
+                'cat' => 1,
+                'caption' => 'lorem ipsum sit dolor amet consetetur'
+            ),
+            array(
+                'title' => 'Title 2',
+                'data' => '22 May, 2022',
+                'img' => "https://via.placeholder.com/320x400",
+                'cat' => 2,
+                'caption' => 'lorem ipsum sit dolor amet consetetur'
+            ),
+            array(
+                'title' => 'Title 3',
+                'data' => '20 May, 2022',
+                'img' => "https://via.placeholder.com/320x400",
+                'cat' => 3,
+                'caption' => 'lorem ipsum sit dolor amet consetetur'
+            ),
+            array(
+                'title' => 'Title 4',
+                'data' => '10 May, 2022',
+                'img' => "https://via.placeholder.com/320x400",
+                'cat' => 1,
+                'caption' => 'lorem ipsum sit dolor amet consetetur '
+            ),
+            array(
+                'title' => 'Title 4',
+                'data' => '10 May, 2022',
+                'img' => "https://via.placeholder.com/320x400",
+                'cat' => 3,
+                'caption' => 'lorem ipsum sit dolor amet consetetur '
+            ),
+            array(
+                'title' => 'Title 4',
+                'data' => '10 May, 2022',
+                'img' => "https://via.placeholder.com/320x400",
+                'cat' => 2,
+                'caption' => 'lorem ipsum sit dolor amet consetetur '
+            ),
+            array(
+                'title' => 'Title 4',
+                'data' => '10 May, 2022',
+                'img' => "https://via.placeholder.com/320x400",
+                'cat' => 1,
+                'caption' => 'lorem ipsum sit dolor amet consetetur '
+            )
+        );
+        foreach ($posts as $p) :
+            $cat_color;
 
-                $posts = array(
-                    array(
-                        'title' => 'Titolo 1',
-                        'data' => "24 May, 2022",
-                        'img' => "https://via.placeholder.com/350",
-                        'cat' => 1,
-                        'caption' => 'lorem ipsum sit dolor amet consetetur'
-                    ),
-                    array(
-                        'title' => 'Title 2',
-                        'data' => '22 May, 2022',
-                        'img' => "https://via.placeholder.com/350/FF00FF",
-                        'cat' => 2,
-                        'caption' => 'lorem ipsum sit dolor amet consetetur'
-                    ),
-                    array(
-                        'title' => 'Title 3',
-                        'data' => '20 May, 2022',
-                        'img' => 'https://via.placeholder.com/350/FFFF00',
-                        'cat' => 3,
-                        'caption' => 'lorem ipsum sit dolor amet consetetur'
-                    ),
-                    array(
-                        'title' => 'Title 4',
-                        'data' => '10 May, 2022',
-                        'img' => 'https://via.placeholder.com/350/000FFF',
-                        'cat' => 4,
-                        'caption' => 'lorem ipsum sit dolor amet consetetur '
-                    )
-                );
-                foreach ($posts as $p) :
-                    $cat_color;
-
-                    switch ($p['cat']) {
-                        case '1':
-                            $cat_color = 'hover-yellow';
-                            break;
-                        case '2':
-                            $cat_color = 'hover-white';
-                            break;
-                        case '3':
-                            $cat_color = 'hover-green';
-                            break;
-                        default:
-                            $cat_color = 'hover-red';
-                            break;
-                    }
-                ?>
-                    <div class="col-lg-3 col-6 g-4">
-                        <div class="recent-news">
-                            <div class="news-cover">
-                                <div class="news-img">
-                                    <img src="<?= $p['img']; ?>" alt="">
-                                </div>
-                                <div class="news-caption">
-                                    <div class="news-title">
-                                        <?= $p['title'] ?>
-                                    </div>
-                                    <div class="news-date">
-                                        <?= $p['data'] ?>
-                                    </div>
-                                </div>
+            switch ($p['cat']) {
+                case '1':
+                    $cat_color = 'hover-yellow';
+                    break;
+                case '2':
+                    $cat_color = 'hover-white';
+                    break;
+                case '3':
+                    $cat_color = 'hover-green';
+                    break;
+                default:
+                    $cat_color = 'hover-red';
+                    break;
+            }
+        ?>
+            <div class="recent-news-slider-item">
+                <div class="recent-news">
+                    <div class="news-cover">
+                        <div class="news-img">
+                            <img src="<?= $p['img']; ?>" alt="">
+                        </div>
+                        <div class="news-caption">
+                            <div class="news-title">
+                                <?= $p['title'] ?>
                             </div>
-                            <div class="hidden-side-news  <?= ' ' . $cat_color; ?>">
-                                <div class="news-title-hidden">
-                                    <?= $p['caption']; ?>
-                                </div>
-                                <div class="news-caption">
-                                    <div class="news-title"><?= $p['title']; ?></div>
-                                    <div class="news-date"><?= $p['data']; ?></div>
-                                </div>
+                            <div class="news-date">
+                                <?= $p['data'] ?>
                             </div>
                         </div>
                     </div>
-                <?php
-                endforeach;
-                ?>
+                    <div class="hidden-side-news  <?= ' ' . $cat_color; ?>">
+                        <div class="news-title-hidden">
+                            <?= $p['caption']; ?>
+                        </div>
+                        <div class="news-caption">
+                            <div class="news-title"><?= $p['title']; ?></div>
+                            <div class="news-date"><?= $p['data']; ?></div>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </div>
+        <?php
+        endforeach;
+        ?>
     </div>
 </section>
 <section style="border-radius:25px 25px 0 0" class="container-fluid pre-footer bg-orange pin-section pin-section-border pin-section-mobile">

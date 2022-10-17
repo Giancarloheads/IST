@@ -184,15 +184,15 @@ jQuery(document).ready(function ($) {
         });
     }
 
-    //SLIDER NEWS HOMEPAGE
-    /* const SLIDER_NEWS = $('.slider-news-home');
+    const SLIDER_NEWS = $('.recent-news-slider-container');
     if(SLIDER_NEWS){
         SLIDER_NEWS.flickity({
             freeScroll : true,
             prevNextButtons : false,
             pageDots : false,
             autoPlay : false,
-            wrapAround : true
+            wrapAround : false,
+            cellAlign : 'left'
         });
-    } */
+    };
 });

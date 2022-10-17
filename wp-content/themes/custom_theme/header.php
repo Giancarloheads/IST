@@ -25,7 +25,7 @@
 <body <?php body_class(); ?>>
 	<?php wp_body_open(); ?>
 	<div id="page" class="site">
-		<header class="<?= is_page(7) ? '' : 'blured' ?>">
+		<header class="<?= !is_page(7) ? '' : 'blured' ?>">
 			<div class="container-fluid p-l-20 p-r-20">
 				<div class="row justify-content-center">
 					<div class="col-12">

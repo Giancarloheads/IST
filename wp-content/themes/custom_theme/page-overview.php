@@ -3,7 +3,7 @@ get_header();
 include_once 'elements/nav-pages-programs.php';
 ?>
 
-<section class="container-fluid p-b-60 bg-grey">
+<section class="container-fluid p-b-60">
     <div class="row justify-content-center">
         <div class="col-10">
             <div class="row">
@@ -148,26 +148,12 @@ include_once 'elements/nav-pages-programs.php';
 </section>
 
 <!--EXPANDED IMG -->
-<section class="p-md-t-0" style="background-color:#fff;height:100vh;border-radius:0;">
-    <div class="expand-img-container">
-        <div id="img-1-home" style="background-image:url('<?= get_template_directory_uri() . '/resources/programs/overview-expand.jpg'; ?>');background-position:center;"></div>
-        <div class="img-1-overlay"></div>
-        <div class="img-1-caption">
-            <div class="title">LEARNING SUPPORT</div>
-            <div class="img-1-cta">
-                <a class="ist-cta justify-content-center" href="">Learn more <img onload="SVGInject(this);" src="<?= get_template_directory_uri() . '/resources/icons/arrow.svg' ?>" alt=""> </a>
-            </div>
-        </div>
-    </div>
-</section>
-
 <section style="background-color:#fff" class="pt-anim">
-    <div class="expand-img-container">
-        <div id="img-2-home" style="background-image:url('<?= get_template_directory_uri() . '/resources/img/home-2.jpg'; ?>')"></div>
-        <div class="img-2-overlay"></div>
-        <div class="img-2-caption">
-            <div style="color:#fff" class="ist-subtitle-1 text-center p-b-10 d-none d-lg-block">Tianjin's</div>
-            <div class="title">MOST DIVERSE LEARNING COMMUNITY</div>
+    <div class="expand-img-container expanded-overview">
+        <div id="img-1-overview" style="background-image:url('<?= get_template_directory_uri() . '/resources/programs/overview-expand.jpg'; ?>');background-position:center; background-repeat:no-repeat; background-size:cover;"></div>
+        <div class="overview-overlay img-2-overlay"></div>
+        <div class="overview-caption img-2-caption">
+            <div class="title">LEARNING SUPPORT</div>
             <div class="img-2-cta">
                 <a href="#" class="ist-cta justify-content-center" href="">Learn more <img onload="SVGInject(this);" src="<?= get_template_directory_uri() . '/resources/icons/arrow.svg' ?>" alt=""> </a>
             </div>

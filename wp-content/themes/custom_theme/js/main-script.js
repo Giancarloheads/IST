@@ -2,12 +2,13 @@ jQuery(document).ready(function ($) {
 
     var home1img = document.getElementById('img-1-home');
     var home2img = document.getElementById('img-2-home');
+    var overviewimg = document.getElementById('img-1-overview');
     var header = document.querySelector('header');
     var section = document.querySelector('#first-section');
     /* var jumbo = document.getElementsByClassName('jumbotron')[0]; */
     var isMenuOpen = false;
 
-    
+
     //HAMBURGER MENU
 
     $('#ham-btn').on('click', () => {
@@ -24,7 +25,7 @@ jQuery(document).ready(function ($) {
                 isMenuOpen = !isMenuOpen;
                 $('#header-ham-btn').css('display', 'none');
                 $('#header-ham-close-btn').css('display', 'block');
-            }); 
+            });
             $('.menu-open-layover').css({
                 'opacity': '0.4',
                 'display': 'block'
@@ -46,8 +47,8 @@ jQuery(document).ready(function ($) {
                 $('#header-ham-close-btn').css('display', 'none');
                 navMenu.removeClass('menu-open');
                 $('.menu-open-layover').css({
-                    'opacity' : '0', 
-                    'display' : 'none'
+                    'opacity': '0',
+                    'display': 'none'
                 });
             })
         }
@@ -165,42 +166,65 @@ jQuery(document).ready(function ($) {
                     top: '50%'
                 }, 1400);
             }
+        }
+        //IMG HOME 2
+        if (home2img) {
+            if (isInViewport(home2img)) {
+                home2img.classList.add('expanded');
+                $('.pt-anim').animate({
+                    'padding-top': '0'
+                }, 1200);
 
-            //IMG HOME 2
-            if (home2img) {
-                if (isInViewport(home2img)) {
-                    home2img.classList.add('expanded');
-                    $('.pt-anim').animate({
-                        'padding-top': '0'
-                    }, 1200);
+                $('.img-2-overlay').animate({
+                    'opacity': '.4'
+                }, 1200);
 
-                    $('.img-2-overlay').animate({
-                        'opacity': '.4'
-                    }, 1200);
-
-                    $('.img-2-caption').animate({
-                        opacity: 1,
-                        top: '50%'
-                    }, 1400);
-                }
+                $('.img-2-caption').animate({
+                    opacity: 1,
+                    top: '50%'
+                }, 1400);
             }
+        }
 
-            //Blured header
-            if (header && section) {
+        //Blured header
+        if (header && section) {
 
-                if (elementsOverlap(header, section)) {
-                    $('header').addClass('blured');
-                };
+            if (elementsOverlap(header, section)) {
+                $('header').addClass('blured');
+            };
 
-                if (scroll > 1500) {
-                    $('.jumbotron').css('display', 'none');
-                } else {
-                    $('.jumbotron').css('display', 'block');
-                }
+            if (scroll > 1500) {
+                $('.jumbotron').css('display', 'none');
+            } else {
+                $('.jumbotron').css('display', 'block');
             }
+        }
 
-            if ($(window).scrollTop() < 900) {
-                header.classList.remove('blured')
+        if ($(window).scrollTop() < 900) {
+            header.classList.remove('blured')
+        }
+
+        if (overviewimg) {
+            console.log('get img');    
+            if (isInViewport(overviewimg)) {
+                overviewimg.classList.add('expanded');
+                $('.expanded-overview').animate({
+                    'width': '100vw',
+                    'height': '100vh'
+                }, 600 , function(){
+                    overviewimg.css('border-radius' , '0');
+                }); 
+
+                $('.overview-overlay').animate({
+                    'opacity': '.4',
+                    'width': '100vw',
+                    'height': '100vh',
+                }, 400);
+
+                $('.overview-caption.img-2-caption').animate({
+                    opacity: 1,
+                    top: '50%'
+                }, 1400); 
             }
         }
     });
@@ -330,41 +354,66 @@ jQuery(document).ready(function ($) {
     var isCollapseOpen = false;
     var beliefsCollapse = $('.beliefs-collapse');
     var accreditationCollapse = $('.accreditation-collapse');
+    var elementaryCollapse = $('.elementary-collapse');
+    var supportCollapse = $('.support-collapse');
 
-    facilitiesCollapse.on('click' ,function(){
-        
-        if(!isCollapseOpen){
-            $('.facilities-collapse-1-icon').attr('src' , icons.minus);        
+    facilitiesCollapse.on('click', function () {
+        if (!isCollapseOpen) {
+            $('.facilities-collapse-1-icon').attr('src', icons.minus);
             isCollapseOpen = !isCollapseOpen;
         } else {
-            $('.facilities-collapse-1-icon').attr('src' , icons.plus);
+            $('.facilities-collapse-1-icon').attr('src', icons.plus);
             isCollapseOpen = !isCollapseOpen;
         }
     })
 
-    beliefsCollapse.on('click' ,function(){
+    beliefsCollapse.on('click', function () {
         var pos = $(this).attr('data-collapse-pos');
         isOpen = $(this).find('div[data-bs-toggle]').hasClass('collapsed');
-        if(!isOpen){
-            $('#beliefs-collapse-' + pos + '-icon').attr('src' , icons.minus);
-            $(this).find('.collapse-title-about').css('color' , '#CC0001');
+        if (!isOpen) {
+            $('#beliefs-collapse-' + pos + '-icon').attr('src', icons.minus);
+            $(this).find('.collapse-title-about').css('color', '#CC0001');
         } else {
-            $('#beliefs-collapse-' + pos +'-icon').attr('src' , icons.plus);
-            $(this).find('.collapse-title-about').css('color' , '#000000');
+            $('#beliefs-collapse-' + pos + '-icon').attr('src', icons.plus);
+            $(this).find('.collapse-title-about').css('color', '#000000');
         }
     });
 
-    accreditationCollapse.on('click' ,function(){
+    accreditationCollapse.on('click', function () {
         console.log('click');
         var pos = $(this).attr('data-collapse-pos');
         isOpen = $(this).find('div[data-bs-toggle]').hasClass('collapsed');
-        if(!isOpen){
-            $('#accreditation-collapse-' + pos + '-icon').attr('src' , icons.minus);
-            $(this).find('.accreditation-collapse-title').css('color' , '#CC0001');
+        if (!isOpen) {
+            $('#accreditation-collapse-' + pos + '-icon').attr('src', icons.minus);
+            $(this).find('.accreditation-collapse-title').css('color', '#CC0001');
         } else {
-            $('#accreditation-collapse-' + pos +'-icon').attr('src' , icons.plus);
-            $(this).find('.accreditation-collapse-title').css('color' , '#000000');
+            $('#accreditation-collapse-' + pos + '-icon').attr('src', icons.plus);
+            $(this).find('.accreditation-collapse-title').css('color', '#000000');
         }
-
     });
+
+    elementaryCollapse.on('click' , function(){
+        var pos = $(this).attr('data-collapse-pos');
+        isOpen = $(this).find('div[data-bs-toggle]').hasClass('collapsed');
+        if (!isOpen) {
+            $('#elementary-collapse-' + pos + '-icon').attr('src', icons.minus);
+            $(this).find('.elementary-collapse-title').css('color', '#CC0001');
+        } else {
+            $('#elementary-collapse-' + pos + '-icon').attr('src', icons.plus);
+            $(this).find('.elementary-collapse-title').css('color', '#000000');
+        }
+    });
+
+    supportCollapse.on('click' , function(){
+        var pos = $(this).attr('data-collapse-pos');
+        isOpen = $(this).find('div[data-bs-toggle]').hasClass('collapsed');
+        if (!isOpen) {
+            $('#support-' + pos + '-icon').attr('src', icons.minus);
+            $(this).find('.elementary-collapse-title').css('color', '#CC0001');
+        } else {
+            $('#support-' + pos + '-icon').attr('src', icons.plus);
+            $(this).find('.elementary-collapse-title').css('color', '#000000');
+        }
+    });
+
 });
