@@ -195,4 +195,21 @@ jQuery(document).ready(function ($) {
             cellAlign : 'left'
         });
     };
+
+    const SLIDER_NAV_PROGRAM = $('.program-nav-slider');
+    if(SLIDER_NAV_PROGRAM){
+        console.log('slider nav');
+        SLIDER_NAV_PROGRAM.slick({
+            'variableWidth' :  true,
+            'infinite' :  false,
+            'autoplay' : false,
+            'dots' : false,
+            'arrows' : true,
+            'slidesToShow' : 3,
+            'slidesToScroll' : 1,
+            'swipe' : false,
+            'prevArrow' : document.getElementsByClassName('program-slider-prev'),
+            'nextArrow' : document.getElementsByClassName('program-slider-next'),
+        });
+    }
 });

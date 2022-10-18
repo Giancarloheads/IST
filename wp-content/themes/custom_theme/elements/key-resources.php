@@ -1,10 +1,16 @@
 <section class="container-fluid p-t-60 p-b-60">
     <div class="row justify-content-center">
         <div class="col-lg-10 col-12">
-            <div class="row">
+            <div class="row justify-content-center">
                 <?php if(!is_page(39)){ ?>
                 <div class="p-b-60 col-12 text-center key-resource-title">
-                    Key resources
+                    <?php if(is_page(162)){ ?>
+                        Candidates can download the required documents:
+                    <?php } else if(is_page(164)){ ?>
+                        
+                    <?php } else { ?>
+                        Key resources
+                    <?php } ?>
                 </div>
                 <?php
                 };

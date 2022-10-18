@@ -109,3 +109,128 @@
     line-height: 1.2;
     font-weight:400;
 }
+
+.nav-slider-container{
+    padding-top: 120px;
+    padding-bottom:120px;
+    display: flex;
+    align-items:center;
+    justify-content: space-betweeen;
+    flex-wrap: nowrap;
+
+}
+
+.program-nav-slider{
+    padding:5px;
+    max-width:80%;
+    overflow:hidden!important;
+    .slick-track{
+        border-radius:25px;
+    }
+    .slick-list-draggable{
+        border-radius:25px;
+    }
+    .program-link{
+        padding: 15px 12px;
+        border-radius: 25px;
+        color: #000;
+        margin-left:10px;
+        margin-right:10px;
+        &:hover{
+            background-color:#fff;
+            cursor: pointer;
+        }
+        a{
+            outline:none!important;
+            color: inherit;
+
+        }
+    }
+}
+
+.active-nav-program{
+    background-color: $red!important;
+    color : #fff!important;
+}
+
+.program-slider-prev , .program-slider-next{
+    background-color: #F3F0EF;
+    border-radius:50%;
+    padding:15px;
+    width:54px;
+    height:54px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    transition: all ease .3s;
+    &:hover{
+        background-color:#fff;
+        cursor:pointer;
+    }
+    svg{
+        path{
+            stroke : #000;
+        }
+    }
+}
+
+.program-slider-prev{
+    svg{
+        transform : rotate(-135deg);
+        width:15px;
+        height:15px;
+    }
+}
+
+.program-slider-next{
+    svg{
+        transform: rotate(45deg);
+        width:15px;
+        height: 15px;
+    }
+}
+
+.slick-disabled{
+    opacity: 0!important;
+}
+
+.program-title{
+    font-size: 60px;
+    font-weight: 400;
+    line-height:1;
+}
+
+.program-info-list{
+    margin:0;
+    padding:0;
+    list-style: none!important;
+    li{
+        color:#000;
+        font-size: 16px;
+        font-weight: 500;
+    }
+    li:nth-child(odd){
+        padding-top:5px;
+        padding-bottom:2px;
+    }
+    li:nth-child(even){
+        color: $red;
+        padding-bottom:5px;
+        padding-top:2px;
+    }
+}
+
+.single-program-par{
+    font-size: 20px; 
+    line-height:1.2;
+    font-weight: 400;
+}
+
+.single-program-collapse{
+    .collapse-title-program{
+        font-size: 30px;
+        font-weight:400;
+        line-height:1.2;
+        padding: 20px 0;
+    }
+}

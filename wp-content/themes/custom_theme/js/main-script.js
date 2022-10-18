@@ -200,9 +200,9 @@ jQuery(document).ready(function ($) {
             }
         }
 
-        if ($(window).scrollTop() < 900) {
+        /* if ($(window).scrollTop() < 900) {
             header.classList.remove('blured')
-        }
+        } */
 
         if (overviewimg) {
             console.log('get img');    
@@ -356,6 +356,8 @@ jQuery(document).ready(function ($) {
     var accreditationCollapse = $('.accreditation-collapse');
     var elementaryCollapse = $('.elementary-collapse');
     var supportCollapse = $('.support-collapse');
+    var programCollapse = $('.single-program-collapse');
+    var safeguardCollapse = $('.safeguard-collapse');
 
     facilitiesCollapse.on('click', function () {
         if (!isCollapseOpen) {
@@ -413,6 +415,30 @@ jQuery(document).ready(function ($) {
         } else {
             $('#support-' + pos + '-icon').attr('src', icons.plus);
             $(this).find('.elementary-collapse-title').css('color', '#000000');
+        }
+    });
+
+    programCollapse.on('click' , function(){
+        var pos = $(this).attr('data-collapse-pos');
+        isOpen = $(this).find('div[data-bs-toggle]').hasClass('collapsed');
+        if (!isOpen) {
+            $('#single-program-' + pos + '-icon').attr('src', icons.minus);
+            $(this).find('.collapse-title-program').css('color', '#CC0001');
+        } else {
+            $('#single-program-' + pos + '-icon').attr('src', icons.plus);
+            $(this).find('.collapse-title-program').css('color', '#000000');
+        }
+    });
+
+    safeguardCollapse.on('click' , function(){
+        var pos = $(this).attr('data-collapse-pos');
+        isOpen = $(this).find('div[data-bs-toggle]').hasClass('collapsed');
+        if (!isOpen) {
+            $('#safeguard-' + pos + '-icon').attr('src', icons.minus);
+            $(this).find('.collapse-title-about').css('color', '#CC0001');
+        } else {
+            $('#safeguard-' + pos + '-icon').attr('src', icons.plus);
+            $(this).find('.collapse-title-about').css('color', '#000000');
         }
     });
 

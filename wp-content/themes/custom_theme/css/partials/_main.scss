@@ -762,7 +762,7 @@ a:visited {
 
 //PAGE FACILITIES
 
-.top-building-collapse {
+.top-building-collapse , .safeguard-collapse {
     font-size: 32px;
     font-family: 'Degular', sans-serif;
     font-weight: 400;
@@ -803,11 +803,13 @@ a:visited {
 .collapse-list-container {
     padding-top: 20px;
     padding-bottom: 20px;
+
     ul {
         list-style: square;
         margin: 0;
         padding: 0;
-        margin-left:12px;
+        margin-left: 12px;
+
         li {
             color: #000;
             font-size: 15px;
@@ -926,10 +928,37 @@ body {
     }
 }
 
-@media(min-width:1620px){
-    #review-container{
-        width:100vw;
-        padding:0!important;
-        margin:0!important;
+@media(min-width:1620px) {
+    #review-container {
+        width: 100vw;
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+}
+
+.bg-red {
+    background-color: $red;
+}
+
+.about-cta-prefooter {
+    .red-bg-cta {
+        color: #000 !important;
+        transition: all ease .3s;
+    }
+
+    &:hover {
+        .red-bg-cta {
+            color: #fff !important;
+        }
+    }
+}
+
+.safeguard-collapse-list{
+    li{
+        span{
+            font-size:20px;
+            font-weight: 400;
+            line-height: 1.2;
+        }
     }
 }
