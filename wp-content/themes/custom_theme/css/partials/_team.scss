@@ -1,0 +1,57 @@
+ .team-title {
+     font-size: 20px;
+     line-height: 1.2;
+     font-weight: 400;
+     padding-top: 20px;
+     padding-bottom: 15px;
+ }
+
+ .team-role {
+     color: $red;
+     font-size: 16px;
+     line-height: 1.4;
+     font-weight: 500;
+ }
+
+ .team-collapse-btn {
+     padding: 12px 60px;
+     font-size: 16px;
+     line-height: 1.4;
+     font-weight: 500;
+     border-radius: 50px;
+     border: none !important;
+     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+     background-color: #fff;
+     transition: all ease .3s;
+
+     svg {
+         transition: all ease .3s;
+         width: 10px;
+         height: 10px;
+         margin-left: 10px;
+         transform: rotate(135deg);
+
+         path {
+             stroke: #000;
+         }
+     }
+
+     &:hover {
+         color: #fff;
+         background-color: $red;
+         box-shadow: none !important;
+
+         svg {
+             path {
+                 stroke: #fff;
+             }
+         }
+     }
+ }
+
+ .pfo-list{
+    padding:0;
+    padding-left: 25px;
+    list-style: square;
+    margin:0;
+ }

@@ -16,3 +16,9 @@ $grey : #F3F0EF;
 .bg-orange{
     background-color: $orange;
 }
+
+ul li::marker {
+    font-size: 0.5em;
+    margin-bottom: .5rem;
+
+  }

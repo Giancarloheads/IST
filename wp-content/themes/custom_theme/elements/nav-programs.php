@@ -11,7 +11,6 @@
         </div>
     </div>
 </section>
-
 <section class="container-fluid">
     <div class="row justify-content-center">
         <div class="col-10">

@@ -14,7 +14,7 @@ include_once 'elements/nav-pages-infos.php';
         </div>
     </div>
 </section>
-<section class="container-fluid p-b-60">
+<section class="container-fluid" style="margin-bottom:-60px;">
     <div class="row justify-content-center">
         <div class="col-10">
             <div class="row">
@@ -36,11 +36,11 @@ include_once 'elements/nav-pages-infos.php';
                         <div class="row">
                             <div class="offset-6 col-6 p-0">
                                 <div class="acr-par">IST is the only fully authorized, three program ‘International Baccalaureate (IB) World School’ in Tianjin. The IB, based in Geneva, is the provider of the world’s most prestigious curriculum for international schools. There are three IB programs, as follows:</div>
-                                <a href="" class="acr-cta">Primary Years Program <img onload="SVGInject(this)" src="<?= get_template_directory_uri() . '/resources/icons/arrow.svg'; ?>" alt=""></a>
+                                <a href="<?= get_permalink(143) ?>" class="acr-cta">Primary Years Program <img onload="SVGInject(this)" src="<?= get_template_directory_uri() . '/resources/icons/arrow.svg'; ?>" alt=""></a>
                                 <div class="acr-subtitle">for student aged 3 to 11 years</div>
-                                <a href="" class="acr-cta">Middle Years Program <img onload="SVGInject(this)" src="<?= get_template_directory_uri() . '/resources/icons/arrow.svg'; ?>" alt=""></a>
+                                <a href="<?= get_permalink(146); ?>" class="acr-cta">Middle Years Program <img onload="SVGInject(this)" src="<?= get_template_directory_uri() . '/resources/icons/arrow.svg'; ?>" alt=""></a>
                                 <div class="acr-subtitle">for student aged 12 to 16</div>
-                                <a href="" class="acr-cta">Diploma Program <img onload="SVGInject(this)" src="<?= get_template_directory_uri() . '/resources/icons/arrow.svg' ?>" alt=""> </a>
+                                <a href="<?= get_permalink(147) ?>" class="acr-cta">Diploma Program <img onload="SVGInject(this)" src="<?= get_template_directory_uri() . '/resources/icons/arrow.svg' ?>" alt=""> </a>
                                 <div class="acr-subtitle">for student aged 17 and above</div>
                                 <div class="acr-par">Schools seeking to teach any of the IB programs must undertake a rigorous process called Authorization, which is similar to Accreditation but with a focus on curriculum and teaching standards only. The process of authorization takes approximately 2 years for each IB program. IST has been authorized since May 2002</div>
                             </div>

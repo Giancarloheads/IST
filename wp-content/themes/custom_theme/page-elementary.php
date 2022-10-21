@@ -28,11 +28,11 @@ include 'elements/nav-pages-programs.php';
         <div class="col-md-10 col-sm-12">
             <div class="row g-3 edu-container">
                 <div class="col-lg-4 col-12 edu-box">
-                    <div class="edu-content">
-                        <div>
-                            <img class="edu-box-img" src="<?= get_template_directory_uri() . '/resources/education/edu-1.png' ?>" alt="">
+                    <div class="edu-content h-100">
+                        <div class="p-t-20">
+                            <img onload="SVGInject(this);" class="h-100 edu-box-img" src="<?= get_template_directory_uri() . '/resources/education/edu-1.svg' ?>" alt="">
                         </div>
-                        <a class="ist-cta" href="">
+                        <a class="ist-cta" href="<?= get_permalink(144); ?>">
                             Baby Dragon Playgroup
                             <img class="cta-black" onload="SVGInject(this); " src="<?= get_template_directory_uri() . '/resources/icons/arrow.svg' ?>" alt="">
                         </a>
@@ -42,31 +42,32 @@ include 'elements/nav-pages-programs.php';
                     </div>
                 </div>
                 <div class="col-lg-4 col-12 edu-box">
-                    <div class="edu-content">
+                    <div class="edu-content h-100">
                         <div>
-                            <img class="edu-box-img" src="<?= get_template_directory_uri() . '/resources/education/edu-1.png' ?>" alt="">
+                            <img onload="SVGInject(this);" class="h-100 edu-box-img" src="<?= get_template_directory_uri() . '/resources/education/edu-2.svg' ?>" alt="">
                         </div>
-                        <a class="ist-cta" href="">
-                            Baby Dragon Playgroup
+                        <a class="ist-cta" href="<?= get_permalink(145); ?>">
+                            PYP Early Years
                             <img class="cta-black" onload="SVGInject(this); " src="<?= get_template_directory_uri() . '/resources/icons/arrow.svg' ?>" alt="">
                         </a>
                         <div>
-                            <div>0-3 years</div>
-                            <div>KG1 - KG2</div>
+                            <div>3 - 5 years</div>
+                            <div>KG 1 - KG 2</div>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4 col-12 edu-box">
-                    <div class="edu-content">
+                    <div class="edu-content h-100">
                         <div>
-                            <img class="edu-box-img" src="<?= get_template_directory_uri() . '/resources/education/edu-1.png' ?>" alt="">
+                            <img onload="SVGInject(this);" class="h-100 edu-box-img" src="<?= get_template_directory_uri() . '/resources/education/edu-3.svg' ?>" alt="">
                         </div>
-                        <a class="ist-cta" href="">
-                            Baby Dragon Playgroup
+                        <a class="ist-cta" href="<?= get_permalink(143) ?>">
+                            PYP
                             <img class="cta-black" onload="SVGInject(this); " src="<?= get_template_directory_uri() . '/resources/icons/arrow.svg' ?>" alt="">
                         </a>
                         <div>
-                            <div>0-3 years</div>
+                            <div>6 - 11 years</div>
+                            <div>KG 3 - Grade 5</div>
                         </div>
                     </div>
                 </div>
@@ -74,7 +75,7 @@ include 'elements/nav-pages-programs.php';
         </div>
     </div>
 </section>
-<section class="container-fluid p-b-60">
+<section class="container-fluid p-b-120">
     <div class="row justify-content-center">
         <div class="col-10">
             <div class="row">
@@ -89,8 +90,37 @@ include 'elements/nav-pages-programs.php';
                             </div>
                         </div>
                         <div class="collapse" id="elementary-collapse-1">
-                            <div class="beliefs-collapse-par">
-                                We all agree that the school and the family must work closely together to help each child achieve his or her unique potential. We help our students develop resilience and self-confidence, expecting them to be respectful of others and to recognize that everybody is entitled to his or her own point of view.
+                            <div class="row p-t-40">
+                                <div class="col-6">
+                                    <p class="secondary-collapse-content">
+                                        We welcome your involvement, suggestions and reflections in our Elementary School!
+                                        <br>
+                                        <br>
+                                        Dear Parents, Students and Members of the IST Community,
+                                        <br>
+                                        <br>
+                                        It is with great pleasure that I welcome you to the IST Elementary School. At IST we are committed to working, learning and acting together to help each student fulfil their unique potential. We value IST being a friendly place, where people from around the world unite to form our special community. We pride ourselves on developing an inclusive environment where each student, parent and staff member plays an important role in fostering relationships that promote positivity and belonging. Our students learn and grow together, guided by an experienced and highly qualified faculty, who are dedicated to meeting the diverse learning needs of our students.
+                                        <br>
+                                        <br>
+                                        The school provides a strong academic program as an accredited International Baccalaureate World School. We deliver all three programs, the PYP, the MYP and the DP, beginning with primary childhood education in our Early Learning Centre and concluding with Grade 12 in the secondary school. Our secondary Diploma Program boasts exceptional results, with two high scores of 45 points in 2018/19, and four scores of 44 points in 2019/20. The IST DP average score is 35 points compared to the world average of 29, and the average for 2019/20 at IST was 38 points. These results reflect the quality of our educational program at IST and the dispositional attributes that we instill in our students from a very young age. Alongside academic achievement, we use the IB PYP program to develop internationally minded students who possess skills, knowledge and understandings that are adaptable and transferable in various settings. We also value and respect our host country China and embrace local connections at every opportunity.
+                                        <br>
+                                        <br>
+                                        The Elementary School at IST aims to create well-rounded and balanced students. To support this goal, students learn English, mathematics, science and social sciences (Units of Inquiry) with their homeroom teacher, in addition to specialist subjects such as Chinese, art, music, physical education and STEM. Specialist facilities, including a gymnasium, sports fields, library, theatre, I.T lab, science lab/kitchen, music suite, and art rooms enhance the quality of the program and student experiences. Students have access to technological devices (ipads, Macbooks and iMacs) to support teaching and learning programs. Students can be involved in Co-Curricular Activities (CCA) to further develop their interests and skills. Some of the CCAs at IST include choir, football, badminton, cross country, chess, musical practice, table tennis, art club, chess club, cooperative games, cooking and t-ball. Many of our students are also involved in interschool sport tournaments with other schools in Tianjin and Beijing. Through these activities, IST Elementary students are encouraged to challenge themselves to nurture lifelong growth and learning.
+                                        <br>
+                                        <br>
+                                        This year will provide many new and exciting learning opportunities. As the Elementary School Principal, I am looking forward to partnering with students, parents and teachers in ensuring that each child reaches their full potential. IST is a community of friendly and open-minded people that care for one another. If you can offer support to enhance any of our programs by volunteering as a guest speaker or by joining our Parent Faculty Organisation (PFO), we would be greatly appreciative. Our Elementary school team is committed to improving and refining our school wide programs and any suggestions or recommendations from the community to support our students are always most welcome.
+                                        <br>
+                                        <br>
+                                        Kind regards,
+                                        <br>
+                                        <br>
+                                        Justin Lobsey
+                                        Elementary Principal
+                                    </p>
+                                </div>
+                                <div class="col-6 d-flex justify-content-end align-items-start">
+                                    <img src="<?= get_template_directory_uri() . '/resources/programs/justin-lobsey-1.jpg' ?>" alt="">
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -104,8 +134,40 @@ include 'elements/nav-pages-programs.php';
                             </div>
                         </div>
                         <div class="collapse" id="elementary-collapse-2">
-                            <div class="beliefs-collapse-par">
-                                They learn to think for themselves, but they also understand the benefit of working together in teams. Our students learn how to think creatively and critically, how to make sound judgments, and how to apply their knowledge in real life situations. Teachers and parents have high social, moral and academic expectations of our students. Together, they challenge students to make the most of their abilities, and help them to make meaningful connections between the different branches of human knowledge. Our teachers appreciate that individual students learn differently, so they provide a variety of learning experiences and use a wide range of teaching resources, technologies, methods and assessment strategies. Our community promotes balance and wellbeing, celebrates all kinds of student success and appreciates that adults, too, are learners.
+                            <div class="row p-t-40">
+                                <div class="col-6">
+                                    <p class="secondary-collapse-content">
+                                        IST has developed its Programme of Inquiry using the International Baccalaureate (IB) Primary Years Programme (PYP) curriculum framework. This incorporates local and global issues into the curriculum through six transdisciplinary themes. <br><br>
+                                        The themes are:
+                                    <ul class="list-elementary-collapse">
+                                        <li>
+                                            Who We Are
+                                        </li>
+                                        <li>
+                                            Where We Are In Place and Time
+                                        </li>
+                                        <li>
+                                            How We Express Ourselves
+                                        </li>
+                                        <li>
+                                            How the World Works
+                                        </li>
+                                        <li>
+                                            How We Organize Ourselves
+                                        </li>
+                                        <li>
+                                            Sharing the Planet
+                                        </li>
+                                    </ul>
+                                    </p>
+                                </div>
+                                <div class="col-6 d-flex justify-content-end align-items-start">
+                                    <p>
+                                        Through Units of Inquiry under each of these themes, IST students develop within five essential elements: knowledge, concepts, skills, attitudes, and action. <br>
+                                        In tandem with the attributes and attitudes described in the Learner Profile, they develop the ability to work cooperatively, as well as learning to think creatively and critically. <br>
+                                        Our Programme of Inquiry is a framework that guides us in providing our students with an outstanding education and equipping them with the tools they need to become lifelong learners, making informed and ethical choices in our changing world.
+                                    </p>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -166,12 +228,12 @@ include 'elements/nav-pages-programs.php';
                         </p>
                     </div>
                     <div class="col-lg-6 col-12 order-1 order-lg-2">
-                        <img src="https://via.placeholder.com/800" alt="">
+                        <img src="<?= get_template_directory_uri() . '/resources/education/student-support.jpg'; ?>" alt="">
                     </div>
                 </div>
                 <div class="row align-items-center programs-layout-row programs-last-lay-row">
                     <div class="col-lg-6 col-12">
-                        <img src="https://via.placeholder.com/800" alt="">
+                        <img src="<?=  get_template_directory_uri() . '/resources/education/beyond.jpg'; ?>" alt="">
                     </div>
                     <div class="col-lg-6 col-12" style="padding:80px;">
                         <div class="title">
@@ -188,15 +250,15 @@ include 'elements/nav-pages-programs.php';
 </section>
 
 <?php
-    include_once 'elements/key-resources.php';
+include_once 'elements/key-resources.php';
 ?>
 
 <?php
-    include_once 'elements/section-related.php';
+include_once 'elements/section-related.php';
 ?>
 
-<?php 
-    include_once 'elements/about-pre-footer.php';
+<?php
+include_once 'elements/about-pre-footer.php';
 ?>
 
 <?php

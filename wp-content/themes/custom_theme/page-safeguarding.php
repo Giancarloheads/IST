@@ -39,7 +39,7 @@ include_once 'elements/nav-campus.php';
         </div>
     </div>
 </section>
-<section class="container-fluid p-b-120">
+<section class="container-fluid p-b-60">
     <div class="row justify-content-center">
         <div class="col-10">
             <div class="row">

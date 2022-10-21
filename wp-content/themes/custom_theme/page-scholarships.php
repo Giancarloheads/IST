@@ -5,9 +5,9 @@ include 'elements/nav-admission.php';
 
 <section class="container-fluid">
     <div class="row justify-content-center">
-        <div class="col-lg-10">
+        <div class="col-lg-10 col-12">
             <div class="row">
-                <div class="col-6 ist-par-about-1 p-b-60">
+                <div class="col-lg-6 col-12 ist-par-about-1 p-b-60">
                     <div class="collapse-container-single">
                         <div data-bs-toggle="collapse" href="#elementary-collapse-single" role="button" aria-expanded="false" aria-controls="elementary-collapse-single">
                             <div class="single-collapse-par">
@@ -32,7 +32,7 @@ include 'elements/nav-admission.php';
 </section>
 <section class="container-fluid p-l-20 p-r-20 p-b-60">
     <div class="row">
-        <div class="col-9">
+        <div class="col-lg-9 col-12">
             <img class="w-100" src="<?= get_template_directory_uri() . '/resources/admission/scolarship.jpg'  ?>" alt="">
         </div>
     </div>
@@ -40,14 +40,14 @@ include 'elements/nav-admission.php';
 
 <section class="container-fluid">
     <div class="row justify-content-center">
-        <div class="col-10">
+        <div class="col-lg-10 col-12">
             <div class="row">
                 <div class="col-12 fee-container">
                     <div class="row">
-                        <div class="col-2 fee-index">
+                        <div class="col-lg-2 col-12 p-b-md-30 fee-index">
                             Description and value of scolarships
                         </div>
-                        <div class="col-9 offset-1 p-b-20">
+                        <div class="col-lg-9 offset-lg-1 col-12 offset-0 p-b-20">
                             <p class="fee-p">
                                 The IST scholarships are awarded for a period of up to two years to students about to enter 11th grade. <br>
                                 the following scholarships are offered:
@@ -75,14 +75,14 @@ include 'elements/nav-admission.php';
 </section>
 <section class="container-fluid">
     <div class="row justify-content-center">
-        <div class="col-10">
+        <div class="col-lg-10 col-12">
             <div class="row">
                 <div class="col-12 fee-container">
                     <div class="row">
-                        <div class="col-2 fee-index">
+                        <div class="col-lg-2 col-12 p-b-md-30 fee-index">
                             Selection process
                         </div>
-                        <div class="col-9 offset-1 p-b-20">
+                        <div class="col-lg-9 offset-lg-1 col-12 offset-0 p-b-20">
                             <p class="fee-p">
                                 A maximum of three IST scholarships or bursaries may be awarded every year to current-IST-student candidates. A similar number will be awarded to students outside of the IST community.
                                 The selection process will include examinations, a formal interview, and a final selection by the IST Scholarship Committee of the IST School Board of Governors.
@@ -131,14 +131,14 @@ include 'elements/nav-admission.php';
 </section>
 <section class="container-fluid">
     <div class="row justify-content-center">
-        <div class="col-10">
+        <div class="col-lg-10 col-12">
             <div class="row">
                 <div class="col-12 fee-container">
                     <div class="row">
-                        <div class="col-2 fee-index">
+                        <div class="col-lg-2 col-12 p-b-md-30 fee-index">
                             Who is elegible to apply?
                         </div>
-                        <div class="col-9 offset-1 p-b-20">
+                        <div class="col-lg-9 offset-lg-1 col-12 offset-0 p-b-20">
                             <p class="fee-p">
                                 Students of all nationalities are invited to apply for an IST scholarship. Current students at IST with demonstrable financial difficulty are welcome to apply. A strong command of written and spoken English is essential. <br>
                                 It is the policy of the school that a family cannot receive more than 1 full scholarship at any given time. Students with other family members currently receiving scholarships may not be offered scholarships for the full two years of the award.
@@ -152,14 +152,14 @@ include 'elements/nav-admission.php';
 </section>
 <section class="container-fluid">
     <div class="row justify-content-center">
-        <div class="col-10">
+        <div class="col-lg-10 col-12">
             <div class="row">
                 <div class="col-12 fee-container">
                     <div class="row">
-                        <div class="col-2 fee-index">
+                        <div class="col-lg-2 col-12 p-b-md-30 fee-index">
                             Method of application
                         </div>
-                        <div class="col-9 offset-1 p-b-20">
+                        <div class="col-lg-9 offset-lg-1 offset-0 col-12 p-b-20">
                             <p class="fee-p">
                             All candidates should contact the school to receive an application package. <br>
                             The closing date for applications is Friday, February 11th, 2022. Applications received after this deadline will not be considered. <br>

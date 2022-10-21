@@ -5,9 +5,9 @@ include 'elements/nav-admission.php';
 
 <section class="container-fluid">
     <div class="row justify-content-center">
-        <div class="col-lg-10">
+        <div class="col-lg-10 col-12">
             <div class="row">
-                <div class="col-6 ist-par-about-1 p-b-60">
+                <div class="col-lg-6 col-12 ist-par-about-1 p-b-60">
                     <div class="collapse-container-single">
                         <div data-bs-toggle="collapse" href="#elementary-collapse-single" role="button" aria-expanded="false" aria-controls="elementary-collapse-single">
                             <div class="single-collapse-par">
@@ -32,7 +32,7 @@ include 'elements/nav-admission.php';
 </section>
 <section class="container-fluid p-l-20 p-r-20 p-b-60">
     <div class="row">
-        <div class="col-9">
+        <div class="col-lg-9 col-12">
             <img class="w-100" src="<?= get_template_directory_uri() . '/resources/admission/top-img-1.jpg'  ?>" alt="">
         </div>
     </div>
@@ -40,9 +40,9 @@ include 'elements/nav-admission.php';
 
 <section class="container-fluid p-b-60">
     <div class="row justify-content-center">
-        <div class="col-10">
+        <div class="col-lg-10 col-12">
             <div class="row">
-                <div class="col-6">
+                <div class="col-lg-6 col-12">
                     <div class="single-collapse-par">
                         All admissions decisions are made by the Principals in consultation with the Director and relevant academic staff.
                     </div>
@@ -55,12 +55,12 @@ include 'elements/nav-admission.php';
     <div class="row justify-content-center">
         <div class="col-10">
             <div class="row criteria-row">
-                <div class="col-3">
-                    <div class="criteria-title">
+                <div class="col-lg-3 col-12">
+                    <div class="criteria-title p-b-md-30">
                         Age criterion
                     </div>
                 </div>
-                <div class="col-9">
+                <div class="col-lg-9 col-12">
                     <p>
                         Students are be placed in grade levels by age. The cut-off date determining grade placement shall be September 30th, although exemptions may be considered for students demonstrating developmental readiness whose date of birth falls within seven days of the cut-off (i.e., 7 October). The minimum age for admission shall be two years and nine months. No student may be admitted who shall turn 20 years of age prior to the date of his or her graduation. The Director shall specify any exceptions.
                     </p>
@@ -82,12 +82,12 @@ include 'elements/nav-admission.php';
                 </div>
             </div>
             <div class="row criteria-row p-b-60">
-                <div class="col-3">
-                    <div class="criteria-title">
+                <div class="col-lg-3 col-12">
+                    <div class="criteria-title p-b-md-30">
                         Priority Admissions
                     </div>
                 </div>
-                <div class="col-9">
+                <div class="col-lg-9 col-12">
                     <p>
                         The school gives priority for admission within the following provisions:
                     </p>

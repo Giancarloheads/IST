@@ -73,7 +73,7 @@ include_once 'elements/nav-pages-infos.php';
                         </div>
                         <div class="collapse" id="beliefs-collapse-3">
                             <div class="beliefs-collapse-par">
-                                We all agree that the school and the family must work closely together to help each child achieve his or her unique potential. We help our students develop resilience and self-confidence, expecting them to be respectful of others and to recognize that everybody is entitled to his or her own point of view.
+                                For this reason, our students learn that they have a duty to the wider community and to the environment. They learn to take part in government, to give service to others, and to work towards a better and more peaceful world. They learn about our host country, China, embrace multilingualism, and reflect on how different people in the world can learn from each other. Our students learn to be honest, to persevere in everything they do, and to have the courage to defend their views while making informed and ethical choices as future leaders in our changing world.
                             </div>
                         </div>
                     </div>
@@ -102,7 +102,7 @@ include_once 'elements/nav-pages-infos.php';
         <div class="beliefs-slider-item">
             <div>
                 <div class="img-container" style="background-image:url(<?= get_template_directory_uri() . '/resources/about/slide-belief/belief-slider-1.jpg' ?>)"></div>
-                <div class="title">Friendly</div>
+                <div class="title" style="line-height:2;">Friendly</div>
                 <div class="par">
                     We approach uncertainty with forethought and determination; we work independently and cooperatively to explore new ideas and innovative strategies. We are resourceful and resilient in the face of challenges and change.
                 </div>
@@ -111,7 +111,7 @@ include_once 'elements/nav-pages-infos.php';
         <div class="beliefs-slider-item">
             <div>
                 <div class="img-container" style="background-image:url(<?= get_template_directory_uri() . '/resources/about/slide-belief/belief-slider-2.jpg' ?>)"></div>
-                <div class="title">Courageous</div>
+                <div class="title" style="line-height:2;">Courageous</div>
                 <div class="par">
                     We approach uncertainty with forethought and determination; we work independently and cooperatively to explore new ideas and innovative strategies. We are resourceful and resilient in the face of challenges and change.
                 </div>
@@ -120,7 +120,7 @@ include_once 'elements/nav-pages-infos.php';
         <div class="beliefs-slider-item">
             <div>
                 <div class="img-container" style="background-image:url(<?= get_template_directory_uri() . '/resources/about/slide-belief/belief-slider-3.jpg' ?>)"></div>
-                <div class="title">Inquirers</div>
+                <div class="title" style="line-height:2;">Inquirers</div>
                 <div class="par">
                     We approach uncertainty with forethought and determination; we work independently and cooperatively to explore new ideas and innovative strategies. We are resourceful and resilient in the face of challenges and change.
                 </div>
@@ -129,7 +129,7 @@ include_once 'elements/nav-pages-infos.php';
         <div class="beliefs-slider-item">
             <div>
                 <div class="img-container" style="background-image:url(<?= get_template_directory_uri() . '/resources/about/slide-belief/belief-slider-4.jpg' ?>)"></div>
-                <div class="title">Knowledgeable</div>
+                <div class="title" style="line-height:2;">Knowledgeable</div>
                 <div class="par">
                     We approach uncertainty with forethought and determination; we work independently and cooperatively to explore new ideas and innovative strategies. We are resourceful and resilient in the face of challenges and change.
                 </div>
@@ -138,7 +138,7 @@ include_once 'elements/nav-pages-infos.php';
         <div class="beliefs-slider-item">
             <div>
                 <div class="img-container" style="background-image:url(<?= get_template_directory_uri() . '/resources/about/slide-belief/belief-slider-5.jpg' ?>)"></div>
-                <div class="title"></div>
+                <div class="title">Thinkers</div>
                 <div class="par">
                     We approach uncertainty with forethought and determination; we work independently and cooperatively to explore new ideas and innovative strategies. We are resourceful and resilient in the face of challenges and change.
                 </div>
@@ -147,7 +147,7 @@ include_once 'elements/nav-pages-infos.php';
         <div class="beliefs-slider-item">
             <div>
                 <div class="img-container" style="background-image:url(<?= get_template_directory_uri() . '/resources/about/slide-belief/belief-slider-6.jpg' ?>)"> </div>
-                <div class="title">Friendly</div>
+                <div class="title" style="line-height:2;">Communicators</div>
                 <div class="par">
                     We approach uncertainty with forethought and determination; we work independently and cooperatively to explore new ideas and innovative strategies. We are resourceful and resilient in the face of challenges and change.
                 </div>
@@ -156,7 +156,7 @@ include_once 'elements/nav-pages-infos.php';
         <div class="beliefs-slider-item">
             <div>
                 <div class="img-container" style="background-image:url(<?= get_template_directory_uri() . '/resources/about/slide-belief/belief-slider-7.jpg' ?>)"> </div>
-                <div class="title">Friendly</div>
+                <div class="title"style="line-height:2;">Principled</div>
                 <div class="par">
                     We approach uncertainty with forethought and determination; we work independently and cooperatively to explore new ideas and innovative strategies. We are resourceful and resilient in the face of challenges and change.
                 </div>
@@ -165,7 +165,7 @@ include_once 'elements/nav-pages-infos.php';
         <div class="beliefs-slider-item">
             <div>
                 <div class="img-container" style="background-image:url(<?= get_template_directory_uri() . '/resources/about/slide-belief/belief-slider-8.jpg' ?>)"> </div>
-                <div class="title">Friendly</div>
+                <div class="title" style="line-height:2;">Open-Minded</div>
                 <div class="par">
                     We approach uncertainty with forethought and determination; we work independently and cooperatively to explore new ideas and innovative strategies. We are resourceful and resilient in the face of challenges and change.
                 </div>
@@ -174,7 +174,7 @@ include_once 'elements/nav-pages-infos.php';
         <div class="beliefs-slider-item">
             <div>
                 <div class="img-container" style="background-image:url(<?= get_template_directory_uri() . '/resources/about/slide-belief/belief-slider-9.jpg' ?>)"> </div>
-                <div class="title">Friendly</div>
+                <div class="title" style="line-height:2;">Caring</div>
                 <div class="par">
                     We approach uncertainty with forethought and determination; we work independently and cooperatively to explore new ideas and innovative strategies. We are resourceful and resilient in the face of challenges and change.
                 </div>
@@ -183,7 +183,7 @@ include_once 'elements/nav-pages-infos.php';
         <div class="beliefs-slider-item">
             <div>
                 <div class="img-container" style="background-image:url(<?= get_template_directory_uri() . '/resources/about/slide-belief/belief-slider-10.jpg' ?>)"> </div>
-                <div class="title">Friendly</div>
+                <div class="title" style="line-height:2;">Balanced</div>
                 <div class="par">
                     We approach uncertainty with forethought and determination; we work independently and cooperatively to explore new ideas and innovative strategies. We are resourceful and resilient in the face of challenges and change.
                 </div>
@@ -192,7 +192,7 @@ include_once 'elements/nav-pages-infos.php';
         <div class="beliefs-slider-item">
             <div>
                 <div class="img-container" style="background-image:url(<?= get_template_directory_uri() . '/resources/about/slide-belief/belief-slider-11.jpg' ?>)"> </div>
-                <div class="title">Friendly</div>
+                <div class="title" style="line-height:2;">Reflective</div>
                 <div class="par">
                     We approach uncertainty with forethought and determination; we work independently and cooperatively to explore new ideas and innovative strategies. We are resourceful and resilient in the face of challenges and change.
                 </div>
@@ -201,7 +201,7 @@ include_once 'elements/nav-pages-infos.php';
         <div class="beliefs-slider-item">
             <div>
                 <div class="img-container" style="background-image:url(<?= get_template_directory_uri() . '/resources/about/slide-belief/belief-slider-12.jpg' ?>)"> </div>
-                <div class="title">Friendly</div>
+                <div class="title">International <br> Mindedness</div>
                 <div class="par">
                     We approach uncertainty with forethought and determination; we work independently and cooperatively to explore new ideas and innovative strategies. We are resourceful and resilient in the face of challenges and change.
                 </div>

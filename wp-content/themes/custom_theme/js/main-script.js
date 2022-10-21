@@ -13,8 +13,13 @@ jQuery(document).ready(function ($) {
 
     $('#ham-btn').on('click', () => {
         var navMenu = $('#desktop-nav-menu');
+        let layover = $('.header-layover');
         if (!isMenuOpen) {
             navMenu.addClass('menu-open');
+            layover.css('display' , 'block');
+            layover.animate({
+                'opacity' : '.25'
+            },600);
             console.log('opening-menu');
             navMenu.animate({
                 'left': '29%',
@@ -35,7 +40,16 @@ jQuery(document).ready(function ($) {
 
     $('.close-ham-btn-container').on('click', function () {
         var navMenu = $('#desktop-nav-menu');
+        let layover = $('.header-layover');
+        
         if (isMenuOpen) {
+
+            layover.animate({
+                'opacity' : '0'
+            },600) , () => {
+                layover.css('display' , 'none');
+            };
+
             navMenu.animate({
                 'left': '97%',
                 'top': '20px',
@@ -351,21 +365,25 @@ jQuery(document).ready(function ($) {
     }
 
     var facilitiesCollapse = $('.top-building-collapse');
-    var isCollapseOpen = false;
     var beliefsCollapse = $('.beliefs-collapse');
     var accreditationCollapse = $('.accreditation-collapse');
     var elementaryCollapse = $('.elementary-collapse');
     var supportCollapse = $('.support-collapse');
     var programCollapse = $('.single-program-collapse');
     var safeguardCollapse = $('.safeguard-collapse');
+    
 
     facilitiesCollapse.on('click', function () {
-        if (!isCollapseOpen) {
-            $('.facilities-collapse-1-icon').attr('src', icons.minus);
-            isCollapseOpen = !isCollapseOpen;
+        let pos = $(this).attr('data-collapse-pos');
+        console.log(pos);
+        console.log($('#facilities-collapse-'+ pos + '-icon'));
+        let isOpen = $(this).find('div[data-bs-toggle]').hasClass('collapsed');
+        if (!isOpen) {
+            $('#facilities-collapse-'+ pos + '-icon').attr('src', icons.minus);
+            $(this).css('color' , '#CC0001');
         } else {
-            $('.facilities-collapse-1-icon').attr('src', icons.plus);
-            isCollapseOpen = !isCollapseOpen;
+            $('#facilities-collapse-'+ pos + '-icon').attr('src', icons.plus);
+            $(this).css('color' , '#000');
         }
     })
 
@@ -441,5 +459,18 @@ jQuery(document).ready(function ($) {
             $(this).find('.collapse-title-about').css('color', '#000000');
         }
     });
+
+
+    $('.team-collapse-btn').on('click' , function(){
+        isOpen = $(this).attr('aria-expanded');
+        console.log(isOpen);
+        if(isOpen == 'true'){
+            $(this).find('span').html('SEE LESS');
+            $(this).find('svg').css('transform' , 'rotate(-45deg)');
+        } else {
+            $(this).find('span').html('SEE MORE');
+            $(this).find('svg').css('transform' , 'rotate(135deg)');
+        }
+    })
 
 });

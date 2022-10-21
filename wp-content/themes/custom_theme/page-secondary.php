@@ -36,9 +36,9 @@ get_header();
                 <div class="col-lg-4 col-12 edu-box">
                     <div class="edu-content">
                         <div>
-                            <img class="edu-box-img" src="<?= get_template_directory_uri() . '/resources/education/edu-1.png' ?>" alt="">
+                            <img onload="SVGInject(this);" class="edu-box-img" src="<?= get_template_directory_uri() . '/resources/education/myp.svg' ?>" alt="">
                         </div>
-                        <a class="ist-cta" href="">
+                        <a class="ist-cta" href="<?= get_permalink(); ?>">
                             MYP
                             <img class="cta-black" onload="SVGInject(this); " src="<?= get_template_directory_uri() . '/resources/icons/arrow.svg' ?>" alt="">
                         </a>
@@ -53,7 +53,7 @@ get_header();
                 <div class="col-lg-4 col-12 edu-box">
                     <div class="edu-content">
                         <div>
-                            <img class="edu-box-img" src="<?= get_template_directory_uri() . '/resources/education/edu-1.png' ?>" alt="">
+                            <img onload="SVGInject(this);" class="edu-box-img" src="<?= get_template_directory_uri() . '/resources/education/dp.svg' ?>" alt="">
                         </div>
                         <a class="ist-cta" href="">
                             DP
@@ -203,12 +203,12 @@ get_header();
                         </p>
                     </div>
                     <div class="col-lg-6 col-12 order-1 order-lg-2">
-                        <img src="https://via.placeholder.com/800" alt="">
+                        <img src="<?= get_template_directory_uri() . '/resources/education/support.jpg' ?>" alt="">
                     </div>
                 </div>
                 <div class="row align-items-center programs-layout-row programs-last-lay-row">
                     <div class="col-lg-6 col-12">
-                        <img src="https://via.placeholder.com/800" alt="">
+                        <img src="<?= get_template_directory_uri() . '/resources/education/beyond-2.jpg'; ?>" alt="">
                     </div>
                     <div class="col-lg-6 col-12" style="padding:80px;">
                         <div class="title">

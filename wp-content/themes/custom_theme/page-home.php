@@ -110,7 +110,7 @@ get_header();
 </section>
 
 <!-- SLIDER CLASSI -->
-<section id="slider-classes-container" class="container-fluid p-t-40 p-b-100 d-lg-block d-none">
+<section id="slider-classes-container" class="container-fluid p-t-40 p-b-40 d-lg-block d-none">
     <div class="row justify-content-center">
         <div class="col-md-10 col-sm-11">
             <div class="row">

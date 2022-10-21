@@ -6,34 +6,54 @@ get_header();
 include_once 'elements/nav-campus.php';
 ?>
 
-<section class="container-fluid">
+<section class="container-fluid d-lg-block d-none">
     <div class="row">
         <div class="col-12 placeholder-3d-container">
             <img class="placeholder-3d" src="https://via.placeholder.com/1920x900/?text=placeholder_3d" alt="">
         </div>
     </div>
 </section>
-<section class="container-fluid p-t-80 ">
+<section class="container-fluid">
+    <div class="row">
+        <div class="col-12">
+            <img src="https://via.placeholder.com/500x800/?text=placeholder_3d" alt="">
+        </div>
+    </div>
+</section>
+<section class="container-fluid p-t-60">
     <div class="row justify-content-center">
-        <div class="col-10">
+        <div class="col-lg-10 col-12">
             <div class="row">
-                <div class="col-6">
-                    <div class="ist-subtitle-1 p-b-80">
-                        Accompanying IST’s dynamic curriculum development has been the construction and expansion of our world class, purpose-built school campus, the first in Tianjin. <br> The school is situated on approximately 7.2 hectares of park-like grounds and has 30,000 m2 of outstanding facilities for its academic, cultural and sporting programs. The school has two main buildings: the original 12,000 m2 ‘Qin’ Building and the new 18,000 m2 ‘Han’ Building.
+                <div class="col-lg-6 col-12 ist-par-about-1 p-b-60 p-b-md-0">
+                    <div class="collapse-container-single">
+                        <div data-bs-toggle="collapse" href="#elementary-collapse-single" role="button" aria-expanded="false" aria-controls="elementary-collapse-single">
+                            <div class="single-collapse-par">
+                            Accompanying IST’s dynamic curriculum development has been the construction and expansion of our world class, purpose-built school campus, the first in Tianjin.
+                        </div>
+                    </div>
+                    <div class="collapse" id="elementary-collapse-single">
+                        <div class="beliefs-collapse-par single-collapse-par">
+                                The school is situated on approximately 7.2 hectares of park-like grounds and has 30,000 m2 of outstanding facilities for its academic, cultural and sporting programs. The school has two main buildings: the original 12,000 m2 ‘Qin’ Building and the new 18,000 m2 ‘Han’ Building.
+                            </div>
+                        </div>
+                        <div class="single-collapse-trigger d-flex align-items-center" data-bs-toggle="collapse" href="#elementary-collapse-single" role="button" aria-expanded="false" aria-controls="elementary-collapse-single">
+                            Read more
+                            <img class="collapse-single-svg-plus" onload="SVGInject(this); " src="<?= get_template_directory_uri() . '/resources/icons/plus.svg' ?>" alt="">
+                            <img class="collapse-single-svg-minus" onload="SVGInject(this);" src="<?= get_template_directory_uri() . '/resources/icons/minus.svg' ?>" alt="">
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-        <hr style="width:calc(100vw - 80px); margin:auto;">
     </div>
 </section>
-<section class="container-fluid p-l-20 p-r-20 p-t-80 p-b-80">
+<section class="container-fluid p-l-20 p-r-20 p-t-80 p-b-80 p-b-md-0">
     <div class="row align-items-center p-b-80">
-        <div class="col-6">
+        <div class="col-lg-6 col-12">
             <img class="w-100" src="<?= get_template_directory_uri() . '/resources/campus/facilities_1.jpg' ?>" alt="">
         </div>
-        <div class="col-4 offset-1">
-            <div class="ist-section-title-2 p-b-25">THE HAN BUILDING</div>
+        <div class="col-lg-4 offset-lg-1 col-12 offset-0">
+            <div class="ist-section-title-2 p-b-25 p-t-md-25" style="font-weight:300;margin-right:-50px;">THE HAN BUILDING</div>
             <div class="ist-caption-1">
                 The Han Building was completed in 2011 and has established a reputation in Tianjin and beyond for its stunning architecture.
                 The design celebrates the use of natural light, space, and color and provides an inspiring and calming oasis beyond the bustle of life in a city of 12 million people.
@@ -42,19 +62,19 @@ include_once 'elements/nav-campus.php';
         </div>
     </div>
     <div class="row justify-content-center">
-        <div class="col-10">
-            <div class="top-building-collapse">
-                <div class="d-flex justify-content-between align-items-center" data-bs-toggle="collapse" href="#collapse-top-building" role="button" aria-expanded="false" aria-controls="collapse-top-building">
+        <div class="col-lg-10 col-12">
+            <div class="top-building-collapse" data-collapse-pos="1">
+                <div class="d-flex justify-content-between align-items-center" data-bs-toggle="collapse" href="#collapse-top-building-1" role="button" aria-expanded="false" aria-controls="collapse-top-building-1">
                     <div>
                         What the Han Building includes
                     </div>
-                    <div>
-                        <img id="facilities-collapse-1-icon" style="width:20px; height:20px;" onload="SVGInject(this)" src="<?= get_template_directory_uri() . '/resources/icons/plus_collapse.svg' ?>" alt="">
+                    <div class="d-flex justify-content-center align-items-center">
+                        <img id="facilities-collapse-1-icon" style="width:20px; height:20px;" src="<?= get_template_directory_uri() . '/resources/icons/plus_collapse.svg' ?>" alt="">
                     </div>
                 </div>
-                <div class="collapse" id="collapse-top-building">
+                <div class="collapse" id="collapse-top-building-1">
                     <div>
-                        <ul>
+                        <ul class="p-b-md-30">
                             <li>
                                 <span>
                                     Main and secondary administrative offices
@@ -115,31 +135,31 @@ include_once 'elements/nav-campus.php';
     </div>
 </section>
 
-<section class="container-fluid p-l-20 p-r-20 p-t-80 p-b-80">
-    <div class="row align-items-center p-b-80">
-        <div class="col-4">
-            <div class="ist-section-title-2 p-b-25">THE QIN BUILDING</div>
+<section class="container-fluid p-l-20 p-r-20 p-t-80 p-b-80 p-b-md-0">
+    <div class="row align-items-center justify-content-center p-b-80">
+        <div class="offset-lg-1 col-lg-4 offset-0 col-12 order-2 order-lg-1">
+            <div class="ist-section-title-2 p-b-25 p-t-md-25" style="font-weight:300;margin-right:-50px;">THE QIN BUILDING</div>
             <div class="ist-caption-1">
                 The original Qin Building was completed in 2001 and was fully renovated in 2012.
                 Its architectual design celebrates natural light, internal gardens, a vibrant color scheme, and shared spaces for student learning and collaboration. The Qin Building is primarily dedicated to the elementary school but also houses school-wide facilities ensuring that students across the KG 1 (Nursery) to Grade 12 (Year 13) age spectrum have opportunities to come together as one school.
             </div>
         </div>
-        <div class="col-6 offset-1">
+        <div class="col-lg-6 offset-lg-1 offset-0 order-1 order-lg-2 col-12">
             <img class="w-100" src="<?= get_template_directory_uri() . '/resources/campus/facilities_1.jpg' ?>" alt="">
         </div>
     </div>
     <div class="row justify-content-center">
-        <div class="col-10">
-            <div class="top-building-collapse">
-                <div class="d-flex justify-content-between align-items-center" data-bs-toggle="collapse" href="#collapse-top-building" role="button" aria-expanded="false" aria-controls="collapse-top-building">
+        <div class="col-lg-10 col-12">
+            <div class="top-building-collapse" data-collapse-pos="2">
+                <div class="d-flex justify-content-between align-items-center" data-bs-toggle="collapse" href="#collapse-top-building-2" role="button" aria-expanded="false" aria-controls="collapse-top-building-2">
                     <div>
                         What the Qin Building includes
                     </div>
-                    <div>
-                        <img id="facilities-collapse-1-icon" style="width:20px; height:20px;" onload="SVGInject(this)" src="<?= get_template_directory_uri() . '/resources/icons/plus_collapse.svg' ?>" alt="">
+                    <div class="d-flex justify-content-center align-items-center">
+                        <img id="facilities-collapse-2-icon" style="width:20px; height:20px;" src="<?= get_template_directory_uri() . '/resources/icons/plus_collapse.svg' ?>" alt="">
                     </div>
                 </div>
-                <div class="collapse" id="collapse-top-building">
+                <div class="collapse" id="collapse-top-building-2">
                     <div>
                         <ul>
                             <li>
@@ -202,22 +222,87 @@ include_once 'elements/nav-campus.php';
     </div>
 </section>
 
-<style>
-    .placeholder-3d-container {
-        width: 100%;
-        height: 80vh;
-        padding-left: 20px;
-        padding-right: 20px;
-    }
+<section class="container-fluid p-l-20 p-r-20 p-t-80 p-b-80">
+    <div class="row align-items-center p-b-80">
+        <div class="col-lg-6 col-12">
+            <img class="w-100" src="<?= get_template_directory_uri() . '/resources/campus/campus-ground.jpg' ?>" alt="">
+        </div>
+        <div class="col-lg-4 offset-lg-1 col-12 offset-0">
+            <div class="ist-section-title-2 p-b-25 p-t-md-30" style="font-weight:300;margin-right:-50px;">THE CAMPUS GROUNDS</div>
+            <div class="ist-caption-1">
+                IST’s magnificent buildings are designed to ensure that virtually every classroom window looks directly into either an internal garden or the school’s extensive park-like grounds and outdoor recreational spaces.
+            </div>
+        </div>
+    </div>
+    <div class="row justify-content-center">
+        <div class="col-lg-10 col-12">
+            <div class="top-building-collapse" data-collapse-pos="3">
+                <div class="d-flex justify-content-between align-items-center" data-bs-toggle="collapse" href="#collapse-top-building-3" role="button" aria-expanded="false" aria-controls="collapse-top-building-3">
+                    <div>
+                        What the campus ground includes
+                    </div>
+                    <div class="d-flex justify-content-center align-items-center">
+                        <img id="facilities-collapse-3-icon" style="width:20px; height:20px;" src="<?= get_template_directory_uri() . '/resources/icons/plus_collapse.svg' ?>" alt="">
+                    </div>
+                </div>
+                <div class="collapse" id="collapse-top-building-3">
+                    <div>
+                        <ul>
+                            <li>
+                                <span>
+                                    Eight delightful internal gardens and play areas
+                                </span>
+                            </li>
+                            <li>
+                                <span>
+                                    A central, full-sized, FIFA recognized artificial soccer pitch
+                                </span>
+                            </li>
+                            <li>
+                                <span>
+                                    A FIFA recognized artificial soccer pitch
+                                </span>
+                            </li>
+                            <li>
+                                <span>    
+                                    A 400m running track
+                                </span>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>
+                                <span>
+                                    An additional full-sized grass field
+                                </span>
+                            </li>
+                            <li>
+                                <span>    
+                                    Multiple outdoor basketball courts
+                                </span>
+                            </li>
+                            <li>
+                                <span>
+                                    A range of outdoor pplay, spaces and equipment
+                                </span>
+                            </li>
+                            <li>
+                                <span>
+                                    Extensive wooded area, pathways, and gardens
+                                </span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
-    .placeholder-3d {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-    }
-</style>
+
 
 
 <?php
-get_footer();
+    include 'elements/section-related.php';
+    include 'elements/about-pre-footer.php';
+    get_footer();
 ?>

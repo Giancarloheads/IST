@@ -23,7 +23,7 @@ include 'elements/nav-pages-programs.php';
             <div class="col-12">
                 <div class="row align-items-center programs-layout-row" style="border:none; border-top:1px solid #C0C0C0;padding-top:120px;padding-bottom:0;">
                     <div class="col-lg-6 p-0 col-12">
-                        <img src="https://via.placeholder.com/1000x700" alt="">
+                        <img src="<?= get_template_directory_uri() . '/resources/education/ela.jpg'; ?>" alt="">
                     </div>
                     <div class="col-lg-5 col-12" style="padding:80px;">
                         <div class="title">
@@ -127,7 +127,7 @@ include 'elements/nav-pages-programs.php';
         <div class="row justify-content-center align-items-center">
             <div class="col-12">
                 <div class="row align-items-center programs-layout-row" style="border:none; border-top:1px solid #C0C0C0;padding-top:120px;padding-bottom:0;">
-                    <div class="col-lg-5 col-12 offset-1" style="padding:80px;">
+                    <div class="col-lg-6 col-12" style="padding:80px;padding-right:150px;">
                         <div class="title">
                             INDIVIDUAL NEEDS PROGRAM
                         </div>
@@ -136,7 +136,7 @@ include 'elements/nav-pages-programs.php';
                         </p>
                     </div>
                     <div class="col-lg-6 p-0 col-12">
-                        <img src="https://via.placeholder.com/1000x700" alt="">
+                        <img src="<?= get_template_directory_uri() . '/resources/education/individual.jpg' ?>" alt="">
                     </div>
                 </div>
             </div>
@@ -231,7 +231,7 @@ include 'elements/nav-pages-programs.php';
             <div class="col-12">
                 <div class="row align-items-center programs-layout-row" style="border:none; border-top:1px solid #C0C0C0;padding-top:120px;padding-bottom:0;">
                     <div class="col-lg-6 p-0 col-12">
-                        <img src="https://via.placeholder.com/1000x700" alt="">
+                        <img src="<?= get_template_directory_uri() . '/resources/education/counseling.jpg'; ?>" alt="">
                     </div>
                     <div class="col-lg-5 col-12" style="padding:80px;">
                         <div class="title">

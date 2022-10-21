@@ -1,4 +1,4 @@
-<section class="container-fluid p-t-60 p-b-60" style="background-color:#F5F5F5;">
+<section class="container-fluid p-t-60 p-b-60">
     <div class="row">
         <div class="col-12">
             <div class="ist-about-title" style="padding-left:calc(100% / 12)">EXPLORE MORE</div>
@@ -19,12 +19,12 @@ $pages = get_posts($args);
 
 
 ?>
-<div class="related-slider-container p-b-60" style="background-color:#F5F5F5!important;">
+<div class="related-slider-container p-b-60" style="position:relative;">
     <div class="related-slider">
         <?php
         foreach ($pages as $key => $p) :
         ?>
-            <div class="p-10">
+            <div class="p-10" style="position:relative;">
                 <!-- background-image: url('<?php /* get_the_post_thumbnail_url($p) */; ?>') -->
                 <a class="related-item" href="<?= get_permalink($p -> ID); ?>">
                 <div class="related-img" style="background-image:url('<?= get_template_directory_uri() . '/resources/img/placeholder.jpg'; ?>'); background-position:center; background-size:cover;background-repeat:no-repeat;"></div>

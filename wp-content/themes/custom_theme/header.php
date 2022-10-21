@@ -25,6 +25,7 @@
 <body <?php body_class(); ?>>
 	<?php wp_body_open(); ?>
 	<div id="page" class="site">
+		<div class="header-layover"></div>
 		<header class="<?= get_the_ID() != 7  ? 'blured' : '' ?>">
 			<div class="container-fluid p-l-20 p-r-20">
 				<div class="row justify-content-center">
@@ -95,58 +96,56 @@
 							<div class="row link-lists-header">
 								<div class="col-4">
 									<ul>
-										<li>
-											<a style="font-size:20px; font-weight:500;" href="">
+										<li style="font-size:20px; font-weight:500;">
 												PROGRAMS
-											</a>
 										</li>
 										<li>
-											<a style="font-size:20px; font-weight:500;" href="">
+											<a class="<?= get_the_ID() == 23 ? 'active-link' : '';  ?>" style="font-size:20px; font-weight:500;" href="<?= get_permalink(23); ?>">
 												Overview
 											</a>
 										</li>
 										<li>
-											<a style="font-size:20px; font-weight:500;" href="">
+											<a class="<?= get_the_ID() == 35 ? 'active-link' : ''; ?>" style="font-size:20px; font-weight:500;" href="<?= get_permalink(35); ?>">
 												Elementary Education
 											</a>
 										</li>
 										<li>
-											<a href="">
+											<a class="<?= get_the_ID() == 144 ? 'active-link' : ''; ?>" href="<?= get_permalink(144); ?>">
 												Baby Dragon Playgroup <br>
 												0 - 3 years
 											</a>
 										</li>
 										<li>
-											<a href="">
-												Baby Dragon Playgroup <br>
-												0 - 3 years
+											<a class="<?= get_the_ID() == 145 ? 'active-link' : ''; ?>" href="<?= get_permalink(145); ?>">
+												PYP Early Years<br>
+												KG1 - KG2
 											</a>
 										</li>
 										<li>
-											<a href="">
-												Baby Dragon Playgroup <br>
-												0 - 3 years
+											<a class="<?= get_the_ID() == 143 ? 'active-link' : ''; ?>" href="<?= get_permalink(143); ?>">
+												PYP <br>
+												KG3 - Grade 5
 											</a>
 										</li>
 										<li>
-											<a style="font-size:20px; font-weight:500;" href="">
+											<a class="<?= get_the_ID() == 37 ? 'active-link' : ''; ?>" style="font-size:20px; font-weight:500;" href="<?= get_permalink(37); ?>">
 												Secondary Education
 											</a>
 										</li>
 										<li>
-											<a href="">
+											<a class="<?= get_the_ID() == 146 ? 'active-link' : ''; ?>" href="<?= get_permalink(146); ?>">
 												MYP Grades <br>
 												6 - 10
 											</a>
 										</li>
 										<li>
-											<a href="">
+											<a class="<?= get_the_ID() == 147 ? 'active-link' : ''; ?>" href="<?= get_permalink(147); ?>">
 												DP Grades <br>
 												11 - 12
 											</a>
 										</li>
 										<li>
-											<a style="font-size:20px; font-weight:500;" href="">
+											<a class="<?= get_the_ID() == 39 ? 'active-link' : ''; ?>" style="font-size:20px; font-weight:500;" href="<?= get_permalink(39); ?>">
 												Learning support
 											</a>
 										</li>
@@ -205,17 +204,17 @@
 											CAMPUS
 										</li>
 										<li>
-											<a href="<?= get_permalink(108); ?>">
+											<a class="<?= get_the_ID() == 108 ? 'active-link' : ''; ?>" href="<?= get_permalink(108); ?>">
 												Facilities
 											</a>
 										</li>
 										<li>
-											<a href="<?= get_permalink(111); ?>">
+											<a class="<?= get_the_ID() == 111 ? 'active-link' : ''; ?>" href="<?= get_permalink(111); ?>">
 												School Services
 											</a>
 										</li>
 										<li>
-											<a href="<?= get_permalink(113); ?>">
+											<a class="<?= get_the_ID() == 113 ? 'active-link' : ''; ?>" href="<?= get_permalink(113); ?>">
 												Safeguarding
 											</a>
 										</li>
@@ -225,23 +224,23 @@
 											ADMISSION
 										</li>
 										<li>
-											<a href="">
+											<a class="<?= get_the_ID() == 158 ? 'active-link' : ''; ?>" href="<?= get_permalink(158); ?>">
 												Selection Activities
 											</a>
 										</li>
 										<li>
-											<a href="">
+											<a class="<?= get_the_ID() == 164 ? 'active-link' : ''; ?>" href="<?= get_permalink(164); ?>">
 												Application forms
 											</a>
 										</li>
 										<li>
-											<a href="">
+											<a class="<?= get_the_ID() == 160 ? 'active-link' : ''; ?>" href="<?= get_permalink(160); ?>">
 												Fees
 											</a>
 										</li>
 										<li>
-											<a href="">
-												Scolarships
+											<a class="<?= get_the_ID() == 162 ? 'active-link' : ''; ?>" href="<?= get_permalink(162); ?>">
+												Scholarships
 											</a>
 										</li>
 									</ul>
@@ -252,23 +251,23 @@
 											COMMUNITY
 										</li>
 										<li>
-											<a href="">
+											<a class="<?= get_the_ID() == 178 ? 'active-link' : ''; ?>" href="<?= get_permalink(178); ?>">
 												Students
 											</a>
 										</li>
 										<li>
-											<a href="">
+											<a class="<?= get_the_ID() == 171 ? 'active-link' : ''; ?>" href="<?= get_permalink(171); ?>">
 												Team
 											</a>
 										</li>
 										<li>
-											<a href="">
+											<a class="<?= get_the_ID() == 174 ? 'active-link' : ''; ?>" href="<?= get_permalink(174); ?>">
 												Parent Faculty Organization
 											</a>
 										</li>
 										<li>
-											<a href="">
-												Alunni
+											<a class="<?= get_the_ID() == 176 ? 'active-link' : ''; ?>" href="<?= get_permalink(176); ?>">
+												Alumni
 											</a>
 										</li>
 									</ul>
@@ -332,7 +331,7 @@
 					<div class="collapse" id="collapse-program">
 						<ul class="link-list-mobile-nav">
 							<li>
-								<a href="">Overview</a>
+								<a class="<?= get_the_ID() == 23 ? 'active-link' : ''; ?>" href="<?= get_permalink(23); ?>">Overview</a>
 							</li>
 							<li class="collapse-2-container" data-bs-toggle="collapse" href="#collapse-elementary" role="button" aria-expanded="false" aria-controls="collapse-elementary">
 								Elementary Education
@@ -343,17 +342,17 @@
 								<div>
 									<ul>
 										<li>
-											<a href="">
+											<a class="<?= get_the_ID() == 144 ? 'active-link' : ''; ?>" href="<?= get_permalink(144); ?>">
 												Baby Dragon Playground 0 - 3 years
 											</a>
 										</li>
 										<li>
-											<a href="">
+											<a class="<?= get_the_ID() == 145 ? 'active-link' : ''; ?>" href="<?= get_permalink(145); ?>">
 												PYP Early Years KG1 - KG2
 											</a>
 										</li>
 										<li>
-											<a href="">
+											<a class="<?= get_the_ID() == 143 ? 'active-link' : ''; ?>" href="<?= get_permalink(143); ?>">
 												PYP KG3 - Grade 5
 											</a>
 										</li>
@@ -368,19 +367,19 @@
 							<li class="collapse-links-container collapse" id="collapse-secondary">
 								<ul>
 									<li>
-										<a href="">
+										<a class="<?= get_the_ID() == 146 ? 'active-link' : ''; ?>" href="<?= get_permalink(146); ?>">
 											MYP Grades 6 - 10
 										</a>
 									</li>
 									<li>
-										<a href="">
+										<a class="<?= get_the_ID() == 147 ? 'active-link' : ''; ?>" href="<?= get_permalink(147); ?>">
 											DP Grades 11 - 12
 										</a>
 									</li>
 								</ul>
 							</li>
 							<li>
-								<a href="<?= get_permalink(15); ?>">Learning support</a>
+								<a class="<?= get_the_ID() == 39 ? 'active-link' : ''; ?>" href="<?= get_permalink(39); ?>">Learning support</a>
 							</li>
 						</ul>
 					</div>
@@ -395,20 +394,15 @@
 				<div class="collapse collapse-links-container" id="collapse-about">
 					<ul class="link-list-mobile-nav">
 						<li>
-							<a href="<?= get_permalink(11); ?>">History</a>
+							<a class="<?= get_the_ID() == 11 ? 'active-link' : ''; ?>" href="<?= get_permalink(11); ?>">History</a>
 						</li>
 						<li>
-							<a href="">
-								Governance
-							</a>
-						</li>
-						<li>
-							<a href="<?= get_permalink(13); ?>">
+							<a class="<?= get_the_ID() == 13 ? 'active-link' : ''; ?>" href="<?= get_permalink(13); ?>">
 								Beliefs & Values
 							</a>
 						</li>
 						<li>
-							<a href="<?= get_permalink(15); ?>">
+							<a class="<?= get_the_ID() == 15 ? 'active-link' : ''; ?>" href="<?= get_permalink(15); ?>">
 								Accreditation
 							</a>
 						</li>
@@ -424,17 +418,17 @@
 				<div class="collapse" id="collapse-campus">
 					<ul class="link-list-mobile-nav">
 						<li>
-							<a href="<?= get_permalink(108); ?>">
+							<a class="<?= get_the_ID() == 108 ? 'active-lik' :  ''; ?>" href="<?= get_permalink(108); ?>">
 								Facilities
 							</a>
 						</li>
 						<li>
-							<a href="<?= get_permalink(111); ?>">
+							<a class="<?= get_the_ID() == 111 ? 'active-link' : ''; ?>" href="<?= get_permalink(111); ?>">
 								School Services
 							</a>
 						</li>
 						<li>
-							<a href="<?= get_permalink(113); ?>">
+							<a class="<?= get_the_ID() == 113 ? 'active-link' : ''; ?>" href="<?= get_permalink(113); ?>">
 								Safeguarding
 							</a>
 						</li>
@@ -481,22 +475,22 @@
 				<div class="collapse" id="collapse-admission">
 					<ul class="link-list-mobile-nav">
 						<li>
-							<a href="#">
+							<a class="<?= get_the_ID() == 158 ? 'active-link' : ''; ?>" href="<?= get_permalink(158); ?>">
 								Selection policies
 							</a>
 						</li>
 						<li>
-							<a href="#">
+							<a class="<?= get_the_ID() == 164 ? 'active-link' : ''; ?>" href="<?= get_permalink(164); ?>">
 								Application forms
 							</a>
 						</li>
 						<li>
-							<a href="#">
+							<a class="<?= get_the_ID() == 160 ? 'active-link' : ''; ?>" href="<?= get_permalink(160); ?>">
 								Fees
 							</a>
 						</li>
 						<li>
-							<a href="#">
+							<a class="<?= get_the_ID() == 162 ? 'active-link' : ''; ?>" href="<?= get_permalink(162); ?>">
 								Scholarship
 							</a>
 						</li>
@@ -512,23 +506,23 @@
 				<div class="collapse" id="collapse-community">
 					<ul class="link-list-mobile-nav">
 						<li>
-							<a href="#">
+							<a class="<?= get_the_ID() == 178 ? 'active-link' : ''; ?>" href="<?= get_permalink(178); ?>">
 								Students
 							</a>
 						</li>
 						<li>
-							<a href="#">
+							<a class="<?= get_the_ID() == 171 ? 'active-link' : ''; ?>" href="<?= get_permalink(171); ?>">
 								Team
 							</a>
 						</li>
 						<li>
-							<a href="#">
+							<a class="<?= get_the_ID() == 174 ? 'active-link' : ''; ?>" href="<?= get_permalink(174); ?>">
 								Parent Faculty Organization
 							</a>
 						</li>
 						<li>
-							<a href="#">
-								Alunni
+							<a class="<?= get_the_ID() == 176 ? 'active-link' : ''; ?>" href="<?= get_permalink(176); ?>">
+								Alumni
 							</a>
 						</li>
 					</ul>

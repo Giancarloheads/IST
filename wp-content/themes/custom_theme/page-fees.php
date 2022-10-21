@@ -5,7 +5,7 @@ include 'elements/nav-admission.php';
 
 <section class="container-fluid p-b-60">
     <div class="row justify-content-center">
-        <div class="col-10">
+        <div class="col-lg-10 col-12">
             <div class="row">
                 <div class="col-12 fee-title p-b-20">
                     Registration Fee
@@ -26,18 +26,18 @@ include 'elements/nav-admission.php';
 </section>
 <section class="container-fluid">
     <div class="row justify-content-center">
-        <div class="col-10">
+        <div class="col-lg-10 col-12">
             <div class="row">
                 <div class="col-12 fee-title p-b-20">
                     Tuition Fees
                 </div>
                 <div class="col-12 fee-container">
                     <div class="row">
-                        <div class="col-2 fee-index">
+                        <div class="col-lg-2 col-12 fee-index p-b-md-30">
                             Component A: <br>
                             Non-refundable
                         </div>
-                        <div class="col-9 offset-1 p-b-20">
+                        <div class="col-lg-9 offset-lg-1 col-12 offset-0 p-b-20">
                             <div class="d-flex justify-content-between">
                                 <div class="d-flex flex-column align-items-start justify-content-start">
                                     <div class="fee-subtitle">
@@ -98,15 +98,15 @@ include 'elements/nav-admission.php';
 </section>
 <section class="container-fluid">
     <div class="row justify-content-center">
-        <div class="col-10">
+        <div class="col-lg-10 col-12">
             <div class="row">
                 <div class="col-12 fee-container">
                     <div class="row">
-                        <div class="col-2 fee-index">
+                        <div class="col-lg-2 col-12 fee-index p-b-md-30">
                             Component B: <br>
                             Pro-Rated
                         </div>
-                        <div class="col-9 offset-1 p-b-20">
+                        <div class="col-lg-9 offset-lg-1 col-12 offset-0 p-b-20">
                             <div class="d-flex justify-content-between">
                                 <div class="d-flex flex-column align-items-start justify-content-start">
                                     <div class="fee-subtitle">
@@ -200,15 +200,15 @@ include 'elements/nav-admission.php';
 </section>
 <section class="container-fluid">
     <div class="row justify-content-center">
-        <div class="col-10">
+        <div class="col-lg-10 col-12">
             <div class="row">
                 <div class="col-12 fee-container">
                     <div class="row">
-                        <div class="col-2 fee-index">
+                        <div class="col-lg-2 col-12 fee-index p-b-md-30">
                             Component C: <br>
                             Pro-Rated
                         </div>
-                        <div class="col-9 offset-1 p-b-20">
+                        <div class="col-lg-9 offset-lg-1 col-12 p-b-20">
                             <div class="d-flex justify-content-between">
                                 <div class="d-flex flex-column align-items-start justify-content-start">
                                     <div class="fee-subtitle">
@@ -244,16 +244,16 @@ include 'elements/nav-admission.php';
 </section>
 <section class="container-fluid">
     <div class="row justify-content-center">
-        <div class="col-10">
+        <div class="col-lg-10 col-12">
             <div class="row">
                 <div class="col-12 fee-container">
                     <div class="row">
-                        <div class="col-2 fee-index">
+                        <div class="col-lg-2 col-12 fee-index p-b-md-30">
                             Total Tuition Fees: <br>
                             Component A + B <br>
                             (exclusice of registration fees for new students and mother tongue fee)
                         </div>
-                        <div class="col-9 offset-1 p-b-20">
+                        <div class="col-lg-9 col-12 offset-lg-1 offset-0 p-b-20">
                             <div class="d-flex justify-content-between">
                                 <div class="d-flex flex-column align-items-start justify-content-start">
                                     <div class="fee-subtitle">
@@ -347,14 +347,15 @@ include 'elements/nav-admission.php';
 </section>
 <section class="container-fluid">
     <div class="row justify-content-center">
-        <div class="col-10">
+        <div class="col-lg-10 col-12">
             <div class="row">
                 <div class="col-12 fee-container">
                     <div class="row">
-                        <div class="col-2 fee-index">
-                            IB Diploma Exam Fee payable to IBO* (based on IB subjects opted for by the students)
+                        <div class="col-lg-2 col-12 fee-index p-b-md-30">
+                            IB Diploma Exam Fee payable to IBO* <br>
+                            (based on IB subjects opted for by the students)
                         </div>
-                        <div class="col-9 offset-1 p-b-20">
+                        <div class="col-lg-9 offset-lg-1 col-12 offset-0 p-b-20">
                             <div class="d-flex justify-content-between">
                                 <div class="d-flex flex-column align-items-start justify-content-start">
                                     <div class="fee-subtitle">
@@ -377,12 +378,12 @@ include 'elements/nav-admission.php';
 </section>
 <section class="container-fluid p-t-120 p-b-120">
     <div class="row justify-content-center">
-        <div class="col-10">
+        <div class="col-lg-10 col-12">
             <div class="row justify-content-center">
                 <div class="col-12">
                     <h1 style="color:#000!important;" class="text-center">WANT MORE INFO?</h1>
                 </div>
-                <div class="col-6 d-flex align-items-center justify-content-center p-t-60">
+                <div class="col-lg-6 col-10 d-flex align-items-center justify-content-center p-t-60">
                     <a href="#" class="cta-red">CONTACT US<img onload="SVGInject(this);" src="<?= get_template_directory_uri()  . '/resources/icons/arrow.svg'; ?>" alt=""> </a>
                 </div>
             </div>
@@ -391,14 +392,14 @@ include 'elements/nav-admission.php';
 </section>
 <section class="container-fluid">
     <div class="row justify-content-center">
-        <div class="col-10">
+        <div class="col-lg-10 col-12">
             <div class="row">
                 <div class="col-12 fee-container">
                     <div class="row">
-                        <div class="col-2 fee-index">
+                        <div class="col-lg-2 col-12 fee-index p-b-md-30">
                             Component Fees
                         </div>
-                        <div class="col-9 offset-1 p-b-20">
+                        <div class="col-lg-9 offset-lg-1 col-12 offset-0 p-b-20">
                             <ul class="fee-unlist">
                                 <li class="fee-p">
                                     The Component A Fee is an annual charge and is therefore not pro-rated and is non-refundable. The only exceptions to this policy relate to the pro-rating of the Component A Fee for students leaving in the first quarter of the school year or for students enrolling in the final quarter of the school year when this period of admission is stipulated in advance. The Component A Fee is intended to support the ongoing maintenance and capital improvement of the school.
@@ -416,14 +417,14 @@ include 'elements/nav-admission.php';
 </section>
 <section class="container-fluid">
     <div class="row justify-content-center">
-        <div class="col-10">
+        <div class="col-lg-10 col-12">
             <div class="row">
                 <div class="col-12 fee-container">
                     <div class="row">
-                        <div class="col-2 fee-index">
+                        <div class="col-lg-2 col-12 fee-index p-b-md-30">
                             Payment guidelines
                         </div>
-                        <div class="col-9 offset-1 p-b-20">
+                        <div class="col-lg-9 offset-lg-1 col-12 offset-0 p-b-20">
                             <ul class="fee-unlist">
                                 <li class="fee-p">
                                     Invoices for students enrolled for the 2022/2023 school year will be sent to paying parties around mid-May 2022.
@@ -453,14 +454,14 @@ include 'elements/nav-admission.php';
 </section>
 <section class="container-fluid">
     <div class="row justify-content-center">
-        <div class="col-10">
+        <div class="col-lg-10 col-12">
             <div class="row">
                 <div class="col-12 fee-container">
                     <div class="row">
-                        <div class="col-2 fee-index">
+                        <div class="col-lg-2 col-12 fee-index p-b-md-30">
                             Refunds of tuition and fees
                         </div>
-                        <div class="col-9 offset-1 p-b-20">
+                        <div class="col-lg-9 offset-lg-1 col-12 offset-0 p-b-20">
                             <p class="fee-p">
                                 No refunds will be made for registration and Component A Fee. However, Component A Fee already paid for a student in a given school year may be transferred to a new student from the same company or family so long as the new student is enrolled after the departure of the leaving student. Under normal circumstances, the Component B Fee will be refunded on a pro-rated basis within the first week of the commencement of a quarter (as defined in the school calendar). For students leaving the school after the end of the first week of a quarter, no refunds will be made for the Component B Fee pertaining to that quarter. However, the Component B Fee pertaining to the remainder of that quarter may be transferred to a new student, as with the Component A Fee transfers. The Component B Fee pertaining to subsequent quarter/s, if already paid to the school, will be refunded in full. 
                             </p>

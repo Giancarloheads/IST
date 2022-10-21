@@ -212,4 +212,18 @@ jQuery(document).ready(function ($) {
             'nextArrow' : document.getElementsByClassName('program-slider-next'),
         });
     }
+
+    /* const SLIDER_NAV_ADMISSION_MOBILE = $('.slider-nav-admission-mob');
+    if(SLIDER_NAV_ADMISSION_MOBILE){
+        SLIDER_NAV_ADMISSION_MOBILE.slick({
+            variableWidth : true,
+            'infinite' :  false,
+            'autoplay' : false,
+            'dots' : false,
+            'arrows' : false,
+            'slidesToShow' : 2,
+            'slidesToScroll' : 1,
+            'swipe' : true,
+        })
+    } */
 });
