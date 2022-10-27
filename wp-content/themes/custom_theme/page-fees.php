@@ -11,11 +11,11 @@ include 'elements/nav-admission.php';
                     Registration Fee
                 </div>
                 <div class="col-12">
-                    <div class="d-flex align-items-center justify-content-between">
-                        <div class="fee-p">
+                    <div class="d-flex align-items-start justify-content-between">
+                        <div class="fee-p p-r-30" style="text-align:left!important;">
                             For new students only; payable upon application and non-refundable
                         </div>
-                        <div class="fee-p">
+                        <div class="fee-p" style="min-width:30%;">
                             2,000 RMB
                         </div>
                     </div>
@@ -116,7 +116,7 @@ include 'elements/nav-admission.php';
                                         Nursery: admission from 2y9m, and for students not yet 3 on 30 September 2022; transition to full-day program available in Semester 2 for students turning 3 before the start of Semester 2
                                     </div>
                                 </div>
-                                <div class="fee-p" style="width:20%;">
+                                <div class="fee-p" style="text-align:right; width:20%;">
                                     50,600 RMB
                                 </div>
                             </div>

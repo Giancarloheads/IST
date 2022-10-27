@@ -4,7 +4,7 @@ include 'elements/nav-admission.php';
 include 'elements/key-resources.php';
 ?>
 
-<section class="container-fluid p-b-60">
+<section class="container-fluid p-t-60">
     <div class="row justify-content-center">
         <div class="col-lg-10 col-12">
             <div class="row">

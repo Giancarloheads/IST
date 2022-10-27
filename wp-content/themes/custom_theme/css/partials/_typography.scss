@@ -1,5 +1,5 @@
-a:hover{
-    color: inherit!important;
+a:hover {
+    color: inherit !important;
 }
 
 .ist-subtitle-1 {
@@ -13,7 +13,7 @@ a:hover{
     position: relative;
     top: 20%;
     z-index: 1000;
-    font-size:70px;
+    font-size: 70px;
 }
 
 h1 {
@@ -23,8 +23,13 @@ h1 {
     font-size: 90px;
     line-height: .9;
     color: #fff;
-    @media(max-width:1199px){
+
+    @media(max-width:1199px) {
         font-size: 60px;
+    }
+
+    @media(max-width:768px) {
+        font-size: 45px !important;
     }
 }
 
@@ -35,15 +40,16 @@ h1 {
     font-size: 45px;
     line-height: 1;
     color: #000;
-    @media(max-width:1199px){
-        font-size: 38px; 
-        line-height:1;
+
+    @media(max-width:1199px) {
+        font-size: 38px;
+        line-height: 1;
     }
 }
 
-.ist-section-title-1{
-    font-size:32px;
-    line-height:1;
+.ist-section-title-1 {
+    font-size: 32px;
+    line-height: 1;
     font-weight: 500;
 }
 
@@ -59,52 +65,109 @@ h1 {
     font-weight: 400;
     line-height: 1;
     color: #000;
-    @media(max-width:987px){
-        font-size:38px;
+
+    @media(max-width:987px) {
+        font-size: 38px;
     }
 }
 
-.ist-title-3{
+.ist-title-3 {
     font-size: 90px;
-    text-align:  center;
-    color:#fff;
-    font-weight:300;
-    line-height:.9;
-    @media(max-width: 987px){
+    text-align: center;
+    color: #fff;
+    font-weight: 300;
+    line-height: .9;
+
+    @media(max-width: 987px) {
         font-size: 60px;
-        line-height : .9;
+        line-height: .9;
     }
 }
 
-.ist-par-1{
-    line-height:1.2;
+.ist-par-1 {
+    line-height: 1.2;
     font-size: 32px;
     font-weight: 400;
-    @media(max-width: 987px){
+
+    @media(max-width: 987px) {
         font-size: 28px;
     }
 }
 
-.ist-par-about-1{
-    font-size:30px;
-    line-height:1.2;
-    font-weight:400;
+.ist-par-about-1 {
+    font-size: 30px;
+    line-height: 1.2;
+    font-weight: 400;
 }
 
-.ist-about-title{
+.ist-about-title {
     font-weight: 300;
     font-size: 60px;
     line-height: 1;
+
+    @media(max-width:768px) {
+        font-size: 50px;
+    }
+
+    @media(max-width:546px) {
+        font-font: 42px;
+    }
 }
 
-.ist-caption-2{
+.ist-caption-2 {
     font-size: 30px;
-    font-weight:400;
+    font-weight: 400;
     line-height: 1.2;
+
+    @media(max-width:546px) {
+        font-size: 28px;
+    }
 }
 
-.ist-section-title-3{
+.ist-section-title-3 {
     font-size: 60px;
-    font-weight:300;
-    line-height:1;
+    font-weight: 300;
+    line-height: 1;
+}
+
+.single-collapse-par {
+    font-size: 20px;
+    line-height: 1.2;
+    font-weight: 400;
+    padding-top: 30px;
+
+    @media(max-width:768px) {
+        font-size: 18px;
+    }
+
+    li {
+        span {
+            font-size: 20px !important;
+            line-height: 1.2;
+            font-weight: 400;
+
+            @media(max-width:768px) {
+                font-size: 18 !important;
+            }
+        }
+    }
+
+}
+
+.single-collapse-par-big-txt {
+    font-size: 36px;
+    line-height: 1.2;
+    font-weight: 400;
+
+    @media(max-width:768px) {
+        font-size: 28px;
+    }
+}
+
+.c-red {
+    color: $red !important;
+    font-size: 20px;
+    line-height: 1.2;
+    font-weight: 400;
+    border-bottom: solid 1px $red;
 }

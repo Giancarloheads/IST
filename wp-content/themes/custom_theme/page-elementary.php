@@ -10,24 +10,24 @@ include 'elements/nav-pages-programs.php';
 
 <section class="container-fluid p-b-60">
     <div class="row justify-content-center">
-        <div class="col-10">
+        <div class="col-lg-10 col-12">
             <div class="row align-items-start justify-content-between">
-                <div class="col-6 ist-par-about-1">
+                <div class="col-lg-6 col-12 oreder-lg-1 order-2 ist-par-about-1">
                     Our Elementary School offers a welcoming, inclusive international experience for children from Nursery to Grade 5 in which engaged parents and highly skilled and committed teachers work together to nurture each child’s unique academic and social-emotional learning needs in an environment of quality learning resources and world class facilities.
                 </div>
-                <div class="col-6 text-right">
-                    <img style="float:right" onload="SVGInject(this)" src="<?= get_template_directory_uri() . '/resources/programs/logo-elementary.svg' ?>" alt="">
+                <div class="col-lg-6 col-12 order-1 order-lg-2 text-right m-b-sm-30 flex-sm-center">
+                    <img class="float-icon-left" onload="SVGInject(this)" src="<?= get_template_directory_uri() . '/resources/programs/logo-elementary.svg' ?>" alt="">
                 </div>
             </div>
         </div>
     </div>
 </section>
 
-<section class="container-fluid p-t-60 p-b-60">
+<section class="container-fluid p-t-md-60 p-b-60">
     <div class="row justify-content-center">
         <div class="col-md-10 col-sm-12">
             <div class="row g-3 edu-container">
-                <div class="col-lg-4 col-12 edu-box">
+                <div class="col-md-4 col-12 edu-box">
                     <div class="edu-content h-100">
                         <div class="p-t-20">
                             <img onload="SVGInject(this);" class="h-100 edu-box-img" src="<?= get_template_directory_uri() . '/resources/education/edu-1.svg' ?>" alt="">
@@ -41,7 +41,7 @@ include 'elements/nav-pages-programs.php';
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-12 edu-box">
+                <div class="col-md-4 col-12 edu-box">
                     <div class="edu-content h-100">
                         <div>
                             <img onload="SVGInject(this);" class="h-100 edu-box-img" src="<?= get_template_directory_uri() . '/resources/education/edu-2.svg' ?>" alt="">
@@ -56,7 +56,7 @@ include 'elements/nav-pages-programs.php';
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-12 edu-box">
+                <div class="col-md-4 col-12 edu-box">
                     <div class="edu-content h-100">
                         <div>
                             <img onload="SVGInject(this);" class="h-100 edu-box-img" src="<?= get_template_directory_uri() . '/resources/education/edu-3.svg' ?>" alt="">
@@ -75,9 +75,9 @@ include 'elements/nav-pages-programs.php';
         </div>
     </div>
 </section>
-<section class="container-fluid p-b-120">
+<section class="container-fluid p-b-60">
     <div class="row justify-content-center">
-        <div class="col-10">
+        <div class="col-lg-10 col-12">
             <div class="row">
                 <div class="col-12 beliefs-collapse-container">
                     <div class="elementary-collapse beliefs-collapse" data-collapse-pos="1">
@@ -85,13 +85,13 @@ include 'elements/nav-pages-programs.php';
                             <div class="collapse-title-about">
                                 Elementary Principal’s Welcome.
                             </div>
-                            <div>
+                            <div class="d-flex align-items-center justify-content-center">
                                 <img id="elementary-collapse-1-icon" style="width:20px; height:20px;" src="<?= get_template_directory_uri() . '/resources/icons/plus_collapse.svg' ?>" alt="">
                             </div>
                         </div>
                         <div class="collapse" id="elementary-collapse-1">
                             <div class="row p-t-40">
-                                <div class="col-6">
+                                <div class="col-lg-6 col-12 order-lg-1 order-2">
                                     <p class="secondary-collapse-content">
                                         We welcome your involvement, suggestions and reflections in our Elementary School!
                                         <br>
@@ -118,7 +118,7 @@ include 'elements/nav-pages-programs.php';
                                         Elementary Principal
                                     </p>
                                 </div>
-                                <div class="col-6 d-flex justify-content-end align-items-start">
+                                <div class="col-lg-6 col-12 flex-md-center order-1 order-lg-2 p-b-md-30">
                                     <img src="<?= get_template_directory_uri() . '/resources/programs/justin-lobsey-1.jpg' ?>" alt="">
                                 </div>
                             </div>
@@ -129,13 +129,13 @@ include 'elements/nav-pages-programs.php';
                             <div class="collapse-title-about">
                                 Program of Inquiry
                             </div>
-                            <div>
+                            <div class="d-flex align-items-center justify-content-center">
                                 <img id="elementary-collapse-2-icon" style="width:20px; height:20px;" src="<?= get_template_directory_uri() . '/resources/icons/plus_collapse.svg' ?>" alt="">
                             </div>
                         </div>
                         <div class="collapse" id="elementary-collapse-2">
                             <div class="row p-t-40">
-                                <div class="col-6">
+                                <div class="col-lg-6 col-12">
                                     <p class="secondary-collapse-content">
                                         IST has developed its Programme of Inquiry using the International Baccalaureate (IB) Primary Years Programme (PYP) curriculum framework. This incorporates local and global issues into the curriculum through six transdisciplinary themes. <br><br>
                                         The themes are:
@@ -161,7 +161,7 @@ include 'elements/nav-pages-programs.php';
                                     </ul>
                                     </p>
                                 </div>
-                                <div class="col-6 d-flex justify-content-end align-items-start">
+                                <div class="col-lg-6 col-12 d-flex justify-content-end align-items-start">
                                     <p>
                                         Through Units of Inquiry under each of these themes, IST students develop within five essential elements: knowledge, concepts, skills, attitudes, and action. <br>
                                         In tandem with the attributes and attitudes described in the Learner Profile, they develop the ability to work cooperatively, as well as learning to think creatively and critically. <br>
@@ -180,20 +180,20 @@ include 'elements/nav-pages-programs.php';
     <div class="row justify-content-center">
         <div class="col-12">
             <div class="row">
-                <div class="col-8 offset-2 text-center">
+                <div class="col-lg-8 offset-lg-2 col-12 offset-0 text-center">
                     <h1 style="color:#000;position:relative;z-index:9999">LOREM ISPSUM DOLOR SIT AMET LOREM</h1>
                 </div>
                 <div class="col-12 scrreveal" style="position:relative;bottom:40px;">
-                    <img src="<?= get_template_directory_uri() . '/resources/programs/elementary-img-1.jpg'; ?>" alt="">
+                    <img class="w-100" src="<?= get_template_directory_uri() . '/resources/programs/elementary-img-1.jpg'; ?>" alt="">
                 </div>
             </div>
         </div>
         <div class="col-10">
             <div class="row">
-                <div class="col-6 offset-6">
+                <div class="col-lg-6 offset-lg-6 col-12 offset-0">
                     <div class="collapse-container-single">
                         <div data-bs-toggle="collapse" href="#elementary-collapse-single" role="button" aria-expanded="false" aria-controls="elementary-collapse-single">
-                            <div class="single-collapse-par">
+                            <div class="single-collapse-par-big-txt">
                                 The IST elementary school incorporates both the early childhood (Nursery and Pre-Kindergarten) and the elementary/primary (Kindergarten to Grade 5) sections.
                             </div>
                         </div>
@@ -219,9 +219,9 @@ include 'elements/nav-pages-programs.php';
         <div class="row justify-content-center align-items-center">
             <div class="col-12">
                 <div class="row align-items-center programs-layout-row">
-                    <div class="col-lg-6 col-12 order-2 order-lg-1" style="padding:80px;">
+                    <div class="col-lg-6 col-12 order-2 order-lg-1 p-md-80">
                         <div class="title">
-                            STUDENT <br> SUPPORT
+                            STUDENT <br class="d-lg-block d-none"> SUPPORT
                         </div>
                         <p>
                             Our dedicated faculty includes highly qualified and experienced Homeroom, Specialist subject, English Language Acquisition (ELA), and Learning Support teachers from around the world. A team of skilled specialist ELA teachers provide scheduled ELA classes for Grade 1 to 5 students in need of additional assistance, with in-class support offered for KG1 to KG3. New applicants from KG3 to Grade 5 are required to sit an English language proficiency assessment to determine what level of learning support is required to best meet their language learning needs.
@@ -235,7 +235,7 @@ include 'elements/nav-pages-programs.php';
                     <div class="col-lg-6 col-12">
                         <img src="<?=  get_template_directory_uri() . '/resources/education/beyond.jpg'; ?>" alt="">
                     </div>
-                    <div class="col-lg-6 col-12" style="padding:80px;">
+                    <div class="col-lg-6 col-12 p-md-80">
                         <div class="title">
                             BEYOND THE CURRICULUM
                         </div>
@@ -249,13 +249,15 @@ include 'elements/nav-pages-programs.php';
     </div>
 </section>
 
-<?php
+<section class="pin-section overview-last-pin-sec">
+    <?php
 include_once 'elements/key-resources.php';
 ?>
 
 <?php
 include_once 'elements/section-related.php';
 ?>
+</section>
 
 <?php
 include_once 'elements/about-pre-footer.php';

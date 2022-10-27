@@ -10,7 +10,7 @@ include 'elements/nav-admission.php';
                 <div class="col-lg-6 col-12 ist-par-about-1 p-b-60">
                     <div class="collapse-container-single">
                         <div data-bs-toggle="collapse" href="#elementary-collapse-single" role="button" aria-expanded="false" aria-controls="elementary-collapse-single">
-                            <div class="single-collapse-par">
+                            <div class="single-collapse-par-big-txt">
                                 The International School of Tianjin does not discriminate in admissions with regard to race, gender, ethnic origin, or religion.
                             </div>
                         </div>
@@ -43,7 +43,7 @@ include 'elements/nav-admission.php';
         <div class="col-lg-10 col-12">
             <div class="row">
                 <div class="col-lg-6 col-12">
-                    <div class="single-collapse-par">
+                    <div class="single-collapse-par-big-txt">
                         All admissions decisions are made by the Principals in consultation with the Director and relevant academic staff.
                     </div>
                 </div>
@@ -53,7 +53,7 @@ include 'elements/nav-admission.php';
 </section>
 <section class="container-fluid">
     <div class="row justify-content-center">
-        <div class="col-10">
+        <div class="col-lg-10 col-12">
             <div class="row criteria-row">
                 <div class="col-lg-3 col-12">
                     <div class="criteria-title p-b-md-30">
@@ -81,7 +81,7 @@ include 'elements/nav-admission.php';
                     </p>
                 </div>
             </div>
-            <div class="row criteria-row p-b-60">
+            <div class="row criteria-row">
                 <div class="col-lg-3 col-12">
                     <div class="criteria-title p-b-md-30">
                         Priority Admissions

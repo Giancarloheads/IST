@@ -5,20 +5,20 @@ include_once 'elements/nav-pages-programs.php';
 
 <section class="container-fluid p-b-60">
     <div class="row justify-content-center">
-        <div class="col-10">
+        <div class="col-lg-10 col-12">
             <div class="row">
-                <div class="col-6 ist-par-about-1">
+                <div class="col-lg-6 col-12 ist-par-about-1">
                     IST is proud to be the only three program IB World School in Tianjin. The IB offers high quality programs to a worldwide community of more than 5400 schools in 158 countries. IST was ranked #6 in China and #69 in the world on the basis of its IB Diploma results.
                 </div>
             </div>
         </div>
     </div>
 </section>
-<section class="container-fluid p-b-60 p-t-60">
+<section class="container-fluid p-t-60 p-b-60">
     <div class="row justify-content-center">
-        <div class="col-10">
+        <div class="col-lg-10 col-12">
             <div class="row g-4 programs-container">
-                <div class="col-4 d-flex">
+                <div class="col-lg-4 col-12 d-flex">
                     <div class="programme-container">
                         <div>
                             <img src="<?= get_template_directory_uri() . '/resources/programs/primary.svg' ?>" alt="">
@@ -31,7 +31,7 @@ include_once 'elements/nav-pages-programs.php';
                         </div>
                     </div>
                 </div>
-                <div class="col-4 d-flex">
+                <div class="col-lg-4 col-12 d-flex">
                     <div class="programme-container">
                         <div>
                             <img src="<?= get_template_directory_uri() . '/resources/programs/middle.svg' ?>" alt="">
@@ -44,7 +44,7 @@ include_once 'elements/nav-pages-programs.php';
                         </div>
                     </div>
                 </div>
-                <div class="col-4 d-flex">
+                <div class="col-lg-4 col-12 d-flex">
                     <div class="programme-container">
                         <div>
                             <img src="<?= get_template_directory_uri() . '/resources/programs/diploma.svg' ?>" alt="">
@@ -64,12 +64,12 @@ include_once 'elements/nav-pages-programs.php';
 <section class="container-fluid p-b-60">
     <div class="row justify-content-center">
         <div class="col-12">
-            <div class="row">
-                <div class="col-8 offset-2 text-center">
+            <div class="row p-t-60">
+                <div class="col-lg-8 offset-lg-2 col-12 offset-0 text-center">
                     <h1 style="color:#000;position:relative;z-index:9999">INQUIRY-DRIVEN, STUDENT-CENTERED LEARNING</h1>
                 </div>
                 <div class="col-12 scrreveal" style="position:relative;bottom:40px;">
-                    <img src="<?= get_template_directory_uri() . '/resources/programs/overview-top-img.jpg'; ?>" alt="">
+                    <img class="w-100" src="<?= get_template_directory_uri() . '/resources/programs/overview-top-img.jpg'; ?>" alt="">
                 </div>
             </div>
         </div>
@@ -77,18 +77,18 @@ include_once 'elements/nav-pages-programs.php';
 </section>
 <section class="container-fluid">
     <div class="row justify-content-center">
-        <div class="col-10">
+        <div class="col-lg-10 col-12">
             <div class="row">
-                <div class="col-6 p-b-60">
+                <div class="col-lg-6 col-12 p-b-60">
                     <div class="collapse-container-single">
                         <div data-bs-toggle="collapse" href="#elementary-collapse-single" role="button" aria-expanded="false" aria-controls="elementary-collapse-single">
-                            <div class="single-collapse-par">
+                            <div class="single-collapse-par-big-txt">
                                 IST is divided into two divisions: Elementary (0 years to Grade 5) and Secondary (Grade 6 to Grade 12), with the elementary school housed primarily in the Qin Buidling and the secondary school primarily based in the Han Building. <br>
                             </div>
                         </div>
                         <div class="collapse" id="elementary-collapse-single">
                             <div class="beliefs-collapse-par single-collapse-par">
-                                Each school division is headed by a principal who is supported by his or her own leadership team, including IB Coordinators, school-wide coordinators, subject chairs and sub-divisional coordinators. One of the principals acts as the Deputy Director. Both principals report to the Director. 
+                                Each school division is headed by a principal who is supported by his or her own leadership team, including IB Coordinators, school-wide coordinators, subject chairs and sub-divisional coordinators. One of the principals acts as the Deputy Director. Both principals report to the Director.
                             </div>
                         </div>
                         <div class="single-collapse-trigger" data-bs-toggle="collapse" href="#elementary-collapse-single" role="button" aria-expanded="false" aria-controls="elementary-collapse-single">
@@ -158,22 +158,27 @@ include_once 'elements/nav-pages-programs.php';
 </section>
 
 <!--EXPANDED IMG -->
-<section style="background-color:#fff" class="pt-anim">
-    <div class="expand-img-container expanded-overview">
-        <div id="img-1-overview" style="background-image:url('<?= get_template_directory_uri() . '/resources/programs/overview-expand.jpg'; ?>');background-position:center; background-repeat:no-repeat; background-size:cover;"></div>
-        <div class="overview-overlay img-2-overlay"></div>
-        <div class="overview-caption img-2-caption">
+<section style="background-color:#fff!important">
+    <div class="expand-img-container container-1-expand">
+        <div id="img-1-home" style="background-image:url('<?= get_template_directory_uri() . '/resources/programs/overview-expand.jpg';  ?>')"></div>
+        <div class="img-1-overlay"></div>
+        <div class="img-1-caption">
             <div class="title">LEARNING SUPPORT</div>
             <div class="img-2-cta">
-                <a href="#" class="ist-cta justify-content-center" href="">Learn more <img onload="SVGInject(this);" src="<?= get_template_directory_uri() . '/resources/icons/arrow.svg' ?>" alt=""> </a>
+                <a href="#" class="ist-cta justify-content-center" href="">Learn more<img onload="SVGInject(this);" src="<?= get_template_directory_uri() . '/resources/icons/arrow.svg' ?>" alt=""> </a>
             </div>
         </div>
     </div>
 </section>
 
-<?php
+<section class="pin-section overview-last-pin-sec">
+    <?php
     include_once 'elements/key-resources.php';
     include_once 'elements/section-related.php';
+    ?>
+</section>
+
+<?php
     include_once 'elements/about-pre-footer.php';
     get_footer();
 ?>

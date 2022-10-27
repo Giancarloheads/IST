@@ -25,6 +25,7 @@
             $bg = 'bg-orange';
             $cta_color = 'inherit';
             $cta_class= '';
+            $mod_height = '';
             break;
     };
 
@@ -38,17 +39,17 @@
     }
 ?>
 
-<section style="border-radius:25px 25px 0 0" class="container-fluid pre-footer <?= $bg; ?> pin-section pin-section-border pin-section-mobile">
+<section class="container-fluid border-radius-section pre-footer <?=' ' . $bg . ' '; ?> pin-section pin-section-border pin-section-mobile">
     <div class="row h-100">
         <div class="col-12 h-100 d-flex justify-content-center align-items-center pos-rel">
             <img style="height:<?= $mod_height; ?>" class="pre-footer-img" onload="SVGInject(this);" src="<?= $svg ?>" alt="">
             <div class="pre-footer-title w-100">
-                <div class="ist-title-3">
+                <div class="ist-title-3 scropacity">
                     <?= $title; ?>
                 </div>
                 <div class="m-md-b-40 col-lg-5 col-md-10 m-auto">
                     <div>
-                        <div class="about-cta-prefooter">
+                        <div class="about-cta-prefooter scropacity">
                             <div class="<?= $cta_class; ?>">
                                 INQUIRE NOW
                             </div>

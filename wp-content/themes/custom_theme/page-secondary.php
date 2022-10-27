@@ -8,19 +8,19 @@ get_header();
     include 'elements/nav-pages-programs.php';
 ?>
 
-<section class="container-fluid p-b-60">
+<section class="container-fluid">
     <div class="row justify-content-center">
-        <div class="col-10">
+        <div class="col-lg-10 col-12">
             <div class="row align-items-start justify-content-between">
-                <div class="col-6 ist-par-about-1">
+                <div class="col-lg-6 col-12 ist-par-about-1 order-2 order-lg-1">
                     Our Secondary School offers a dynamic, academically rigorous and holistic curriculum aimed to prepare students to become life-long learners. IST is fully authorized to offer  the International Baccalaureate Middle Years (IB-MYP) and Diploma (IB-DP) curriculum frameworks.
                 </div>
-                <div class="col-6  logo-container-programs">
+                <div class="col-lg-6 col-12 logo-container-programs order-1 order-lg-2">
                     <div>
                         <img onload="SVGInject(this)" src="<?= get_template_directory_uri() . '/resources/programs/logo-secondary-1.svg'; ?>" alt="">
                     </div>
                     <div>
-                        <img class="m-t-30" onload="SVGInject(this)" src="<?= get_template_directory_uri() . '/resources/programs/logo-secondary-2.svg'; ?>" alt="">
+                        <img class="m-t-md-30" onload="SVGInject(this)" src="<?= get_template_directory_uri() . '/resources/programs/logo-secondary-2.svg'; ?>" alt="">
                     </div>
                 </div>
             </div>
@@ -71,7 +71,7 @@ get_header();
 </section>
 <section class="container-fluid p-b-60">
     <div class="row justify-content-center">
-        <div class="col-10">
+        <div class="col-lg-10 col-12">
             <div class="row">
                 <div class="col-12 beliefs-collapse-container">
                     <div class="elementary-collapse beliefs-collapse" data-collapse-pos="1">
@@ -79,13 +79,13 @@ get_header();
                             <div class="collapse-title-about">
                                 Secondary principal's Welcome
                             </div>
-                            <div>
+                            <div class="d-flex align-items-center justify-content-center">
                                 <img id="elementary-collapse-1-icon" style="width:20px; height:20px;" src="<?= get_template_directory_uri() . '/resources/icons/plus_collapse.svg' ?>" alt="">
                             </div>
                         </div>
                         <div class="collapse" id="secondary-collapse-1">
                             <div class="row p-t-40">
-                                <div class="col-6">
+                                <div class="col-lg-6 col-12 order-2 order-lg-1">
                                     <p class="secondary-collapse-content">
                                         Our environment is a happy one in which 'trust' is the keyword!
                                         <br>
@@ -109,7 +109,7 @@ get_header();
                                         Secondary Principal & Deputy Director
                                     </p>
                                 </div>
-                                <div class="col-6 d-flex justify-content-end align-items-start">
+                                <div class="col-lg-6 col-12 flex-md-center order-lg-2 order-1 p-b-md-30">
                                     <img src="<?= get_template_directory_uri() . '/resources/programs/justin-lobsey.jpg' ?>" alt="">
                                 </div>
                             </div>
@@ -120,13 +120,13 @@ get_header();
                             <div class="collapse-title-about">
                                 IB Learner Profile
                             </div>
-                            <div>
+                            <div class="d-flex align-items-center justify-content-center">
                                 <img id="elementary-collapse-2-icon" style="width:20px; height:20px;" src="<?= get_template_directory_uri() . '/resources/icons/plus_collapse.svg' ?>" alt="">
                             </div>
                         </div>
                         <div class="collapse" id="elementary-collapse-2">
                             <div class="row p-t-40">
-                                <div class="col-6 beliefs-collapse-par">
+                                <div class="col-lg-6 col-12 beliefs-collapse-par">
                                     <p class="secondary-collapse-content-bold">
                                         The IST Secondary School offers a dynamic, academically rigorous and holistic curriculum aimed to prepare students to become life-long learners. <br>
                                         The values of the IB Learner Profile describe the characteristics of model IB students and IST graduates who are good communicators, internationally and globally minded young people. <br>
@@ -135,7 +135,7 @@ get_header();
                                         Throughout their secondary years, IST students build skills as independent, reflective and collaborative learners; they develop a global perspective, intercultural awareness and an appreciation of our host country, China.
                                     </p>
                                 </div>
-                                <div class="col-6 beliefs-collapse-par">
+                                <div class="col-lg-6 col-12 p-t-sm-30 beliefs-collapse-par">
                                     <p class="secondary-collapse-content-bold">
                                         They learn from interaction with people within and beyond the school and Tianjin through regular community and service projects and the annual Week Without Walls trips, which takes them to different destinations in China. 
                                         <br> 
@@ -155,20 +155,20 @@ get_header();
     <div class="row justify-content-center">
         <div class="col-12">
             <div class="row">
-                <div class="col-8 offset-2 text-center">
+                <div class="col-lg-8 offset-lg-2 offset-0 col-12 text-center">
                     <h1 style="color:#000;position:relative;z-index:9999">LOREM ISPSUM DOLOR SIT AMET LOREM</h1>
                 </div>
                 <div class="col-12 scrreveal" style="position:relative;bottom:40px;">
-                    <img src="<?= get_template_directory_uri() . '/resources/programs/secondary-img-1.jpg'; ?>" alt="">
+                    <img class="w-100" src="<?= get_template_directory_uri() . '/resources/programs/secondary-img-1.jpg'; ?>" alt="">
                 </div>
             </div>
         </div>
-        <div class="col-10">
+        <div class="col-lg-10 col-12">
             <div class="row">
-                <div class="col-6 offset-6">
+                <div class="col-lg-6 offset-lg-6 offset-0 col-12">
                     <div class="collapse-container-single">
                         <div data-bs-toggle="collapse" href="#elementary-collapse-single" role="button" aria-expanded="false" aria-controls="elementary-collapse-single">
-                            <div class="single-collapse-par">
+                            <div class="single-collapse-par-big-txt">
                                 The Secondary School comprises Grades 6 to 12. Grade 6 to 8 is termed ‘Middle School’ for pastoral purposes while Grade 9 to 12 is termed 'High School.’
                             </div>
                         </div>
@@ -194,9 +194,9 @@ get_header();
         <div class="row justify-content-center align-items-center">
             <div class="col-12">
                 <div class="row align-items-center programs-layout-row">
-                    <div class="col-lg-6 col-12 order-2 order-lg-1" style="padding:80px;">
+                    <div class="col-lg-6 col-12 order-2 order-lg-1 p-md-80">
                         <div class="title">
-                            STUDENT <br> SUPPORT
+                            STUDENT <br class="d-lg-block d-none"> SUPPORT
                         </div>
                         <p>
                             Second language learners and students with individual needs receive support both inside and outside the classroom from specialist teachers. ELA specialists and regular subject teachers meet to collaborate on lesson planning to ensure the differentiation of instruction and ELA teaching in the mainstream.
@@ -210,7 +210,7 @@ get_header();
                     <div class="col-lg-6 col-12">
                         <img src="<?= get_template_directory_uri() . '/resources/education/beyond-2.jpg'; ?>" alt="">
                     </div>
-                    <div class="col-lg-6 col-12" style="padding:80px;">
+                    <div class="col-lg-6 col-12 p-md-80">
                         <div class="title">
                             BEYOND THE CURRICULUM
                         </div>
@@ -223,13 +223,15 @@ get_header();
         </div>
     </div>
 </section>
-<?php
+<section class="pin-section overview-last-pin-sec"> 
+    <?php
     include_once 'elements/key-resources.php';
-?>
+    ?>
 
-<?php
-    include_once 'elements/section-related.php';
-?>
+    <?php
+        include_once 'elements/section-related.php';
+    ?>
+</section>
 
 <?php 
     include_once 'elements/about-pre-footer.php';

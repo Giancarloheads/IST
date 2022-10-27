@@ -1,3 +1,10 @@
+
+window.onbeforeunload = function () {
+    window.scrollTo(0, 0);
+}
+
+history.scrollRestoration = "manual";
+
 jQuery(document).ready(function ($) {
 
     var home1img = document.getElementById('img-1-home');
@@ -74,17 +81,16 @@ jQuery(document).ready(function ($) {
     var menuLayover = $('.menu-open-layover');
 
     searchBtn.on('click', function () {
-        console.log('open search console');
         SearchDesktopContainer.addClass('menu-open');
         SearchDesktopContainer.animate({
-            'left': '19.5%',
-            'top': '20px',
-            'width': '66%',
-            'height': '97vh'
+            'left': '29%',
+            'top': '1vh',
+            'width': '70%',
+            'height': '98vh'
         });
 
         menuLayover.css({
-            'opacity': '0.6',
+            'opacity': '0.4',
             'display': 'block'
         });
     });
@@ -160,31 +166,36 @@ jQuery(document).ready(function ($) {
         //IMG HOME 1
         if (home1img) {
             if (isInViewport(home1img)) {
-                home1img.classList.add('expanded');
-                $('.expand-img-container').animate({
-                    width: '100vw',
-                    height: '100vh'
-                }, 800);
-
-                home1img.animate({
-                    width: '100vw',
-                    height: '100vh',
-                    'border-radius': '0'
-                }, 1200);
-                $('.img-1-overlay').animate({
-                    'opacity': '.4',
-                }, 1200);
-
-                $('.img-1-caption').animate({
-                    opacity: 1,
-                    top: '50%'
-                }, 1400);
+                if (isInViewport(home1img)) {
+                    $('.container-1-expand').css({
+                        'width' : '100vw',
+                        'height' : '100vh'
+                    });
+                    
+                    home1img.classList.add('expanded');
+                    $('.pt-anim').animate({
+                        'padding-top': '0'
+                    }, 1200);
+    
+                    $('.img-1-overlay').animate({
+                        'opacity': '.4'
+                    }, 1200);
+    
+                    $('.img-1-caption').animate({
+                        opacity: 1,
+                        top: '50%'
+                    }, 1400);
+                }
             }
         }
         //IMG HOME 2
         if (home2img) {
             if (isInViewport(home2img)) {
                 home2img.classList.add('expanded');
+                $('.container-2-expand').css({
+                    'width' : '100vw',
+                    'height' : '100vh'
+                });
                 $('.pt-anim').animate({
                     'padding-top': '0'
                 }, 1200);
@@ -299,6 +310,12 @@ jQuery(document).ready(function ($) {
         duration: '600'
     }
 
+    var opacityReveal = {
+        delay : 650,
+        distance : 0,
+        duration: 900
+    };
+
     ScrollReveal().reveal('.scrreveal', scrollRevealAnimation);
     ScrollReveal().reveal('.scrreveal2', scrreveal2);
     ScrollReveal().reveal('.scrreveal3', scrreveal3);
@@ -306,6 +323,8 @@ jQuery(document).ready(function ($) {
     ScrollReveal().reveal('.scrrevealtext', scrollRevealAnimationString);
     ScrollReveal().reveal('.scrrevealtext2', scrollRevealAnimationString2);
     ScrollReveal().reveal('.scrrevealfooter', scrrevealfooter);
+    ScrollReveal().reveal('.scropacity', opacityReveal);
+
 
     //MOBILE HAM MENU
 

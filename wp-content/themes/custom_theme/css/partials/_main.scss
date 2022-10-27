@@ -93,7 +93,9 @@ a:visited {
         flex-direction: column;
         align-items: flex-start;
         justify-content: center;
-
+        @media(min-width:1680px){
+            padding-top:420px;
+        }
         @media(max-width:546px) {
             padding-top: 150px;
         }
@@ -434,7 +436,6 @@ a:visited {
             .cta-pre-footer {
                 width: unset;
                 padding: 12px 40px !important;
-                margin: auto;
             }
         }
     }
@@ -483,7 +484,9 @@ a:visited {
 
     div:last-child {
         color: #000;
-
+        @media(max-width:546px){
+            justify-content: center;
+        }
         svg {
             path {
                 stroke: #000;
@@ -530,10 +533,9 @@ a:visited {
     height: 100%;
 
     @media(max-width:768px) {
-        width: 200%;
-        top: 40%;
+        top: 50%;
         height: 80%;
-        left: 40%;
+        left: 50%;
 
     }
 }
@@ -630,7 +632,7 @@ a:visited {
     width: 100%;
     height: 100%;
     border-radius: 8px 8px 0 0;
-    box-shadow: 3px 3px 7px 1px rgba(0, 0, 0, 0.3);
+    filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.1));
 
     .hidden-side-news {
         position: absolute;
@@ -786,6 +788,8 @@ a:visited {
         ul {
             list-style: square;
             margin: 0;
+            padding: 0;
+            padding-left:20px;
             @media(max-width:1199px){
                 width:100%;
             }
@@ -822,6 +826,9 @@ a:visited {
                 font-size: 24px;
                 line-height: 1.5;
                 color: #000;
+                @media(max-width:768px){
+                    font-size: 20px;
+                }
             }
         }
     }
@@ -928,6 +935,9 @@ body {
             @media(min-width:1620px) {
                 margin-left: 15%;
             }
+            @media(max-width:768px){
+                margin-left:0!important;
+            }
         }
     }
 }
@@ -936,6 +946,7 @@ body {
     #review-container {
         width: 100vw;
         padding: 0 !important;
+        padding-bottom:120px!important;
         margin: 0 !important;
     }
 }
@@ -977,8 +988,8 @@ body {
 .placeholder-3d-container {
     width: 100%;
     height: 80vh;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 12px;
+    padding-right: 12px;
 }
 
 .placeholder-3d {

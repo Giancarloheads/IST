@@ -19,13 +19,13 @@ include 'elements/nav-community.php';
 <section class="container-fluid">
     <div class="row">
         <div class="col-12">
-            <img src="<?= get_template_directory_uri() . '/resources/team/pfo-top-img.jpg' ?>" alt="">
+            <img class="w-100" src="<?= get_template_directory_uri() . '/resources/team/pfo-top-img.jpg' ?>" alt="">
         </div>
     </div>
 </section>
-<section class="container-fluid p-t-60 p-b-60">
+<section class="container-fluid p-t-60">
     <div class="row justify-content-center">
-        <div class="col-10">
+        <div class="col-lg-10 col-12">
             <div class="row gx-4">
                 <div class="col-lg-6 col-12">
                     <div class="ist-caption-1">

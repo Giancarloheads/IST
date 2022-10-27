@@ -10,9 +10,8 @@
                 <div class="col-12 text-center">
                     <nav class="page-nav">
                         <ul>
-
                             <li class="<?= get_the_ID() == 23 ? 'active-link-nav' : ''; ?>" >
-                                <a href="<?= get_permalink(11); ?>"> OVERVIEW</a>
+                                <a href="<?= get_permalink(11); ?>"> OVErrrRVIEW</a>
                             </li>
                             <li class="<?= get_the_ID() == 35 ? 'active-link-nav' : ''; ?>">
                                 <a href="<?= get_permalink(35); ?>">ELEMENTARY EDUCATION</a>

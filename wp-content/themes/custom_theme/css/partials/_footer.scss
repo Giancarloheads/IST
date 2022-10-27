@@ -5,6 +5,9 @@ footer{
     padding-bottom:120px;
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
+    @media(max-width:1199px){
+        border-radius:0!important;
+    }
     box-shadow: 0px 0px 50px 0px #C0C0C0;
     @media(max-width: 987px){
         padding-bottom: 0;

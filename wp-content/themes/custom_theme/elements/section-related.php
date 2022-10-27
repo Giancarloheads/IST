@@ -1,7 +1,7 @@
-<section class="container-fluid p-t-60 p-b-60">
+<section class="container-fluid p-b-30 p-t-md-60">
     <div class="row">
         <div class="col-12">
-            <div class="ist-about-title" style="padding-left:calc(100% / 12)">EXPLORE MORE</div>
+            <div class="ist-about-title related-section-title">EXPLORE MORE</div>
         </div>
     </div>
 </section>

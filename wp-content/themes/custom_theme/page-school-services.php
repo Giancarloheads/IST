@@ -6,11 +6,11 @@ get_header();
 include_once 'elements/nav-campus.php';
 ?>
 
-<section class="container-fluid p-b-120">
+<section class="container-fluid p-b-60">
     <div class="row justify-content-center">
-        <div class="col-10">
+        <div class="col-lg-10 col-12">
             <div class="row">
-                <div class="col-6">
+                <div class="col-lg-6 col-12">
                     <div class="ist-caption-2">
                         IST offers various services for the safety and well-being of students. <br>
                         These include a 24-hour guard and security service, a fleet of buses offering transportation services for students and staff, a fully operational school clinic, a wide library and a school cafeteria service operated by one of the premier international catering companies.
@@ -20,15 +20,15 @@ include_once 'elements/nav-campus.php';
         </div>
     </div>
 </section>
-<section class="x-pad-section" style="padding-bottom:60px;">
+<section class="x-pad-section p-b-60">
     <div class="container-fluid">
         <div class="row justify-content-center align-items-center">
             <div class="col-12">
-                <div class="row align-items-center programs-layout-row" style="padding-top:120px;border:none; border-top:1px solid #C0C0C0;padding-bottom:0;">
+                <div class="row align-items-center programs-layout-row" style="padding-top:60px;border:none; border-top:1px solid #C0C0C0;padding-bottom:0;">
                     <div class="col-lg-6 p-0 col-12">
-                        <img src="<?= get_template_directory_uri() . '/resources/campus/services-1.jpg' ?>" alt="">
+                        <img class="w-100" src="<?= get_template_directory_uri() . '/resources/campus/services-1.jpg' ?>" alt="">
                     </div>
-                    <div class="col-lg-5 col-12" style="padding:80px;">
+                    <div class="col-lg-5 col-12 p-md-80">
                         <div class="title">
                             STUDENT & CAMPUS SAFETY
                         </div>
@@ -41,68 +41,29 @@ include_once 'elements/nav-campus.php';
         </div>
     </div>
 </section>
-<section class="container-fluid p-b-120">
+<section class="container-fluid p-b-60">
     <div class="row justify-content-center">
-        <div class="col-10">
+        <div class="col-lg-10 col-12">
             <div class="row">
-                <div class="col-12 beliefs-collapse-container">
+                <div class="col-12 -container">
                     <div class="safeguard-collapse" data-collapse-pos="1">
                         <div class="d-flex justify-content-between align-items-center" data-bs-toggle="collapse" href="#safeguard-1" role="button" data-collapse-pos="1" aria-expanded="false" aria-controls="safeguard-1">
                             <div class="collapse-title-about">
                                 Identity Cards
                             </div>
                             <div class="d-flex">
-                                <img id="safeguard-1-icon" style="width:20px; height:20px;" src="<?= get_template_directory_uri() . '/resources/icons/plus_collapse.svg' ?>" alt="">
+                                <img class="w-100" id="safeguard-1-icon" style="width:20px; height:20px;" src="<?= get_template_directory_uri() . '/resources/icons/plus_collapse.svg' ?>" alt="">
                             </div>
                         </div>
                         <div class="collapse" id="safeguard-1">
-                            <div class="row p-t-40">
-                                <div class="col-6 p-r-30 beliefs-collapse-par collapse-list-container">
-                                    <ul class="safeguard-collapse-list">
-                                        <li>
-                                            <span>
-                                                Our school provides an environment where students feel safe, learn, develop and have a voice.
-                                            </span>
-                                        </li>
-                                        <li>
-                                            <span>
-                                                Our school promotes community awareness of, and provides training for, safeguarding students.
-                                            </span>
-                                        </li>
-                                        <li>
-                                            <span>
-                                                Our teachers equip and develop in students, the agency, skills and knowledge needed to keep them safe.
-                                            </span>
-                                        </li>
-                                        <li>
-                                            <span>
-                                                Our school has procedures for the identification and reporting of cases where harm or risk of harm to a student is suspected and ensures that all staff are aware of such procedures.
-                                            </span>
-                                        </li>
-                                        <li>
-                                            <span>
-                                                Our staff supports students who have suffered abuse or who may be at risk.
-                                            </span>
-                                        </li>
-                                        <li>
-                                            <span>
-                                                Our Child Protection Officer monitors and reviews child protection practices and procedures.
-                                            </span>
-                                        </li>
-                                        <li>
-                                            <span>
-                                                Our school has procedures in place to facilitate and promote the safe use of technology.
-                                            </span>
-                                        </li>
-                                        <li>
-                                            <span>
-                                                Our administration ensures safe practices to verify the suitability of staff, volunteers and visitors.
-                                            </span>
-                                        </li>
-                                    </ul>
+                            <div class="row">
+                                <div class="col-lg-6 col-12 p-r-md-30 collapse-list-container">
+                                    <div class="single-collapse-par">
+                                        We all agree that the school and the family must work closely together to help each child achieve his or her unique potential. We help our students develop resilience and self-confidence, expecting them to be respectful of others and to recognize that everybody is entitled to his or her own point of view.
+                                    </div>
                                 </div>
-                                <div class="col-6 p-r-30 p-l-30 beliefs-collapse-par collapse-list-container">
-                                    <p>
+                                <div class="col-lg-6 col-12 collapse-list-container">
+                                    <p class="single-collapse-par p-t-md-30">
                                         If any community member suspects any harm or risk of harm to a student, they should immediately report this to the Child Protection Officer (School Counselor), Principal or Director, who will take action following the IST Safeguarding and Child Protection Policies and Guidelines.
                                     </p>
                                 </div>
@@ -110,64 +71,25 @@ include_once 'elements/nav-campus.php';
                         </div>
                     </div>
                 </div>
-                <div class="col-12 beliefs-collapse-container">
+                <div class="col-12 -container">
                     <div class="safeguard-collapse" data-collapse-pos="2" style="border:none!important;">
                         <div class="d-flex justify-content-between align-items-center" data-bs-toggle="collapse" href="#safeguard-2" role="button" data-collapse-pos="2" aria-expanded="false" aria-controls="safeguard-2" style="border:none!important;">
                             <div class="collapse-title-about">
                                 Valuables
                             </div>
                             <div class="d-flex">
-                                <img id="safeguard-2-icon" style="width:20px; height:20px;" src="<?= get_template_directory_uri() . '/resources/icons/plus_collapse.svg' ?>" alt="">
+                                <img class="w-100" id="safeguard-2-icon" style="width:20px; height:20px;" src="<?= get_template_directory_uri() . '/resources/icons/plus_collapse.svg' ?>" alt="">
                             </div>
                         </div>
                         <div class="collapse" id="safeguard-2">
-                            <div class="row p-t-40">
-                                <div class="col-6 p-r-30 beliefs-collapse-par collapse-list-container">
-                                    <ul class="safeguard-collapse-list">
-                                        <li>
-                                            <span>
-                                                Our school provides an environment where students feel safe, learn, develop and have a voice.
-                                            </span>
-                                        </li>
-                                        <li>
-                                            <span>
-                                                Our school promotes community awareness of, and provides training for, safeguarding students.
-                                            </span>
-                                        </li>
-                                        <li>
-                                            <span>
-                                                Our teachers equip and develop in students, the agency, skills and knowledge needed to keep them safe.
-                                            </span>
-                                        </li>
-                                        <li>
-                                            <span>
-                                                Our school has procedures for the identification and reporting of cases where harm or risk of harm to a student is suspected and ensures that all staff are aware of such procedures.
-                                            </span>
-                                        </li>
-                                        <li>
-                                            <span>
-                                                Our staff supports students who have suffered abuse or who may be at risk.
-                                            </span>
-                                        </li>
-                                        <li>
-                                            <span>
-                                                Our Child Protection Officer monitors and reviews child protection practices and procedures.
-                                            </span>
-                                        </li>
-                                        <li>
-                                            <span>
-                                                Our school has procedures in place to facilitate and promote the safe use of technology.
-                                            </span>
-                                        </li>
-                                        <li>
-                                            <span>
-                                                Our administration ensures safe practices to verify the suitability of staff, volunteers and visitors.
-                                            </span>
-                                        </li>
-                                    </ul>
+                            <div class="row">
+                                <div class="col-lg-6 col-12 p-r-md-30 collapse-list-container">
+                                    <div class="single-collapse-par">
+                                        We all agree that the school and the family must work closely together to help each child achieve his or her unique potential. We help our students develop resilience and self-confidence, expecting them to be respectful of others and to recognize that everybody is entitled to his or her own point of view.
+                                    </div>
                                 </div>
-                                <div class="col-6 p-r-30 p-l-30 beliefs-collapse-par collapse-list-container">
-                                    <p>
+                                <div class="col-lg-6 col-12 collapse-list-container">
+                                    <p class="single-collapse-par p-t-md-30">
                                         If any community member suspects any harm or risk of harm to a student, they should immediately report this to the Child Protection Officer (School Counselor), Principal or Director, who will take action following the IST Safeguarding and Child Protection Policies and Guidelines.
                                     </p>
                                 </div>
@@ -175,64 +97,25 @@ include_once 'elements/nav-campus.php';
                         </div>
                     </div>
                 </div>
-                <div class="col-12 beliefs-collapse-container">
+                <div class="col-12 -container">
                     <div class="safeguard-collapse" data-collapse-pos="3">
                         <div class="d-flex justify-content-between align-items-center" data-bs-toggle="collapse" href="#safeguard-3" role="button" data-collapse-pos="3" aria-expanded="false" aria-controls="safeguard-3">
                             <div class="collapse-title-about">
                                 Lost and found
                             </div>
                             <div class="d-flex">
-                                <img id="safeguard-3-icon" style="width:20px; height:20px;" src="<?= get_template_directory_uri() . '/resources/icons/plus_collapse.svg' ?>" alt="">
+                                <img class="w-100" id="safeguard-3-icon" style="width:20px; height:20px;" src="<?= get_template_directory_uri() . '/resources/icons/plus_collapse.svg' ?>" alt="">
                             </div>
                         </div>
                         <div class="collapse" id="safeguard-3">
-                            <div class="row p-t-40">
-                                <div class="col-6 p-r-30 beliefs-collapse-par collapse-list-container">
-                                    <ul class="safeguard-collapse-list">
-                                        <li>
-                                            <span>
-                                                Our school provides an environment where students feel safe, learn, develop and have a voice.
-                                            </span>
-                                        </li>
-                                        <li>
-                                            <span>
-                                                Our school promotes community awareness of, and provides training for, safeguarding students.
-                                            </span>
-                                        </li>
-                                        <li>
-                                            <span>
-                                                Our teachers equip and develop in students, the agency, skills and knowledge needed to keep them safe.
-                                            </span>
-                                        </li>
-                                        <li>
-                                            <span>
-                                                Our school has procedures for the identification and reporting of cases where harm or risk of harm to a student is suspected and ensures that all staff are aware of such procedures.
-                                            </span>
-                                        </li>
-                                        <li>
-                                            <span>
-                                                Our staff supports students who have suffered abuse or who may be at risk.
-                                            </span>
-                                        </li>
-                                        <li>
-                                            <span>
-                                                Our Child Protection Officer monitors and reviews child protection practices and procedures.
-                                            </span>
-                                        </li>
-                                        <li>
-                                            <span>
-                                                Our school has procedures in place to facilitate and promote the safe use of technology.
-                                            </span>
-                                        </li>
-                                        <li>
-                                            <span>
-                                                Our administration ensures safe practices to verify the suitability of staff, volunteers and visitors.
-                                            </span>
-                                        </li>
-                                    </ul>
+                            <div class="row">
+                                <div class="col-lg-6 col-12 p-r-md-30 collapse-list-container">
+                                    <div class="single-collapse-par">
+                                        We all agree that the school and the family must work closely together to help each child achieve his or her unique potential. We help our students develop resilience and self-confidence, expecting them to be respectful of others and to recognize that everybody is entitled to his or her own point of view.
+                                    </div>
                                 </div>
-                                <div class="col-6 p-r-30 p-l-30 beliefs-collapse-par collapse-list-container">
-                                    <p>
+                                <div class="col-lg-6 col-12 collapse-list-container">
+                                    <p class="single-collapse-par p-t-md-30">
                                         If any community member suspects any harm or risk of harm to a student, they should immediately report this to the Child Protection Officer (School Counselor), Principal or Director, who will take action following the IST Safeguarding and Child Protection Policies and Guidelines.
                                     </p>
                                 </div>
@@ -245,12 +128,12 @@ include_once 'elements/nav-campus.php';
     </div>
 </section>
 
-<section class="x-pad-section" style="padding-bottom:60px;">
+<section class="x-pad-section p-b-60">
     <div class="container-fluid">
         <div class="row justify-content-center align-items-center">
             <div class="col-12">
-                <div class="row align-items-center programs-layout-row" style="padding-top:120px;border:none; border-top:1px solid #C0C0C0;padding-bottom:0;">
-                    <div class="col-lg-5 col-12" style="padding:80px;">
+                <div class="row align-items-center programs-layout-row" style="padding-top:60px;border:none; border-top:1px solid #C0C0C0;padding-bottom:0;">
+                    <div class="col-lg-5 col-12 p-md-80 order-2 order-lg-1">
                         <div class="title">
                             BUS SERVICE
                         </div>
@@ -258,76 +141,37 @@ include_once 'elements/nav-campus.php';
                             IST’s bus service is available to all students, with special drop off times for half‐day Nursery children, and a late bus service for students participating in extra‐curricular activities.
                         </p>
                     </div>
-                    <div class="col-lg-6 offset-1 p-0 col-12">
-                        <img src="<?= get_template_directory_uri() . '/resources/campus/services-2.jpg' ?>" alt="">
+                    <div class="col-lg-6 offset-lg-1 col-12 offset-0 p-0 col-12 order-1 order-lg-2">
+                        <img class="w-100" src="<?= get_template_directory_uri() . '/resources/campus/services-2.jpg' ?>" alt="">
                     </div>
                 </div>
             </div>
         </div>
     </div>
 </section>
-<section class="container-fluid p-b-120">
+<section class="container-fluid p-b-60">
     <div class="row justify-content-center">
-        <div class="col-10">
+        <div class="col-lg-10 col-12">
             <div class="row">
-                <div class="col-12 beliefs-collapse-container">
+                <div class="col-12 -container">
                     <div class="safeguard-collapse" data-collapse-pos="4">
                         <div class="d-flex justify-content-between align-items-center" data-bs-toggle="collapse" href="#safeguard-4" role="button" data-collapse-pos="4" aria-expanded="false" aria-controls="safeguard-4">
                             <div class="collapse-title-about">
                                 How it works
                             </div>
                             <div class="d-flex">
-                                <img id="safeguard-4-icon" style="width:20px; height:20px;" src="<?= get_template_directory_uri() . '/resources/icons/plus_collapse.svg' ?>" alt="">
+                                <img class="w-100" id="safeguard-4-icon" style="width:20px; height:20px;" src="<?= get_template_directory_uri() . '/resources/icons/plus_collapse.svg' ?>" alt="">
                             </div>
                         </div>
                         <div class="collapse" id="safeguard-4">
-                            <div class="row p-t-40">
-                                <div class="col-6 p-r-30 beliefs-collapse-par collapse-list-container">
-                                    <ul class="safeguard-collapse-list">
-                                        <li>
-                                            <span>
-                                                Our school provides an environment where students feel safe, learn, develop and have a voice.
-                                            </span>
-                                        </li>
-                                        <li>
-                                            <span>
-                                                Our school promotes community awareness of, and provides training for, safeguarding students.
-                                            </span>
-                                        </li>
-                                        <li>
-                                            <span>
-                                                Our teachers equip and develop in students, the agency, skills and knowledge needed to keep them safe.
-                                            </span>
-                                        </li>
-                                        <li>
-                                            <span>
-                                                Our school has procedures for the identification and reporting of cases where harm or risk of harm to a student is suspected and ensures that all staff are aware of such procedures.
-                                            </span>
-                                        </li>
-                                        <li>
-                                            <span>
-                                                Our staff supports students who have suffered abuse or who may be at risk.
-                                            </span>
-                                        </li>
-                                        <li>
-                                            <span>
-                                                Our Child Protection Officer monitors and reviews child protection practices and procedures.
-                                            </span>
-                                        </li>
-                                        <li>
-                                            <span>
-                                                Our school has procedures in place to facilitate and promote the safe use of technology.
-                                            </span>
-                                        </li>
-                                        <li>
-                                            <span>
-                                                Our administration ensures safe practices to verify the suitability of staff, volunteers and visitors.
-                                            </span>
-                                        </li>
-                                    </ul>
+                            <div class="row ">
+                                <div class="col-lg-6 col-12 p-r-md-30 collapse-list-container">
+                                    <div class="single-collapse-par">
+                                        We all agree that the school and the family must work closely together to help each child achieve his or her unique potential. We help our students develop resilience and self-confidence, expecting them to be respectful of others and to recognize that everybody is entitled to his or her own point of view.
+                                    </div>
                                 </div>
-                                <div class="col-6 p-r-30 p-l-30 beliefs-collapse-par collapse-list-container">
-                                    <p>
+                                <div class="col-lg-6 col-12 collapse-list-container">
+                                    <p class="single-collapse-par p-t-md-30">
                                         If any community member suspects any harm or risk of harm to a student, they should immediately report this to the Child Protection Officer (School Counselor), Principal or Director, who will take action following the IST Safeguarding and Child Protection Policies and Guidelines.
                                     </p>
                                 </div>
@@ -345,11 +189,11 @@ include_once 'elements/nav-campus.php';
     <div class="container-fluid">
         <div class="row justify-content-center align-items-center">
             <div class="col-12">
-                <div class="row align-items-center programs-layout-row" style="padding-top:120px;border:none; border-top:1px solid #C0C0C0;padding-bottom:0;">
+                <div class="row align-items-center programs-layout-row" style="padding-top:60px;border:none; border-top:1px solid #C0C0C0;padding-bottom:0;">
                     <div class="col-lg-6 p-0 col-12">
-                        <img src="<?= get_template_directory_uri() . '/resources/campus/clinic.jpg' ?>" alt="">
+                        <img class="w-100" src="<?= get_template_directory_uri() . '/resources/campus/clinic.jpg' ?>" alt="">
                     </div>
-                    <div class="col-lg-5 col-12" style="padding:80px;">
+                    <div class="col-lg-5 col-12 p-md-80">
                         <div class="title">
                             SCHOOL CLINIC
                         </div>
@@ -362,29 +206,29 @@ include_once 'elements/nav-campus.php';
         </div>
     </div>
 </section>
-<section class="container-fluid p-b-120">
+<section class="container-fluid p-b-60">
     <div class="row justify-content-center">
-        <div class="col-10">
+        <div class="col-lg-10 col-12">
             <div class="row">
-                <div class="col-12 beliefs-collapse-container">
+                <div class="col-12 -container">
                     <div class="safeguard-collapse" data-collapse-pos="5">
                         <div class="d-flex justify-content-between align-items-center" data-bs-toggle="collapse" href="#safeguard-5" role="button" data-collapse-pos="5" aria-expanded="false" aria-controls="safeguard-5">
                             <div class="collapse-title-about">
                                 Health Forms
                             </div>
                             <div class="d-flex">
-                                <img id="safeguard-5-icon" style="width:20px; height:20px;" src="<?= get_template_directory_uri() . '/resources/icons/plus_collapse.svg' ?>" alt="">
+                                <img class="w-100" id="safeguard-5-icon" style="width:20px; height:20px;" src="<?= get_template_directory_uri() . '/resources/icons/plus_collapse.svg' ?>" alt="">
                             </div>
                         </div>
                         <div class="collapse" id="safeguard-5">
-                            <div class="row p-t-40">
-                                <div class="col-6 p-r-30 beliefs-collapse-par collapse-list-container">
-                                    <p>
+                            <div class="row">
+                                <div class="col-lg-6 col-12 p-r-md-30 collapse-list-container">
+                                    <p class="single-collapse-par">
                                         If any community member suspects any harm or risk of harm to a student, they should immediately report this to the Child Protection Officer (School Counselor), Principal or Director, who will take action following the IST Safeguarding and Child Protection Policies and Guidelines.
                                     </p>
                                 </div>
-                                <div class="col-6 p-r-30 p-l-30 beliefs-collapse-par collapse-list-container">
-                                    <p>
+                                <div class="col-lg-6 col-12 collapse-list-container">
+                                    <p class="single-collapse-par p-t-md-30">
                                         If any community member suspects any harm or risk of harm to a student, they should immediately report this to the Child Protection Officer (School Counselor), Principal or Director, who will take action following the IST Safeguarding and Child Protection Policies and Guidelines.
                                     </p>
                                 </div>
@@ -392,25 +236,25 @@ include_once 'elements/nav-campus.php';
                         </div>
                     </div>
                 </div>
-                <div class="col-12 beliefs-collapse-container">
+                <div class="col-12 -container">
                     <div class="safeguard-collapse" data-collapse-pos="6" style="border:none!important;">
                         <div class="d-flex justify-content-between align-items-center" data-bs-toggle="collapse" href="#safeguard-6" role="button" data-collapse-pos="6" aria-expanded="false" aria-controls="safeguard-6">
                             <div class="collapse-title-about">
                                 Vaccinations and Immunizations
                             </div>
                             <div class="d-flex">
-                                <img id="safeguard-6-icon" style="width:20px; height:20px;" src="<?= get_template_directory_uri() . '/resources/icons/plus_collapse.svg' ?>" alt="">
+                                <img class="w-100" id="safeguard-6-icon" style="width:20px; height:20px;" src="<?= get_template_directory_uri() . '/resources/icons/plus_collapse.svg' ?>" alt="">
                             </div>
                         </div>
                         <div class="collapse" id="safeguard-6">
-                            <div class="row p-t-40">
-                                <div class="col-6 p-r-30 beliefs-collapse-par collapse-list-container">
-                                <p>
+                            <div class="row">
+                                <div class="col-lg-6 col-12 p-r-md-30 collapse-list-container">
+                                    <p class="single-collapse-par">
                                         If any community member suspects any harm or risk of harm to a student, they should immediately report this to the Child Protection Officer (School Counselor), Principal or Director, who will take action following the IST Safeguarding and Child Protection Policies and Guidelines.
                                     </p>
                                 </div>
-                                <div class="col-6 p-r-30 p-l-30 beliefs-collapse-par collapse-list-container">
-                                    <p>
+                                <div class="col-lg-6 col-12 collapse-list-container">
+                                    <p class="single-collapse-par p-t-md-30">
                                         If any community member suspects any harm or risk of harm to a student, they should immediately report this to the Child Protection Officer (School Counselor), Principal or Director, who will take action following the IST Safeguarding and Child Protection Policies and Guidelines.
                                     </p>
                                 </div>
@@ -418,25 +262,25 @@ include_once 'elements/nav-campus.php';
                         </div>
                     </div>
                 </div>
-                <div class="col-12 beliefs-collapse-container">
+                <div class="col-12 -container">
                     <div class="safeguard-collapse" data-collapse-pos="7">
                         <div class="d-flex justify-content-between align-items-center" data-bs-toggle="collapse" href="#safeguard-7" role="button" data-collapse-pos="7" aria-expanded="false" aria-controls="safeguard-7">
                             <div class="collapse-title-about">
                                 Communicable Diseases
                             </div>
                             <div class="d-flex">
-                                <img id="safeguard-7-icon" style="width:20px; height:20px;" src="<?= get_template_directory_uri() . '/resources/icons/plus_collapse.svg' ?>" alt="">
+                                <img class="w-100" id="safeguard-7-icon" style="width:20px; height:20px;" src="<?= get_template_directory_uri() . '/resources/icons/plus_collapse.svg' ?>" alt="">
                             </div>
                         </div>
                         <div class="collapse" id="safeguard-7">
-                            <div class="row p-t-40">
-                                <div class="col-6 p-r-30 beliefs-collapse-par collapse-list-container">
-                                    <p>
+                            <div class="row ">
+                                <div class="col-lg-6 col-12 p-r-md-30 collapse-list-container">
+                                    <p class="single-collapse-par">
                                         If any community member suspects any harm or risk of harm to a student, they should immediately report this to the Child Protection Officer (School Counselor), Principal or Director, who will take action following the IST Safeguarding and Child Protection Policies and Guidelines.
                                     </p>
                                 </div>
-                                <div class="col-6 p-r-30 p-l-30 beliefs-collapse-par collapse-list-container">
-                                    <p>
+                                <div class="col-lg-6 col-12 collapse-list-container">
+                                    <p class="single-collapse-par p-t-md-30">
                                         If any community member suspects any harm or risk of harm to a student, they should immediately report this to the Child Protection Officer (School Counselor), Principal or Director, who will take action following the IST Safeguarding and Child Protection Policies and Guidelines.
                                     </p>
                                 </div>
@@ -444,25 +288,25 @@ include_once 'elements/nav-campus.php';
                         </div>
                     </div>
                 </div>
-                <div class="col-12 beliefs-collapse-container">
+                <div class="col-12 -container">
                     <div class="safeguard-collapse" data-collapse-pos="8" style="border:none!important;">
                         <div class="d-flex justify-content-between align-items-center" data-bs-toggle="collapse" href="#safeguard-8" role="button" data-collapse-pos="8" aria-expanded="false" aria-controls="safeguard-8">
                             <div class="collapse-title-about">
                                 Student Health Checks
                             </div>
                             <div class="d-flex">
-                                <img id="safeguard-8-icon" style="width:20px; height:20px;" src="<?= get_template_directory_uri() . '/resources/icons/plus_collapse.svg' ?>" alt="">
+                                <img class="w-100" id="safeguard-8-icon" style="width:20px; height:20px;" src="<?= get_template_directory_uri() . '/resources/icons/plus_collapse.svg' ?>" alt="">
                             </div>
                         </div>
                         <div class="collapse" id="safeguard-8">
-                            <div class="row p-t-40">
-                                <div class="col-6 p-r-30 beliefs-collapse-par collapse-list-container">
-                                    <p>
+                            <div class="row ">
+                                <div class="col-lg-6 col-12 p-r-md-30  collapse-list-container">
+                                    <p class="single-collapse-par">
                                         If any community member suspects any harm or risk of harm to a student, they should immediately report this to the Child Protection Officer (School Counselor), Principal or Director, who will take action following the IST Safeguarding and Child Protection Policies and Guidelines.
                                     </p>
                                 </div>
-                                <div class="col-6 p-r-30 p-l-30 beliefs-collapse-par collapse-list-container">
-                                    <p>
+                                <div class="col-lg-6 col-12 collapse-list-container">
+                                    <p class="single-collapse-par p-t-md-30">
                                         If any community member suspects any harm or risk of harm to a student, they should immediately report this to the Child Protection Officer (School Counselor), Principal or Director, who will take action following the IST Safeguarding and Child Protection Policies and Guidelines.
                                     </p>
                                 </div>
@@ -470,25 +314,25 @@ include_once 'elements/nav-campus.php';
                         </div>
                     </div>
                 </div>
-                <div class="col-12 beliefs-collapse-container">
+                <div class="col-12 -container">
                     <div class="safeguard-collapse" data-collapse-pos="9">
                         <div class="d-flex justify-content-between align-items-center" data-bs-toggle="collapse" href="#safeguard-9" role="button" data-collapse-pos="9" aria-expanded="false" aria-controls="safeguard-9">
                             <div class="collapse-title-about">
                                 Accident Insurance
                             </div>
                             <div class="d-flex">
-                                <img id="safeguard-9-icon" style="width:20px; height:20px;" src="<?= get_template_directory_uri() . '/resources/icons/plus_collapse.svg' ?>" alt="">
+                                <img class="w-100" id="safeguard-9-icon" style="width:20px; height:20px;" src="<?= get_template_directory_uri() . '/resources/icons/plus_collapse.svg' ?>" alt="">
                             </div>
                         </div>
                         <div class="collapse" id="safeguard-9">
-                            <div class="row p-t-40">
-                                <div class="col-6 p-r-30 beliefs-collapse-par collapse-list-container">
-                                    <p>
+                            <div class="row ">
+                                <div class="col-lg-6 col-12 p-r-md-30 collapse-list-container">
+                                    <p class="single-collapse-par">
                                         If any community member suspects any harm or risk of harm to a student, they should immediately report this to the Child Protection Officer (School Counselor), Principal or Director, who will take action following the IST Safeguarding and Child Protection Policies and Guidelines.
                                     </p>
                                 </div>
-                                <div class="col-6 p-r-30 p-l-30 beliefs-collapse-par collapse-list-container">
-                                    <p>
+                                <div class="col-lg-6 col-12 collapse-list-container">
+                                    <p class="single-collapse-par p-t-md-30">
                                         If any community member suspects any harm or risk of harm to a student, they should immediately report this to the Child Protection Officer (School Counselor), Principal or Director, who will take action following the IST Safeguarding and Child Protection Policies and Guidelines.
                                     </p>
                                 </div>
@@ -504,8 +348,8 @@ include_once 'elements/nav-campus.php';
     <div class="container-fluid">
         <div class="row justify-content-center align-items-center">
             <div class="col-12">
-                <div class="row align-items-center programs-layout-row" style="padding-top:120px;border:none; border-top:1px solid #C0C0C0;padding-bottom:0;">
-                    <div class="col-lg-5 col-12" style="padding:80px;">
+                <div class="row align-items-center programs-layout-row" style="padding-top:60px;border:none; border-top:1px solid #C0C0C0;padding-bottom:0;">
+                    <div class="col-lg-5 col-12 p-md-80 order-2 order-lg-1">
                         <div class="title">
                             SCHOOL LIBRARY
                         </div>
@@ -513,8 +357,8 @@ include_once 'elements/nav-campus.php';
                             With over 37,000 titles in more than 6 languages, the IST Library is the largest of any international school in Tianjin. We strive to bring all members of the IST community a wide variety of reading choices, whether purely for pleasure or for teaching and learning. 
                         </p>
                     </div>
-                    <div class="col-lg-6 offset-1 p-0 col-12">
-                        <img src="<?= get_template_directory_uri() . '/resources/campus/library.jpg' ?>" alt="">
+                    <div class="col-lg-6 col-12 offset-lg-1 offset-0 p-0 col-12 order-1 order-lg-2">
+                        <img class="w-100" src="<?= get_template_directory_uri() . '/resources/campus/library.jpg' ?>" alt="">
                     </div>
                 </div>
             </div>
@@ -525,11 +369,11 @@ include_once 'elements/nav-campus.php';
     <div class="container-fluid" style="border-bottom:solid 1px #C0C0C0;padding-bottom:60px;">
         <div class="row justify-content-center align-items-center">
             <div class="col-12">
-                <div class="row align-items-center programs-layout-row" style="padding-top:120px;border:none; border-top:1px solid #C0C0C0;padding-bottom:0;">
+                <div class="row align-items-center programs-layout-row" style="padding-top:60px;border:none; border-top:1px solid #C0C0C0;padding-bottom:0;">
                     <div class="col-lg-6 p-0 col-12">
-                        <img src="<?= get_template_directory_uri() . '/resources/campus/cafeteria.jpg' ?>" alt="">
+                        <img class="w-100" src="<?= get_template_directory_uri() . '/resources/campus/cafeteria.jpg' ?>" alt="">
                     </div>
-                    <div class="col-lg-5 col-12" style="padding:80px;">
+                    <div class="col-lg-5 col-12 p-md-80">
                         <div class="title">
                             SCHOOL CAFETERIA
                         </div>
@@ -544,10 +388,13 @@ include_once 'elements/nav-campus.php';
     </div>
 </section>
 
-
+<section class="pin-section overview-last-pin-sec">
 <?php
-include 'elements/key-resources.php';
-include 'elements/section-related.php';
+    include 'elements/key-resources.php';
+    include 'elements/section-related.php';
+?>
+</section>
+<?php 
 include 'elements/about-pre-footer.php';
 get_footer();
 ?>

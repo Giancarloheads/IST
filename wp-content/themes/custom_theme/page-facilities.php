@@ -13,10 +13,10 @@ include_once 'elements/nav-campus.php';
         </div>
     </div>
 </section>
-<section class="container-fluid">
+<section class="container-fluid d-block d-lg-none">
     <div class="row">
         <div class="col-12">
-            <img src="https://via.placeholder.com/500x800/?text=placeholder_3d" alt="">
+            <img class="w-100" src="https://via.placeholder.com/500x800/?text=placeholder_3d" alt="">
         </div>
     </div>
 </section>
@@ -27,7 +27,7 @@ include_once 'elements/nav-campus.php';
                 <div class="col-lg-6 col-12 ist-par-about-1 p-b-60 p-b-md-0">
                     <div class="collapse-container-single">
                         <div data-bs-toggle="collapse" href="#elementary-collapse-single" role="button" aria-expanded="false" aria-controls="elementary-collapse-single">
-                            <div class="single-collapse-par">
+                            <div class="single-collapse-par-big-txt">
                             Accompanying IST’s dynamic curriculum development has been the construction and expansion of our world class, purpose-built school campus, the first in Tianjin.
                         </div>
                     </div>
@@ -47,9 +47,9 @@ include_once 'elements/nav-campus.php';
         </div>
     </div>
 </section>
-<section class="container-fluid p-l-20 p-r-20 p-t-80 p-b-80 p-b-md-0">
-    <div class="row align-items-center p-b-80">
-        <div class="col-lg-6 col-12">
+<section class="container-fluid p-l-20 p-r-20 p-t-60 p-b-60 p-b-md-0">
+    <div class="row align-items-center p-b-60">
+        <div class="col-lg-6 col-12 p-b-60">
             <img class="w-100" src="<?= get_template_directory_uri() . '/resources/campus/facilities_1.jpg' ?>" alt="">
         </div>
         <div class="col-lg-4 offset-lg-1 col-12 offset-0">
@@ -65,7 +65,7 @@ include_once 'elements/nav-campus.php';
         <div class="col-lg-10 col-12">
             <div class="top-building-collapse" data-collapse-pos="1">
                 <div class="d-flex justify-content-between align-items-center" data-bs-toggle="collapse" href="#collapse-top-building-1" role="button" aria-expanded="false" aria-controls="collapse-top-building-1">
-                    <div>
+                    <div class="single-collapse-par-big-txt">
                         What the Han Building includes
                     </div>
                     <div class="d-flex justify-content-center align-items-center">
@@ -74,7 +74,7 @@ include_once 'elements/nav-campus.php';
                 </div>
                 <div class="collapse" id="collapse-top-building-1">
                     <div>
-                        <ul class="p-b-md-30">
+                        <ul class="p-b-md-30 single-collapse-par">
                             <li>
                                 <span>
                                     Main and secondary administrative offices
@@ -101,7 +101,7 @@ include_once 'elements/nav-campus.php';
                                 </span>
                             </li>
                         </ul>
-                        <ul>
+                        <ul class="single-collapse-par">
                             <li>
                                 <span>
                                     Magnificent library with resources, specialists and accomodations for all age groups
@@ -135,8 +135,8 @@ include_once 'elements/nav-campus.php';
     </div>
 </section>
 
-<section class="container-fluid p-l-20 p-r-20 p-t-80 p-b-80 p-b-md-0">
-    <div class="row align-items-center justify-content-center p-b-80">
+<section class="container-fluid p-l-20 p-r-20 p-t-60 p-b-60 p-b-md-0">
+    <div class="row align-items-center justify-content-center p-b-60">
         <div class="offset-lg-1 col-lg-4 offset-0 col-12 order-2 order-lg-1">
             <div class="ist-section-title-2 p-b-25 p-t-md-25" style="font-weight:300;margin-right:-50px;">THE QIN BUILDING</div>
             <div class="ist-caption-1">
@@ -144,7 +144,7 @@ include_once 'elements/nav-campus.php';
                 Its architectual design celebrates natural light, internal gardens, a vibrant color scheme, and shared spaces for student learning and collaboration. The Qin Building is primarily dedicated to the elementary school but also houses school-wide facilities ensuring that students across the KG 1 (Nursery) to Grade 12 (Year 13) age spectrum have opportunities to come together as one school.
             </div>
         </div>
-        <div class="col-lg-6 offset-lg-1 offset-0 order-1 order-lg-2 col-12">
+        <div class="col-lg-6 offset-lg-1 offset-0 order-1 order-lg-2 col-12 p-b-60">
             <img class="w-100" src="<?= get_template_directory_uri() . '/resources/campus/facilities_1.jpg' ?>" alt="">
         </div>
     </div>
@@ -152,7 +152,7 @@ include_once 'elements/nav-campus.php';
         <div class="col-lg-10 col-12">
             <div class="top-building-collapse" data-collapse-pos="2">
                 <div class="d-flex justify-content-between align-items-center" data-bs-toggle="collapse" href="#collapse-top-building-2" role="button" aria-expanded="false" aria-controls="collapse-top-building-2">
-                    <div>
+                    <div class="single-collapse-par-big-txt">
                         What the Qin Building includes
                     </div>
                     <div class="d-flex justify-content-center align-items-center">
@@ -161,7 +161,7 @@ include_once 'elements/nav-campus.php';
                 </div>
                 <div class="collapse" id="collapse-top-building-2">
                     <div>
-                        <ul>
+                        <ul class="single-collapse-par">
                             <li>
                                 <span>
                                     Elementary administrative offices
@@ -188,7 +188,7 @@ include_once 'elements/nav-campus.php';
                                 </span>
                             </li>
                         </ul>
-                        <ul>
+                        <ul class="single-collapse-par">
                             <li>
                                 <span>
                                     Magnificent library with resources, specialists and accomodations for all age groups
@@ -222,13 +222,13 @@ include_once 'elements/nav-campus.php';
     </div>
 </section>
 
-<section class="container-fluid p-l-20 p-r-20 p-t-80 p-b-80">
-    <div class="row align-items-center p-b-80">
-        <div class="col-lg-6 col-12">
+<section class="container-fluid p-l-20 p-r-20 p-t-60 p-b-60">
+    <div class="row align-items-center p-b-60">
+        <div class="col-lg-6 col-12 p-b-60">
             <img class="w-100" src="<?= get_template_directory_uri() . '/resources/campus/campus-ground.jpg' ?>" alt="">
         </div>
         <div class="col-lg-4 offset-lg-1 col-12 offset-0">
-            <div class="ist-section-title-2 p-b-25 p-t-md-30" style="font-weight:300;margin-right:-50px;">THE CAMPUS GROUNDS</div>
+            <div class="neg-m-r ist-section-title-2 p-b-25 p-t-md-30" style="font-weight:300;">THE CAMPUS GROUNDS</div>
             <div class="ist-caption-1">
                 IST’s magnificent buildings are designed to ensure that virtually every classroom window looks directly into either an internal garden or the school’s extensive park-like grounds and outdoor recreational spaces.
             </div>
@@ -238,7 +238,7 @@ include_once 'elements/nav-campus.php';
         <div class="col-lg-10 col-12">
             <div class="top-building-collapse" data-collapse-pos="3">
                 <div class="d-flex justify-content-between align-items-center" data-bs-toggle="collapse" href="#collapse-top-building-3" role="button" aria-expanded="false" aria-controls="collapse-top-building-3">
-                    <div>
+                    <div class="single-collapse-par-big-txt">
                         What the campus ground includes
                     </div>
                     <div class="d-flex justify-content-center align-items-center">
@@ -247,7 +247,7 @@ include_once 'elements/nav-campus.php';
                 </div>
                 <div class="collapse" id="collapse-top-building-3">
                     <div>
-                        <ul>
+                        <ul class="single-collapse-par">
                             <li>
                                 <span>
                                     Eight delightful internal gardens and play areas
@@ -269,7 +269,7 @@ include_once 'elements/nav-campus.php';
                                 </span>
                             </li>
                         </ul>
-                        <ul>
+                        <ul class="single-collapse-par">
                             <li>
                                 <span>
                                     An additional full-sized grass field

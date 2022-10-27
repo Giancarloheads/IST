@@ -92,7 +92,7 @@
 				</div>
 				<div class="container-fluid p-t-40 p-b-40">
 					<div class="row justify-content-center">
-						<div class="col-11">
+						<div class="col-11 column-container-header-desktop">
 							<div class="row link-lists-header">
 								<div class="col-4">
 									<ul>

@@ -1,8 +1,8 @@
-<section class="container-fluid p-t-240 p-b-120">
+<section class="container-fluid p-t-240 p-b-md-120">
     <div class="row justify-content-center">
         <div class="col-12">
             <div class="row justify-content-center">
-                <div class="col-6 text-center p-b-90 ist-section-title-2">
+                <div class="col-lg-6 col-10 text-center title-nav-section ist-section-title-2">
                     <?php 
                         if(is_page(15)){
                     ?>
@@ -18,7 +18,7 @@
                     <?php } ?>
                 </div>
             </div>
-            <div class="row justify-content-center">
+            <div class="row justify-content-center d-lg-block d-none">
                 <div class="col-12 text-center">
                     <nav class="page-nav">
                         <ul>
@@ -29,6 +29,23 @@
                                 <a href="<?= get_permalink(13); ?>">BELIEFS & VALUES</a>
                             </li>
                             <li class="<?= get_the_ID() == 15 ? 'active-link-nav' : ''; ?>">
+                                <a href="<?= get_permalink(15); ?>">ACCREDITATION</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <div class="row justify-content-center d-block d-lg-none">
+                <div class="col-12 text-center">
+                    <nav class="nav-admission-mob">
+                        <ul class="row">
+                            <li class="col-12 <?= get_the_ID() == 11 ? 'active-link-nav' : ''; ?>" >
+                                <a href="<?= get_permalink(11); ?>"> HISTORY</a>
+                            </li>
+                            <li class="col-12 <?= get_the_ID() == 13 ? 'active-link-nav' : ''; ?>">
+                                <a href="<?= get_permalink(13); ?>">BELIEFS & VALUES</a>
+                            </li>
+                            <li class="col-12 <?= get_the_ID() == 15 ? 'active-link-nav' : ''; ?>">
                                 <a href="<?= get_permalink(15); ?>">ACCREDITATION</a>
                             </li>
                         </ul>

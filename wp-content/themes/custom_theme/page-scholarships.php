@@ -10,7 +10,7 @@ include 'elements/nav-admission.php';
                 <div class="col-lg-6 col-12 ist-par-about-1 p-b-60">
                     <div class="collapse-container-single">
                         <div data-bs-toggle="collapse" href="#elementary-collapse-single" role="button" aria-expanded="false" aria-controls="elementary-collapse-single">
-                            <div class="single-collapse-par">
+                            <div class="single-collapse-par-big-txt">
                                 The International School of Tianjin does not discriminate in admissions with regard to race, gender, ethnic origin, or religion.
                             </div>
                         </div>
@@ -30,7 +30,7 @@ include 'elements/nav-admission.php';
         </div>
     </div>
 </section>
-<section class="container-fluid p-l-20 p-r-20 p-b-60">
+<section class="container-fluid p-b-60">
     <div class="row">
         <div class="col-lg-9 col-12">
             <img class="w-100" src="<?= get_template_directory_uri() . '/resources/admission/scolarship.jpg'  ?>" alt="">

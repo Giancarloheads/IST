@@ -87,13 +87,14 @@ jQuery(document).ready(function ($) {
     const SLIDER_DATAS = $('.years-container');
     if(SLIDER_DATAS){
         SLIDER_DATAS.flickity({
-            freeScroll : true,
+            freeScroll : false,
             prevNextButtons :  false,
             pageDots :false,
             autoPlay : false,
             cellAlign : 'left',
             selectedAttraction: 0.01,
-            friction: 0.15
+            friction: 0.15,
+
         });
     };
 

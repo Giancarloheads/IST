@@ -5,9 +5,9 @@ include_once 'elements/nav-pages-infos.php';
 
 <section class="container-fluid">
     <div class="row justify-content-center">
-        <div class="col-lg-10">
+        <div class="col-lg-10 col-12">
             <div class="row">
-                <div class="col-5 ist-par-about-1 p-b-60">
+                <div class="col-lg-6 col-12 ist-par-about-1 p-b-60">
                     The International School of Tianjin is a not-for-profit school offering an outstanding education for the students of the international community of Tianjin. <br>
                     <i>
                         Working together, <br>
@@ -20,16 +20,16 @@ include_once 'elements/nav-pages-infos.php';
         </div>
     </div>
 </section>
-<section class="container-fluid p-l-20 p-r-20 p-b-60">
+<section class="container-fluid p-l-md-30 p-r-md-30 p-b-60">
     <div class="row">
-        <div class="col-9">
+        <div class="col-lg-9 col-12">
             <img class="w-100" src="<?= get_template_directory_uri() . '/resources/about/beliefs-img-1.jpg'  ?>" alt="">
         </div>
     </div>
 </section>
 <section class="container-fluid p-b-60">
     <div class="row justify-content-center">
-        <div class="col-10">
+        <div class="col-lg-10 col-12">
             <div class="row">
                 <div class="col-12 beliefs-collapse-container">
                     <div class="beliefs-collapse" data-collapse-pos="1">
@@ -37,8 +37,8 @@ include_once 'elements/nav-pages-infos.php';
                             <div class="collapse-title-about">
                                 Our school is a friendly place where the needs of the student come first.
                             </div>
-                            <div>
-                                <img id="beliefs-collapse-1-icon" style="width:20px; height:20px;" src="<?= get_template_directory_uri() . '/resources/icons/plus_collapse.svg' ?>" alt="">
+                            <div class="d-flex justify-content-center align-items-center">
+                                <img class="plus-icon-collapse" class="plus-icon-collapse" id="beliefs-collapse-1-icon" style="width:20px; height:20px;" src="<?= get_template_directory_uri() . '/resources/icons/plus_collapse.svg' ?>" alt="">
                             </div>
                         </div>
                         <div class="collapse" id="beliefs-collapse-1">
@@ -52,8 +52,8 @@ include_once 'elements/nav-pages-infos.php';
                             <div class="collapse-title-about">
                                 Our students love to learn.
                             </div>
-                            <div>
-                                <img id="beliefs-collapse-2-icon" style="width:20px; height:20px;" src="<?= get_template_directory_uri() . '/resources/icons/plus_collapse.svg' ?>" alt="">
+                            <div class="d-flex justify-content-center align-items-center">
+                                <img class="plus-icon-collapse" id="beliefs-collapse-2-icon" style="width:20px; height:20px;" src="<?= get_template_directory_uri() . '/resources/icons/plus_collapse.svg' ?>" alt="">
                             </div>
                         </div>
                         <div class="collapse" id="beliefs-collapse-2">
@@ -67,8 +67,8 @@ include_once 'elements/nav-pages-infos.php';
                             <div class="collapse-title-about">
                                 Our common future requires that we all look beyond our immediate needs.
                             </div>
-                            <div>
-                                <img id="beliefs-collapse-3-icon" style="width:20px; height:20px;" src="<?= get_template_directory_uri() . '/resources/icons/plus_collapse.svg' ?>" alt="">
+                            <div class="d-flex justify-content-center align-items-center">
+                                <img class="plus-icon-collapse" id="beliefs-collapse-3-icon" style="width:20px; height:20px;" src="<?= get_template_directory_uri() . '/resources/icons/plus_collapse.svg' ?>" alt="">
                             </div>
                         </div>
                         <div class="collapse" id="beliefs-collapse-3">
@@ -83,10 +83,10 @@ include_once 'elements/nav-pages-infos.php';
     </div>
 </section>
 <section class="container-fluid p-t-60 bg-grey">
-    <div class="row justify-content-center">
+    <div class="row justify-content-center-lg">
         <div class="col-10">
             <div class="row">
-                <div class="col-8 ist-about-title">
+                <div class="col-lg-8 col-12 ist-about-title">
                     LEARNING OBJECTIVE <br>
                     STATEMENTS
                 </div>
@@ -214,7 +214,7 @@ include_once 'elements/nav-pages-infos.php';
     <div class="row justify-content-center">
         <div class="col-12">
             <div class="row align-items-center">
-                <div class="offset-1 col-4">
+                <div class="offset-lg-1 col-lg-4 offset-0 col-12">
                     <div class="ist-about-title">
                         HIGH QUALITY LEARNING
                     </div>
@@ -222,7 +222,7 @@ include_once 'elements/nav-pages-infos.php';
                         Learning at IST is an inquiry-based, conceptually-driven process guided by our school Philosophy and the IB programmes where we cultivate and deepen knowledge, skills, understandings and dispositions through engaging, meaningful and diverse experiences repeated over time.
                     </div>
                 </div>
-                <div class="col-6 offset-1">
+                <div class="col-lg-6 offset-lg-1 col-12 offset-0 p-t-sm-30">
                     <img src="<?= get_template_directory_uri() . '/resources/about/beliefs-img-2.jpg' ?>" alt="">
                 </div>
             </div>
@@ -231,7 +231,7 @@ include_once 'elements/nav-pages-infos.php';
 </section>
 <section class="container-fluid p-b-60">
     <div class="row justify-content-center">
-        <div class="col-10">
+        <div class="col-lg-10 col-12">
             <div class="row">
                 <div class="col-12 beliefs-collapse-container">
                     <div class="beliefs-collapse" data-collapse-pos="4">
@@ -239,13 +239,13 @@ include_once 'elements/nav-pages-infos.php';
                             <div class="collapse-title-about">
                                 What does high quality learning allow?
                             </div>
-                            <div>
-                                <img id="beliefs-collapse-4-icon" style="width:20px; height:20px;" src="<?= get_template_directory_uri() . '/resources/icons/plus_collapse.svg' ?>" alt="">
+                            <div class="d-flex justify-content-center align-items-center">
+                                <img class="plus-icon-collapse" id="beliefs-collapse-4-icon" style="width:20px; height:20px;" src="<?= get_template_directory_uri() . '/resources/icons/plus_collapse.svg' ?>" alt="">
                             </div>
                         </div>
                         <div class="collapse" id="beliefs-collapse-4">
                             <div class="beliefs-collapse-par w-100">
-                                <div class="d-flex">
+                                <div class="d-flex beliefs-ul-container">
                                     <ul class="belief-ul-collapse">
                                         <li>Nurtures curiosity, enthusiasm and courage</li>
                                         <li>Builds on prior experiences and is guided by a clear purpose</li>

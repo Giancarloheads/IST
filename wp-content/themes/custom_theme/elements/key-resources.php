@@ -2,12 +2,12 @@
     $key_resources = get_field('key_resources', get_the_ID());
     if($key_resources != '' || is_page(39)) :
 ?>
-<section class="container-fluid p-b-60 <?=  is_page(164) ? '' : 'p-t-60'; ?>">
+<section class="container-fluid p-t-60 p-b-60">
     <div class="row justify-content-center">
         <div class="col-lg-10 col-12">
             <div class="row">
                 <?php if(!is_page(39)){ ?>
-                <div class="<?= is_page(164) ? '' : 'p-b-60'; ?> col-12 text-center key-resource-title">
+                <div class="<?= get_the_ID() == 164 ? '' : 'p-b-60'; ?> col-12 text-center key-resource-title">
                     <?php if(is_page(162)){ ?>
                         Candidates can download the required documents:
                     <?php } else if(is_page(164)){ ?>
@@ -37,11 +37,11 @@
                     }
                 } else {
                     ?>
-                    <div class="g-3 col-4">
+                    <div class="g-3 col-lg-4 col-md-8 col-10">
                         <div class="single-key-resources">
                             <a href="">
                                 <div class="">Counselors's Contacts</div>
-                                <a href="mailto:StudentService@isttianjin.org.cn" class="key-resources-cta">
+                                <a href="mailto:StudentService@isttianjin.org.cn" class="key-resources-cta c-red">
                                     StudentService@isttianjin.org.cn
                                 </a>
                             </a>

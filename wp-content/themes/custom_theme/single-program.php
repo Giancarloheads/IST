@@ -6,11 +6,11 @@ $term = get_the_terms($id, 'division')[0]->name;
 ?>
 
 
-<section class="container-fluid p-t-120 p-b-120">
+<section class="container-fluid p-t-60 p-b-60">
     <div class="row justify-content-center">
-        <div class="col-10">
+        <div class="col-lg-10 col-12">
             <div class="row">
-                <div class="col-2">
+                <div class="col-md-3 col-12 p-b-sm-60">
                     <ul class="program-info-list">
                         <li>
                             Program:
@@ -38,7 +38,7 @@ $term = get_the_terms($id, 'division')[0]->name;
                         </li>
                     </ul>
                 </div>
-                <div class="offset-1 col-9 single-program-par">
+                <div class="offset-md-1 col-md-8 col-12 offset-0 single-program-par">
                     <?= get_field('text_intro');  ?>
                 </div>
             </div>
@@ -48,20 +48,19 @@ $term = get_the_terms($id, 'division')[0]->name;
 
 <section class="container-fluid">
     <div class="row">
-        <div class="col-9">
+        <div class="col-lg-9 col-12">
             <img style="min-width:100%; max-width:100%;" src="<?= get_the_post_thumbnail_url(); ?>" alt="err">
         </div>
     </div>
 </section>
-<section class="container-fluid p-t-120 p-b-120">
+<section class="container-fluid p-t-60 p-b-60">
     <div class="row justify-content-center">
-        <div class="col-10">
+        <div class="col-lg-10 col-12">
             <div class="row">
                 <?php
                 $grades = get_field('grades');
                 foreach ($grades as $index => $grade) :
                 ?>
-
                     <div class="single-program-collapse" data-collapse-pos="<?= $index + 1 ?>" style="border-bottom:#C0C0C0 1px solid!important">
                         <div class="d-flex justify-content-between align-items-center" data-bs-toggle="collapse" href="#single-program-collapse-<?= $index + 1 ?>" role="button" data-collapse-pos="<?= $index + 1; ?>" aria-expanded="false" aria-controls="single-program-collapse-<?= $index + 1;  ?>">
                             <div class="collapse-title-program">
@@ -81,7 +80,6 @@ $term = get_the_terms($id, 'division')[0]->name;
                             </div>
                         </div>
                     </div>
-
                 <?php
                 endforeach;
                 ?>
@@ -99,5 +97,5 @@ $term = get_the_terms($id, 'division')[0]->name;
 ?>
 
 <?php
-get_footer();
+    get_footer();
 ?>

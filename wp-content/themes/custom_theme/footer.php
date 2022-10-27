@@ -13,7 +13,7 @@
 <section class="footer-wrapper">
 <footer class="container-fluid">
     <div class="row justify-content-center">
-        <div class="col-lg-10 col-xs-11">
+        <div class="col-lg-10 col-12">
             <div class="row">
                 <div class="col-12 col-lg-4">
                     <div class="ist-section-title-1">International <br> School of Tianjin</div>
@@ -107,7 +107,7 @@
         </div>
     </div>
 </footer>
-<div class="conteiner-fluid">
+<div class="conteiner-fluid" style="position:relative;bottom:1px;">
     <div class="row">
         <div class="col-12" style="background-color:#fff;">
             <img class="w-100" src="<?= get_template_directory_uri() .'/resources/img/footer-bg.png'; ?>" alt="">

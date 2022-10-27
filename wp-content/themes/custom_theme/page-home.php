@@ -96,14 +96,14 @@ get_header();
 </section>
 
 <!--EXPANDED IMG -->
-<section class="p-md-t-0" style="background-color:#fff;height:100vh;border-radius:0;">
-    <div class="expand-img-container">
-        <div id="img-1-home" style="background-image:url('<?= get_template_directory_uri() . '/resources/img/home-1.jpg'; ?>');object-fit:fill; background-position:center;"></div>
+<section style="background-color:#fff!important">
+    <div class="expand-img-container container-1-expand">
+        <div id="img-1-home" style="background-image:url('<?= get_template_directory_uri() . '/resources/img/home-1.jpg'; ?>')"></div>
         <div class="img-1-overlay"></div>
         <div class="img-1-caption">
             <div class="title">WORLD CLASS FACILITIES</div>
-            <div class="img-1-cta">
-                <a class="ist-cta justify-content-center" href="">Explore our Campus <img onload="SVGInject(this);" src="<?= get_template_directory_uri() . '/resources/icons/arrow.svg' ?>" alt=""> </a>
+            <div class="img-2-cta">
+                <a href="#" class="ist-cta justify-content-center" href="">Explore our Campus<img onload="SVGInject(this);" src="<?= get_template_directory_uri() . '/resources/icons/arrow.svg' ?>" alt=""> </a>
             </div>
         </div>
     </div>
@@ -437,7 +437,7 @@ get_header();
                 $reviews = get_field('reviews', get_the_ID());
                 foreach ($reviews as $i => $r) :
                 ?>
-                    <div class="community-item" style="<?= $i == 0 ? 'padding-left:9%;width:calc(52% + 9%);' : ''; ?> <?= $i == count($reviews) - 1 ? 'padding-right:9%;width:calc(52% + 9%);' : ''; ?>">
+                    <div class="community-item <?= $i == 0 ? 'first-community-item' : ''; ?> <?= $i == count($reviews) - 1 ? 'last-community-item' : ''; ?>">
                         <div>
                             <div class="title"><?= $r['review_title'] ?></div>
                             <div class="par"><?= $r['review_text'] ?></div>
@@ -457,7 +457,7 @@ get_header();
     </div>
 </div>
 <section style="background-color:#fff" class="pt-anim">
-    <div class="expand-img-container">
+    <div class="expand-img-container container-2-expand">
         <div id="img-2-home" style="background-image:url('<?= get_template_directory_uri() . '/resources/img/home-2.jpg'; ?>')"></div>
         <div class="img-2-overlay"></div>
         <div class="img-2-caption">
@@ -657,16 +657,16 @@ get_header();
         ?>
     </div>
 </section>
-<section style="border-radius:25px 25px 0 0" class="container-fluid pre-footer bg-orange pin-section pin-section-border pin-section-mobile">
+<section class="container-fluid pre-footer bg-orange pin-section pin-section-border pin-section-mobile border-radius-section">
     <div class="row h-100">
         <div class="col-12 h-100 d-flex justify-content-center align-items-center pos-rel">
-            <img class="pre-footer-img" onload="SVGInject(this);" src="<?= get_template_directory_uri() . '/resources/home/pre-footer-img.svg'; ?>" alt="">
-            <div class="pre-footer-title w-100">
+            <img class="pre-footer-img pre-footer-home-svg" onload="SVGInject(this);" src="<?= get_template_directory_uri() . '/resources/home/pre-footer-img.svg'; ?>" alt="">
+            <div class="pre-footer-title w-100 scropacity">
                 <div class="ist-title-3">
                     JOIN OUR COMMUNITY
                 </div>
             </div>
-            <div class="pre-footer-cta-container w-100">
+            <div class="pre-footer-cta-container w-100 scropacity">
                 <div class="w-100">
                     <div class="row d-flex align-items-center">
                         <div class="cta-pre-footer ist-cta-1 m-md-b-40 col-lg-5 col-md-10">

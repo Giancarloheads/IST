@@ -7,7 +7,8 @@ include 'elements/nav-community.php';
     <div class="row justify-content-center">
         <div class="col-md-10 col-12">
             <div class="row justify-content-center">
-                <div class="col-12 ist-section-title p-b-60 p-t-5" style="border-top:solid 1px #C0C0C0;">
+                <div class="col-12 ist-section-title p-b-60 p-t-5">
+                    <hr class="team-hr">
                     Board of Governors
                 </div>
                 <div class="col-12">
@@ -217,7 +218,8 @@ include 'elements/nav-community.php';
     <div class="row justify-content-center">
         <div class="col-md-10 col-12">
             <div class="row justify-content-center">
-                <div class="col-12 ist-section-title p-b-60 p-t-5" style="border-top:solid 1px #C0C0C0;">
+                <div class="col-12 ist-section-title p-b-60 p-t-5">
+                <hr class="team-hr">
                     Administrative & Support
                 </div>
                 <div class="col-12">
@@ -427,7 +429,8 @@ include 'elements/nav-community.php';
     <div class="row justify-content-center">
         <div class="col-md-10 col-12">
             <div class="row justify-content-center">
-                <div class="col-12 ist-section-title p-b-60 p-t-5" style="border-top:solid 1px #C0C0C0;">
+                <div class="col-12 ist-section-title p-b-60 p-t-5">
+                <hr class="team-hr">
                     Elementary School Teaching faculty  
                 </div>
                 <div class="col-12">
@@ -637,7 +640,8 @@ include 'elements/nav-community.php';
     <div class="row justify-content-center">
         <div class="col-md-10 col-12">
             <div class="row justify-content-center">
-                <div class="col-12 ist-section-title p-b-60 p-t-5" style="border-top:solid 1px #C0C0C0;">
+                <div class="col-12 ist-section-title p-b-60 p-t-5">
+                <hr class="team-hr">
                     Secondary School Teaching faculty
                 </div>
                 <div class="col-12">
@@ -843,11 +847,12 @@ include 'elements/nav-community.php';
         </div>
     </div>
 </section>
-<section class="container-fluid p-b-120">
+<section class="container-fluid">
     <div class="row justify-content-center">
         <div class="col-md-10 col-12">
             <div class="row justify-content-center">
-                <div class="col-12 ist-section-title p-b-60 p-t-5" style="border-top:solid 1px #C0C0C0;">
+                <div class="col-12 ist-section-title p-b-60 p-t-5">
+                <hr class="team-hr">
                     Teaching assistants
                 </div>
                 <div class="col-12">

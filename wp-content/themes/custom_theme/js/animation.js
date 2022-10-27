@@ -29,7 +29,7 @@ jQuery(document).ready(function ($) {
     var home1img = document.getElementById('img-1-home');
     var home2img = document.getElementById('img-2-home');
 
-    if (w < 746) {
+    if (w <= 768) {
         home1img.classList.add('expanded');
 
         $('.expand-img-container').animate({
