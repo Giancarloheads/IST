@@ -32,8 +32,8 @@ get_header();
 <section class="container-fluid p-t-60 p-b-60">
     <div class="row justify-content-center">
         <div class="col-md-10 col-sm-12">
-            <div class="row g-3 edu-container justify-content-center">
-                <div class="col-lg-4 col-12 edu-box">
+            <div class="row g-3 edu-container">
+                <div class="offset-1 col-10 offset-lg-0 col-lg-4 edu-box">
                     <div class="edu-content">
                         <div>
                             <img onload="SVGInject(this);" class="edu-box-img" src="<?= get_template_directory_uri() . '/resources/education/myp.svg' ?>" alt="">
@@ -50,7 +50,7 @@ get_header();
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-12 edu-box">
+                <div class="offset-1 col-10 offset-lg-0 col-lg-4 edu-box">
                     <div class="edu-content">
                         <div>
                             <img onload="SVGInject(this);" class="edu-box-img" src="<?= get_template_directory_uri() . '/resources/education/dp.svg' ?>" alt="">
@@ -163,18 +163,20 @@ get_header();
                 </div>
             </div>
         </div>
-        <div class="col-lg-10 col-12">
+        <div class="col-10">
             <div class="row">
-                <div class="col-lg-6 offset-lg-6 offset-0 col-12">
+                <div class="col-lg-6 offset-lg-6 col-12 offset-0">
                     <div class="collapse-container-single">
                         <div data-bs-toggle="collapse" href="#elementary-collapse-single" role="button" aria-expanded="false" aria-controls="elementary-collapse-single">
                             <div class="single-collapse-par-big-txt">
-                                The Secondary School comprises Grades 6 to 12. Grade 6 to 8 is termed ‘Middle School’ for pastoral purposes while Grade 9 to 12 is termed 'High School.’
-                            </div>
+                            The Secondary School comprises Grades 6 to 12. Grade 6 to 8 is termed ‘Middle School’ for pastoral purposes while Grade 9 to 12 is termed ‘High School.’
+
                         </div>
-                        <div class="collapse" id="elementary-collapse-single">
-                            <div class="beliefs-collapse-par single-collapse-par">
-                            Each grade is divided into two teaching units named homerooms and indicated by the initial of the homeroom teacher. <br> The schedule is organized on a 10-day cycle (Week A and Week B). The Secondary School is housed in the ‘Han’ building for all academic activities other than Visual Art, Design, and PE/Health.
+                    </div>
+                    <div class="collapse" id="elementary-collapse-single">
+                        <div class="beliefs-collapse-par single-collapse-par">
+                                Each grade is divided into two teaching units named homerooms and indicated by the initial of the homeroom teacher.
+                                The schedule is organized on a 10-day cycle (Week A and Week B). The Secondary School is housed in the ‘Han’ building for all academic activities other than Visual Art, Design, and PE/Health.
                             </div>
                         </div>
                         <div class="single-collapse-trigger" data-bs-toggle="collapse" href="#elementary-collapse-single" role="button" aria-expanded="false" aria-controls="elementary-collapse-single">

@@ -7,8 +7,20 @@ get_header();
 
 <section class="container-fluid jumbotron">
     <div class="video-container">
-        <div style="background-image:url('<?= get_template_directory_uri() . '/resources/img/jumbotron.jpg'; ?>')"></div>
+        <!-- <div style="background-image:url('<?= get_template_directory_uri() . '/resources/img/jumbotron.jpg'; ?>')"></div> -->
         <!-- <iframe src="https://www.youtube.com/embed/rUWxSEwctFU?mute=1&modestbranding=0&autoplay=1&autohide=1&rel=0&showinfo=0&controls=0&disablekb=1&enablejsapi=1&iv_load_policy=3&loop=1&playsinline=1&fs=0&playlist=rUWxSEwctFU"></iframe> -->
+        <video class="video-tag" style="min-width:100%;min-height:100%;object-fit:cover;object-position: center center;" autoplay muted loop>
+            <source src="http://techslides.com/demos/sample-videos/small.mp4" type="video/mp4">
+        </video>
+        <style>
+            .video-tag {
+                position: relative;
+                width: 100%;
+                height: 100%;
+                object-fit: contain;
+                object-position: center;
+            }
+        </style>
     </div>
     <div class="row justify-content-center">
         <div class="col-md-10 col-sm-11">
@@ -38,7 +50,7 @@ get_header();
         </div>
     </div>
 </section>
-<section id="first-section" class="main-section p-t-60 p-b-100">
+<section id="first-section" class="main-section p-t-60 p-b-60">
     <div class="container-fluid">
         <div class="row justify-content-center">
             <div class="col-md-10 col-sm-11">
@@ -124,7 +136,7 @@ get_header();
         </div>
     </div>
 </section>
-<section class="container-fluid p-b-100 d-lg-block d-none">
+<section class="container-fluid p-b-60 d-lg-block d-none">
     <div class="row justify-content-center">
         <div class="col-md-10 col-sm-11">
             <div class="row justify-content-center">
@@ -199,7 +211,7 @@ get_header();
     </div>
 </section>
 <!-- SLIDER CLASSI MOBILE -->
-<section class="container-fluid d-lg-none d-block bg-grey p-b-100">
+<section class="container-fluid d-lg-none d-block bg-grey p-b-60">
     <div class="row jutify-content-center">
         <div class="col-12">
             <div class="row">
@@ -257,7 +269,7 @@ get_header();
         </div>
     </div>
 </section>
-<section class="container-fluid p-t-80 p-b-80 bg-red bg-wh-mobile">
+<section class="container-fluid p-t-60 p-b-60 bg-red bg-wh-mobile">
     <div class="row justify-content-center">
         <div class="col-md-10 col-sm-11">
             <div class="row">
@@ -325,8 +337,9 @@ get_header();
                     </div>
                 </div>
                 <div class="col-12 students-video-container scrreveal3">
-                    <img class="d-none d-lg-block w-100" src="<?= get_template_directory_uri() . '/resources/img/students.jpg'; ?>" alt="">
-                    <img class="d-md-block d-lg-none w-100" src="https://via.placeholder.com/600x850" alt="">
+                    <video class="video-tag" style="min-width:100%;min-height:100%;object-fit:cover!important;object-position:center center!important" autoplay muted loop>
+                        <source src="http://techslides.com/demos/sample-videos/small.mp4" type="video/mp4">
+                    </video>
                 </div>
             </div>
         </div>
@@ -419,7 +432,7 @@ get_header();
     </div>
 </section>
 <div class="slide-2-container">
-    <section class="community-section p-b-100 container-fluid rounded-section pos-rel">
+    <section class="community-section p-b-60 container-fluid rounded-section pos-rel">
         <div class="row justify-content-center">
             <div class="col-md-10 col-sm-11">
                 <div class="row">
@@ -504,7 +517,7 @@ get_header();
                     </ul>
                 </div>
                 <div class="scrreveal col-lg-6 col-12 p-md-t-30">
-                    <img style="margin:auto!important;" src="<?= get_template_directory_uri() . '/resources/home/home-3.png' ?>" alt="">
+                    <img class="w-100" style="margin:25px auto!important;" src="<?= get_template_directory_uri() . '/resources/home/home-3.png' ?>" alt="">
                 </div>
                 <div class="col-12">
                     <ul class="beyond-list d-lg-none d-block p-t-40">

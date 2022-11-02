@@ -355,7 +355,6 @@ jQuery(document).ready(function ($) {
     var lastScrollTop = 0;
     var delta = 25;
     var navbarHeight = $('header').outerHeight();
-    console.log(navbarHeight);
 
     $(window).scroll(function (event) {
         didScroll = true;
@@ -379,7 +378,6 @@ jQuery(document).ready(function ($) {
                 $('header').removeClass('hide-header');
             }
         }
-
         lastScrollTop = st;
     }
 
@@ -490,6 +488,11 @@ jQuery(document).ready(function ($) {
             $(this).find('span').html('SEE MORE');
             $(this).find('svg').css('transform' , 'rotate(135deg)');
         }
-    })
+    });
+
+
+    //LAZYLOAD
+    $('.lazy').lazyload();
+    
 
 });

@@ -315,7 +315,9 @@
 			</div>
 			<div id="mobile-nav-menu" class="p-30">
 				<div class="header-mobile-ham p-b-60">
-					<img onload="SVGInject(this); " src="<?= get_template_directory_uri() . '/resources/icons/ist-logo.svg'; ?>" alt="">
+					<a href="<?= get_permalink(7); ?>">
+						<img onload="SVGInject(this); " src="<?= get_template_directory_uri() . '/resources/icons/ist-logo.svg'; ?>" alt="">
+					</a>
 					<div class="close-nav-mobile-btn">
 						<image onload="SVGInject(this); " src="<?= get_template_directory_uri() . '/resources/icons/ham-close.svg'; ?>" alt="">
 					</div>
@@ -418,7 +420,7 @@
 				<div class="collapse" id="collapse-campus">
 					<ul class="link-list-mobile-nav">
 						<li>
-							<a class="<?= get_the_ID() == 108 ? 'active-lik' :  ''; ?>" href="<?= get_permalink(108); ?>">
+							<a class="<?= get_the_ID() == 108 ? 'active-link' :  ''; ?>" href="<?= get_permalink(108); ?>">
 								Facilities
 							</a>
 						</li>

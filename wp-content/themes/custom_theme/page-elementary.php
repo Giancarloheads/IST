@@ -27,48 +27,48 @@ include 'elements/nav-pages-programs.php';
     <div class="row justify-content-center">
         <div class="col-md-10 col-sm-12">
             <div class="row g-3 edu-container">
-                <div class="col-md-4 col-12 edu-box">
+                <div class="offset-1 col-10 offset-lg-0 col-lg-4 edu-box edu-box">
                     <div class="edu-content h-100">
-                        <div class="p-t-20">
-                            <img onload="SVGInject(this);" class="h-100 edu-box-img" src="<?= get_template_directory_uri() . '/resources/education/edu-1.svg' ?>" alt="">
-                        </div>
-                        <a class="ist-cta" href="<?= get_permalink(144); ?>">
-                            Baby Dragon Playgroup
-                            <img class="cta-black" onload="SVGInject(this); " src="<?= get_template_directory_uri() . '/resources/icons/arrow.svg' ?>" alt="">
-                        </a>
-                        <div>
-                            <div>0-3 years</div>
-                        </div>
+                            <div class="p-t-20">
+                                <img onload="SVGInject(this);" class="h-100 edu-box-img" src="<?= get_template_directory_uri() . '/resources/education/edu-1.svg' ?>" alt="">
+                            </div>
+                            <a class="ist-cta" href="<?= get_permalink(144); ?>">
+                                Baby Dragon Playgroup
+                                <img class="cta-black" onload="SVGInject(this); " src="<?= get_template_directory_uri() . '/resources/icons/arrow.svg' ?>" alt="">
+                            </a>
+                            <div>
+                                <div>0-3 years</div>
+                            </div>
                     </div>
                 </div>
-                <div class="col-md-4 col-12 edu-box">
+                <div class="offset-1 col-10 offset-lg-0 col-lg-4 edu-box">
                     <div class="edu-content h-100">
-                        <div>
-                            <img onload="SVGInject(this);" class="h-100 edu-box-img" src="<?= get_template_directory_uri() . '/resources/education/edu-2.svg' ?>" alt="">
-                        </div>
-                        <a class="ist-cta" href="<?= get_permalink(145); ?>">
-                            PYP Early Years
-                            <img class="cta-black" onload="SVGInject(this); " src="<?= get_template_directory_uri() . '/resources/icons/arrow.svg' ?>" alt="">
-                        </a>
-                        <div>
-                            <div>3 - 5 years</div>
-                            <div>KG 1 - KG 2</div>
-                        </div>
+                            <div>
+                                <img onload="SVGInject(this);" class="h-100 edu-box-img" src="<?= get_template_directory_uri() . '/resources/education/edu-2.svg' ?>" alt="">
+                            </div>
+                            <a class="ist-cta" href="<?= get_permalink(145); ?>">
+                                PYP Early Years
+                                <img class="cta-black" onload="SVGInject(this); " src="<?= get_template_directory_uri() . '/resources/icons/arrow.svg' ?>" alt="">
+                            </a>
+                            <div>
+                                <div>3 - 5 years</div>
+                                <div>KG 1 - KG 2</div>
+                            </div>
                     </div>
                 </div>
-                <div class="col-md-4 col-12 edu-box">
+                <div class="offset-1 col-10 offset-lg-0 col-lg-4 edu-box edu-box">
                     <div class="edu-content h-100">
-                        <div>
-                            <img onload="SVGInject(this);" class="h-100 edu-box-img" src="<?= get_template_directory_uri() . '/resources/education/edu-3.svg' ?>" alt="">
-                        </div>
-                        <a class="ist-cta" href="<?= get_permalink(143) ?>">
-                            PYP
-                            <img class="cta-black" onload="SVGInject(this); " src="<?= get_template_directory_uri() . '/resources/icons/arrow.svg' ?>" alt="">
-                        </a>
-                        <div>
-                            <div>6 - 11 years</div>
-                            <div>KG 3 - Grade 5</div>
-                        </div>
+                            <div>
+                                <img onload="SVGInject(this);" class="h-100 edu-box-img" src="<?= get_template_directory_uri() . '/resources/education/edu-3.svg' ?>" alt="">
+                            </div>
+                            <a class="ist-cta" href="<?= get_permalink(143) ?>">
+                                PYP
+                                <img class="cta-black" onload="SVGInject(this); " src="<?= get_template_directory_uri() . '/resources/icons/arrow.svg' ?>" alt="">
+                            </a>
+                            <div>
+                                <div>6 - 11 years</div>
+                                <div>KG 3 - Grade 5</div>
+                            </div>
                     </div>
                 </div>
             </div>

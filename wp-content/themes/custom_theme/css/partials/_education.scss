@@ -1,4 +1,7 @@
 .edu-container {
+    @media(min-width:993px){
+        justify-content:center!important;
+    }
     .edu-box {
         padding-top:60px;
         padding-bottom: 60px;
@@ -87,6 +90,12 @@
     font-weight:400;
     line-height:1.2;
     padding-top:20px;
+    color:$red;
+    svg{
+        path{
+            stroke:$red;
+        }
+    }
 }
 
 .single-collapse-trigger[aria-expanded=true]{
@@ -100,8 +109,8 @@
 }
 
 .programs-layout-row{
-    padding-top:120px;
-    padding-bottom:120px;
+    padding-top:60px;
+    padding-bottom:60px;
     border-top: 1px #C0C0C0 solid;
     border-bottom: 1px #C0C0C0 solid;
     @media(max-width:768px){

@@ -29,42 +29,45 @@ jQuery(document).ready(function ($) {
     var home1img = document.getElementById('img-1-home');
     var home2img = document.getElementById('img-2-home');
 
-    if (w <= 768) {
-        home1img.classList.add('expanded');
-
-        $('.expand-img-container').animate({
-            width: '100vw',
-            height: '100vh'
-        }, 800);
-
-        home1img.animate({
-            width: '100vw',
-            height: '100vh',
-            'border-radius': '0'
-        }, 1200);
-
-        $('.img-1-overlay').animate({
-            'opacity': '.4',
-        }, 1200);
-
-        $('.img-1-caption').animate({
-            opacity: 1,
-            top: '50%'
-        }, 1400);
-        home2img.classList.add('expanded');
-        $('.pt-anim').animate({
-            'padding-top': '0'
-        }, 1200);
-
-        $('.img-2-overlay').animate({
-            'opacity': '.4'
-        }, 1200);
-
-        $('.img-2-caption').animate({
-            opacity: 1,
-            top: '50%'
-        }, 1400);
-
+    if (w <= 768 && (home1img || home2img)) {
+        if(home1img){
+            home1img.classList.add('expanded');
+            $('.expand-img-container').animate({
+                width: '100vw',
+                height: '100vh'
+            }, 800);
+            
+            home1img.animate({
+                width: '100vw',
+                height: '100vh',
+                'border-radius': '0'
+            }, 1200);
+            
+            $('.img-1-overlay').animate({
+                'opacity': '.4',
+            }, 1200);
+            
+            $('.img-1-caption').animate({
+                opacity: 1,
+                top: '50%'
+            }, 1400);
+        }
+        if(home2img){
+            home2img.classList.add('expanded');
+            $('.pt-anim').animate({
+                'padding-top': '0'
+            }, 1200);
+            
+            $('.img-2-overlay').animate({
+                'opacity': '.4'
+            }, 1200);
+            
+            $('.img-2-caption').animate({
+                opacity: 1,
+                top: '50%'
+            }, 1400);
+        } 
+            
         var slides = document.querySelectorAll(".pin-section-mobile");
 
         // create scene for every slide

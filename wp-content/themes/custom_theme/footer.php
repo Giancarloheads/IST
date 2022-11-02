@@ -110,7 +110,8 @@
 <div class="conteiner-fluid" style="position:relative;bottom:1px;">
     <div class="row">
         <div class="col-12" style="background-color:#fff;">
-            <img class="w-100" src="<?= get_template_directory_uri() .'/resources/img/footer-bg.png'; ?>" alt="">
+            <img style="margin-top:60px;" class="w-100 lazy d-md-block d-none" data-src="<?= get_template_directory_uri() .'/resources/gifs/footer_gif_desktop.gif'; ?>" alt="gif">
+            <img style="margin-top:60px;" class="w-100 lazy d-block d-md-none" data-src="<?= get_template_directory_uri() .'/resources/gifs/footer_gif_mobile.gif'; ?>" alt="gif"> 
         </div>
     </div>
 </div>

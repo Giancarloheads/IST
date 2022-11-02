@@ -3,7 +3,7 @@ jQuery(document).ready(function ($) {
     
     //SLIDER CLASSI
     const SLIDER_CLASSES = $('.classes-slider');
-    if (SLIDER_CLASSES) {
+    if (SLIDER_CLASSES.length != 0) {
         SLIDER_CLASSES.slick({
             fade: true,
             arrows: true,
@@ -37,7 +37,8 @@ jQuery(document).ready(function ($) {
 
     // SLIDER COLLEGE
     const SLIDER_COLLEGE = $('.college-slider-home');
-    if (SLIDER_COLLEGE) {
+
+    if (SLIDER_COLLEGE.length != 0) {
         SLIDER_COLLEGE.slick({
             "slidesToShow": 5,
             "slidesToScroll": 1,
@@ -69,12 +70,13 @@ jQuery(document).ready(function ($) {
                     }
                 }
             ]
-        });
+        }); 
     }
 
     //SLIDER SEZIONE COMMUNITY HOMEPAGE
     const SLIDER_COMMUNITY = $('.community-slider');
-    if(SLIDER_COMMUNITY){
+    
+    if(SLIDER_COMMUNITY.length != 0){
         SLIDER_COMMUNITY.flickity({
             freeScroll : true,
             prevNextButtons : false,
@@ -85,7 +87,7 @@ jQuery(document).ready(function ($) {
     }
 
     const SLIDER_DATAS = $('.years-container');
-    if(SLIDER_DATAS){
+    if(SLIDER_DATAS.length != 0){
         SLIDER_DATAS.flickity({
             freeScroll : false,
             prevNextButtons :  false,
@@ -100,7 +102,7 @@ jQuery(document).ready(function ($) {
 
     //SLIDER HISTORY
     const SLIDER_HISTORY = $('.history-slider-container');
-    if (SLIDER_HISTORY) {
+    if (SLIDER_HISTORY.length != 0) {
         SLIDER_HISTORY.slick({
             dots: false,
             arrows: false,
@@ -109,17 +111,17 @@ jQuery(document).ready(function ($) {
             fade : true,
             swipe : false
         });
+
+        SLIDER_HISTORY.on('beforeChange', function (event, slick, currentSlide, nextSlide) {
+            let pos = nextSlide;
+            let dots = $('div[data-slider]');
+            dots.each(function () {
+                $(this).removeClass('history-slide-active');
+            });
+            dots[pos].classList.add('history-slide-active');
+        });
     }
 
-    SLIDER_HISTORY.on('beforeChange', function (event, slick, currentSlide, nextSlide) {
-        let pos = nextSlide;
-        let dots = $('div[data-slider]');
-        dots.each(function () {
-            $(this).removeClass('history-slide-active');
-        });
-
-        dots[pos].classList.add('history-slide-active');
-    });
 
     //HISTORY SLIDER BTNS
     $('.years-container div').on('click', function () {
@@ -129,7 +131,7 @@ jQuery(document).ready(function ($) {
 
     //SLIDER RELATED PAGES
     const SLIDER_RELATED = $('.related-content-container');
-    if (SLIDER_RELATED) {
+    if (SLIDER_RELATED.length != 0) {
         SLIDER_RELATED.slick({
             'infinte': false,
             'slidesToScroll': 1,
@@ -162,7 +164,7 @@ jQuery(document).ready(function ($) {
     };
 
     const SLIDER_BELIEFS = $('.beliefs-slider');
-    if(SLIDER_BELIEFS){
+    if(SLIDER_BELIEFS.length != 0){
         SLIDER_BELIEFS.flickity({
             freeScroll : true,
             prevNextButtons :  false,
@@ -175,7 +177,7 @@ jQuery(document).ready(function ($) {
     //SLIDER RELATED PAGES ABOUT
 
     const SLIDER_RELATED_ABOUT = $('.related-slider');
-    if(SLIDER_RELATED_ABOUT){
+    if(SLIDER_RELATED_ABOUT.length != 0){
         SLIDER_RELATED_ABOUT.flickity({
             freeScroll : true,
             prevNextButtons :  false,
@@ -186,7 +188,8 @@ jQuery(document).ready(function ($) {
     }
 
     const SLIDER_NEWS = $('.recent-news-slider-container');
-    if(SLIDER_NEWS){
+
+    if(SLIDER_NEWS.length != 0){
         SLIDER_NEWS.flickity({
             freeScroll : true,
             prevNextButtons : false,
@@ -198,7 +201,8 @@ jQuery(document).ready(function ($) {
     };
 
     const SLIDER_NAV_PROGRAM = $('.program-nav-slider');
-    if(SLIDER_NAV_PROGRAM){
+    
+    if(SLIDER_NAV_PROGRAM.length != 0){
         console.log('slider nav');
         SLIDER_NAV_PROGRAM.slick({
             'variableWidth' :  true,
@@ -213,18 +217,4 @@ jQuery(document).ready(function ($) {
             'nextArrow' : document.getElementsByClassName('program-slider-next'),
         });
     }
-
-    /* const SLIDER_NAV_ADMISSION_MOBILE = $('.slider-nav-admission-mob');
-    if(SLIDER_NAV_ADMISSION_MOBILE){
-        SLIDER_NAV_ADMISSION_MOBILE.slick({
-            variableWidth : true,
-            'infinite' :  false,
-            'autoplay' : false,
-            'dots' : false,
-            'arrows' : false,
-            'slidesToShow' : 2,
-            'slidesToScroll' : 1,
-            'swipe' : true,
-        })
-    } */
 });

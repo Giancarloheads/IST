@@ -37,7 +37,7 @@
                     }
                 } else {
                     ?>
-                    <div class="g-3 col-lg-4 col-md-8 col-10">
+                    <div class="g-3 col-lg-5 col-md-8 col-10">
                         <div class="single-key-resources">
                             <a href="">
                                 <div class="">Counselors's Contacts</div>

@@ -23,7 +23,7 @@ include 'elements/nav-pages-programs.php';
             <div class="col-12">
                 <div class="row align-items-center programs-layout-row p-t-md-120" style="border:none; border-top:1px solid #C0C0C0;padding-bottom:0;">
                     <div class="col-lg-6 p-0 col-12">
-                        <img src="<?= get_template_directory_uri() . '/resources/education/ela.jpg'; ?>" alt="">
+                        <img class="w-100" src="<?= get_template_directory_uri() . '/resources/education/ela.jpg'; ?>" alt="">
                     </div>
                     <div class="col-lg-5 col-12 p-md-80">
                         <div class="title">
@@ -126,8 +126,8 @@ include 'elements/nav-pages-programs.php';
     <div class="container-fluid">
         <div class="row justify-content-center align-items-center">
             <div class="col-12">
-                <div class="row align-items-center programs-layout-row" style="border:none; border-top:1px solid #C0C0C0;padding-top:60px;padding-bottom:0;">
-                    <div class="col-lg-6 col-12 p-md-80 p-r-md-150 order-lg-1 order-2">
+                <div class="row align-items-center programs-layout-row" style="border:none; border-top:1px solid #C0C0C0;padding-bottom:0!important;">
+                    <div class="col-lg-6 col-12 p-md-80 order-lg-1 order-2">
                         <div class="title">
                             INDIVIDUAL NEEDS PROGRAM
                         </div>
@@ -136,7 +136,7 @@ include 'elements/nav-pages-programs.php';
                         </p>
                     </div>
                     <div class="col-lg-6 p-0 col-12 order-lg-2 order-1">
-                        <img src="<?= get_template_directory_uri() . '/resources/education/individual.jpg' ?>" alt="">
+                        <img class="w-100" src="<?= get_template_directory_uri() . '/resources/education/individual.jpg' ?>" alt="">
                     </div>
                 </div>
             </div>
@@ -231,7 +231,7 @@ include 'elements/nav-pages-programs.php';
             <div class="col-12">
                 <div class="row align-items-center programs-layout-row" style="border:none;padding-bottom:0!important;">
                     <div class="col-lg-6 p-0 col-12">
-                        <img src="<?= get_template_directory_uri() . '/resources/education/counseling.jpg'; ?>" alt="">
+                        <img class="w-100" src="<?= get_template_directory_uri() . '/resources/education/counseling.jpg'; ?>" alt="">
                     </div>
                     <div class="col-lg-5 col-12 p-md-80">
                         <div class="title">

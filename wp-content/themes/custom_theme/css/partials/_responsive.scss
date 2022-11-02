@@ -494,9 +494,9 @@
      }
  }
 
- .m-b-sm-30 {
+ .m-b-sm-60 {
      @media(max-width:768px) {
-         margin-bottom: 30px !important;
+         margin-bottom: 60px !important;
      }
  }
 
@@ -620,7 +620,7 @@
      align-items: end;
      flex-direction: column;
 
-     @media(max-width:786px) {
+     @media(max-width:996px) {
          align-items: flex-start;
      }
  }
