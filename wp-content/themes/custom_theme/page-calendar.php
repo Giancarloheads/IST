@@ -4,7 +4,7 @@
 
 <section class="container-fluid p-b-120 p-t-200">
     <div class="row justify-content-center">
-        <div class="col-10">
+        <div class="col-lg-10 col-12">
             <div class="row">
                 <div class="col-12 ist-about-title text-center p-b-60">
                     School Calendar

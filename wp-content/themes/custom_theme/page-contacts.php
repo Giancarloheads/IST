@@ -2,11 +2,11 @@
 get_header();
 ?>
 
-<section class="container-fluid p-t-240">
+<section class="container-fluid p-t-180">
     <div class="row justify-content-center">
-        <div class="col-10">
+        <div class="col-lg-10 col-12">
             <div class="row justify-content-center">
-                <div class="col-lg-6 col-md-10 col-12 text-center title-nav-section ist-section-title-2">
+                <div class="col-lg-6 col-md-10 col-12 text-center title-nav-section ist-section-title-2 p-b-md-40">
                     Contact us
                 </div>
             </div>
@@ -17,7 +17,7 @@ get_header();
     <div class="row justify-content-center">
         <div class="col-md-10 col-12">
             <div class="row">
-                <div class="col-4">
+                <div class="col-lg-4 col-12 order-2 order-lg-1">
                     <ul class="contacts-list">
                         <li>ADDRESS</li>
                         <li class="lang-contacts p-b-5">English</li>
@@ -49,16 +49,16 @@ get_header();
                         <li>7:30 am - 4:30 pm</li>
                     </ul>
                 </div>
-                <div class="col-7">
+                <div class="col-lg-7 col-12 order-1 order-lg-2">
                     <div class="form-title">
                         Fill out the form to request any information about the institute, programs, organization or enrollment process. We will get back to you as soon as possible!
                     </div>
                     <form id="contacts-page-form" action="" method="POST">
                         <div class="row">
-                            <div class="form-group col-6">
+                            <div class="form-group col-lg-6 col-12">
                                 <input type="text" class="form-control" placeholder="Name">
                             </div>
-                            <div class="form-group col-6">
+                            <div class="form-group col-lg-6 col-12">
                                 <input type="password" class="form-control" placeholder="Surname">
                             </div>
                         </div>
@@ -72,14 +72,14 @@ get_header();
                             <a class="p-b-25 d-flex policy-anchor" href="<?= get_permalink(); ?>">
                                 Read the Privacy Policy    
                             </a>
-                            <div class="form-check p-b-25">
+                            <div class="form-check p-b-25 d-flex justify-content-start">
                                 <input class="form-check-input" type="checkbox" id="gridCheck">
                                 <label class="form-check-label" for="gridCheck">
                                    I have read the Privacy Policy and consent to processing of my personal data
                                 </label>
                             </div>
                         </div>
-                        <button type="submit" class="btn btn-primary">
+                        <button type="submit" class="btn btn-primary contacts-submit">
                             SEND
                             <img onload="SVGInject(this)" src="<?= get_template_directory_uri() . '/resources/icons/arrow.svg'; ?>" alt="">
                         </button>

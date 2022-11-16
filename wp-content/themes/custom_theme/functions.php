@@ -180,3 +180,11 @@ function new_excerpt_more( $more ) {
 }
 
 add_filter('excerpt_more', 'new_excerpt_more');
+
+acf_add_options_page(array(
+	'page_title'    => 'QR code WeChat',
+	'menu_title'    => 'QR Code WeChat',
+	'menu_slug'     => 'wechat_input',
+	'capability'    => 'edit_posts',
+	'redirect'      => false
+));
