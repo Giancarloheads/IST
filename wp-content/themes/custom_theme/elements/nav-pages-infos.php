@@ -1,8 +1,24 @@
-<section class="container-fluid p-t-240 p-b-md-120">
+<section class="container-fluid p-t-180 p-b-md-120">
     <div class="row justify-content-center">
         <div class="col-12">
             <div class="row justify-content-center">
-                <div class="col-lg-6 col-10 text-center title-nav-section ist-section-title-2">
+                <div class="col-12 text-center d-block d-lg-none breadcrumbs-mobile p-b-30">
+                    <?php 
+                        
+                        switch (get_the_ID()) {
+                            case 15:
+                                echo 'ACCREDITATION';
+                                break;
+                            case 13:
+                                echo 'BELIEFS & VALUES';
+                                break;
+                            case 11:
+                                echo 'HISTORY';
+                                break;
+                        };
+                    ?>
+                </div>
+                <div class="col-lg-6 col-md-10 col-12 text-center title-nav-section ist-section-title-2">
                     <?php 
                         if(is_page(15)){
                     ?>
@@ -18,7 +34,7 @@
                     <?php } ?>
                 </div>
             </div>
-            <div class="row justify-content-center d-lg-block d-none">
+            <div class="row justify-content-center d-none d-lg-block">
                 <div class="col-12 text-center">
                     <nav class="page-nav">
                         <ul>
@@ -35,7 +51,7 @@
                     </nav>
                 </div>
             </div>
-            <div class="row justify-content-center d-block d-lg-none">
+            <div class="row justify-content-center d-none">
                 <div class="col-12 text-center">
                     <nav class="nav-admission-mob">
                         <ul class="row">

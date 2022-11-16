@@ -21,10 +21,10 @@ include_once 'elements/nav-pages-infos.php';
                 <div class="col-12">
                     <div class="accreditation-collapse" data-collapse-pos="1" style="border-top: solid 1px black">
                         <div class="row" data-bs-toggle="collapse" href="#accreditation-collapse-1" role="button" data-collapse-pos="1" aria-expanded="false" aria-controls="accreditation-collapse-1">
-                            <div class="col-lg-6 col-12 order-lg-1 order-2">
+                            <div class="col-lg-6 col-12 order-1">
                                 <img src="<?= get_template_directory_uri() . '/resources/icons/ib_blue.svg' ?>" alt="">
                             </div>
-                            <div class="accreditation-collapse-title-container col-lg-6 col-12 order-1 order-lg-2">
+                            <div class="accreditation-collapse-title-container col-lg-6 col-12 order-2 d-sm-wrap p-t-sm-30">
                                 <div class="accreditation-collapse-title" style="flex-grow:15">
                                     International Baccalaureate Authorization
                                 </div>
@@ -48,11 +48,11 @@ include_once 'elements/nav-pages-infos.php';
                     </div>
                     <div class="accreditation-collapse" data-collapse-pos="2" style="border-top: solid 1px black">
                         <div class="row" data-bs-toggle="collapse" href="#accreditation-collapse-2" role="button" data-collapse-pos="2" aria-expanded="false" aria-controls="accreditation-collapse-2">
-                            <div class="col-lg-6 col-12 order-2 order-lg-1 logo-container-accreditation">
+                            <div class="col-lg-6 col-12 order-1 logo-container-accreditation">
                                 <img class="logo-accreditation" src="<?= get_template_directory_uri() . '/resources/icons/cis-logo.svg' ?>" alt="">
                                 <img class="m-t-md-60 logo-accreditation" src="<?= get_template_directory_uri() . '/resources/icons/wasc-logo.svg'; ?>" alt="">
                             </div>
-                            <div class="accreditation-collapse-title-container col-lg-6 col-12 order-1 order-lg-2">
+                            <div class="accreditation-collapse-title-container col-lg-6 col-12 order-2 d-sm-wrap p-t-sm-30">
                                 <div class="accreditation-collapse-title">
                                     International School Accreditation
                                 </div>
@@ -76,7 +76,7 @@ include_once 'elements/nav-pages-infos.php';
                     </div>
                     <div class="accreditation-collapse" data-collapse-pos="3" style="border-top: solid 1px black">
                         <div class="row" data-bs-toggle="collapse" href="#accreditation-collapse-3" role="button" data-collapse-pos="3" aria-expanded="false" aria-controls="accreditation-collapse-3">
-                            <div class="col-lg-6 col-12 d-flex flex-column align-items-start justify-content-start order-2 order-lg-1">
+                            <div class="col-lg-6 col-12 d-flex flex-column align-items-start justify-content-start order-1">
                                 <div class="w-100 d-flex align-items-center justify-content-start w-75 p-b-30">
                                     <img class="logo-accreditation" src="<?= get_template_directory_uri() . '/resources/icons/ear-cos-icon.svg' ?>" alt="">
                                     <img class="logo-accreditation" style="margin-left:50px;" src="<?= get_template_directory_uri() . '/resources/icons/acaris.svg'; ?>" alt="">
@@ -89,7 +89,7 @@ include_once 'elements/nav-pages-infos.php';
                                     <img class="logo-accreditation" src="<?= get_template_directory_uri() . '/resources/icons/acmibs.svg' ?>" alt="">
                                 </div>
                             </div>
-                            <div class="accreditation-collapse-title-container col-lg-6 col-12 order-1 order-lg-2">
+                            <div class="accreditation-collapse-title-container col-lg-6 col-12 order-2 d-sm-wrap p-t-sm-30" style="z-index:999;">
                                 <div class="accreditation-collapse-title">
                                     Membership in Regional
                                 </div>
@@ -99,7 +99,7 @@ include_once 'elements/nav-pages-infos.php';
                     </div>
                     <div class="collapse" id="accreditation-collapse-3">
                         <div class="row">
-                            <div class="offset-lg-6 col-lg-6 offset-0 col-12 p-0-sup">
+                            <div class="offset-lg-6 col-lg-6 offset-0 col-12 p-0-sup" style="margin-bottom:-220px;">
                                 <div class="acr-par">
                                     IST is a member of the East Asia Regional Council of Overseas Schools (EARCOS). <br>
                                     The school is also an active member of other regional organizations, including the Association of China and Mongolia International Schools (ACAMIS), the International Schools Athletic Conference Beijing/Tianjin (ISAC), the International Schools Conference of Tianjin (ISCOT) and the Association of China and Mongolia IB Schools (ACMIBS).

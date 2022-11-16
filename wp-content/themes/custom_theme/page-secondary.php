@@ -5,7 +5,7 @@
 *
 */
 get_header();
-    include 'elements/nav-pages-programs.php';
+include 'elements/nav-pages-programs.php';
 ?>
 
 <section class="container-fluid">
@@ -13,7 +13,7 @@ get_header();
         <div class="col-lg-10 col-12">
             <div class="row align-items-start justify-content-between">
                 <div class="col-lg-6 col-12 ist-par-about-1 order-2 order-lg-1">
-                    Our Secondary School offers a dynamic, academically rigorous and holistic curriculum aimed to prepare students to become life-long learners. IST is fully authorized to offer  the International Baccalaureate Middle Years (IB-MYP) and Diploma (IB-DP) curriculum frameworks.
+                    Our Secondary School offers a dynamic, academically rigorous and holistic curriculum aimed to prepare students to become life-long learners. IST is fully authorized to offer the International Baccalaureate Middle Years (IB-MYP) and Diploma (IB-DP) curriculum frameworks.
                 </div>
                 <div class="col-lg-6 col-12 logo-container-programs order-1 order-lg-2">
                     <div>
@@ -75,7 +75,7 @@ get_header();
             <div class="row">
                 <div class="col-12 beliefs-collapse-container">
                     <div class="elementary-collapse beliefs-collapse" data-collapse-pos="1">
-                        <div class="d-flex justify-content-between align-items-center" data-bs-toggle="collapse" href="#secondary-collapse-1" role="button" data-collapse-pos="1" aria-expanded="false" aria-controls="secondary-collapse-1">
+                        <div class="d-flex justify-content-between align-items-center d-sm-wrap" data-bs-toggle="collapse" href="#secondary-collapse-1" role="button" data-collapse-pos="1" aria-expanded="false" aria-controls="secondary-collapse-1">
                             <div class="collapse-title-about">
                                 Secondary principal's Welcome
                             </div>
@@ -116,7 +116,7 @@ get_header();
                         </div>
                     </div>
                     <div style="border-bottom:solid 1px #000!important" class="elementary-collapse beliefs-collapse" data-collapse-pos="2">
-                        <div class="d-flex justify-content-between align-items-center" data-bs-toggle="collapse" href="#elementary-collapse-2" role="button" aria-expanded="false" aria-controls="elementary-collapse-2">
+                        <div class="d-flex justify-content-between align-items-center d-sm-wrap" data-bs-toggle="collapse" href="#elementary-collapse-2" role="button" aria-expanded="false" aria-controls="elementary-collapse-2">
                             <div class="collapse-title-about">
                                 IB Learner Profile
                             </div>
@@ -137,8 +137,8 @@ get_header();
                                 </div>
                                 <div class="col-lg-6 col-12 p-t-sm-30 beliefs-collapse-par">
                                     <p class="secondary-collapse-content-bold">
-                                        They learn from interaction with people within and beyond the school and Tianjin through regular community and service projects and the annual Week Without Walls trips, which takes them to different destinations in China. 
-                                        <br> 
+                                        They learn from interaction with people within and beyond the school and Tianjin through regular community and service projects and the annual Week Without Walls trips, which takes them to different destinations in China.
+                                        <br>
                                         <br>
                                         Secondary students are encouraged to take on leadership roles through Student Council, extra-curricular activities, Model United Nations, committee work and leadership retreats.
                                     </p>
@@ -159,7 +159,8 @@ get_header();
                     <h1 style="color:#000;position:relative;z-index:9999">LOREM ISPSUM DOLOR SIT AMET LOREM</h1>
                 </div>
                 <div class="col-12 scrreveal" style="position:relative;bottom:40px;">
-                    <img class="w-100" src="<?= get_template_directory_uri() . '/resources/programs/secondary-img-1.jpg'; ?>" alt="">
+                    <img class="w-100 d-lg-block d-none" src="<?= get_template_directory_uri() . '/resources/programs/secondary-img-1.jpg'; ?>" alt="">
+                    <img class="w-100 d-lg-none d-block" src="<?= get_template_directory_uri() . '/resources/programs/secondary-mobile-1.jpg'; ?>" alt="">
                 </div>
             </div>
         </div>
@@ -169,12 +170,12 @@ get_header();
                     <div class="collapse-container-single">
                         <div data-bs-toggle="collapse" href="#elementary-collapse-single" role="button" aria-expanded="false" aria-controls="elementary-collapse-single">
                             <div class="single-collapse-par-big-txt">
-                            The Secondary School comprises Grades 6 to 12. Grade 6 to 8 is termed ‘Middle School’ for pastoral purposes while Grade 9 to 12 is termed ‘High School.’
+                                The Secondary School comprises Grades 6 to 12. Grade 6 to 8 is termed ‘Middle School’ for pastoral purposes while Grade 9 to 12 is termed ‘High School.’
 
+                            </div>
                         </div>
-                    </div>
-                    <div class="collapse" id="elementary-collapse-single">
-                        <div class="beliefs-collapse-par single-collapse-par">
+                        <div class="collapse" id="elementary-collapse-single">
+                            <div class="beliefs-collapse-par single-collapse-par">
                                 Each grade is divided into two teaching units named homerooms and indicated by the initial of the homeroom teacher.
                                 The schedule is organized on a 10-day cycle (Week A and Week B). The Secondary School is housed in the ‘Han’ building for all academic activities other than Visual Art, Design, and PE/Health.
                             </div>
@@ -191,52 +192,51 @@ get_header();
     </div>
 </section>
 
-<section class="x-pad-section">
-    <div class="container-fluid">
-        <div class="row justify-content-center align-items-center">
-            <div class="col-12">
-                <div class="row align-items-center programs-layout-row">
-                    <div class="col-lg-6 col-12 order-2 order-lg-1 p-md-80">
-                        <div class="title">
-                            STUDENT <br class="d-lg-block d-none"> SUPPORT
-                        </div>
-                        <p>
-                            Second language learners and students with individual needs receive support both inside and outside the classroom from specialist teachers. ELA specialists and regular subject teachers meet to collaborate on lesson planning to ensure the differentiation of instruction and ELA teaching in the mainstream.
-                        </p>
+
+<section class="container-fluid">
+    <div class="row justify-content-center align-items-center">
+        <div class="col-12">
+            <div class="row align-items-center programs-layout-row g-0">
+                <div class="col-lg-6 col-12 order-2 order-lg-1 p-md-80">
+                    <div class="title">
+                        STUDENT <br class="d-lg-block d-none"> SUPPORT
                     </div>
-                    <div class="col-lg-6 col-12 order-1 order-lg-2">
-                        <img src="<?= get_template_directory_uri() . '/resources/education/support.jpg' ?>" alt="">
-                    </div>
+                    <p>
+                        Second language learners and students with individual needs receive support both inside and outside the classroom from specialist teachers. ELA specialists and regular subject teachers meet to collaborate on lesson planning to ensure the differentiation of instruction and ELA teaching in the mainstream.
+                    </p>
                 </div>
-                <div class="row align-items-center programs-layout-row programs-last-lay-row">
-                    <div class="col-lg-6 col-12">
-                        <img src="<?= get_template_directory_uri() . '/resources/education/beyond-2.jpg'; ?>" alt="">
+                <div class="col-lg-6 col-12 order-1 order-lg-2">
+                    <img class="w-100" src="<?= get_template_directory_uri() . '/resources/education/support.jpg' ?>" alt="">
+                </div>
+            </div>
+            <div class="row align-items-center programs-layout-row programs-last-lay-row g-0">
+                <div class="col-lg-6 col-12">
+                    <img class="w-100" src="<?= get_template_directory_uri() . '/resources/education/beyond-2.jpg'; ?>" alt="">
+                </div>
+                <div class="col-lg-6 col-12 p-md-80">
+                    <div class="title">
+                        BEYOND THE CURRICULUM
                     </div>
-                    <div class="col-lg-6 col-12 p-md-80">
-                        <div class="title">
-                            BEYOND THE CURRICULUM
-                        </div>
-                        <p>
-                            IST offers a wide range of clubs and activities allowing students to display their talents as well as to develop new interests. The Secondary School has a strong sporting and extra-curricular programme, with students participating in China wide international school sports tournaments, cultural conventions and Model United Nations.
-                        </p>
-                    </div>
+                    <p>
+                        IST offers a wide range of clubs and activities allowing students to display their talents as well as to develop new interests. The Secondary School has a strong sporting and extra-curricular programme, with students participating in China wide international school sports tournaments, cultural conventions and Model United Nations.
+                    </p>
                 </div>
             </div>
         </div>
     </div>
 </section>
-<section class="pin-section overview-last-pin-sec"> 
-    <?php
-    include_once 'elements/key-resources.php';
-    ?>
 
-    <?php
-        include_once 'elements/section-related.php';
-    ?>
-</section>
+<?php
+include_once 'elements/key-resources.php';
+?>
 
-<?php 
-    include_once 'elements/about-pre-footer.php';
+<?php
+include_once 'elements/section-related.php';
+?>
+
+
+<?php
+include_once 'elements/about-pre-footer.php';
 ?>
 
 <?php

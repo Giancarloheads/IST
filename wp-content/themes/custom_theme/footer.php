@@ -13,7 +13,7 @@
 <section class="footer-wrapper">
 <footer class="container-fluid">
     <div class="row justify-content-center">
-        <div class="col-lg-10 col-12">
+        <div class="col-12">
             <div class="row">
                 <div class="col-12 col-lg-4">
                     <div class="ist-section-title-1">International <br> School of Tianjin</div>

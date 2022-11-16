@@ -40,7 +40,7 @@ jQuery(document).ready(function ($) {
 
     if (SLIDER_COLLEGE.length != 0) {
         SLIDER_COLLEGE.slick({
-            "slidesToShow": 5,
+            "slidesToShow": 8,
             "slidesToScroll": 1,
             "infinite": true,
             "autoplay": true,
@@ -53,19 +53,19 @@ jQuery(document).ready(function ($) {
                 {
                     breakpoint: 1199,
                     settings: {
-                        slidesToShow: 4,
+                        slidesToShow: 6,
                         slidesToScroll: 1
                     }
                 },{
                     breakpoint : 746,
                     settings : {
-                        slidesToShow : 3,
+                        slidesToShow : 4,
                         slidesToScroll : 1
                     }
                 },{
                     breakpoint: 546,
                     settings : {
-                        slidesToShow : 2,
+                        slidesToShow : 3,
                         slidesToScroll : 1
                     }
                 }
@@ -138,6 +138,7 @@ jQuery(document).ready(function ($) {
             'slidesToShow': 3,
             'dots': false,
             'arrows': false,
+            'swipe' : true,
             'responsive': [
             {
                 breakpoint: 1024,
@@ -183,7 +184,8 @@ jQuery(document).ready(function ($) {
             prevNextButtons :  false,
             pageDots :false,
             autoPlay : false,
-            cellAlign : 'left'
+            cellAlign : 'left',
+            draggable : 1
         });
     }
 
@@ -215,6 +217,51 @@ jQuery(document).ready(function ($) {
             'swipe' : false,
             'prevArrow' : document.getElementsByClassName('program-slider-prev'),
             'nextArrow' : document.getElementsByClassName('program-slider-next'),
+            "responsive": [                
+                {
+                    breakpoint : 746,
+                    settings : {
+                        slidesToShow : 2,
+                        slidesToScroll : 1
+                    }
+                },{
+                    breakpoint: 546,
+                    settings : {
+                        slidesToShow : 1,
+                        slidesToScroll : 1
+                    }
+                }
+            ]
         });
-    }
+    };
+
+    const SLIDER_MOBILE_BELIFIES = $('.beliefs-slider-mobile');
+    
+    if(SLIDER_MOBILE_BELIFIES.length != 0){
+        
+        SLIDER_MOBILE_BELIFIES.slick({
+            slidesToShow : 1,
+            slidesToScroll :1,
+            dots : false,
+            arrows : true
+        });
+
+        var mobileBeliefsPrevBtn = $('#mobile-beliefs-prev');
+        var mobileBeliefsNextBtn = $('#mobile-beliefs-next');
+        
+        console.log(mobileBeliefsPrevBtn);
+        console.log(mobileBeliefsNextBtn);
+
+        mobileBeliefsPrevBtn.on('click' , function(){
+            console.log('mobile beliefs prev');
+            SLIDER_MOBILE_BELIFIES.slick('slickPrev');
+        })
+
+        mobileBeliefsNextBtn.on('click', function(){
+            console.log('mobile beliefs next');
+            SLIDER_MOBILE_BELIFIES.slick('slickNext');
+        })
+
+    };
+
 });

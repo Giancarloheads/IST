@@ -424,7 +424,7 @@ include 'elements/nav-admission.php';
                         <div class="col-lg-2 col-12 fee-index p-b-md-30">
                             Payment guidelines
                         </div>
-                        <div class="col-lg-9 offset-lg-1 col-12 offset-0 p-b-20">
+                        <div class="col-lg-9 offset-lg-1 col-12 offset-0 p-b-20 d-lg-block d-none">
                             <ul class="fee-unlist">
                                 <li class="fee-p">
                                     Invoices for students enrolled for the 2022/2023 school year will be sent to paying parties around mid-May 2022.
@@ -446,6 +446,43 @@ include 'elements/nav-admission.php';
                                 IB Diploma retakes are openly available to students in either the November or May sessions. Students must pay two fees: the re-examination fee to be paid to the IB but collected by IST, and the IST administration fee. These fees are varied in accordance with IB registration deadlines, with IST administration fees set at RMB1,200 for early registration and RMB2,400 for late registration.
                             </p>
                         </div>
+                        <div class="col-12 ist-par-about-1 p-b-60 d-lg-none d-block">
+                            <div class="collapse-container-single">
+                                <div data-bs-toggle="collapse" href="#elementary-collapse-single-mobile-1" role="button" aria-expanded="false" aria-controls="elementary-collapse-single-mobile-1">
+                                    <div class="single-collapse-par-big-txt">
+                                        <ul class="fee-unlist">
+                                            <li class="fee-p">
+                                                Invoices for students enrolled for the 2022/2023 school year will be sent to paying parties around mid-May 2022.
+                                            </li>
+                                            <li class="fee-p">
+                                                Payment of the annual Component A Fee and at minimum, the first semester of the Component B Fee is due no later than July 31,2022. By written request the Director will consider approval of payment of the Component B Fee on a quarterly basis. Such requests must be accompanied by an endorsed letter from the applicant’s company clearly stating that the applicant assumes full responsibility for the payment of school fees and that these fees are not otherwise compensated for by the company. Payment of the Component B Fee on a quarterly basis may also be considered by the Board of Governors under other special circumstances and by written request. All such requests must be applied for in writing and on an annual basis. (Note: The criteria for this policy are subject to annual review by the IST Board of Governors.)
+                                            </li>
+                                            <li class="fee-p">
+                                                As an incentive a 2% discount on the Component B Fee shall be provided to patrons who opt to pay the entire annual fee no later than May 27,2022. This discount is non-refundable if a student attends less than the full year and shall only be applicable to the Component B Fee for students who pay for two semesters at one time.
+                                            </li>
+                                            <li class="fee-p">
+                                                Fees are payable in RMB or in U.S. Dollars. Patrons opting to pay in USD are requested to check the current rate of conversion (RMB to USD) being used by the school from the school’s Business Office.
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="collapse" id="elementary-collapse-single-mobile-1">
+                                    <div class="beliefs-collapse-par single-collapse-par">
+                                        <p>
+                                            IB Examination fees have been estimated based on the current Exam Fee structure of the IB, and will be subject to change if rates are changed during the course of the school year 2022-23. For students opting for the IST Diploma (and not for the IB Diploma or Certificate/s), this fee will not be charged. Full refund of the IB Diploma Exam Fee will be given if written notification of withdrawal is submitted to school prior to the last school day before the winter holiday. After this date the IB Diploma Exam Fee is not refundable.
+                                        </p>
+                                        <p>
+                                            IB Diploma retakes are openly available to students in either the November or May sessions. Students must pay two fees: the re-examination fee to be paid to the IB but collected by IST, and the IST administration fee. These fees are varied in accordance with IB registration deadlines, with IST administration fees set at RMB1,200 for early registration and RMB2,400 for late registration.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="single-collapse-trigger d-flex align-items-center" data-bs-toggle="collapse" href="#elementary-collapse-single-mobile-1" role="button" aria-expanded="false" aria-controls="elementary-collapse-single-mobile-1">
+                                    Read more
+                                    <img class="collapse-single-svg-plus" onload="SVGInject(this); " src="<?= get_template_directory_uri() . '/resources/icons/plus.svg' ?>" alt="">
+                                    <img class="collapse-single-svg-minus" onload="SVGInject(this);" src="<?= get_template_directory_uri() . '/resources/icons/minus.svg' ?>" alt="">
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -461,13 +498,32 @@ include 'elements/nav-admission.php';
                         <div class="col-lg-2 col-12 fee-index p-b-md-30">
                             Refunds of tuition and fees
                         </div>
-                        <div class="col-lg-9 offset-lg-1 col-12 offset-0 p-b-20">
+                        <div class="col-lg-9 offset-lg-1 col-12 offset-0 p-b-20 d-lg-block d-none">
                             <p class="fee-p">
                                 No refunds will be made for registration and Component A Fee. However, Component A Fee already paid for a student in a given school year may be transferred to a new student from the same company or family so long as the new student is enrolled after the departure of the leaving student. Under normal circumstances, the Component B Fee will be refunded on a pro-rated basis within the first week of the commencement of a quarter (as defined in the school calendar). For students leaving the school after the end of the first week of a quarter, no refunds will be made for the Component B Fee pertaining to that quarter. However, the Component B Fee pertaining to the remainder of that quarter may be transferred to a new student, as with the Component A Fee transfers. The Component B Fee pertaining to subsequent quarter/s, if already paid to the school, will be refunded in full. 
                             </p>
                             <p class="fee-p">
                                 In the event of force majeure closing of the school or campus, or any other adverse circumstances that the school could not reasonably be expected to predict or control, no fees will be refunded following the date of the announcement of the closure. Enactment of IST’s force majeure policy nullifies other policies related to fee refunds, including those pertaining to refunds for subsequent quarters, unless the intention to withdraw a given student was formally declared prior to the closure. Lost days resulting from a force majeure closure will only be rescheduled if they do not contravene employee contractual terms and the director deems it necessary to ensure that educational objectives are not compromised.
                             </p>
+                        </div>
+                        <div class="col-12 ist-par-about-1 p-b-60 d-lg-none d-block">
+                            <div class="collapse-container-single">
+                                <div data-bs-toggle="collapse" href="#elementary-collapse-single-mobile-2" role="button" aria-expanded="false" aria-controls="elementary-collapse-single-mobile-2">
+                                    <div class="single-collapse-par-big-txt">
+                                        No refunds will be made for registration and Component A Fee. However, Component A Fee already paid for a student in a given school year may be transferred to a new student from the same company or family so long as the new student is enrolled after the departure of the leaving student. Under normal circumstances, the Component B Fee will be refunded on a pro-rated basis within the first week of the commencement of a quarter (as defined in the school calendar). For students leaving the school after the end of the first week of a quarter, no refunds will be made for the Component B Fee pertaining to that quarter. However, the Component B Fee pertaining to the remainder of that quarter may be transferred to a new student, as with the Component A Fee transfers. The Component B Fee pertaining to subsequent quarter/s, if already paid to the school, will be refunded in full. 
+                                    </div>
+                                </div>
+                                <div class="collapse" id="elementary-collapse-single-mobile-2">
+                                    <div class="beliefs-collapse-par single-collapse-par">
+                                        In the event of force majeure closing of the school or campus, or any other adverse circumstances that the school could not reasonably be expected to predict or control, no fees will be refunded following the date of the announcement of the closure. Enactment of IST’s force majeure policy nullifies other policies related to fee refunds, including those pertaining to refunds for subsequent quarters, unless the intention to withdraw a given student was formally declared prior to the closure. Lost days resulting from a force majeure closure will only be rescheduled if they do not contravene employee contractual terms and the director deems it necessary to ensure that educational objectives are not compromised.
+                                    </div>
+                                </div>
+                                <div class="single-collapse-trigger d-flex align-items-center" data-bs-toggle="collapse" href="#elementary-collapse-single-mobile-2" role="button" aria-expanded="false" aria-controls="elementary-collapse-single-mobile-2">
+                                    Read more
+                                    <img class="collapse-single-svg-plus" onload="SVGInject(this); " src="<?= get_template_directory_uri() . '/resources/icons/plus.svg' ?>" alt="">
+                                    <img class="collapse-single-svg-minus" onload="SVGInject(this);" src="<?= get_template_directory_uri() . '/resources/icons/minus.svg' ?>" alt="">
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>

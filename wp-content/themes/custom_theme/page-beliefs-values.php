@@ -21,9 +21,10 @@ include_once 'elements/nav-pages-infos.php';
     </div>
 </section>
 <section class="container-fluid p-l-md-30 p-r-md-30 p-b-60">
-    <div class="row">
+    <div class="row g-0">
         <div class="col-lg-9 col-12">
-            <img class="w-100" src="<?= get_template_directory_uri() . '/resources/about/beliefs-img-1.jpg'  ?>" alt="">
+            <img class="w-100 d-lg-block d-none" src="<?= get_template_directory_uri() . '/resources/about/beliefs-img-1.jpg'  ?>" alt="">
+            <img class="w-100 d-block d-lg-none" src=<?= get_template_directory_uri() . '/resources/about/beliefs-mobile-1.jpg'; ?>" alt="">
         </div>
     </div>
 </section>
@@ -33,7 +34,7 @@ include_once 'elements/nav-pages-infos.php';
             <div class="row">
                 <div class="col-12 beliefs-collapse-container">
                     <div class="beliefs-collapse" data-collapse-pos="1">
-                        <div class="d-flex justify-content-between align-items-center" data-bs-toggle="collapse" href="#beliefs-collapse-1" role="button" data-collapse-pos="1" aria-expanded="false" aria-controls="beliefs-collapse-1">
+                        <div class="d-flex justify-content-between align-items-center d-sm-wrap" data-bs-toggle="collapse" href="#beliefs-collapse-1" role="button" data-collapse-pos="1" aria-expanded="false" aria-controls="beliefs-collapse-1">
                             <div class="collapse-title-about">
                                 Our school is a friendly place where the needs of the student come first.
                             </div>
@@ -48,7 +49,7 @@ include_once 'elements/nav-pages-infos.php';
                         </div>
                     </div>
                     <div class="beliefs-collapse" data-collapse-pos="2">
-                        <div class="d-flex justify-content-between align-items-center" data-bs-toggle="collapse" href="#beliefs-collapse-2" role="button" aria-expanded="false" aria-controls="beliefs-collapse-2">
+                        <div class="d-flex justify-content-between align-items-center d-sm-wrap" data-bs-toggle="collapse" href="#beliefs-collapse-2" role="button" aria-expanded="false" aria-controls="beliefs-collapse-2">
                             <div class="collapse-title-about">
                                 Our students love to learn.
                             </div>
@@ -63,7 +64,7 @@ include_once 'elements/nav-pages-infos.php';
                         </div>
                     </div>
                     <div class="beliefs-collapse" data-collapse-pos="3">
-                        <div class="d-flex justify-content-between align-items-center" data-bs-toggle="collapse" href="#beliefs-collapse-3" role="button" aria-expanded="false" aria-controls="beliefs-collapse-3">
+                        <div class="d-flex justify-content-between align-items-center d-sm-wrap" data-bs-toggle="collapse" href="#beliefs-collapse-3" role="button" aria-expanded="false" aria-controls="beliefs-collapse-3">
                             <div class="collapse-title-about">
                                 Our common future requires that we all look beyond our immediate needs.
                             </div>
@@ -84,7 +85,7 @@ include_once 'elements/nav-pages-infos.php';
 </section>
 <section class="container-fluid p-t-60 bg-grey">
     <div class="row justify-content-center-lg">
-        <div class="col-10">
+        <div class="col-lg-10 col-12">
             <div class="row">
                 <div class="col-lg-8 col-12 ist-about-title">
                     LEARNING OBJECTIVE <br>
@@ -97,8 +98,126 @@ include_once 'elements/nav-pages-infos.php';
         </div>
     </div>
 </section>
-<div class="beliefs-slider-container bg-grey">
+<div class="beliefs-slider-container bg-grey d-lg-block d-none">
     <div class="beliefs-slider">
+        <div class="beliefs-slider-item">
+            <div>
+                <div class="img-container" style="background-image:url(<?= get_template_directory_uri() . '/resources/about/slide-belief/belief-slider-1.jpg' ?>)"></div>
+                <div class="title" style="line-height:2;">Friendly</div>
+                <div class="par">
+                    We approach uncertainty with forethought and determination; we work independently and cooperatively to explore new ideas and innovative strategies. We are resourceful and resilient in the face of challenges and change.
+                </div>
+            </div>
+        </div>
+        <div class="beliefs-slider-item">
+            <div>
+                <div class="img-container" style="background-image:url(<?= get_template_directory_uri() . '/resources/about/slide-belief/belief-slider-2.jpg' ?>)"></div>
+                <div class="title" style="line-height:2;">Courageous</div>
+                <div class="par">
+                    We approach uncertainty with forethought and determination; we work independently and cooperatively to explore new ideas and innovative strategies. We are resourceful and resilient in the face of challenges and change.
+                </div>
+            </div>
+        </div>
+        <div class="beliefs-slider-item">
+            <div>
+                <div class="img-container" style="background-image:url(<?= get_template_directory_uri() . '/resources/about/slide-belief/belief-slider-3.jpg' ?>)"></div>
+                <div class="title" style="line-height:2;">Inquirers</div>
+                <div class="par">
+                    We approach uncertainty with forethought and determination; we work independently and cooperatively to explore new ideas and innovative strategies. We are resourceful and resilient in the face of challenges and change.
+                </div>
+            </div>
+        </div>
+        <div class="beliefs-slider-item">
+            <div>
+                <div class="img-container" style="background-image:url(<?= get_template_directory_uri() . '/resources/about/slide-belief/belief-slider-4.jpg' ?>)"></div>
+                <div class="title" style="line-height:2;">Knowledgeable</div>
+                <div class="par">
+                    We approach uncertainty with forethought and determination; we work independently and cooperatively to explore new ideas and innovative strategies. We are resourceful and resilient in the face of challenges and change.
+                </div>
+            </div>
+        </div>
+        <div class="beliefs-slider-item">
+            <div>
+                <div class="img-container" style="background-image:url(<?= get_template_directory_uri() . '/resources/about/slide-belief/belief-slider-5.jpg' ?>)"></div>
+                <div class="title">Thinkers</div>
+                <div class="par">
+                    We approach uncertainty with forethought and determination; we work independently and cooperatively to explore new ideas and innovative strategies. We are resourceful and resilient in the face of challenges and change.
+                </div>
+            </div>
+        </div>
+        <div class="beliefs-slider-item">
+            <div>
+                <div class="img-container" style="background-image:url(<?= get_template_directory_uri() . '/resources/about/slide-belief/belief-slider-6.jpg' ?>)"> </div>
+                <div class="title" style="line-height:2;">Communicators</div>
+                <div class="par">
+                    We approach uncertainty with forethought and determination; we work independently and cooperatively to explore new ideas and innovative strategies. We are resourceful and resilient in the face of challenges and change.
+                </div>
+            </div>
+        </div>
+        <div class="beliefs-slider-item">
+            <div>
+                <div class="img-container" style="background-image:url(<?= get_template_directory_uri() . '/resources/about/slide-belief/belief-slider-7.jpg' ?>)"> </div>
+                <div class="title"style="line-height:2;">Principled</div>
+                <div class="par">
+                    We approach uncertainty with forethought and determination; we work independently and cooperatively to explore new ideas and innovative strategies. We are resourceful and resilient in the face of challenges and change.
+                </div>
+            </div>
+        </div>
+        <div class="beliefs-slider-item">
+            <div>
+                <div class="img-container" style="background-image:url(<?= get_template_directory_uri() . '/resources/about/slide-belief/belief-slider-8.jpg' ?>)"> </div>
+                <div class="title" style="line-height:2;">Open-Minded</div>
+                <div class="par">
+                    We approach uncertainty with forethought and determination; we work independently and cooperatively to explore new ideas and innovative strategies. We are resourceful and resilient in the face of challenges and change.
+                </div>
+            </div>
+        </div>
+        <div class="beliefs-slider-item">
+            <div>
+                <div class="img-container" style="background-image:url(<?= get_template_directory_uri() . '/resources/about/slide-belief/belief-slider-9.jpg' ?>)"> </div>
+                <div class="title" style="line-height:2;">Caring</div>
+                <div class="par">
+                    We approach uncertainty with forethought and determination; we work independently and cooperatively to explore new ideas and innovative strategies. We are resourceful and resilient in the face of challenges and change.
+                </div>
+            </div>
+        </div>
+        <div class="beliefs-slider-item">
+            <div>
+                <div class="img-container" style="background-image:url(<?= get_template_directory_uri() . '/resources/about/slide-belief/belief-slider-10.jpg' ?>)"> </div>
+                <div class="title" style="line-height:2;">Balanced</div>
+                <div class="par">
+                    We approach uncertainty with forethought and determination; we work independently and cooperatively to explore new ideas and innovative strategies. We are resourceful and resilient in the face of challenges and change.
+                </div>
+            </div>
+        </div>
+        <div class="beliefs-slider-item">
+            <div>
+                <div class="img-container" style="background-image:url(<?= get_template_directory_uri() . '/resources/about/slide-belief/belief-slider-11.jpg' ?>)"> </div>
+                <div class="title" style="line-height:2;">Reflective</div>
+                <div class="par">
+                    We approach uncertainty with forethought and determination; we work independently and cooperatively to explore new ideas and innovative strategies. We are resourceful and resilient in the face of challenges and change.
+                </div>
+            </div>
+        </div>
+        <div class="beliefs-slider-item">
+            <div>
+                <div class="img-container" style="background-image:url(<?= get_template_directory_uri() . '/resources/about/slide-belief/belief-slider-12.jpg' ?>)"> </div>
+                <div class="title">International <br> Mindedness</div>
+                <div class="par">
+                    We approach uncertainty with forethought and determination; we work independently and cooperatively to explore new ideas and innovative strategies. We are resourceful and resilient in the face of challenges and change.
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="beliefs-slider-container bg-grey d-lg-none d-block p-l-12 p-r-12 pos-rel">
+    <div class="slick-prev-mobile-beliefs">
+        <img id="mobile-beliefs-prev" src="<?= get_template_directory_uri() . '/resources/icons/bk_arrow.svg'; ?>" alt="">
+    </div>
+    <div class="slick-next-mobile-beliefs">
+        <img id="mobile-beliefs-next" src="<?= get_template_directory_uri() . '/resources/icons/bk_arrow.svg'; ?>" alt="">
+    </div>
+    <div class="beliefs-slider-mobile">
         <div class="beliefs-slider-item">
             <div>
                 <div class="img-container" style="background-image:url(<?= get_template_directory_uri() . '/resources/about/slide-belief/belief-slider-1.jpg' ?>)"></div>
@@ -214,7 +333,7 @@ include_once 'elements/nav-pages-infos.php';
     <div class="row justify-content-center">
         <div class="col-12">
             <div class="row align-items-center">
-                <div class="offset-lg-1 col-lg-4 offset-0 col-12">
+                <div class="offset-lg-1 col-lg-4 offset-0 col-12 d-lg-block d-none order-1">
                     <div class="ist-about-title">
                         HIGH QUALITY LEARNING
                     </div>
@@ -222,7 +341,17 @@ include_once 'elements/nav-pages-infos.php';
                         Learning at IST is an inquiry-based, conceptually-driven process guided by our school Philosophy and the IB programmes where we cultivate and deepen knowledge, skills, understandings and dispositions through engaging, meaningful and diverse experiences repeated over time.
                     </div>
                 </div>
-                <div class="col-lg-6 offset-lg-1 col-12 offset-0 p-t-sm-30">
+                <div class="offset-lg-1 col-lg-4 offset-0 col-12 order-1 d-lg-none d-block">
+                    <div class="ist-about-title p-t-30">
+                        HIGH QUALITY LEARNING
+                    </div>
+                </div>
+                <div class="offset-lg-1 col-lg-10 offset-0 col-12 order-lg-2 order-3 d-lg-none d-block">
+                    <div class="ist-about-subtitle p-t-25">
+                        Learning at IST is an inquiry-based, conceptually-driven process guided by our school Philosophy and the IB programmes where we cultivate and deepen knowledge, skills, understandings and dispositions through engaging, meaningful and diverse experiences repeated over time.
+                    </div>
+                </div>
+                <div class="col-lg-6 offset-lg-1 col-12 offset-0 p-t-sm-30 order-2">
                     <img src="<?= get_template_directory_uri() . '/resources/about/beliefs-img-2.jpg' ?>" alt="">
                 </div>
             </div>
@@ -235,7 +364,7 @@ include_once 'elements/nav-pages-infos.php';
             <div class="row">
                 <div class="col-12 beliefs-collapse-container">
                     <div class="beliefs-collapse" data-collapse-pos="4">
-                        <div class="d-flex justify-content-between align-items-center" data-bs-toggle="collapse" href="#beliefs-collapse-4" role="button" data-collapse-pos="4" aria-expanded="false" aria-controls="beliefs-collapse-4">
+                        <div class="d-flex justify-content-between align-items-center d-sm-wrap" data-bs-toggle="collapse" href="#beliefs-collapse-4" role="button" data-collapse-pos="4" aria-expanded="false" aria-controls="beliefs-collapse-4">
                             <div class="collapse-title-about">
                                 What does high quality learning allow?
                             </div>

@@ -28,10 +28,10 @@
 		<div class="header-layover"></div>
 		<header class="<?= get_the_ID() != 7  ? 'blured' : '' ?>">
 			<div class="container-fluid p-l-20 p-r-20">
-				<div class="row justify-content-center">
+				<div class="row justify-content-center g-0">
 					<div class="col-12">
-						<nav class="row">
-							<div class="col-lg-3 col-5">
+						<nav class="row g-0">
+							<div class="col-lg-3 col-5 p-0">
 								<div class="header-logo-container">
 									<div>
 										<a class="d-flex justify-content-start align-items-center" href="<?= get_site_url(); ?>">
@@ -47,17 +47,17 @@
 								<div class="header-links-container d-lg-block d-none text-center">
 									<ul>
 										<li>
-											<a href="<?= get_permalink(2); ?>">
+											<a class="<?= is_page(229) ? 'active-link' : ''; ?>" href="<?= get_permalink(229); ?>">
 												WHY IST?
 											</a>
 										</li>
 										<li>
-											<a href="<?= get_permalink(3); ?>">
+											<a class="<?= is_page(108) ? 'active-link' : ''; ?>" href="<?= get_home_url() . '/facilities'; ?>">
 												CAMPUS TOUR
 											</a>
 										</li>
 										<li>
-											<a href="<?= get_permalink(4); ?>">
+											<a class="<?= is_page(217) ? 'active-link' : ''; ?>" href="<?= get_permalink(217); ?>">
 												INQUIRE NOW
 											</a>
 										</li>
@@ -97,7 +97,7 @@
 								<div class="col-4">
 									<ul>
 										<li style="font-size:20px; font-weight:500;">
-												PROGRAMS
+											PROGRAMS
 										</li>
 										<li>
 											<a class="<?= get_the_ID() == 23 ? 'active-link' : '';  ?>" style="font-size:20px; font-weight:500;" href="<?= get_permalink(23); ?>">
@@ -177,22 +177,22 @@
 											STUDENT LIFE
 										</li>
 										<li>
-											<a href="">
+											<a class="<?= is_page(184) ? 'active-link' : ''; ?>" href="<?= get_permalink(184); ?>">
 												Co-curriculum Activities
 											</a>
 										</li>
 										<li>
-											<a href="">
+											<a class="<?= is_page(186) ? 'active-link' : ''; ?>" href="<?= get_permalink(186); ?>">
 												Atlhletics
 											</a>
 										</li>
 										<li>
-											<a href="">
+											<a class="<?= is_page(188) ? 'active-link' : ''; ?>" href="<?= get_permalink(188); ?>">
 												Community & Service
 											</a>
 										</li>
 										<li>
-											<a href="">
+											<a class="<?= is_page(190) ? 'active-link' : ''; ?>" href="<?= get_permalink(190);  ?>">
 												Trips & Events
 											</a>
 										</li>
@@ -283,12 +283,12 @@
 								<div class="col-3">
 									<ul>
 										<li>
-											<a href="">
+											<a class="<?= is_page(219) ? 'active-link' : ''; ?>" href="<?= get_permalink(219); ?>">
 												Work with us
 											</a>
 										</li>
 										<li>
-											<a href="">
+											<a class="<?= is_page(231) ? 'active-link' : ''; ?>" href="<?= get_permalink(231); ?>">
 												News & events
 											</a>
 										</li>
@@ -297,12 +297,12 @@
 								<div class="col-3">
 									<ul>
 										<li>
-											<a href="">
+											<a class="<?= is_page(215) ? 'active-link' : '';  ?>" href="<?= get_permalink(215); ?>">
 												Downloads
 											</a>
 										</li>
 										<li>
-											<a href="">
+											<a class="<?= is_page(221) ? 'active-link' : ''; ?>" href="<?= get_permalink(221); ?>">
 												School Calendar
 											</a>
 										</li>
@@ -326,7 +326,7 @@
 					<div>
 						Programs
 						<image src="<?= get_template_directory_uri() . '/resources/icons/plus.svg'; ?>" alt="">
-						<image src="<?= get_template_directory_uri() . '/resources/icons/min.svg;' ?>" alt="">
+							<image src="<?= get_template_directory_uri() . '/resources/icons/min.svg;' ?>" alt="">
 					</div>
 				</div>
 				<div class="collapse-links-container">
@@ -338,7 +338,7 @@
 							<li class="collapse-2-container" data-bs-toggle="collapse" href="#collapse-elementary" role="button" aria-expanded="false" aria-controls="collapse-elementary">
 								Elementary Education
 								<image src="<?= get_template_directory_uri() . '/resources/icons/plus.svg'; ?>" alt="">
-								<image src="<?= get_template_directory_uri() . '/resources/icons/min.svg;' ?>" alt="">
+									<image src="<?= get_template_directory_uri() . '/resources/icons/min.svg;' ?>" alt="">
 							</li>
 							<li class="collapse" id="collapse-elementary">
 								<div>
@@ -364,7 +364,7 @@
 							<li class="collapse-2-container" data-bs-toggle="collapse" href="#collapse-secondary" role="button" aria-expanded="false" aria-controls="collapse-secondary">
 								Secondary Education
 								<image src="<?= get_template_directory_uri() . '/resources/icons/plus.svg'; ?>" alt="">
-								<image src="<?= get_template_directory_uri() . '/resources/icons/min.svg;' ?>" alt="">
+									<image src="<?= get_template_directory_uri() . '/resources/icons/min.svg;' ?>" alt="">
 							</li>
 							<li class="collapse-links-container collapse" id="collapse-secondary">
 								<ul>
@@ -390,13 +390,15 @@
 					<div>
 						About
 						<image src="<?= get_template_directory_uri() . '/resources/icons/plus.svg'; ?>" alt="">
-						<image src="<?= get_template_directory_uri() . '/resources/icons/min.svg;' ?>" alt="">
+							<image src="<?= get_template_directory_uri() . '/resources/icons/min.svg;' ?>" alt="">
 					</div>
 				</div>
 				<div class="collapse collapse-links-container" id="collapse-about">
 					<ul class="link-list-mobile-nav">
 						<li>
-							<a class="<?= get_the_ID() == 11 ? 'active-link' : ''; ?>" href="<?= get_permalink(11); ?>">History</a>
+							<a class="<?= get_the_ID() == 11 ? 'active-link' : ''; ?>" href="<?= get_permalink(11); ?>">
+								History
+							</a>
 						</li>
 						<li>
 							<a class="<?= get_the_ID() == 13 ? 'active-link' : ''; ?>" href="<?= get_permalink(13); ?>">
@@ -414,7 +416,7 @@
 					<div>
 						Campus
 						<image src="<?= get_template_directory_uri() . '/resources/icons/plus.svg'; ?>" alt="">
-						<image src="<?= get_template_directory_uri() . '/resources/icons/min.svg;' ?>" alt="">
+							<image src="<?= get_template_directory_uri() . '/resources/icons/min.svg;' ?>" alt="">
 					</div>
 				</div>
 				<div class="collapse" id="collapse-campus">
@@ -440,28 +442,28 @@
 					<div>
 						Student Life
 						<image src="<?= get_template_directory_uri() . '/resources/icons/plus.svg'; ?>" alt="">
-						<image src="<?= get_template_directory_uri() . '/resources/icons/min.svg;' ?>" alt="">
+							<image src="<?= get_template_directory_uri() . '/resources/icons/min.svg;' ?>" alt="">
 					</div>
 				</div>
 				<div class="collapse" id="collapse-student">
 					<ul class="link-list-mobile-nav">
 						<li>
-							<a href="#">
+							<a class="<?= is_page(184) ? 'active-link' : ''; ?>" href="<?= get_permalink(184); ?>">
 								Co-curricular Activities
 							</a>
 						</li>
 						<li>
-							<a href="#">
+							<a class="<?= is_page(186) ? 'active-link' : ''; ?>" href="<?= get_permalink(186); ?>">
 								Athletics
 							</a>
 						</li>
 						<li>
-							<a href="#">
+							<a class="<?= is_page(188) ? 'active-link' : ''; ?>" href="<?= get_permalink(188); ?>">
 								Community & Service
 							</a>
 						</li>
 						<li>
-							<a href="#">
+							<a class="<?= is_page(190) ? 'active-link' : ''; ?>" href="<?= get_permalink(190); ?>">
 								Trips & Events
 							</a>
 						</li>
@@ -471,7 +473,7 @@
 					<div>
 						Admission
 						<image src="<?= get_template_directory_uri() . '/resources/icons/plus.svg'; ?>" alt="">
-						<image src="<?= get_template_directory_uri() . '/resources/icons/min.png;' ?>" alt="">
+							<image src="<?= get_template_directory_uri() . '/resources/icons/min.png;' ?>" alt="">
 					</div>
 				</div>
 				<div class="collapse" id="collapse-admission">
@@ -502,7 +504,7 @@
 					<div>
 						Community
 						<image src="<?= get_template_directory_uri() . '/resources/icons/plus.svg'; ?>" alt="">
-						<image src="<?= get_template_directory_uri() . '/resources/icons/min.svg;' ?>" alt="">
+							<image src="<?= get_template_directory_uri() . '/resources/icons/min.svg;' ?>" alt="">
 					</div>
 				</div>
 				<div class="collapse" id="collapse-community">
@@ -531,25 +533,37 @@
 				</div>
 				<ul class="mobile-header-bottom-links">
 					<li>
-						<a href=""> Why IST?</a>
+						<a class="<?= is_page(229) ? 'active-link' : '';  ?>" href="<?= get_permalink(229); ?>">
+							Why IST?
+						</a>
 					</li>
 					<li>
-						<a href="">Work with us</a>
+						<a class="<?= is_page(219) ? 'active-link' : ''; ?>" href="<?= get_permalink(219); ?>">
+							Work with us
+						</a>
 					</li>
 					<li>
-						<a href="">Campus tour</a>
+						<a class="<?= is_page(108) ? 'active-link' : ''; ?>" href="<?= get_permalink(108); ?>">
+							Campus tour
+						</a>
 					</li>
 					<li>
-						<a href="">News & events</a>
+						<a class="<?= is_page(231) ? 'active-link' : ''; ?>" href="<?= get_permalink(231); ?>">
+							News & events
+						</a>
 					</li>
 					<li>
-						<a href="">Downloads</a>
+						<a class="<?= is_page(215) ? 'active-link' : ''; ?>" href="<?= get_permalink(215); ?>">
+							Downloads
+						</a>
 					</li>
 					<li>
-						<a href="">School Calendar</a>
+						<a class="<?= is_page(221) ? 'active-link' : '' ?>" href="<?= get_permalink(221); ?>">
+							School Calendar
+						</a>
 					</li>
 				</ul>
-				<a href="">
+				<a class="<?= is_page(217) ? 'active-link' : ''; ?>" href="<?= get_permalink(217); ?>">
 					<div class="mobile-header-cta ist-cta">
 						Contact us <img onload="SVGInject(this);" src="<?= get_template_directory_uri() . '/resources/icons/arrow.svg'; ?>" alt="">
 					</div>
@@ -579,7 +593,6 @@
 					</div>
 				</div>
 			</div>
-
 			<div id="mobile-search-container" class="p-30">
 				<div class="header-mobile-ham p-b-60">
 					<img onload="SVGInject(this); " src="<?= get_template_directory_uri() . '/resources/icons/ist-logo.svg'; ?>" alt="">

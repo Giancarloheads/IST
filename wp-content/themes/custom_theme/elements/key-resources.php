@@ -20,10 +20,13 @@
                 };
                 if (!is_page(39)) {
                     if ($key_resources) {
-                        foreach ($key_resources as $k) : ?>
+                        foreach ($key_resources as $k) : 
+                            $acf_file = get_field('file' , $k);
+                            if($acf_file){
+                        ?>
                             <div class="g-3 col-lg-4 col-md-6 col-12">
                                 <div class="single-key-resources">
-                                    <a href="<?= get_permalink($k); ?>">
+                                    <a download href="<?= get_field('file',$k); ?>">
                                         <div class=""><?= get_the_Title($k); ?></div>
                                         <div class="key-resources-cta">
                                             Donwload <img onload="SVGInject(this)" src="<?= get_template_directory_uri() . '/resources/icons/arrow.svg'; ?>" alt="">
@@ -33,13 +36,14 @@
                             </div>
 
                     <?php
+                            }
                         endforeach;
                     }
                 } else {
                     ?>
                     <div class="g-3 col-lg-5 col-md-8 col-10">
                         <div class="single-key-resources">
-                            <a href="">
+                            <a target="_blank" href="mailto:studentservice@isttianjin.org.cn">
                                 <div class="">Counselors's Contacts</div>
                                 <a href="mailto:StudentService@isttianjin.org.cn" class="key-resources-cta c-red">
                                     StudentService@isttianjin.org.cn

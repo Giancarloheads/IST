@@ -7,20 +7,12 @@ get_header();
 
 <section class="container-fluid jumbotron">
     <div class="video-container">
-        <!-- <div style="background-image:url('<?= get_template_directory_uri() . '/resources/img/jumbotron.jpg'; ?>')"></div> -->
+        <div style="background-image:url('<?= get_template_directory_uri() . '/resources/img/jumbotron.jpg'; ?>')"></div>
         <!-- <iframe src="https://www.youtube.com/embed/rUWxSEwctFU?mute=1&modestbranding=0&autoplay=1&autohide=1&rel=0&showinfo=0&controls=0&disablekb=1&enablejsapi=1&iv_load_policy=3&loop=1&playsinline=1&fs=0&playlist=rUWxSEwctFU"></iframe> -->
-        <video class="video-tag" style="min-width:100%;min-height:100%;object-fit:cover;object-position: center center;" autoplay muted loop>
+        <!--- <video playsinline class="video-tag" style="min-width:100%;min-height:100%;object-fit:cover;object-position: center center;" autoplay muted loop>
             <source src="http://techslides.com/demos/sample-videos/small.mp4" type="video/mp4">
         </video>
-        <style>
-            .video-tag {
-                position: relative;
-                width: 100%;
-                height: 100%;
-                object-fit: contain;
-                object-position: center;
-            }
-        </style>
+        <img class="w-100 h-100" src="https://via.placeholder.com/1920x1080" alt=""> -->
     </div>
     <div class="row justify-content-center">
         <div class="col-md-10 col-sm-11">
@@ -337,9 +329,11 @@ get_header();
                     </div>
                 </div>
                 <div class="col-12 students-video-container scrreveal3">
-                    <video class="video-tag" style="min-width:100%;min-height:100%;object-fit:cover!important;object-position:center center!important" autoplay muted loop>
+                    <!-- <video class="video-tag" style="min-width:100%;min-height:100%;object-fit:cover!important;object-position:center center!important" autoplay muted loop>
                         <source src="http://techslides.com/demos/sample-videos/small.mp4" type="video/mp4">
-                    </video>
+                    </video> -->
+                    <img class="w-100 d-lg-block d-none" src="<?= get_template_directory_uri() . '/resources/img/placeholder-video-home-students.jpg'; ?>" alt="placeholder video desktop students">
+                    <img src="<?= get_template_directory_uri() . '/resources/img/home-video-mobile-placeholder.jpg'; ?>" class="w-100 d-block d-lg-none" alt="placeholder video mobile students">
                 </div>
             </div>
         </div>
@@ -560,7 +554,7 @@ get_header();
     </div>
 </section>
 <section class="recent-news-slider-section">
-    <div class="recent-news-slider-container">
+    <div class="recent-news-slider-container p-l-20">
         <?php
         $args = array(
             'post_type' => 'post',
@@ -568,103 +562,53 @@ get_header();
             'order' => 'DESC',
             'orderBy' => 'date'
         );
-        /* $posts = wp_get_posts($args); */
+        $posts = get_posts($args);
 
-        $posts = array(
-            array(
-                'title' => 'Titolo 1',
-                'data' => "24 May, 2022",
-                'img' => "https://via.placeholder.com/320x400",
-                'cat' => 1,
-                'caption' => 'lorem ipsum sit dolor amet consetetur'
-            ),
-            array(
-                'title' => 'Title 2',
-                'data' => '22 May, 2022',
-                'img' => "https://via.placeholder.com/320x400",
-                'cat' => 2,
-                'caption' => 'lorem ipsum sit dolor amet consetetur'
-            ),
-            array(
-                'title' => 'Title 3',
-                'data' => '20 May, 2022',
-                'img' => "https://via.placeholder.com/320x400",
-                'cat' => 3,
-                'caption' => 'lorem ipsum sit dolor amet consetetur'
-            ),
-            array(
-                'title' => 'Title 4',
-                'data' => '10 May, 2022',
-                'img' => "https://via.placeholder.com/320x400",
-                'cat' => 1,
-                'caption' => 'lorem ipsum sit dolor amet consetetur '
-            ),
-            array(
-                'title' => 'Title 4',
-                'data' => '10 May, 2022',
-                'img' => "https://via.placeholder.com/320x400",
-                'cat' => 3,
-                'caption' => 'lorem ipsum sit dolor amet consetetur '
-            ),
-            array(
-                'title' => 'Title 4',
-                'data' => '10 May, 2022',
-                'img' => "https://via.placeholder.com/320x400",
-                'cat' => 2,
-                'caption' => 'lorem ipsum sit dolor amet consetetur '
-            ),
-            array(
-                'title' => 'Title 4',
-                'data' => '10 May, 2022',
-                'img' => "https://via.placeholder.com/320x400",
-                'cat' => 1,
-                'caption' => 'lorem ipsum sit dolor amet consetetur '
-            )
-        );
-        foreach ($posts as $p) :
-            $cat_color;
-
-            switch ($p['cat']) {
-                case '1':
-                    $cat_color = 'hover-yellow';
-                    break;
-                case '2':
-                    $cat_color = 'hover-white';
-                    break;
-                case '3':
+        foreach ($posts as $index => $p) :
+            switch ($index) {
+                case 0:
                     $cat_color = 'hover-green';
                     break;
-                default:
+                case 1:
+                    $cat_color = 'hover-yellow';
+                    break;
+                case 2:
                     $cat_color = 'hover-red';
+                    break;
+                case 3:
+                    $cat_color = 'hover-white';
+                    break;
+                default:
+                    $cat_color = 'hover-yellow'; 
                     break;
             }
         ?>
-            <div class="recent-news-slider-item">
+            <a class="recent-news-slider-item" href="<?= get_permalink($p -> ID); ?>"> 
                 <div class="recent-news">
                     <div class="news-cover">
                         <div class="news-img">
-                            <img src="<?= $p['img']; ?>" alt="">
+                            <img src="<?= get_the_post_thumbnail_url($p -> ID); ?>" alt="">
                         </div>
                         <div class="news-caption">
                             <div class="news-title">
-                                <?= $p['title'] ?>
+                                <?= get_the_Title($p -> ID); ?>
                             </div>
                             <div class="news-date">
-                                <?= $p['data'] ?>
+                                <?= get_the_date("Y-m-d H:i:s" , $p -> ID); ?>
                             </div>
                         </div>
                     </div>
                     <div class="hidden-side-news  <?= ' ' . $cat_color; ?>">
                         <div class="news-title-hidden">
-                            <?= $p['caption']; ?>
+                            <?= substr(get_the_excerpt($p -> ID) , 0 , 150) . '...'; ?>
                         </div>
-                        <div class="news-caption">
-                            <div class="news-title"><?= $p['title']; ?></div>
-                            <div class="news-date"><?= $p['data']; ?></div>
+                        <div class="news-caption-hidden">
+                            <div class="news-title"><?= get_the_Title($p -> ID); ?></div>
+                            <div class="news-date"><?= get_the_date("Y-m-d H:i:s" , $p -> ID); ?></div>
                         </div>
                     </div>
                 </div>
-            </div>
+            </a>
         <?php
         endforeach;
         ?>

@@ -10,7 +10,7 @@ jQuery(document).ready(function ($) {
 
     var w = window.innerWidth;
 
-    if (w >= 1400) {
+    if (w >= 767) {
 
         // get all slides
         var slides = document.querySelectorAll(".pin-section");
@@ -51,7 +51,10 @@ jQuery(document).ready(function ($) {
                 opacity: 1,
                 top: '50%'
             }, 1400);
+
+            
         }
+
         if(home2img){
             home2img.classList.add('expanded');
             $('.pt-anim').animate({
@@ -70,14 +73,12 @@ jQuery(document).ready(function ($) {
             
         var slides = document.querySelectorAll(".pin-section-mobile");
 
-        // create scene for every slide
         for (var i = 0; i < slides.length; i++) {
             slides[i].classList.add('vh-100');
             new ScrollMagic.Scene({
                 triggerElement: slides[i]
             })
                 .setPin(slides[i], { pushFollowers: false })
-                /*  .addIndicators() // add indicators (requires plugin) */
                 .addTo(controller);
         }
     }

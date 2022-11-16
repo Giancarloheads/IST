@@ -138,7 +138,6 @@ add_action( 'widgets_init', 'custom_theme_widgets_init' );
  * Enqueue scripts and styles.
  */
 
-
 include_once ('inc/enqueue.php');
 /**
  * Implement the Custom Header feature.
@@ -167,13 +166,17 @@ if ( defined( 'JETPACK__VERSION' ) ) {
 	require get_template_directory() . '/inc/jetpack.php';
 }
 
-
-
 //REMOVE TEXTAREA FOR DOWNLOAD CPT
-
 
 add_action('init', 'my_rem_editor_from_post_type');
 
 function my_rem_editor_from_post_type() {
     remove_post_type_support('download' , 'editor' );
 }
+
+
+function new_excerpt_more( $more ) {
+	return '....';
+}
+
+add_filter('excerpt_more', 'new_excerpt_more');

@@ -59,6 +59,7 @@ $term = get_the_terms($id, 'division')[0]->name;
             <div class="row">
                 <?php
                 $grades = get_field('grades');
+                if($grades != '') :
                 foreach ($grades as $index => $grade) :
                 ?>
                     <div class="single-program-collapse" data-collapse-pos="<?= $index + 1 ?>" style="border-bottom:#C0C0C0 1px solid!important">
@@ -82,6 +83,7 @@ $term = get_the_terms($id, 'division')[0]->name;
                     </div>
                 <?php
                 endforeach;
+            endif;
                 ?>
             </div>
         </div>

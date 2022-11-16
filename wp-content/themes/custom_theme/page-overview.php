@@ -68,8 +68,11 @@ include_once 'elements/nav-pages-programs.php';
                 <div class="col-lg-8 offset-lg-2 col-12 offset-0 text-center">
                     <h1 style="color:#000;position:relative;z-index:9999">INQUIRY-DRIVEN, STUDENT-CENTERED LEARNING</h1>
                 </div>
-                <div class="col-12 scrreveal" style="position:relative;bottom:40px;">
+                <div class="col-12 scrreveal d-lg-block d-none" style="position:relative;bottom:40px;">
                     <img class="w-100" src="<?= get_template_directory_uri() . '/resources/programs/overview-top-img.jpg'; ?>" alt="">
+                </div>
+                <div class="col-12 d-lg-none d-block scrreveal" style="position:relative;bottom:40px;">
+                    <img class="w-100" src="<?= get_template_directory_uri() . '/resources/about/overview-mobile-1.jpg'; ?>" alt="">
                 </div>
             </div>
         </div>
@@ -91,7 +94,7 @@ include_once 'elements/nav-pages-programs.php';
                                 Each school division is headed by a principal who is supported by his or her own leadership team, including IB Coordinators, school-wide coordinators, subject chairs and sub-divisional coordinators. One of the principals acts as the Deputy Director. Both principals report to the Director.
                             </div>
                         </div>
-                        <div class="single-collapse-trigger" data-bs-toggle="collapse" href="#elementary-collapse-single" role="button" aria-expanded="false" aria-controls="elementary-collapse-single">
+                        <div class="single-collapse-trigger d-flex justify-content-start align-items-center" data-bs-toggle="collapse" href="#elementary-collapse-single" role="button" aria-expanded="false" aria-controls="elementary-collapse-single">
                             Read more
                             <img class="collapse-single-svg-plus" onload="SVGInject(this); " src="<?= get_template_directory_uri() . '/resources/icons/plus.svg' ?>" alt="">
                             <img class="collapse-single-svg-minus" onload="SVGInject(this);" src="<?= get_template_directory_uri() . '/resources/icons/minus.svg' ?>" alt="">
@@ -171,14 +174,13 @@ include_once 'elements/nav-pages-programs.php';
     </div>
 </section>
 
-<section class="pin-section overview-last-pin-sec">
-    <?php
-    include_once 'elements/key-resources.php';
-    include_once 'elements/section-related.php';
-    ?>
-</section>
 
 <?php
-    include_once 'elements/about-pre-footer.php';
-    get_footer();
+include_once 'elements/key-resources.php';
+include_once 'elements/section-related.php';
+?>
+
+<?php
+include_once 'elements/about-pre-footer.php';
+get_footer();
 ?>

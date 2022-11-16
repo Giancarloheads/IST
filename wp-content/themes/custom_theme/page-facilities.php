@@ -47,7 +47,7 @@ include_once 'elements/nav-campus.php';
         </div>
     </div>
 </section>
-<section class="container-fluid p-l-20 p-r-20 p-t-60 p-b-60 p-b-md-0">
+<section class="container-fluid p-t-60 p-b-60 p-b-md-0">
     <div class="row align-items-center p-b-60">
         <div class="col-lg-6 col-12 p-b-60">
             <img class="w-100" src="<?= get_template_directory_uri() . '/resources/campus/facilities_1.jpg' ?>" alt="">
@@ -64,7 +64,7 @@ include_once 'elements/nav-campus.php';
     <div class="row justify-content-center">
         <div class="col-lg-10 col-12">
             <div class="top-building-collapse" data-collapse-pos="1">
-                <div class="d-flex justify-content-between align-items-center" data-bs-toggle="collapse" href="#collapse-top-building-1" role="button" aria-expanded="false" aria-controls="collapse-top-building-1">
+                <div class="d-flex justify-content-between align-items-center d-sm-wrap" data-bs-toggle="collapse" href="#collapse-top-building-1" role="button" aria-expanded="false" aria-controls="collapse-top-building-1">
                     <div class="single-collapse-par-big-txt">
                         What the Han Building includes
                     </div>
@@ -135,7 +135,7 @@ include_once 'elements/nav-campus.php';
     </div>
 </section>
 
-<section class="container-fluid p-l-20 p-r-20 p-t-60 p-b-60 p-b-md-0">
+<section class="container-fluid p-t-60 p-b-60 p-b-md-0">
     <div class="row align-items-center justify-content-center p-b-60">
         <div class="offset-lg-1 col-lg-4 offset-0 col-12 order-2 order-lg-1">
             <div class="ist-section-title-2 p-b-25 p-t-md-25" style="font-weight:300;margin-right:-50px;">THE QIN BUILDING</div>
@@ -151,7 +151,7 @@ include_once 'elements/nav-campus.php';
     <div class="row justify-content-center">
         <div class="col-lg-10 col-12">
             <div class="top-building-collapse" data-collapse-pos="2">
-                <div class="d-flex justify-content-between align-items-center" data-bs-toggle="collapse" href="#collapse-top-building-2" role="button" aria-expanded="false" aria-controls="collapse-top-building-2">
+                <div class="d-flex justify-content-between align-items-center d-sm-wrap" data-bs-toggle="collapse" href="#collapse-top-building-2" role="button" aria-expanded="false" aria-controls="collapse-top-building-2">
                     <div class="single-collapse-par-big-txt">
                         What the Qin Building includes
                     </div>
@@ -222,7 +222,7 @@ include_once 'elements/nav-campus.php';
     </div>
 </section>
 
-<section class="container-fluid p-l-20 p-r-20 p-t-60 p-b-60">
+<section class="container-fluid p-t-60 p-b-60">
     <div class="row align-items-center p-b-60">
         <div class="col-lg-6 col-12 p-b-60">
             <img class="w-100" src="<?= get_template_directory_uri() . '/resources/campus/campus-ground.jpg' ?>" alt="">
@@ -237,7 +237,7 @@ include_once 'elements/nav-campus.php';
     <div class="row justify-content-center">
         <div class="col-lg-10 col-12">
             <div class="top-building-collapse" data-collapse-pos="3">
-                <div class="d-flex justify-content-between align-items-center" data-bs-toggle="collapse" href="#collapse-top-building-3" role="button" aria-expanded="false" aria-controls="collapse-top-building-3">
+                <div class="d-flex justify-content-between align-items-center d-sm-wrap" data-bs-toggle="collapse" href="#collapse-top-building-3" role="button" aria-expanded="false" aria-controls="collapse-top-building-3">
                     <div class="single-collapse-par-big-txt">
                         What the campus ground includes
                     </div>

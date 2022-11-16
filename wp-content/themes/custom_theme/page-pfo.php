@@ -3,10 +3,10 @@ get_header();
 include 'elements/nav-community.php';
 ?>
 
-<section class="container-fluid p-b-120">
+<section class="container-fluid p-b-60">
     <div class="row justify-content-center">
-        <div class="col-10">
-            <div class="row">
+        <div class="col-lg-10 col-12">
+            <div class="row justify-content-center">
                 <div class="col-lg-6 col-12">
                     <div class="ist-caption-2">
                         Our school is fortunate to have a strong Parent Faculty Organization where volunteerism is a hallmark of our community spirit. At IST we do not aim to achieve; we achieve, and we do so by working, learning and acting together as a community.

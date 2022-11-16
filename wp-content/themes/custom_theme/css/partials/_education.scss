@@ -18,10 +18,7 @@
             align-items: center;
             box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
             border-radius: 8px;
-            padding-top: 40px;
-            padding-bottom: 40px;
-            padding-right: 40px;
-            padding-left: 40px;
+            padding:20px;
             a {
                 align-self: flex-start;
                 font-size: 25px;
@@ -47,7 +44,12 @@
                     text-align: right;
                 }
             }
-
+            .edu-box-img{
+                @media(max-width:1199px){
+                    width:100%;
+                    padding: 25px;
+                }
+            }
         }
         &:hover {
             .edu-content{
@@ -95,6 +97,9 @@
         path{
             stroke:$red;
         }
+    }
+    @media(max-width:768px){
+        font-size: 20px;
     }
 }
 

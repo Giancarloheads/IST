@@ -14,8 +14,8 @@
 <section class="container-fluid">
     <div class="row justify-content-center">
         <div class="col-10">
-            <div class="row justify-content-center d-lg-flex d-none">
-                <div class="col-8">
+            <div class="row justify-content-center d-flex ">
+                <div class="col-lg-8 col-md-10 col-sm-10">
                     <div class="nav-slider-container">
                         <div class="program-slider-prev">
                             <img onload="SVGInject(this);" src="<?= get_template_directory_uri() . '/resources/icons/arrow.svg' ?>" alt="">
@@ -53,7 +53,7 @@
                     </div>
                 </div>
             </div>
-            <div class="row d-block d-lg-none">
+            <div class="row d-none">
                 <div class="col-12">
                     <nav class="nav-admission-mob">
                         <ul class="row">

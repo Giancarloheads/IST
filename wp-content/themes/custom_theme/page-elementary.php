@@ -12,10 +12,10 @@ include 'elements/nav-pages-programs.php';
     <div class="row justify-content-center">
         <div class="col-lg-10 col-12">
             <div class="row align-items-start justify-content-between">
-                <div class="col-lg-6 col-12 oreder-lg-1 order-2 ist-par-about-1">
+                <div class="col-lg-6 col-12 ist-par-about-1 p-b-md-30">
                     Our Elementary School offers a welcoming, inclusive international experience for children from Nursery to Grade 5 in which engaged parents and highly skilled and committed teachers work together to nurture each child’s unique academic and social-emotional learning needs in an environment of quality learning resources and world class facilities.
                 </div>
-                <div class="col-lg-6 col-12 order-1 order-lg-2 text-right m-b-sm-30 flex-sm-center">
+                <div class="col-lg-6 col-12 text-right m-b-sm-30 flex-sm-center">
                     <img class="float-icon-left" onload="SVGInject(this)" src="<?= get_template_directory_uri() . '/resources/programs/logo-elementary.svg' ?>" alt="">
                 </div>
             </div>
@@ -29,46 +29,50 @@ include 'elements/nav-pages-programs.php';
             <div class="row g-3 edu-container">
                 <div class="offset-1 col-10 offset-lg-0 col-lg-4 edu-box edu-box">
                     <div class="edu-content h-100">
-                            <div class="p-t-20">
-                                <img onload="SVGInject(this);" class="h-100 edu-box-img" src="<?= get_template_directory_uri() . '/resources/education/edu-1.svg' ?>" alt="">
-                            </div>
-                            <a class="ist-cta" href="<?= get_permalink(144); ?>">
-                                Baby Dragon Playgroup
-                                <img class="cta-black" onload="SVGInject(this); " src="<?= get_template_directory_uri() . '/resources/icons/arrow.svg' ?>" alt="">
-                            </a>
-                            <div>
-                                <div>0-3 years</div>
-                            </div>
+                        <div class="p-t-20">
+                            <img onload="SVGInject(this);" class="h-100 edu-box-img" src="<?= get_template_directory_uri() . '/resources/education/edu-1.svg' ?>" alt="">
+                        </div>
+                        <a class="ist-cta" href="<?= get_permalink(144); ?>">
+                            Baby Dragon Playgroup
+                            <img class="cta-black" onload="SVGInject(this); " src="<?= get_template_directory_uri() . '/resources/icons/arrow.svg' ?>" alt="">
+                        </a>
+                        <div class="txt-all-left">
+                            <div class="">0-3 years</div>
+                        </div>
                     </div>
                 </div>
                 <div class="offset-1 col-10 offset-lg-0 col-lg-4 edu-box">
                     <div class="edu-content h-100">
-                            <div>
-                                <img onload="SVGInject(this);" class="h-100 edu-box-img" src="<?= get_template_directory_uri() . '/resources/education/edu-2.svg' ?>" alt="">
+                        <div>
+                            <img onload="SVGInject(this);" class="h-100 edu-box-img" src="<?= get_template_directory_uri() . '/resources/education/edu-2.svg' ?>" alt="">
+                        </div>
+                        <a class="ist-cta" href="<?= get_permalink(145); ?>">
+                            PYP Early Years
+                            <img class="cta-black" onload="SVGInject(this); " src="<?= get_template_directory_uri() . '/resources/icons/arrow.svg' ?>" alt="">
+                        </a>
+                        <div>
+                            <div class="txt-all-left">3 - 5 years</div>
+                            <div class="d-flex justify-content-end">
+                                <div class="txt-all-right w-100 p-l-10">
+                                    KG 1 - KG 2
+                                </div>
                             </div>
-                            <a class="ist-cta" href="<?= get_permalink(145); ?>">
-                                PYP Early Years
-                                <img class="cta-black" onload="SVGInject(this); " src="<?= get_template_directory_uri() . '/resources/icons/arrow.svg' ?>" alt="">
-                            </a>
-                            <div>
-                                <div>3 - 5 years</div>
-                                <div>KG 1 - KG 2</div>
-                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="offset-1 col-10 offset-lg-0 col-lg-4 edu-box edu-box">
                     <div class="edu-content h-100">
-                            <div>
-                                <img onload="SVGInject(this);" class="h-100 edu-box-img" src="<?= get_template_directory_uri() . '/resources/education/edu-3.svg' ?>" alt="">
-                            </div>
-                            <a class="ist-cta" href="<?= get_permalink(143) ?>">
-                                PYP
-                                <img class="cta-black" onload="SVGInject(this); " src="<?= get_template_directory_uri() . '/resources/icons/arrow.svg' ?>" alt="">
-                            </a>
-                            <div>
-                                <div>6 - 11 years</div>
-                                <div>KG 3 - Grade 5</div>
-                            </div>
+                        <div>
+                            <img onload="SVGInject(this);" class="h-100 edu-box-img" src="<?= get_template_directory_uri() . '/resources/education/edu-3.svg' ?>" alt="">
+                        </div>
+                        <a class="ist-cta" href="<?= get_permalink(143) ?>">
+                            PYP
+                            <img class="cta-black" onload="SVGInject(this); " src="<?= get_template_directory_uri() . '/resources/icons/arrow.svg' ?>" alt="">
+                        </a>
+                        <div>
+                            <div class="txt-all-left">6 - 11 years</div>
+                            <div class="txt-all-right">KG 3 - Grade 5</div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -81,7 +85,7 @@ include 'elements/nav-pages-programs.php';
             <div class="row">
                 <div class="col-12 beliefs-collapse-container">
                     <div class="elementary-collapse beliefs-collapse" data-collapse-pos="1">
-                        <div class="d-flex justify-content-between align-items-center" data-bs-toggle="collapse" href="#elementary-collapse-1" role="button" data-collapse-pos="1" aria-expanded="false" aria-controls="elementary-collapse-1">
+                        <div class="d-flex justify-content-between align-items-center d-sm-wrap" data-bs-toggle="collapse" href="#elementary-collapse-1" role="button" data-collapse-pos="1" aria-expanded="false" aria-controls="elementary-collapse-1">
                             <div class="collapse-title-about">
                                 Elementary Principal’s Welcome.
                             </div>
@@ -125,7 +129,7 @@ include 'elements/nav-pages-programs.php';
                         </div>
                     </div>
                     <div style="border-bottom:solid 1px #000!important" class="elementary-collapse beliefs-collapse" data-collapse-pos="2">
-                        <div class="d-flex justify-content-between align-items-center" data-bs-toggle="collapse" href="#elementary-collapse-2" role="button" aria-expanded="false" aria-controls="elementary-collapse-2">
+                        <div class="d-flex justify-content-between align-items-center d-sm-wrap" data-bs-toggle="collapse" href="#elementary-collapse-2" role="button" aria-expanded="false" aria-controls="elementary-collapse-2">
                             <div class="collapse-title-about">
                                 Program of Inquiry
                             </div>
@@ -184,11 +188,12 @@ include 'elements/nav-pages-programs.php';
                     <h1 style="color:#000;position:relative;z-index:9999">LOREM ISPSUM DOLOR SIT AMET LOREM</h1>
                 </div>
                 <div class="col-12 scrreveal" style="position:relative;bottom:40px;">
-                    <img class="w-100" src="<?= get_template_directory_uri() . '/resources/programs/elementary-img-1.jpg'; ?>" alt="">
+                    <img class="w-100 d-lg-block d-none" src="<?= get_template_directory_uri() . '/resources/programs/elementary-img-1.jpg'; ?>" alt="">
+                    <img class="w-100 d-lg-none d-block" src="<?= get_template_directory_uri() . '/resources/programs/elementary-mobile-1.jpg'; ?>" alt="">
                 </div>
             </div>
         </div>
-        <div class="col-10">
+        <div class="col-lg-10 col-12">
             <div class="row">
                 <div class="col-lg-6 offset-lg-6 col-12 offset-0">
                     <div class="collapse-container-single">
@@ -214,54 +219,52 @@ include 'elements/nav-pages-programs.php';
     </div>
 </section>
 
-<section class="x-pad-section">
-    <div class="container-fluid">
-        <div class="row justify-content-center align-items-center">
-            <div class="col-12">
-                <div class="row align-items-center programs-layout-row">
-                    <div class="col-lg-6 col-12 order-2 order-lg-1 p-md-80">
-                        <div class="title">
-                            STUDENT <br class="d-lg-block d-none"> SUPPORT
-                        </div>
-                        <p>
-                            Our dedicated faculty includes highly qualified and experienced Homeroom, Specialist subject, English Language Acquisition (ELA), and Learning Support teachers from around the world. A team of skilled specialist ELA teachers provide scheduled ELA classes for Grade 1 to 5 students in need of additional assistance, with in-class support offered for KG1 to KG3. New applicants from KG3 to Grade 5 are required to sit an English language proficiency assessment to determine what level of learning support is required to best meet their language learning needs.
-                        </p>
+<section class="container-fluid">
+    <div class="row justify-content-center align-items-center">
+        <div class="col-12">
+            <div class="row align-items-center programs-layout-row g-0">
+                <div class="col-lg-6 col-12 order-2 order-lg-1 p-md-80">
+                    <div class="title">
+                        STUDENT <br class="d-lg-block d-none"> SUPPORT
                     </div>
-                    <div class="col-lg-6 col-12 order-1 order-lg-2">
-                        <img src="<?= get_template_directory_uri() . '/resources/education/student-support.jpg'; ?>" alt="">
-                    </div>
+                    <p>
+                        Our dedicated faculty includes highly qualified and experienced Homeroom, Specialist subject, English Language Acquisition (ELA), and Learning Support teachers from around the world. A team of skilled specialist ELA teachers provide scheduled ELA classes for Grade 1 to 5 students in need of additional assistance, with in-class support offered for KG1 to KG3. New applicants from KG3 to Grade 5 are required to sit an English language proficiency assessment to determine what level of learning support is required to best meet their language learning needs.
+                    </p>
                 </div>
-                <div class="row align-items-center programs-layout-row programs-last-lay-row">
-                    <div class="col-lg-6 col-12">
-                        <img src="<?=  get_template_directory_uri() . '/resources/education/beyond.jpg'; ?>" alt="">
+                <div class="col-lg-6 col-12 order-1 order-lg-2">
+                    <img class="w-100" src="<?= get_template_directory_uri() . '/resources/education/student-support.jpg'; ?>" alt="">
+                </div>
+            </div>
+            <div class="row align-items-center programs-layout-row programs-last-lay-row g-0">
+                <div class="col-lg-6 col-12">
+                    <img class="w-100" src="<?= get_template_directory_uri() . '/resources/education/beyond.jpg'; ?>" alt="">
+                </div>
+                <div class="col-lg-6 col-12 p-md-80">
+                    <div class="title">
+                        BEYOND THE CURRICULUM
                     </div>
-                    <div class="col-lg-6 col-12 p-md-80">
-                        <div class="title">
-                            BEYOND THE CURRICULUM
-                        </div>
-                        <p>
-                            Balance in the various aspects of your children’s lives is important, and our students are therefore provided with multiple opportunities to engage in different forms of learning beyond the traditional subject disciplines, including through field trips, Co-Curricular Activities (offered every day after school and are registered through the ‘School Buddies’ app), sports, student leadership, and community service experiences. All field trips and most CCAs are offered at no additional cost to parents.
-                        </p>
-                    </div>
+                    <p>
+                        Balance in the various aspects of your children’s lives is important, and our students are therefore provided with multiple opportunities to engage in different forms of learning beyond the traditional subject disciplines, including through field trips, Co-Curricular Activities (offered every day after school and are registered through the ‘School Buddies’ app), sports, student leadership, and community service experiences. All field trips and most CCAs are offered at no additional cost to parents.
+                    </p>
                 </div>
             </div>
         </div>
     </div>
 </section>
 
-<section class="pin-section overview-last-pin-sec">
-    <?php
+<?php
 include_once 'elements/key-resources.php';
 ?>
 
 <?php
 include_once 'elements/section-related.php';
 ?>
-</section>
+
 
 <?php
 include_once 'elements/about-pre-footer.php';
 ?>
+
 
 <?php
 get_footer();

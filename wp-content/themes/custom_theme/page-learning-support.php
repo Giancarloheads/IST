@@ -17,39 +17,39 @@ include 'elements/nav-pages-programs.php';
         </div>
     </div>
 </section>
-<section class="x-pad-section" style="padding-bottom:60px;">
-    <div class="container-fluid">
-        <div class="row justify-content-center align-items-center">
-            <div class="col-12">
-                <div class="row align-items-center programs-layout-row p-t-md-120" style="border:none; border-top:1px solid #C0C0C0;padding-bottom:0;">
-                    <div class="col-lg-6 p-0 col-12">
-                        <img class="w-100" src="<?= get_template_directory_uri() . '/resources/education/ela.jpg'; ?>" alt="">
+
+<section class="container-fluid p-b-60">
+    <div class="row justify-content-center align-items-center g-0">
+        <div class="col-12">
+            <div class="row align-items-center programs-layout-row p-t-md-120 g-0" style="border:none; border-top:1px solid #C0C0C0;padding-bottom:0;">
+                <div class="col-lg-6 col-12">
+                    <img class="w-100" src="<?= get_template_directory_uri() . '/resources/education/ela.jpg'; ?>" alt="">
+                </div>
+                <div class="col-lg-5 col-12 p-md-80">
+                    <div class="title">
+                        ENGLISH LANGUAGE ACQUISITION (ELA)
                     </div>
-                    <div class="col-lg-5 col-12 p-md-80">
-                        <div class="title">
-                            ENGLISH LANGUAGE ACQUISITION (ELA)
-                        </div>
-                        <p>
-                            The emphasis of IST’s ELA support programme is to promote academic English proficiency that will enable learners to access the mainstream curriculum as quickly as possible. ESL teachers work in active collaboration with homeroom and other specialist teachers to support students.
-                        </p>
-                    </div>
+                    <p>
+                        The emphasis of IST’s ELA support programme is to promote academic English proficiency that will enable learners to access the mainstream curriculum as quickly as possible. ESL teachers work in active collaboration with homeroom and other specialist teachers to support students.
+                    </p>
                 </div>
             </div>
         </div>
     </div>
 </section>
+
 <section class="container-fluid p-b-60">
     <div class="row justify-content-center">
         <div class="col-lg-10 col-12">
             <div class="row">
                 <div class="col-12 beliefs-collapse-container">
                     <div class="elementary-collapse beliefs-collapse support-collapse" data-collapse-pos="1">
-                        <div class="d-flex justify-content-between align-items-center" data-bs-toggle="collapse" href="#support-1" role="button" data-collapse-pos="1" aria-expanded="false" aria-controls="support-1">
+                        <div class="d-flex justify-content-between align-items-center d-sm-wrap" data-bs-toggle="collapse" href="#support-1" role="button" data-collapse-pos="1" aria-expanded="false" aria-controls="support-1">
                             <div class="collapse-title-about">
                                 ELA in the Elementary School
                             </div>
                             <div class="d-flex justify-content-center align-items-center">
-                                <img id="support-1-icon" style="width:20px; height:20px;" src="<?= get_template_directory_uri() . '/resources/icons/plus_collapse.svg' ?>" alt="">
+                                <img class="w-100" id="support-1-icon" src="<?= get_template_directory_uri() . '/resources/icons/plus_collapse.svg' ?>" alt="">
                             </div>
                         </div>
                         <div class="collapse" id="support-1">
@@ -70,7 +70,7 @@ include 'elements/nav-pages-programs.php';
                         </div>
                     </div>
                     <div class="elementary-collapse support-collapse beliefs-collapse" data-collapse-pos="2">
-                        <div class="d-flex justify-content-between align-items-center" data-bs-toggle="collapse" href="#support-2" role="button" data-collapse-pos="2" aria-expanded="false" aria-controls="support-2">
+                        <div class="d-flex justify-content-between align-items-center d-sm-wrap" data-bs-toggle="collapse" href="#support-2" role="button" data-collapse-pos="2" aria-expanded="false" aria-controls="support-2">
                             <div class="collapse-title-about">
                                 ELA in the Secondary School
                             </div>
@@ -94,7 +94,7 @@ include 'elements/nav-pages-programs.php';
                         </div>
                     </div>
                     <div class="elementary-collapse support-collapse beliefs-collapse" data-collapse-pos="3">
-                        <div class="d-flex justify-content-between align-items-center" data-bs-toggle="collapse" href="#support-3" role="button" data-collapse-pos="3" aria-expanded="false" aria-controls="support-3">
+                        <div class="d-flex justify-content-between align-items-center d-sm-wrap" data-bs-toggle="collapse" href="#support-3" role="button" data-collapse-pos="3" aria-expanded="false" aria-controls="support-3">
                             <div class="collapse-title-about">
                                 Mother Tongue
                             </div>
@@ -122,22 +122,21 @@ include 'elements/nav-pages-programs.php';
         </div>
     </div>
 </section>
-<section class="x-pad-section" style="padding-bottom:60px;">
-    <div class="container-fluid">
-        <div class="row justify-content-center align-items-center">
-            <div class="col-12">
-                <div class="row align-items-center programs-layout-row" style="border:none; border-top:1px solid #C0C0C0;padding-bottom:0!important;">
-                    <div class="col-lg-6 col-12 p-md-80 order-lg-1 order-2">
-                        <div class="title">
-                            INDIVIDUAL NEEDS PROGRAM
-                        </div>
-                        <p>
-                            We believe all students have the right to participate fully in our academic and social programs. Our I.N. program support students who need special support to participate in the school’s programs. Support is based on the students’ needs, and may consist of support within the classroom, through small group instruction or modifications made by the teacher. Students may be withdrawn from their classroom for small group instruction but the majority of their time is spent with their peers in the regular classroom.
-                        </p>
+
+<section class="container-fluid p-b-60">
+    <div class="row justify-content-center align-items-center">
+        <div class="col-12">
+            <div class="row align-items-center programs-layout-row g-0" style="border:none; border-top:1px solid #C0C0C0;padding-bottom:0!important;">
+                <div class="col-lg-6 col-12 p-md-80">
+                    <div class="title">
+                        INDIVIDUAL NEEDS PROGRAM
                     </div>
-                    <div class="col-lg-6 p-0 col-12 order-lg-2 order-1">
-                        <img class="w-100" src="<?= get_template_directory_uri() . '/resources/education/individual.jpg' ?>" alt="">
-                    </div>
+                    <p>
+                        We believe all students have the right to participate fully in our academic and social programs. Our I.N. program support students who need special support to participate in the school’s programs. Support is based on the students’ needs, and may consist of support within the classroom, through small group instruction or modifications made by the teacher. Students may be withdrawn from their classroom for small group instruction but the majority of their time is spent with their peers in the regular classroom.
+                    </p>
+                </div>
+                <div class="col-lg-6 col-12">
+                    <img class="w-100" src="<?= get_template_directory_uri() . '/resources/education/individual.jpg' ?>" alt="">
                 </div>
             </div>
         </div>
@@ -149,7 +148,7 @@ include 'elements/nav-pages-programs.php';
             <div class="row">
                 <div class="col-12 beliefs-collapse-container">
                     <div class="elementary-collapse beliefs-collapse support-collapse" data-collapse-pos="4">
-                        <div class="d-flex justify-content-between align-items-center" data-bs-toggle="collapse" href="#support-4" role="button" data-collapse-pos="4" aria-expanded="false" aria-controls="support-4">
+                        <div class="d-flex justify-content-between align-items-center d-sm-wrap" data-bs-toggle="collapse" href="#support-4" role="button" data-collapse-pos="4" aria-expanded="false" aria-controls="support-4">
                             <div class="collapse-title-about">
                                 IST believes
                             </div>
@@ -225,22 +224,21 @@ include 'elements/nav-pages-programs.php';
         </div>
     </div>
 </section>
-<section class="x-pad-section" style="padding-bottom:60px;">
-    <div class="container-fluid">
-        <div class="row justify-content-center align-items-center">
-            <div class="col-12">
-                <div class="row align-items-center programs-layout-row" style="border:none;padding-bottom:0!important;">
-                    <div class="col-lg-6 p-0 col-12">
-                        <img class="w-100" src="<?= get_template_directory_uri() . '/resources/education/counseling.jpg'; ?>" alt="">
+
+<section class="container-fluid p-b-60">
+    <div class="row justify-content-center align-items-center g-0">
+        <div class="col-12">
+            <div class="row align-items-center programs-layout-row g-0" style="border:none;padding-bottom:0!important;">
+                <div class="col-lg-6 col-12">
+                    <img class="w-100" src="<?= get_template_directory_uri() . '/resources/education/counseling.jpg'; ?>" alt="">
+                </div>
+                <div class="col-lg-5 col-12 p-md-80">
+                    <div class="title">
+                        COUNSELING DEPARTMENT
                     </div>
-                    <div class="col-lg-5 col-12 p-md-80">
-                        <div class="title">
-                            COUNSELING DEPARTMENT
-                        </div>
-                        <p>
-                            The IST School Counseling program helps to promote the overall wellness of K-12 students by offering a comprehensive, preventative, and accessible program in the areas of academic, personal/social, career, and global perspective domains.
-                        </p>
-                    </div>
+                    <p>
+                        The IST School Counseling program helps to promote the overall wellness of K-12 students by offering a comprehensive, preventative, and accessible program in the areas of academic, personal/social, career, and global perspective domains.
+                    </p>
                 </div>
             </div>
         </div>
@@ -252,12 +250,12 @@ include 'elements/nav-pages-programs.php';
             <div class="row">
                 <div class="col-12 beliefs-collapse-container">
                     <div class="elementary-collapse beliefs-collapse support-collapse" data-collapse-pos="5">
-                        <div class="d-flex justify-content-between align-items-center" data-bs-toggle="collapse" href="#support-5" role="button" data-collapse-pos="5" aria-expanded="false" aria-controls="support-5">
+                        <div class="d-flex justify-content-between align-items-center d-sm-wrap" data-bs-toggle="collapse" href="#support-5" role="button" data-collapse-pos="5" aria-expanded="false" aria-controls="support-5">
                             <div class="collapse-title-about">
                                 Counseling services offered
                             </div>
                             <div class="d-flex align-items-center justify-content-center">
-                                <img id="support-5-icon" style="width:20px; height:20px;" src="<?= get_template_directory_uri() . '/resources/icons/plus_collapse.svg' ?>" alt="">
+                                <img id="support-5-icon" src="<?= get_template_directory_uri() . '/resources/icons/plus_collapse.svg' ?>" alt="">
                             </div>
                         </div>
                         <div class="collapse" id="support-5">
@@ -278,12 +276,12 @@ include 'elements/nav-pages-programs.php';
                         </div>
                     </div>
                     <div class="elementary-collapse support-collapse beliefs-collapse" data-collapse-pos="6" style="border-bottom:#000 1px solid!important">
-                        <div class="d-flex justify-content-between align-items-center" data-bs-toggle="collapse" href="#support-6" role="button" data-collapse-pos="6" aria-expanded="false" aria-controls="support-6">
+                        <div class="d-flex justify-content-between align-items-center d-sm-wrap" data-bs-toggle="collapse" href="#support-6" role="button" data-collapse-pos="6" aria-expanded="false" aria-controls="support-6">
                             <div class="collapse-title-about">
-                                Responsabilities of the counselor 
+                                Responsabilities of the counselor
                             </div>
                             <div class="d-flex justify-content-center align-items-center">
-                                <img id="support-6-icon" style="width:20px; height:20px;" src="<?= get_template_directory_uri() . '/resources/icons/plus_collapse.svg' ?>" alt="">
+                                <img id="support-6-icon" src="<?= get_template_directory_uri() . '/resources/icons/plus_collapse.svg' ?>" alt="">
                             </div>
                         </div>
                         <div class="collapse" id="support-6">

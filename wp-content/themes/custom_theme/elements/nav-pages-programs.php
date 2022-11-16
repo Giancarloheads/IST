@@ -1,8 +1,27 @@
-<section class="container-fluid p-t-240 p-b-md-120">
+<section class="container-fluid p-t-180 p-b-md-120">
     <div class="row justify-content-center">
-        <div class="col-10">
+        <div class="col-lg-10 col-12">
             <div class="row justify-content-center">
-                <div class="col-lg-6 col-md-8 col-12 text-center title-nav-section ist-section-title-2">
+                <div class="col-12 text-center d-lg-none d-block breadcrumbs-mobile p-b-30">
+                    <?php
+
+                    switch (get_the_ID()) {
+                        case 23:
+                            echo 'PROGRAMS OVERVIEW';
+                            break;
+                        case 35:
+                            echo 'ELEMENTARY EDUCATION';
+                            break;
+                        case 37:
+                            echo 'SECONDARY EDUCATION';
+                            break;
+                        case 39:
+                            echo 'STUDENT SERVICE';
+                            break;
+                    };
+                    ?>
+                </div>
+                <div class="col-lg-6 col-12 text-center title-nav-section ist-section-title-2">
                     <?php 
                     if(get_the_ID() == 23){
                     ?>
@@ -28,7 +47,7 @@
                     ?>
                 </div>
             </div> 
-            <div class="row justify-content-center d-lg-block d-none">
+            <div class="row justify-content-center d-none d-lg-block">
                 <div class="col-12 text-center">
                     <nav class="page-nav">
                         <ul>
@@ -48,7 +67,7 @@
                     </nav>
                 </div>
             </div>
-            <div class="row d-block d-lg-none">
+            <!-- <div class="row d-block d-lg-none">
                 <div class="col-12">
                     <nav class="nav-admission-mob">
                         <ul class="row">
@@ -67,7 +86,7 @@
                         </ul>
                     </nav>
                 </div>
-            </div>
+            </div> -->
         </div>
     </div>
 </section>

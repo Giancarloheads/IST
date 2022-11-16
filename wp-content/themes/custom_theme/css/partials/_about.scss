@@ -126,7 +126,6 @@
                 @media(max-width:1679px){
                     margin-left: 2%;
                 }
-
                 @media(max-width:768px){
                     margin-left:-5%!important;
                 }
@@ -160,12 +159,14 @@
     align-items: center;
     justify-content: center;
     margin-top: 50px;
-
+    transition: all ease .3s;
     svg {
-        width: 14px;
-        height: 14px;
+        position: relative; 
+        width: 13px;
+        height: 13px;
         transition: all ease .3s;
         margin-left: 10px;
+        top: 1px;
 
         path {
             stroke: #000;
@@ -174,11 +175,10 @@
 
     &:hover {
         background-color: $red;
-        color: #fff;
+        color: #fff!important;
 
         svg {
             transform: rotate(45deg);
-
             path {
                 stroke: #fff;
             }
@@ -309,7 +309,10 @@
         align-items: center;
 
         .flickity-slider:first-child {
-            margin-left: 10%;
+            margin-left:9%;
+            @media(min-width:1680px){
+                margin-left: 12%;
+            }
             display: flex;
             align-items: center;
             height: 100%;
@@ -352,7 +355,10 @@
         .flickity-slider {
             margin-left: calc(100% / 12);
             height: 100%;
-            @media(min-width:1680px){
+            @media(min-width:1919px){
+                margin-left: 18%!important;
+            }
+            @media(min-width:1680px) and (max-width:1919px){
                 margin-left: 16%;
             }
             @media(max-width:768px){
@@ -363,17 +369,17 @@
 
     .related-item {
         width: 540px;
-        height: 380px;
+        height: 310px;
         border-radius: 5px;
         overflow: hidden;
         display: block;
         @media(max-width:768px){
             width:310px;
-            height: 200px;
+            height: 360px;
         }
         @media(max-width:546px){
-            width:280px;
-            height: 150px;
+            width:310px;
+            height: 360px;
         }
         .related-img {
             width: 100%;
@@ -391,13 +397,16 @@
             line-height: 1.2;
             font-weight: 400;
             z-index: 9999999;
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
             @media(max-width:768px){
-                font-size: 22px;
-                left: 20px;
-                bottom:20px;
+                font-size: 24!important;
+                left: 25px;
+                bottom:25px;
             }
             @media(max-width:546px){
-                font-size: 16px;
+                font-size: 24px!important;
             }
 
             .related-cta-img {
@@ -405,7 +414,7 @@
                 transition: all ease .3s;
                 padding-left: 10px;
                 @media(max-width:768px){
-                    width:22px;
+                    width:26px;
                 }
             }
         }
@@ -524,14 +533,14 @@
     left: 10px;
     top: 10px;
     width:540px;
-    height:380px;
+    height:310px;
     @media(max-width:768px){
         width:310px;
-        height: 200px;
+        height: 360px;
     }
     @media(max-width:546px){
-        width:280px;
-        height: 150px;
+        width:310px;
+        height: 360px;
     }
     background: linear-gradient(180deg, #000000 0%, rgba(255, 255, 255, 0) 100%);
     mix-blend-mode: multiply;
@@ -540,3 +549,23 @@
     transform: rotate(-180deg);
     z-index:99999;
 }
+
+.students-par{
+    div{
+        font-size: 30px;
+        line-height: 1.2;
+        padding-bottom:20px;
+    }
+    p{
+        font-size: 30px;
+        line-height: 1.2;
+    }
+} 
+
+
+.download-subtitle{
+    font-size: 20px;
+    line-height:1.2;
+    font-weight: 400;
+}
+

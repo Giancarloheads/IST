@@ -20,34 +20,33 @@ include_once 'elements/nav-campus.php';
         </div>
     </div>
 </section>
-<section class="x-pad-section p-b-60">
-    <div class="container-fluid">
-        <div class="row justify-content-center align-items-center">
-            <div class="col-12">
-                <div class="row align-items-center programs-layout-row" style="padding-top:60px;border:none; border-top:1px solid #C0C0C0;padding-bottom:0;">
-                    <div class="col-lg-6 p-0 col-12">
-                        <img class="w-100" src="<?= get_template_directory_uri() . '/resources/campus/services-1.jpg' ?>" alt="">
+<section class="container-fluid p-b-60">
+    <div class="row justify-content-center align-items-center">
+        <div class="col-12">
+            <div class="row align-items-center programs-layout-row g-0" style="padding-top:60px;border:none; border-top:1px solid #C0C0C0;padding-bottom:0;">
+                <div class="col-lg-6 col-12">
+                    <img class="w-100" src="<?= get_template_directory_uri() . '/resources/campus/services-1.jpg' ?>" alt="">
+                </div>
+                <div class="col-lg-5 col-12 p-md-80">
+                    <div class="title">
+                        STUDENT & CAMPUS SAFETY
                     </div>
-                    <div class="col-lg-5 col-12 p-md-80">
-                        <div class="title">
-                            STUDENT & CAMPUS SAFETY
-                        </div>
-                        <p>
-                            IST has a 24-hour guard and security company contracted to secure the school premises and maintain a vigil on people entering the school campus and grounds. <br> The guards are well-trained and monitor the security and safety of the campus round the clock.
-                        </p>
-                    </div>
+                    <p>
+                        IST has a 24-hour guard and security company contracted to secure the school premises and maintain a vigil on people entering the school campus and grounds. <br> The guards are well-trained and monitor the security and safety of the campus round the clock.
+                    </p>
                 </div>
             </div>
         </div>
     </div>
 </section>
+
 <section class="container-fluid p-b-60">
     <div class="row justify-content-center">
         <div class="col-lg-10 col-12">
             <div class="row">
                 <div class="col-12 -container">
                     <div class="safeguard-collapse" data-collapse-pos="1">
-                        <div class="d-flex justify-content-between align-items-center" data-bs-toggle="collapse" href="#safeguard-1" role="button" data-collapse-pos="1" aria-expanded="false" aria-controls="safeguard-1">
+                        <div class="d-flex justify-content-between align-items-center d-sm-wrap" data-bs-toggle="collapse" href="#safeguard-1" role="button" data-collapse-pos="1" aria-expanded="false" aria-controls="safeguard-1">
                             <div class="collapse-title-about">
                                 Identity Cards
                             </div>
@@ -73,7 +72,7 @@ include_once 'elements/nav-campus.php';
                 </div>
                 <div class="col-12 -container">
                     <div class="safeguard-collapse" data-collapse-pos="2" style="border:none!important;">
-                        <div class="d-flex justify-content-between align-items-center" data-bs-toggle="collapse" href="#safeguard-2" role="button" data-collapse-pos="2" aria-expanded="false" aria-controls="safeguard-2" style="border:none!important;">
+                        <div class="d-flex justify-content-between align-items-center d-sm-wrap" data-bs-toggle="collapse" href="#safeguard-2" role="button" data-collapse-pos="2" aria-expanded="false" aria-controls="safeguard-2" style="border:none!important;">
                             <div class="collapse-title-about">
                                 Valuables
                             </div>
@@ -99,7 +98,7 @@ include_once 'elements/nav-campus.php';
                 </div>
                 <div class="col-12 -container">
                     <div class="safeguard-collapse" data-collapse-pos="3">
-                        <div class="d-flex justify-content-between align-items-center" data-bs-toggle="collapse" href="#safeguard-3" role="button" data-collapse-pos="3" aria-expanded="false" aria-controls="safeguard-3">
+                        <div class="d-flex justify-content-between align-items-center d-sm-wrap" data-bs-toggle="collapse" href="#safeguard-3" role="button" data-collapse-pos="3" aria-expanded="false" aria-controls="safeguard-3">
                             <div class="collapse-title-about">
                                 Lost and found
                             </div>
@@ -128,22 +127,21 @@ include_once 'elements/nav-campus.php';
     </div>
 </section>
 
-<section class="x-pad-section p-b-60">
-    <div class="container-fluid">
-        <div class="row justify-content-center align-items-center">
-            <div class="col-12">
-                <div class="row align-items-center programs-layout-row" style="padding-top:60px;border:none; border-top:1px solid #C0C0C0;padding-bottom:0;">
-                    <div class="col-lg-5 col-12 p-md-80 order-2 order-lg-1">
-                        <div class="title">
-                            BUS SERVICE
-                        </div>
-                        <p>
-                            IST’s bus service is available to all students, with special drop off times for half‐day Nursery children, and a late bus service for students participating in extra‐curricular activities.
-                        </p>
+
+<section class="container-fluid p-b-60">
+    <div class="row justify-content-center align-items-center g-0">
+        <div class="col-12">
+            <div class="row align-items-center programs-layout-row g-0" style="padding-top:60px;border:none; border-top:1px solid #C0C0C0;padding-bottom:0;">
+                <div class="col-lg-5 col-12 p-md-80 order-2 order-lg-1">
+                    <div class="title">
+                        BUS SERVICE
                     </div>
-                    <div class="col-lg-6 offset-lg-1 col-12 offset-0 p-0 col-12 order-1 order-lg-2">
-                        <img class="w-100" src="<?= get_template_directory_uri() . '/resources/campus/services-2.jpg' ?>" alt="">
-                    </div>
+                    <p>
+                        IST’s bus service is available to all students, with special drop off times for half‐day Nursery children, and a late bus service for students participating in extra‐curricular activities.
+                    </p>
+                </div>
+                <div class="col-lg-6 offset-lg-1 col-12 offset-0 p-0 col-12 order-1 order-lg-2">
+                    <img class="w-100" src="<?= get_template_directory_uri() . '/resources/campus/services-2.jpg' ?>" alt="">
                 </div>
             </div>
         </div>
@@ -155,7 +153,7 @@ include_once 'elements/nav-campus.php';
             <div class="row">
                 <div class="col-12 -container">
                     <div class="safeguard-collapse" data-collapse-pos="4">
-                        <div class="d-flex justify-content-between align-items-center" data-bs-toggle="collapse" href="#safeguard-4" role="button" data-collapse-pos="4" aria-expanded="false" aria-controls="safeguard-4">
+                        <div class="d-flex justify-content-between align-items-center d-sm-wrap" data-bs-toggle="collapse" href="#safeguard-4" role="button" data-collapse-pos="4" aria-expanded="false" aria-controls="safeguard-4">
                             <div class="collapse-title-about">
                                 How it works
                             </div>
@@ -185,22 +183,20 @@ include_once 'elements/nav-campus.php';
 </section>
 
 
-<section class="x-pad-section" style="padding-bottom:60px;">
-    <div class="container-fluid">
-        <div class="row justify-content-center align-items-center">
-            <div class="col-12">
-                <div class="row align-items-center programs-layout-row" style="padding-top:60px;border:none; border-top:1px solid #C0C0C0;padding-bottom:0;">
-                    <div class="col-lg-6 p-0 col-12">
-                        <img class="w-100" src="<?= get_template_directory_uri() . '/resources/campus/clinic.jpg' ?>" alt="">
+<section class="container-fluid p-b-60">
+    <div class="row justify-content-center align-items-center g-0">
+        <div class="col-12">
+            <div class="row align-items-center programs-layout-row g-0" style="padding-top:60px;border:none; border-top:1px solid #C0C0C0;padding-bottom:0;">
+                <div class="col-lg-6 p-0 col-12">
+                    <img class="w-100" src="<?= get_template_directory_uri() . '/resources/campus/clinic.jpg' ?>" alt="">
+                </div>
+                <div class="col-lg-5 col-12 p-md-80">
+                    <div class="title">
+                        SCHOOL CLINIC
                     </div>
-                    <div class="col-lg-5 col-12 p-md-80">
-                        <div class="title">
-                            SCHOOL CLINIC
-                        </div>
-                        <p>
-                            IST has a fully operational school clinic staffed by 2 qualified nurses who remain on duty throughout the school day and after school during standard CCAs, athletics practices, and other special school events. Our nurses monitor the general health and physical wellbeing of our students and also circulate general health and wellness information.
-                        </p>
-                    </div>
+                    <p>
+                        IST has a fully operational school clinic staffed by 2 qualified nurses who remain on duty throughout the school day and after school during standard CCAs, athletics practices, and other special school events. Our nurses monitor the general health and physical wellbeing of our students and also circulate general health and wellness information.
+                    </p>
                 </div>
             </div>
         </div>
@@ -212,7 +208,7 @@ include_once 'elements/nav-campus.php';
             <div class="row">
                 <div class="col-12 -container">
                     <div class="safeguard-collapse" data-collapse-pos="5">
-                        <div class="d-flex justify-content-between align-items-center" data-bs-toggle="collapse" href="#safeguard-5" role="button" data-collapse-pos="5" aria-expanded="false" aria-controls="safeguard-5">
+                        <div class="d-flex justify-content-between align-items-center d-sm-wrap" data-bs-toggle="collapse" href="#safeguard-5" role="button" data-collapse-pos="5" aria-expanded="false" aria-controls="safeguard-5">
                             <div class="collapse-title-about">
                                 Health Forms
                             </div>
@@ -238,7 +234,7 @@ include_once 'elements/nav-campus.php';
                 </div>
                 <div class="col-12 -container">
                     <div class="safeguard-collapse" data-collapse-pos="6" style="border:none!important;">
-                        <div class="d-flex justify-content-between align-items-center" data-bs-toggle="collapse" href="#safeguard-6" role="button" data-collapse-pos="6" aria-expanded="false" aria-controls="safeguard-6">
+                        <div class="d-flex justify-content-between align-items-center d-sm-wrap" data-bs-toggle="collapse" href="#safeguard-6" role="button" data-collapse-pos="6" aria-expanded="false" aria-controls="safeguard-6">
                             <div class="collapse-title-about">
                                 Vaccinations and Immunizations
                             </div>
@@ -264,7 +260,7 @@ include_once 'elements/nav-campus.php';
                 </div>
                 <div class="col-12 -container">
                     <div class="safeguard-collapse" data-collapse-pos="7">
-                        <div class="d-flex justify-content-between align-items-center" data-bs-toggle="collapse" href="#safeguard-7" role="button" data-collapse-pos="7" aria-expanded="false" aria-controls="safeguard-7">
+                        <div class="d-flex justify-content-between align-items-center d-sm-wrap" data-bs-toggle="collapse" href="#safeguard-7" role="button" data-collapse-pos="7" aria-expanded="false" aria-controls="safeguard-7">
                             <div class="collapse-title-about">
                                 Communicable Diseases
                             </div>
@@ -290,7 +286,7 @@ include_once 'elements/nav-campus.php';
                 </div>
                 <div class="col-12 -container">
                     <div class="safeguard-collapse" data-collapse-pos="8" style="border:none!important;">
-                        <div class="d-flex justify-content-between align-items-center" data-bs-toggle="collapse" href="#safeguard-8" role="button" data-collapse-pos="8" aria-expanded="false" aria-controls="safeguard-8">
+                        <div class="d-flex justify-content-between align-items-center d-sm-wrap" data-bs-toggle="collapse" href="#safeguard-8" role="button" data-collapse-pos="8" aria-expanded="false" aria-controls="safeguard-8">
                             <div class="collapse-title-about">
                                 Student Health Checks
                             </div>
@@ -316,7 +312,7 @@ include_once 'elements/nav-campus.php';
                 </div>
                 <div class="col-12 -container">
                     <div class="safeguard-collapse" data-collapse-pos="9">
-                        <div class="d-flex justify-content-between align-items-center" data-bs-toggle="collapse" href="#safeguard-9" role="button" data-collapse-pos="9" aria-expanded="false" aria-controls="safeguard-9">
+                        <div class="d-flex justify-content-between align-items-center d-sm-wrap" data-bs-toggle="collapse" href="#safeguard-9" role="button" data-collapse-pos="9" aria-expanded="false" aria-controls="safeguard-9">
                             <div class="collapse-title-about">
                                 Accident Insurance
                             </div>
@@ -344,57 +340,54 @@ include_once 'elements/nav-campus.php';
         </div>
     </div>
 </section>
-<section class="x-pad-section" style="padding-bottom:60px;">
-    <div class="container-fluid">
-        <div class="row justify-content-center align-items-center">
-            <div class="col-12">
-                <div class="row align-items-center programs-layout-row" style="padding-top:60px;border:none; border-top:1px solid #C0C0C0;padding-bottom:0;">
-                    <div class="col-lg-5 col-12 p-md-80 order-2 order-lg-1">
-                        <div class="title">
-                            SCHOOL LIBRARY
-                        </div>
-                        <p>
-                            With over 37,000 titles in more than 6 languages, the IST Library is the largest of any international school in Tianjin. We strive to bring all members of the IST community a wide variety of reading choices, whether purely for pleasure or for teaching and learning. 
-                        </p>
+
+<section class="container-fluid p-b-60">
+    <div class="row justify-content-center align-items-center">
+        <div class="col-12">
+            <div class="row align-items-center programs-layout-row g-0" style="padding-top:60px;border:none; border-top:1px solid #C0C0C0;padding-bottom:0;">
+                <div class="col-lg-5 col-12 p-md-80 order-2 order-lg-1">
+                    <div class="title">
+                        SCHOOL LIBRARY
                     </div>
-                    <div class="col-lg-6 col-12 offset-lg-1 offset-0 p-0 col-12 order-1 order-lg-2">
-                        <img class="w-100" src="<?= get_template_directory_uri() . '/resources/campus/library.jpg' ?>" alt="">
-                    </div>
+                    <p>
+                        With over 37,000 titles in more than 6 languages, the IST Library is the largest of any international school in Tianjin. We strive to bring all members of the IST community a wide variety of reading choices, whether purely for pleasure or for teaching and learning.
+                    </p>
+                </div>
+                <div class="col-lg-6 col-12 offset-lg-1 offset-0 p-0 col-12 order-1 order-lg-2">
+                    <img class="w-100" src="<?= get_template_directory_uri() . '/resources/campus/library.jpg' ?>" alt="">
                 </div>
             </div>
         </div>
     </div>
 </section>
-<section class="x-pad-section">
-    <div class="container-fluid" style="border-bottom:solid 1px #C0C0C0;padding-bottom:60px;">
-        <div class="row justify-content-center align-items-center">
-            <div class="col-12">
-                <div class="row align-items-center programs-layout-row" style="padding-top:60px;border:none; border-top:1px solid #C0C0C0;padding-bottom:0;">
-                    <div class="col-lg-6 p-0 col-12">
-                        <img class="w-100" src="<?= get_template_directory_uri() . '/resources/campus/cafeteria.jpg' ?>" alt="">
+<section class="container-fluid" style="border-bottom:solid 1px #C0C0C0;padding-bottom:60px;">
+    <div class="row justify-content-center align-items-center">
+        <div class="col-12">
+            <div class="row align-items-center programs-layout-row g-0" style="padding-top:60px;border:none; border-top:1px solid #C0C0C0;padding-bottom:0;">
+                <div class="col-lg-6 p-0 col-12">
+                    <img class="w-100" src="<?= get_template_directory_uri() . '/resources/campus/cafeteria.jpg' ?>" alt="">
+                </div>
+                <div class="col-lg-5 col-12 p-md-80">
+                    <div class="title">
+                        SCHOOL CAFETERIA
                     </div>
-                    <div class="col-lg-5 col-12 p-md-80">
-                        <div class="title">
-                            SCHOOL CAFETERIA
-                        </div>
-                        <p>
-                            The school has contracted with the Chartwells Catering Company to offer a full meal service. <br>
-                            To use this service, students may purchase an electronic charge card from the school office. Students may alternatively choose to bring a nutritious lunch and a drink from home and there are microwave ovens available in the cafeteria to heat food.
-                        </p>
-                    </div>
+                    <p>
+                        The school has contracted with the Chartwells Catering Company to offer a full meal service. <br>
+                        To use this service, students may purchase an electronic charge card from the school office. Students may alternatively choose to bring a nutritious lunch and a drink from home and there are microwave ovens available in the cafeteria to heat food.
+                    </p>
                 </div>
             </div>
         </div>
     </div>
 </section>
 
-<section class="pin-section overview-last-pin-sec">
+
 <?php
-    include 'elements/key-resources.php';
-    include 'elements/section-related.php';
+include 'elements/key-resources.php';
+include 'elements/section-related.php';
 ?>
-</section>
-<?php 
+
+<?php
 include 'elements/about-pre-footer.php';
 get_footer();
 ?>
