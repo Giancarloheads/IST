@@ -6,24 +6,115 @@ include 'elements/nav-pages-students.php';
 
 <section class="container-fluid">
     <div class="row justify-content-center">
+        <div class="col-12 p-b-60">
+            <img src="<?= get_template_directory_uri() . '/resources/img/co-curricular.jpg'; ?>" alt="" class="w-100">
+        </div>
         <div class="col-lg-10 col-12">
             <div class="row">
-                <div class="col-lg-6 col-12 ist-par-about-1 p-b-60">
+                <div class="col-lg-6 col-md-8 col-12 ist-par-about-1 p-b-60">
                     <div class="collapse-container-single">
                         <div data-bs-toggle="collapse" href="#elementary-collapse-single" role="button" aria-expanded="false" aria-controls="elementary-collapse-single">
                             <div class="single-collapse-par-big-txt">
-                                As a part of the total learning experience, all classes participate in a variety of fieldtrips and events.
+                                We believe in the balanced development of each and every one of our students and in order to complement our academic program and further achieve this goal we offer a wide variety of experiences and activities intended to meet the differing interests and developmental levels of our student body.
+
                             </div>
                         </div>
                         <div class="collapse" id="elementary-collapse-single">
                             <div class="beliefs-collapse-par single-collapse-par">
-                                As students mature the length and challenges associated with these excursions will increase accordingly. Please note that IST Admission ‘Form C’ includes a standing parental agreement for children to participate in fieldtrips that take place within Tianjin during the school day. Additional permissions are required for out of town and/or overnight field trips. Please note that IST tuition feed cover the costs of the vast majority of fieldtrips, including overnight Week Without Walls excursions.
+                                Co-Curricular-Activities (CCAs) provide a fun and engaging extension to the academic curriculum for students in grades K-12.
+                                A schedule with details for each CCA isprovided to students and parents as part of the registration process prior to each session. IST uses the online platform SchoolsBuddy for CCA registration. Sessions run from 3:25 until 4:25pm. Secondary sports sessions run from 3:25 until 5:00pm. There are limited activity offerings on Wednesdays, when teachers are involved in after-school meetings.
                             </div>
                         </div>
                         <div class="single-collapse-trigger d-flex align-items-center" data-bs-toggle="collapse" href="#elementary-collapse-single" role="button" aria-expanded="false" aria-controls="elementary-collapse-single">
                             Read more
                             <img class="collapse-single-svg-plus" onload="SVGInject(this); " src="<?= get_template_directory_uri() . '/resources/icons/plus.svg' ?>" alt="">
                             <img class="collapse-single-svg-minus" onload="SVGInject(this);" src="<?= get_template_directory_uri() . '/resources/icons/minus.svg' ?>" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="container-fluid bg-grey p-t-60 p-b-150">
+    <div class="row justify-content-center">
+        <div class="col-lg-10 col-12">
+            <div class="row">
+                <div class="col-7 ist-section-title-2 p-b-25">
+                    A WIDE VARIETY OF <br>
+                    EXPERIENCES
+                </div>
+                <div class="col-lg-6 ist-caption-1 p-b-50">
+                    IST offer three 10-week seasons of CCAs across the school year, with activities falling into five main categories:
+                </div>
+                <div class="col-12 d-lg-block d-none">
+                    <div class="co-curricular-activities-container">
+                        <div class="activity-container">
+                            <img class="w-100" src="<?= get_template_directory_uri() . '/resources/co-curricular/activity-1.jpg'; ?>" alt="">
+                            <div class="ist-caption-1">
+                                <a href="<?= get_permalink(186); ?>" class="d-flex align-items-center justify-content-center">
+                                    Sport
+                                    <img onload="SVGInject(this);" src="<?= get_template_directory_uri() . '/resources/icons/arrow.svg'; ?>" alt="">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="activity-container">
+                            <img class="w-100" src="<?= get_template_directory_uri() . '/resources/co-curricular/activity-2.jpg'; ?>" alt="">
+                            <div class="ist-caption-1">
+                                Performing Arts
+                            </div>
+                        </div>
+                        <div class="activity-container">
+                            <img class="w-100" src="<?= get_template_directory_uri() . '/resources/co-curricular/activity-3.jpg'; ?>" alt="">
+                            <div class="ist-caption-1">
+                                Active Pursuit
+                            </div>
+                        </div>
+                        <div class="activity-container">
+                            <img class="w-100" src="<?= get_template_directory_uri() . '/resources/co-curricular/activity-4.jpg'; ?>" alt="">
+                            <div class="ist-caption-1">
+                                Classroomw Extension
+                            </div>
+                        </div>
+                        <div class="activity-container">
+                            <img class="w-100" src="<?= get_template_directory_uri() . '/resources/co-curricular/activity-5.jpg'; ?>" alt="">
+                            <div class="ist-caption-1">
+                                Life Skills
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 d-block d-lg-none">
+                    <div class="row justify-content-center mobile-activities-co-curricular-container">
+                        <div class="col-8">
+                            <img class="w-100" src="<?= get_template_directory_uri() . '/resources/co-curricular/activity-2.jpg'; ?>" alt="">
+                            <div class="ist-caption-1">
+                                Performing Arts
+                            </div>
+                        </div>
+                        <div class="col-8">
+                            <img class="w-100" src="<?= get_template_directory_uri() . '/resources/co-curricular/activity-2.jpg'; ?>" alt="">
+                            <div class="ist-caption-1">
+                                Performing Arts
+                            </div>
+                        </div>
+                        <div class="col-8">
+                            <img class="w-100" src="<?= get_template_directory_uri() . '/resources/co-curricular/activity-2.jpg'; ?>" alt="">
+                            <div class="ist-caption-1">
+                                Performing Arts
+                            </div>
+                        </div>
+                        <div class="col-8">
+                            <img class="w-100" src="<?= get_template_directory_uri() . '/resources/co-curricular/activity-2.jpg'; ?>" alt="">
+                            <div class="ist-caption-1">
+                                Performing Arts
+                            </div>
+                        </div>
+                        <div class="col-8">
+                            <img class="w-100" src="<?= get_template_directory_uri() . '/resources/co-curricular/activity-2.jpg'; ?>" alt="">
+                            <div class="ist-caption-1">
+                                Performing Arts
+                            </div>
                         </div>
                     </div>
                 </div>

@@ -21,7 +21,7 @@ include 'elements/nav-pages-programs.php';
 <section class="container-fluid p-b-60">
     <div class="row justify-content-center align-items-center g-0">
         <div class="col-12">
-            <div class="row align-items-center programs-layout-row p-t-md-120 g-0" style="border:none; border-top:1px solid #C0C0C0;padding-bottom:0;">
+            <div class="row align-items-center programs-layout-row p-t-md-120 g-0 d-lg-flex d-none" style="border:none; border-top:1px solid #C0C0C0;padding-bottom:0;">
                 <div class="col-lg-6 col-12">
                     <img class="w-100" src="<?= get_template_directory_uri() . '/resources/education/ela.jpg'; ?>" alt="">
                 </div>
@@ -29,6 +29,21 @@ include 'elements/nav-pages-programs.php';
                     <div class="title">
                         ENGLISH LANGUAGE ACQUISITION (ELA)
                     </div>
+                    <p>
+                        The emphasis of IST’s ELA support programme is to promote academic English proficiency that will enable learners to access the mainstream curriculum as quickly as possible. ESL teachers work in active collaboration with homeroom and other specialist teachers to support students.
+                    </p>
+                </div>
+            </div>
+            <div class="row align-items-center programs-layout-row p-t-md-120 g-0 d-lg-none d-flex" style="border:none; border-top:1px solid #C0C0C0;padding-bottom:0;">
+                <div class="col-12">
+                    <div class="title">
+                        ENGLISH LANGUAGE ACQUISITION (ELA)
+                    </div>
+                </div>
+                <div class="col-12">
+                    <img class="w-100" src="<?= get_template_directory_uri() . '/resources/education/ela.jpg'; ?>" alt="">
+                </div>
+                <div class="col-12 p-t-30">
                     <p>
                         The emphasis of IST’s ELA support programme is to promote academic English proficiency that will enable learners to access the mainstream curriculum as quickly as possible. ESL teachers work in active collaboration with homeroom and other specialist teachers to support students.
                     </p>
@@ -126,7 +141,7 @@ include 'elements/nav-pages-programs.php';
 <section class="container-fluid p-b-60">
     <div class="row justify-content-center align-items-center">
         <div class="col-12">
-            <div class="row align-items-center programs-layout-row g-0" style="border:none; border-top:1px solid #C0C0C0;padding-bottom:0!important;">
+            <div class="row align-items-center programs-layout-row g-0 d-lg-flex d-none" style="border:none; border-top:1px solid #C0C0C0;padding-bottom:0!important;">
                 <div class="col-lg-6 col-12 p-md-80">
                     <div class="title">
                         INDIVIDUAL NEEDS PROGRAM
@@ -137,6 +152,21 @@ include 'elements/nav-pages-programs.php';
                 </div>
                 <div class="col-lg-6 col-12">
                     <img class="w-100" src="<?= get_template_directory_uri() . '/resources/education/individual.jpg' ?>" alt="">
+                </div>
+            </div>
+            <div class="row align-items-center programs-layout-row g-0 d-lg-none d-flex" style="border:none; border-top:1px solid #C0C0C0;padding-bottom:0!important;">
+                <div class="col-12">
+                    <div class="title">
+                        INDIVIDUAL NEEDS PROGRAM
+                    </div>
+                </div>
+                <div class="col-12">
+                    <img class="w-100" src="<?= get_template_directory_uri() . '/resources/education/individual.jpg' ?>" alt="">
+                </div>
+                <div class="col-12 p-t-30">
+                    <p>
+                        We believe all students have the right to participate fully in our academic and social programs. Our I.N. program support students who need special support to participate in the school’s programs. Support is based on the students’ needs, and may consist of support within the classroom, through small group instruction or modifications made by the teacher. Students may be withdrawn from their classroom for small group instruction but the majority of their time is spent with their peers in the regular classroom.
+                    </p>
                 </div>
             </div>
         </div>
@@ -228,7 +258,7 @@ include 'elements/nav-pages-programs.php';
 <section class="container-fluid p-b-60">
     <div class="row justify-content-center align-items-center g-0">
         <div class="col-12">
-            <div class="row align-items-center programs-layout-row g-0" style="border:none;padding-bottom:0!important;">
+            <div class="row align-items-center programs-layout-row g-0 d-lg-flex d-none" style="border:none;padding-bottom:0!important;">
                 <div class="col-lg-6 col-12">
                     <img class="w-100" src="<?= get_template_directory_uri() . '/resources/education/counseling.jpg'; ?>" alt="">
                 </div>
@@ -236,6 +266,21 @@ include 'elements/nav-pages-programs.php';
                     <div class="title">
                         COUNSELING DEPARTMENT
                     </div>
+                    <p>
+                        The IST School Counseling program helps to promote the overall wellness of K-12 students by offering a comprehensive, preventative, and accessible program in the areas of academic, personal/social, career, and global perspective domains.
+                    </p>
+                </div>
+            </div>
+            <div class="row align-items-center programs-layout-row g-0 d-lg-none d-flex" style="border:none;padding-bottom:0!important;">
+                <div class="col-12">
+                    <div class="title">
+                        COUNSELING DEPARTMENT
+                    </div>
+                </div>
+                <div class="col-12">
+                    <img class="w-100" src="<?= get_template_directory_uri() . '/resources/education/counseling.jpg'; ?>" alt="">
+                </div>
+                <div class="col-12 p-t-30">    
                     <p>
                         The IST School Counseling program helps to promote the overall wellness of K-12 students by offering a comprehensive, preventative, and accessible program in the areas of academic, personal/social, career, and global perspective domains.
                     </p>

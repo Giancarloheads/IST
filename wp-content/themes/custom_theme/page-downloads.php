@@ -20,7 +20,7 @@
                 <div class="col-12 ist-section-title p-b-60 p-t-5">
                     <hr class="team-hr">
                     School Publications 
-                    <div class="download-subtitle">
+                    <div class="download-subtitle p-t-20">
                         All the latest official IST school publications delivered straight to your screen
                     </div>
                 </div>
@@ -68,7 +68,7 @@
                 <div class="col-12 ist-section-title p-b-60 p-t-5">
                     <hr class="team-hr">
                     School Application Documents
-                    <div class="download-subtitle">
+                    <div class="download-subtitle p-t-20">
                         Download, fillout and return
                     </div>
                 </div>
@@ -116,7 +116,7 @@
                 <div class="col-12 ist-section-title p-b-60 p-t-5">
                     <hr class="team-hr">
                     Board of Governors Documents
-                    <div class="download-subtitle">
+                    <div class="download-subtitle p-t-20">
                         For the consideration of BOG candidates
                     </div>
                 </div>
@@ -164,7 +164,6 @@
                 <div class="col-12 ist-section-title p-b-60 p-t-5">
                     <hr class="team-hr">
                     Other
-
                 </div>
             </div>
             <div class="row">

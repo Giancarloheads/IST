@@ -23,7 +23,7 @@ include_once 'elements/nav-campus.php';
 <section class="container-fluid p-b-60">
     <div class="row justify-content-center align-items-center">
         <div class="col-12">
-            <div class="row align-items-center programs-layout-row g-0" style="padding-top:60px;border:none; border-top:1px solid #C0C0C0;padding-bottom:0;">
+            <div class="row align-items-center programs-layout-row g-0 d-lg-flex d-none" style="padding-top:60px;border:none; border-top:1px solid #C0C0C0;padding-bottom:0;">
                 <div class="col-lg-6 col-12">
                     <img class="w-100" src="<?= get_template_directory_uri() . '/resources/campus/services-1.jpg' ?>" alt="">
                 </div>
@@ -31,6 +31,21 @@ include_once 'elements/nav-campus.php';
                     <div class="title">
                         STUDENT & CAMPUS SAFETY
                     </div>
+                    <p>
+                        IST has a 24-hour guard and security company contracted to secure the school premises and maintain a vigil on people entering the school campus and grounds. <br> The guards are well-trained and monitor the security and safety of the campus round the clock.
+                    </p>
+                </div>
+            </div>
+            <div class="row align-items-center programs-layout-row g-0 d-lg-none d-flex" style="padding-top:60px;border:none; border-top:1px solid #C0C0C0;padding-bottom:0;">
+                <div class="col-12">
+                    <div class="title">
+                        STUDENT & CAMPUS SAFETY
+                    </div>
+                </div>
+                <div class="col-12">
+                    <img class="w-100" src="<?= get_template_directory_uri() . '/resources/campus/services-1.jpg' ?>" alt="">
+                </div>
+                <div class="col-12 p-t-30">
                     <p>
                         IST has a 24-hour guard and security company contracted to secure the school premises and maintain a vigil on people entering the school campus and grounds. <br> The guards are well-trained and monitor the security and safety of the campus round the clock.
                     </p>
@@ -131,7 +146,7 @@ include_once 'elements/nav-campus.php';
 <section class="container-fluid p-b-60">
     <div class="row justify-content-center align-items-center g-0">
         <div class="col-12">
-            <div class="row align-items-center programs-layout-row g-0" style="padding-top:60px;border:none; border-top:1px solid #C0C0C0;padding-bottom:0;">
+            <div class="row align-items-center programs-layout-row g-0 d-lg-flex d-none" style="padding-top:60px;border:none; border-top:1px solid #C0C0C0;padding-bottom:0;">
                 <div class="col-lg-5 col-12 p-md-80 order-2 order-lg-1">
                     <div class="title">
                         BUS SERVICE
@@ -142,6 +157,21 @@ include_once 'elements/nav-campus.php';
                 </div>
                 <div class="col-lg-6 offset-lg-1 col-12 offset-0 p-0 col-12 order-1 order-lg-2">
                     <img class="w-100" src="<?= get_template_directory_uri() . '/resources/campus/services-2.jpg' ?>" alt="">
+                </div>
+            </div>
+            <div class="row align-items-center programs-layout-row g-0 d-lg-none d-flex" style="padding-top:60px;border:none; border-top:1px solid #C0C0C0;padding-bottom:0;">
+                <div class="col-12">
+                    <div class="title">
+                        BUS SERVICE
+                    </div>
+                </div>
+                <div class="col-12 p-0">
+                    <img class="w-100" src="<?= get_template_directory_uri() . '/resources/campus/services-2.jpg' ?>" alt="">
+                </div>
+                <div class="col-12 p-t-30">
+                    <p>
+                        IST’s bus service is available to all students, with special drop off times for half‐day Nursery children, and a late bus service for students participating in extra‐curricular activities.
+                    </p>
                 </div>
             </div>
         </div>
@@ -186,7 +216,7 @@ include_once 'elements/nav-campus.php';
 <section class="container-fluid p-b-60">
     <div class="row justify-content-center align-items-center g-0">
         <div class="col-12">
-            <div class="row align-items-center programs-layout-row g-0" style="padding-top:60px;border:none; border-top:1px solid #C0C0C0;padding-bottom:0;">
+            <div class="row align-items-center programs-layout-row g-0 d-lg-flex d-none" style="padding-top:60px;border:none; border-top:1px solid #C0C0C0;padding-bottom:0;">
                 <div class="col-lg-6 p-0 col-12">
                     <img class="w-100" src="<?= get_template_directory_uri() . '/resources/campus/clinic.jpg' ?>" alt="">
                 </div>
@@ -194,6 +224,21 @@ include_once 'elements/nav-campus.php';
                     <div class="title">
                         SCHOOL CLINIC
                     </div>
+                    <p>
+                        IST has a fully operational school clinic staffed by 2 qualified nurses who remain on duty throughout the school day and after school during standard CCAs, athletics practices, and other special school events. Our nurses monitor the general health and physical wellbeing of our students and also circulate general health and wellness information.
+                    </p>
+                </div>
+            </div>
+            <div class="row align-items-center programs-layout-row g-0 d-lg-none d-block" style="padding-top:60px;border:none; border-top:1px solid #C0C0C0;padding-bottom:0;">
+                <div class="col-12">
+                    <div class="title">
+                        SCHOOL CLINIC
+                    </div>
+                </div>
+                <div class="col-12 p-0">
+                    <img class="w-100" src="<?= get_template_directory_uri() . '/resources/campus/clinic.jpg' ?>" alt="">
+                </div>
+                <div class="col-12 p-t-30">
                     <p>
                         IST has a fully operational school clinic staffed by 2 qualified nurses who remain on duty throughout the school day and after school during standard CCAs, athletics practices, and other special school events. Our nurses monitor the general health and physical wellbeing of our students and also circulate general health and wellness information.
                     </p>
@@ -344,7 +389,7 @@ include_once 'elements/nav-campus.php';
 <section class="container-fluid p-b-60">
     <div class="row justify-content-center align-items-center">
         <div class="col-12">
-            <div class="row align-items-center programs-layout-row g-0" style="padding-top:60px;border:none; border-top:1px solid #C0C0C0;padding-bottom:0;">
+            <div class="row align-items-center programs-layout-row g-0 d-lg-flex d-none" style="padding-top:60px;border:none; border-top:1px solid #C0C0C0;padding-bottom:0;">
                 <div class="col-lg-5 col-12 p-md-80 order-2 order-lg-1">
                     <div class="title">
                         SCHOOL LIBRARY
@@ -357,13 +402,28 @@ include_once 'elements/nav-campus.php';
                     <img class="w-100" src="<?= get_template_directory_uri() . '/resources/campus/library.jpg' ?>" alt="">
                 </div>
             </div>
+            <div class="row align-items-center programs-layout-row g-0 d-flex d-lg-none" style="padding-top:60px;border:none; border-top:1px solid #C0C0C0;padding-bottom:0;">
+                <div class="col-12">
+                    <div class="title">
+                        SCHOOL LIBRARY
+                    </div>
+                </div>
+                <div class="col-12 p-0">
+                    <img class="w-100" src="<?= get_template_directory_uri() . '/resources/campus/library.jpg' ?>" alt="">
+                </div>
+                <div class="col-12 p-t-30">
+                    <p>
+                        With over 37,000 titles in more than 6 languages, the IST Library is the largest of any international school in Tianjin. We strive to bring all members of the IST community a wide variety of reading choices, whether purely for pleasure or for teaching and learning.
+                    </p>
+                </div>
+            </div>
         </div>
     </div>
 </section>
-<section class="container-fluid" style="border-bottom:solid 1px #C0C0C0;padding-bottom:60px;">
+<section class="container-fluid">
     <div class="row justify-content-center align-items-center">
         <div class="col-12">
-            <div class="row align-items-center programs-layout-row g-0" style="padding-top:60px;border:none; border-top:1px solid #C0C0C0;padding-bottom:0;">
+            <div class="row align-items-center programs-layout-row g-0 d-lg-flex d-none" style="padding-bottom:60px;padding-top:60px;border:none; border-top:solid 1px #C0C0C0!important;border-bottom:solid 1px #C0C0C0;">
                 <div class="col-lg-6 p-0 col-12">
                     <img class="w-100" src="<?= get_template_directory_uri() . '/resources/campus/cafeteria.jpg' ?>" alt="">
                 </div>
@@ -371,6 +431,22 @@ include_once 'elements/nav-campus.php';
                     <div class="title">
                         SCHOOL CAFETERIA
                     </div>
+                    <p>
+                        The school has contracted with the Chartwells Catering Company to offer a full meal service. <br>
+                        To use this service, students may purchase an electronic charge card from the school office. Students may alternatively choose to bring a nutritious lunch and a drink from home and there are microwave ovens available in the cafeteria to heat food.
+                    </p>
+                </div>
+            </div>
+            <div class="row align-items-center programs-layout-row g-0 d-lg-none d-flex" style="padding-bottom:60px; padding-top:60px; border:none; border-top:solid 1px #C0C0C0!important;border-bottom:solid 1px #C0C0C0;">
+                <div class="col-lg-5 col-12 p-md-80">
+                    <div class="title">
+                        SCHOOL CAFETERIA
+                    </div>
+                </div>
+                <div class="col-12 p-0">
+                    <img class="w-100" src="<?= get_template_directory_uri() . '/resources/campus/cafeteria.jpg' ?>" alt="">
+                </div>
+                <div class="col-12 p-t-30">
                     <p>
                         The school has contracted with the Chartwells Catering Company to offer a full meal service. <br>
                         To use this service, students may purchase an electronic charge card from the school office. Students may alternatively choose to bring a nutritious lunch and a drink from home and there are microwave ovens available in the cafeteria to heat food.

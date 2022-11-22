@@ -5,13 +5,17 @@
 <section class="container-fluid p-t-60 p-b-60">
     <div class="row justify-content-center">
         <div class="col-lg-10 col-12">
-            <div class="row">
+            <div class="row <?= is_page(219) ? 'justify-content-center' : ''; ?>">
                 <?php if(!is_page(39)){ ?>
-                <div class="<?= get_the_ID() == 164 ? '' : 'p-b-60'; ?> col-12 text-center key-resource-title">
+                <div class="<?= get_the_ID() == 164 || get_the_ID() == 219 ? '' : 'p-b-60'; ?> col-12 text-center key-resource-title">
                     <?php if(is_page(162)){ ?>
                         Candidates can download the required documents:
                     <?php } else if(is_page(164)){ ?>
                         
+                    <?php } else if(is_page(219)) { ?>
+                        <div class="text-center m-auto p-b-30 wwu-key-resources-title">
+                            Click on the heading above to download and read the document containing the full set of IST Teacher Job Description
+                        </div>
                     <?php } else { ?>
                         Key resources
                     <?php } ?>

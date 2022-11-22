@@ -196,8 +196,8 @@ include 'elements/nav-pages-programs.php';
 <section class="container-fluid">
     <div class="row justify-content-center align-items-center">
         <div class="col-12">
-            <div class="row align-items-center programs-layout-row g-0">
-                <div class="col-lg-6 col-12 order-2 order-lg-1 p-md-80">
+            <div class="row align-items-center programs-layout-row g-0 d-lg-flex d-none">
+                <div class="col-lg-6 col-12 p-md-80">
                     <div class="title">
                         STUDENT <br class="d-lg-block d-none"> SUPPORT
                     </div>
@@ -205,18 +205,48 @@ include 'elements/nav-pages-programs.php';
                         Second language learners and students with individual needs receive support both inside and outside the classroom from specialist teachers. ELA specialists and regular subject teachers meet to collaborate on lesson planning to ensure the differentiation of instruction and ELA teaching in the mainstream.
                     </p>
                 </div>
-                <div class="col-lg-6 col-12 order-1 order-lg-2">
+                <div class="col-lg-6 col-12">
                     <img class="w-100" src="<?= get_template_directory_uri() . '/resources/education/support.jpg' ?>" alt="">
                 </div>
             </div>
-            <div class="row align-items-center programs-layout-row programs-last-lay-row g-0">
-                <div class="col-lg-6 col-12">
+            <div class="row align-items-center programs-layout-row g-0 d-lg-none d-flex">
+                <div class="col-lg-12">
+                    <div class="title">
+                        STUDENT <br class="d-lg-block d-none"> SUPPORT
+                    </div>
+                </div>
+                <div class="col-12">
+                    <img class="w-100" src="<?= get_template_directory_uri() . '/resources/education/support.jpg' ?>" alt="">
+                </div>
+                <div class="col-12 p-t-30">
+                    <p>
+                        Second language learners and students with individual needs receive support both inside and outside the classroom from specialist teachers. ELA specialists and regular subject teachers meet to collaborate on lesson planning to ensure the differentiation of instruction and ELA teaching in the mainstream.
+                    </p>
+                </div>
+            </div>
+            <div class="row align-items-center programs-layout-row programs-last-lay-row g-0 d-lg-flex d-none">
+                <div class="col-6">
                     <img class="w-100" src="<?= get_template_directory_uri() . '/resources/education/beyond-2.jpg'; ?>" alt="">
                 </div>
-                <div class="col-lg-6 col-12 p-md-80">
+                <div class="col-6 p-md-80">
                     <div class="title">
                         BEYOND THE CURRICULUM
                     </div>
+                    <p>
+                        IST offers a wide range of clubs and activities allowing students to display their talents as well as to develop new interests. The Secondary School has a strong sporting and extra-curricular programme, with students participating in China wide international school sports tournaments, cultural conventions and Model United Nations.
+                    </p>
+                </div>
+            </div>
+            <div class="row align-items-center programs-layout-row programs-last-lay-row g-0 d-lg-none d-flex">
+                <div class="col-12">
+                    <div class="title">
+                        BEYOND THE CURRICULUM
+                    </div>
+                </div>
+                <div class="col-12">
+                    <img class="w-100" src="<?= get_template_directory_uri() . '/resources/education/beyond-2.jpg'; ?>" alt="">
+                </div>
+                <div class="col-12 p-t-30">
                     <p>
                         IST offers a wide range of clubs and activities allowing students to display their talents as well as to develop new interests. The Secondary School has a strong sporting and extra-curricular programme, with students participating in China wide international school sports tournaments, cultural conventions and Model United Nations.
                     </p>

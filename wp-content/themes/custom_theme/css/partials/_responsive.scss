@@ -648,10 +648,12 @@
  }
 
  .related-section-title {
-     padding-left: calc(100% / 12);
-
+    padding:0;
      @media(max-width:768px) {
          padding-left: 0;
+     }
+     @media(min-width:1921px){
+        padding-left:0;
      }
  }
 
@@ -853,4 +855,11 @@
         margin: auto;
         margin-bottom: 60px;
     }
- }
+}
+
+.p-sm-t-60{
+    padding-top:0;
+    @media(max-width:978px){
+        padding-top: 60px;
+    }
+}

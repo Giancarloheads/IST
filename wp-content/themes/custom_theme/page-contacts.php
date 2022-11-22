@@ -59,7 +59,7 @@ get_header();
                                 <input type="text" class="form-control" placeholder="Name">
                             </div>
                             <div class="form-group col-lg-6 col-12">
-                                <input type="password" class="form-control" placeholder="Surname">
+                                <input type="text" class="form-control" placeholder="Surname">
                             </div>
                         </div>
                         <div class="form-group">

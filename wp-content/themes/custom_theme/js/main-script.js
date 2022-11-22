@@ -24,6 +24,7 @@ jQuery(document).ready(function ($) {
         if (!isMenuOpen) {
             navMenu.addClass('menu-open');
             layover.css('display', 'block');
+            $("#page").css({"overflow" : "hidden" , "height" : "100vh"});
             layover.animate({
                 'opacity': '.25'
             }, 600);
@@ -38,22 +39,22 @@ jQuery(document).ready(function ($) {
                 $('#header-ham-btn').css('display', 'none');
                 $('#header-ham-close-btn').css('display', 'block');
             });
-            $('.menu-open-layover').css({
+            /* $('.menu-open-layover').css({
                 'opacity': '0.4',
                 'display': 'block'
-            });
+            }); */
         };
     });
 
     $('.close-ham-btn-container').on('click', function () {
         var navMenu = $('#desktop-nav-menu');
         let layover = $('.header-layover');
-
         if (isMenuOpen) {
-
+            $("#page").css({"overflow" : "auto" , "height" : "unset"});
             layover.animate({
                 'opacity': '0'
-            }, 600), () => {
+            }, 600), function(){
+                let layover = $('.header-layover');
                 layover.css('display', 'none');
             };
 
@@ -62,12 +63,42 @@ jQuery(document).ready(function ($) {
                 'top': '20px',
                 'width': '2%',
                 'height': '0',
-            }, 100, function () {
+            }, 500, function () {
                 isMenuOpen = !isMenuOpen;
                 $('#header-ham-btn').css('display', 'block');
                 $('#header-ham-close-btn').css('display', 'none');
                 navMenu.removeClass('menu-open');
-                $('.menu-open-layover').css({
+                $('.header-layover').css({ 
+                    'display': 'none'
+                });
+            }) 
+        }
+    })
+
+    $('.header-layover').on('click' ,  function(){
+        var navMenu = $('#desktop-nav-menu');
+        let layover = $('.header-layover');
+        if (isMenuOpen) {
+            $("#page").css({"overflow" : "auto" , "height" : "unset"});
+            layover.animate({
+                'opacity': '0'
+            }, 600), function(){
+                console.log('dis-none');
+                let layover = $('.header-layover');
+                layover.css('display', 'none');
+            };
+
+            navMenu.animate({
+                'left': '97%',
+                'top': '20px',
+                'width': '2%',
+                'height': '0',
+            }, 500, function () {
+                isMenuOpen = !isMenuOpen;
+                $('#header-ham-btn').css('display', 'block');
+                $('#header-ham-close-btn').css('display', 'none');
+                navMenu.removeClass('menu-open');
+                $('.header-layover').css({
                     'opacity': '0',
                     'display': 'none'
                 });
@@ -75,12 +106,45 @@ jQuery(document).ready(function ($) {
         }
     })
 
+    //MOBILE HAM MENU
+
+    $('#mobile-ham-btn').on('click', function () {
+        $('#page').css({
+            'overflow' : 'hidden',
+            'height' : '100vh'
+        });
+        $('#mobile-nav-menu').animate({
+            top: '0'
+        }, 400);
+    });
+
+    $('.close-nav-mobile-btn').on('click', function () {
+        $('#page').css({
+            'overflow' : 'auto',
+            'height' : 'unset'
+        });
+        $('#mobile-nav-menu').animate({
+            top: '-100vh'
+        }, 400);
+    })
+
+    $('.close-search-mobile-btn').on('click', function () {
+        $('#page').css({
+            'overflow' : 'auto',
+            'height' : 'unset'
+        });
+        $('#mobile-search-menu').animate({
+            top: '-100vh'
+        }, 400);
+    });
+
     // SEARCH CONTAINER
     var searchBtn = $('.search-btn-desktop');
     var SearchDesktopContainer = $('#desktop-search-container');
     var menuLayover = $('.menu-open-layover');
 
     searchBtn.on('click', function () {
+        $("#page").css({"overflow" : "hidden" , "height" : "100vh"});
         SearchDesktopContainer.addClass('menu-open');
         SearchDesktopContainer.animate({
             'left': '29%',
@@ -88,7 +152,6 @@ jQuery(document).ready(function ($) {
             'width': '70%',
             'height': '98vh'
         });
-
         menuLayover.css({
             'opacity': '0.4',
             'display': 'block'
@@ -96,6 +159,7 @@ jQuery(document).ready(function ($) {
     });
 
     $('.close-search-desktop-container').on('click', function () {
+        $("#page").css({"overflow" : "auto" , "height" : "unset"});
         SearchDesktopContainer.animate({
             'left': '100%',
             'top': '0px',
@@ -114,6 +178,7 @@ jQuery(document).ready(function ($) {
     var mobileSearchBtn = $('.search-btn-mobile');
 
     mobileSearchBtn.on('click', function () {
+        $("#page").css({"overflow" : "hidden" , "height" : "100vh"});
         $('#mobile-search-container').animate({
             top: '0'
         }, 400);
@@ -125,6 +190,7 @@ jQuery(document).ready(function ($) {
     });
 
     $('.close-search-mobile-btn').on('click', function () {
+        $("#page").css({"overflow" : "auto" , "height" : "unset"});
         $('#mobile-search-container').animate({
             top: '-100vh'
         }, 400);
@@ -325,27 +391,6 @@ jQuery(document).ready(function ($) {
     ScrollReveal().reveal('.scrrevealfooter', scrrevealfooter);
     ScrollReveal().reveal('.scropacity', opacityReveal);
 
-
-    //MOBILE HAM MENU
-
-    $('#mobile-ham-btn').on('click', function () {
-        $('#mobile-nav-menu').animate({
-            top: '0'
-        }, 400);
-    });
-
-    $('.close-nav-mobile-btn').on('click', function () {
-        $('#mobile-nav-menu').animate({
-            top: '-100vh'
-        }, 400);
-    })
-
-    $('.close-search-mobile-btn').on('click', function () {
-        $('#mobile-search-menu').animate({
-            top: '-100vh'
-        }, 400);
-    })
-
     //Blur effect on header if windows load already scrolled
     if (window.scrollY > 1080) {
         $('header').addClass('blured');
@@ -511,36 +556,16 @@ jQuery(document).ready(function ($) {
         })
     });
 
-    $('#drop-area').on('click' , function(){
+    $('#drop-area').on('click', function () {
         $('input[name=cv]').click();
-    }); 
+    });
 
-    $('input[name=cv]').on('change' , function(){
+    $('input[name=cv]').on('change', function () {
         let fullName = this.value.replace(/.*[\/\\]/, '');
         $('#dropareatxt').html(fullName);
     })
 
     // ************************ Drag and drop ***************** //
-    let dropArea = document.getElementById("drop-area");
-
-    // Prevent default drag behaviors
-    ;['dragenter', 'dragover', 'dragleave', 'drop'].forEach(eventName => {
-        dropArea.addEventListener(eventName, preventDefaults, false);
-        document.body.addEventListener(eventName, preventDefaults, false);
-    });
-
-    // Highlight drop area when item is dragged over it
-    ;['dragenter', 'dragover'].forEach(eventName => {
-        dropArea.addEventListener(eventName, highlight, false);
-    });
-
-    ;['dragleave', 'drop'].forEach(eventName => {
-        dropArea.addEventListener(eventName, unhighlight, false);
-    });
-
-    // Handle dropped files
-    dropArea.addEventListener('drop', handleDrop, false);
-
     function preventDefaults(e) {
         e.preventDefault();
         e.stopPropagation();
@@ -571,5 +596,26 @@ jQuery(document).ready(function ($) {
         console.log(formData);
         $('#dropareatxt').html(file.name);
     }
-    
+
+    let dropArea = document.getElementById("drop-area");
+
+    if (dropArea) {
+        // Prevent default drag behaviors
+        ;['dragenter', 'dragover', 'dragleave', 'drop'].forEach(eventName => {
+            dropArea.addEventListener(eventName, preventDefaults, false);
+            document.body.addEventListener(eventName, preventDefaults, false);
+        });
+
+        // Highlight drop area when item is dragged over it
+        ;['dragenter', 'dragover'].forEach(eventName => {
+            dropArea.addEventListener(eventName, highlight, false);
+        });
+
+        ;['dragleave', 'drop'].forEach(eventName => {
+            dropArea.addEventListener(eventName, unhighlight, false);
+        });
+
+        // Handle dropped files
+        dropArea.addEventListener('drop', handleDrop, false);
+    }
 });

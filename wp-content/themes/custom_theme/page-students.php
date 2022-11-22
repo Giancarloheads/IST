@@ -118,9 +118,9 @@ include 'elements/nav-community.php';
 </section>
 
 <section class="container-fluid">
-    <div class="row justify-content-center align-items-center" style="border-top: solid 1px #a1a1a1;">
+    <div class="row justify-content-center align-items-center">
         <div class="col-12">
-            <div class="row align-items-center programs-layout-row g-0">
+            <div class="row align-items-center programs-layout-row g-0 d-lg-flex d-none">
                 <div class="col-lg-6 col-12 p-md-80 students-par">
                     <div>
                         Throughout their schooling, all students engage in some form of service learning.
@@ -133,11 +133,26 @@ include 'elements/nav-community.php';
                     <img class="w-100" src="<?= get_template_directory_uri() . '/resources/education/student-support.jpg'; ?>" alt="">
                 </div>
             </div>
-            <div class="row align-items-center programs-layout-row programs-last-lay-row g-0">
-                <div class="col-lg-6 col-12 order-lg-1 order-2">
+            <div class="row align-items-center programs-layout-row g-0 d-lg-none d-flex" style="border-top: 1px solid #C0C0C0!important;"> 
+                <div class="col-12 students-par">
+                    <div class="p-b-30">
+                        Throughout their schooling, all students engage in some form of service learning.
+                    </div>
+                </div>
+                <div class="col-12 g-0">
+                    <img class="w-100" src="<?= get_template_directory_uri() . '/resources/education/student-support.jpg'; ?>" alt="">
+                </div>
+                <div class="col-12 p-t-30">
+                    <p>
+                        Service learning opportunities are available through projects and extension activities arising out of class-based learning like PYP Units of Inquiry, service-oriented programs like MYP Action Groups and DP CAS, and through co-curricular activities and service groups like the Literacy Lab and Student Councils. All students engage in physical activities through regularly scheduled classes.
+                    </p>
+                </div>
+            </div>
+            <div class="row align-items-center programs-layout-row programs-last-lay-row g-0 d-lg-flex d-none">
+                <div class="col-6">
                     <img class="w-100" src="<?= get_template_directory_uri() . '/resources/education/beyond.jpg'; ?>" alt="">
                 </div>
-                <div class="col-lg-6 col-12 p-md-80 students-par order-lg-2 order-1">
+                <div class="col-6 p-md-80 students-par">
                     <div>
                         Students are further engaged in a wide variety of co-curricular activities that complement the formal curriculum,
                     </div>
@@ -146,7 +161,22 @@ include 'elements/nav-community.php';
                     </p>
                 </div>
             </div>
-            <div class="row align-items-center programs-layout-row g-0" style="border-bottom:none;">
+            <div class="row align-items-center programs-layout-row programs-last-lay-row g-0 d-lg-none d-flex">
+                <div class="col-12 students-par">
+                    <div class="p-b-30">
+                        Students are further engaged in a wide variety of co-curricular activities that complement the formal curriculum,
+                    </div>
+                </div>
+                <div class="col-12">
+                    <img class="w-100" src="<?= get_template_directory_uri() . '/resources/education/beyond.jpg'; ?>" alt="">
+                </div>
+                <div class="col-12 p-t-30">
+                    <p>
+                        including an array of sports teams and club opportunities. IST is a founding member of the Association of Chinese and Mongolian International Schools (ACAMIS), the International Schools’ Athletics Conference–Tianjin Beijing (ISAC), International Schools Conference of Tianjin (ISCOT), and is both a regular participant and sponsor of many athletic, academic, and cultural enrichment events and activities.
+                    </p>
+                </div>
+            </div>
+            <div class="row align-items-center programs-layout-row g-0 d-lg-flex d-none" style="border-bottom:none;">
                 <div class="col-lg-6 col-12 p-md-80 students-par">
                     <div>
                         Our students also participate in non-competitive activities
@@ -157,6 +187,21 @@ include 'elements/nav-community.php';
                 </div>
                 <div class="col-lg-6 col-12">
                     <img src="<?= get_template_directory_uri() . '/resources/education/student-support.jpg'; ?>" alt="">
+                </div>
+            </div>
+            <div class="row align-items-center programs-layout-row g-0 d-flex d-lg-none" style="border-bottom:none;">
+                <div class="col-12 students-par">
+                    <div class="p-b-30">
+                        Our students also participate in non-competitive activities
+                    </div>
+                </div>
+                <div class="col-lg-6 col-12">
+                    <img src="<?= get_template_directory_uri() . '/resources/education/student-support.jpg'; ?>" alt="">
+                </div>
+                <div class="col-12 p-t-30">
+                    <p>
+                        such as the ACAMIS Cultural Convention as well as Choral Festivals with neighboring schools that provide students with an exceptional opportunity to share their talents and abilities with like-minded peers from other schools and enjoy a sense of personal achievement and fulfilment that is central to our school life. For many years our students have also received honors in the middle and high school Model United Nations conferences in Beijing, Tianjin and Shanghai.
+                    </p>
                 </div>
             </div>
         </div>

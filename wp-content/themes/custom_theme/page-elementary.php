@@ -222,8 +222,8 @@ include 'elements/nav-pages-programs.php';
 <section class="container-fluid">
     <div class="row justify-content-center align-items-center">
         <div class="col-12">
-            <div class="row align-items-center programs-layout-row g-0">
-                <div class="col-lg-6 col-12 order-2 order-lg-1 p-md-80">
+            <div class="row align-items-center programs-layout-row g-0 d-lg-flex d-none">
+                <div class="col-6 p-md-80">
                     <div class="title">
                         STUDENT <br class="d-lg-block d-none"> SUPPORT
                     </div>
@@ -231,11 +231,26 @@ include 'elements/nav-pages-programs.php';
                         Our dedicated faculty includes highly qualified and experienced Homeroom, Specialist subject, English Language Acquisition (ELA), and Learning Support teachers from around the world. A team of skilled specialist ELA teachers provide scheduled ELA classes for Grade 1 to 5 students in need of additional assistance, with in-class support offered for KG1 to KG3. New applicants from KG3 to Grade 5 are required to sit an English language proficiency assessment to determine what level of learning support is required to best meet their language learning needs.
                     </p>
                 </div>
-                <div class="col-lg-6 col-12 order-1 order-lg-2">
+                <div class="col-6">
                     <img class="w-100" src="<?= get_template_directory_uri() . '/resources/education/student-support.jpg'; ?>" alt="">
                 </div>
             </div>
-            <div class="row align-items-center programs-layout-row programs-last-lay-row g-0">
+            <div class="row align-items-center programs-layout-row g-0 d-lg-none d-flex">
+                <div class="col-12 p-md-80">
+                    <div class="title">
+                        STUDENT SUPPORT
+                    </div>
+                </div>
+                <div class="col-12">
+                    <img class="w-100" src="<?= get_template_directory_uri() . '/resources/education/student-support.jpg'; ?>" alt="">
+                </div>
+                <div class="col-12 p-t-30">
+                    <p>
+                        Our dedicated faculty includes highly qualified and experienced Homeroom, Specialist subject, English Language Acquisition (ELA), and Learning Support teachers from around the world. A team of skilled specialist ELA teachers provide scheduled ELA classes for Grade 1 to 5 students in need of additional assistance, with in-class support offered for KG1 to KG3. New applicants from KG3 to Grade 5 are required to sit an English language proficiency assessment to determine what level of learning support is required to best meet their language learning needs.
+                    </p>
+                </div>
+            </div>
+            <div class="row align-items-center programs-layout-row programs-last-lay-row g-0 d-lg-flex d-none">
                 <div class="col-lg-6 col-12">
                     <img class="w-100" src="<?= get_template_directory_uri() . '/resources/education/beyond.jpg'; ?>" alt="">
                 </div>
@@ -246,6 +261,22 @@ include 'elements/nav-pages-programs.php';
                     <p>
                         Balance in the various aspects of your children’s lives is important, and our students are therefore provided with multiple opportunities to engage in different forms of learning beyond the traditional subject disciplines, including through field trips, Co-Curricular Activities (offered every day after school and are registered through the ‘School Buddies’ app), sports, student leadership, and community service experiences. All field trips and most CCAs are offered at no additional cost to parents.
                     </p>
+                </div>
+            </div>
+            <div class="row align-items-center programs-layout-row programs-last-lay-row g-0 d-lg-none d-flex">
+                <div class="col-lg-6 col-12 p-md-80">
+                    <div class="title">
+                        BEYOND THE CURRICULUM
+                    </div>
+                </div>
+                <div class="col-lg-6 col-12 p-b-30">
+                    <img class="w-100" src="<?= get_template_directory_uri() . '/resources/education/beyond.jpg'; ?>" alt="">
+                </div>
+                <div class="col-12">
+                    <p>
+                        Balance in the various aspects of your children’s lives is important, and our students are therefore provided with multiple opportunities to engage in different forms of learning beyond the traditional subject disciplines, including through field trips, Co-Curricular Activities (offered every day after school and are registered through the ‘School Buddies’ app), sports, student leadership, and community service experiences. All field trips and most CCAs are offered at no additional cost to parents.
+                    </p>
+                </div>
                 </div>
             </div>
         </div>

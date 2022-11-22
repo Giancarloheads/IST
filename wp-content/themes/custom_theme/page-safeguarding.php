@@ -21,7 +21,7 @@ include_once 'elements/nav-campus.php';
 <section class="container-fluid p-b-60">
     <div class="row justify-content-center align-items-center">
         <div class="col-12">
-            <div class="row align-items-center programs-layout-row g-0" style="padding-top:60px;border:none; border-top:1px solid #C0C0C0;padding-bottom:0;">
+            <div class="row align-items-center programs-layout-row g-0 d-lg-flex d-none" style="padding-top:60px;border:none; border-top:1px solid #C0C0C0;padding-bottom:0;">
                 <div class="col-lg-6 col-12 p-0">
                     <img class="w-100" src="<?= get_template_directory_uri() . '/resources/campus/child-protection.jpg' ?>" alt="">
                 </div>
@@ -30,6 +30,21 @@ include_once 'elements/nav-campus.php';
                         CHILD PROTECTION
                     </div>
                     <p class="single-collapse-par p-t-0">
+                        Child Protection provides child-centered, family-focused services to protect children and young people from significant harm caused by abuse or neglect within the family or by others. It aims to ensure that children and young people receive support and services to deal with the effects of abuse and neglect on their wellbeing and development.
+                    </p>
+                </div>
+            </div>
+            <div class="row align-items-center programs-layout-row g-0 d-lg-none d-flex" style="padding-top:60px;border:none; border-top:1px solid #C0C0C0;padding-bottom:0;">
+                <div class="col-12">
+                    <div class="title">
+                        CHILD PROTECTION
+                    </div>
+                </div>
+                <div class="col-12 p-0">
+                    <img class="w-100" src="<?= get_template_directory_uri() . '/resources/campus/child-protection.jpg' ?>" alt="">
+                </div>
+                <div class="col-12">
+                    <p class="single-collapse-par p-t-30">
                         Child Protection provides child-centered, family-focused services to protect children and young people from significant harm caused by abuse or neglect within the family or by others. It aims to ensure that children and young people receive support and services to deal with the effects of abuse and neglect on their wellbeing and development.
                     </p>
                 </div>
