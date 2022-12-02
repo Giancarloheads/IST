@@ -115,7 +115,7 @@ include 'elements/nav-pages-programs.php';
                             </div>
                         </div>
                     </div>
-                    <div style="border-bottom:solid 1px #000!important" class="elementary-collapse beliefs-collapse" data-collapse-pos="2">
+                    <div style="border-bottom:solid 1px #C0C0C0!important" class="elementary-collapse beliefs-collapse" data-collapse-pos="2">
                         <div class="d-flex justify-content-between align-items-center d-sm-wrap" data-bs-toggle="collapse" href="#elementary-collapse-2" role="button" aria-expanded="false" aria-controls="elementary-collapse-2">
                             <div class="collapse-title-about">
                                 IB Learner Profile
@@ -151,7 +151,7 @@ include 'elements/nav-pages-programs.php';
         </div>
     </div>
 </section>
-<section class="container-fluid p-b-60">
+<section class="container-fluid p-b-60 p-t-60">
     <div class="row justify-content-center">
         <div class="col-12">
             <div class="row">
@@ -169,7 +169,7 @@ include 'elements/nav-pages-programs.php';
                 <div class="col-lg-6 offset-lg-6 col-12 offset-0">
                     <div class="collapse-container-single">
                         <div data-bs-toggle="collapse" href="#elementary-collapse-single" role="button" aria-expanded="false" aria-controls="elementary-collapse-single">
-                            <div class="single-collapse-par-big-txt">
+                            <div class="single-collapse-par-big-txt" style="font-size:30px;">
                                 The Secondary School comprises Grades 6 to 12. Grade 6 to 8 is termed ‘Middle School’ for pastoral purposes while Grade 9 to 12 is termed ‘High School.’
 
                             </div>
@@ -180,7 +180,7 @@ include 'elements/nav-pages-programs.php';
                                 The schedule is organized on a 10-day cycle (Week A and Week B). The Secondary School is housed in the ‘Han’ building for all academic activities other than Visual Art, Design, and PE/Health.
                             </div>
                         </div>
-                        <div class="single-collapse-trigger" data-bs-toggle="collapse" href="#elementary-collapse-single" role="button" aria-expanded="false" aria-controls="elementary-collapse-single">
+                        <div class="single-collapse-trigger d-flex align-items-center" data-bs-toggle="collapse" href="#elementary-collapse-single" role="button" aria-expanded="false" aria-controls="elementary-collapse-single">
                             Read more
                             <img class="collapse-single-svg-plus" onload="SVGInject(this); " src="<?= get_template_directory_uri() . '/resources/icons/plus.svg' ?>" alt="">
                             <img class="collapse-single-svg-minus" onload="SVGInject(this);" src="<?= get_template_directory_uri() . '/resources/icons/minus.svg' ?>" alt="">
@@ -196,7 +196,7 @@ include 'elements/nav-pages-programs.php';
 <section class="container-fluid">
     <div class="row justify-content-center align-items-center">
         <div class="col-12">
-            <div class="row align-items-center programs-layout-row g-0 d-lg-flex d-none">
+            <div class="row align-items-center programs-layout-row p-t-120 g-0 d-lg-flex d-none">
                 <div class="col-lg-6 col-12 p-md-80">
                     <div class="title">
                         STUDENT <br class="d-lg-block d-none"> SUPPORT

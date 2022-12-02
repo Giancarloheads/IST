@@ -17,7 +17,7 @@ include_once 'elements/nav-pages-programs.php';
 <section class="container-fluid p-t-60 p-b-60">
     <div class="row justify-content-center">
         <div class="col-lg-10 col-12">
-            <div class="row g-4 programs-container">
+            <div class="row g-5 programs-container">
                 <div class="col-lg-4 col-12 d-flex">
                     <div class="programme-container">
                         <div>

@@ -128,7 +128,7 @@ include 'elements/nav-pages-programs.php';
                             </div>
                         </div>
                     </div>
-                    <div style="border-bottom:solid 1px #000!important" class="elementary-collapse beliefs-collapse" data-collapse-pos="2">
+                    <div style="border-bottom:solid 1px #C0C0C0!important" class="elementary-collapse beliefs-collapse" data-collapse-pos="2">
                         <div class="d-flex justify-content-between align-items-center d-sm-wrap" data-bs-toggle="collapse" href="#elementary-collapse-2" role="button" aria-expanded="false" aria-controls="elementary-collapse-2">
                             <div class="collapse-title-about">
                                 Program of Inquiry
@@ -164,6 +164,11 @@ include 'elements/nav-pages-programs.php';
                                         </li>
                                     </ul>
                                     </p>
+                                    <div class="elementary-download-inquiry">
+                                        <a href="<?= get_permalink(); ?>">
+                                            Download IST Program if Inquiry <img onload="SVGInject(this)" src="<?= get_template_directory_uri() . '/resources/icons/arrow.svg'; ?>" alt="">
+                                        </a>
+                                    </div>
                                 </div>
                                 <div class="col-lg-6 col-12 d-flex justify-content-end align-items-start">
                                     <p>
@@ -180,7 +185,7 @@ include 'elements/nav-pages-programs.php';
         </div>
     </div>
 </section>
-<section class="container-fluid p-b-60">
+<section class="container-fluid p-b-60 p-t-60">
     <div class="row justify-content-center">
         <div class="col-12">
             <div class="row">
@@ -207,7 +212,7 @@ include 'elements/nav-pages-programs.php';
                                 There are two classes at each grade level throughout the elementary school, with the Nursery and Pre-KG classes operating in large, open-plan learning spaces under the umbrella name of the Early Learning Centre. Kindergarten (KG3) to Grade 5 classes are clustered by grade level with a large shared room linking the two classes in each grade. All classes follow the International Baccalaureate Primary Years Program (PYP).
                             </div>
                         </div>
-                        <div class="single-collapse-trigger" data-bs-toggle="collapse" href="#elementary-collapse-single" role="button" aria-expanded="false" aria-controls="elementary-collapse-single">
+                        <div class="single-collapse-trigger d-flex align-items-center justify-content-start" data-bs-toggle="collapse" href="#elementary-collapse-single" role="button" aria-expanded="false" aria-controls="elementary-collapse-single">
                             Read more
                             <img class="collapse-single-svg-plus" onload="SVGInject(this); " src="<?= get_template_directory_uri() . '/resources/icons/plus.svg' ?>" alt="">
                             <img class="collapse-single-svg-minus" onload="SVGInject(this);" src="<?= get_template_directory_uri() . '/resources/icons/minus.svg' ?>" alt="">
@@ -222,7 +227,7 @@ include 'elements/nav-pages-programs.php';
 <section class="container-fluid">
     <div class="row justify-content-center align-items-center">
         <div class="col-12">
-            <div class="row align-items-center programs-layout-row g-0 d-lg-flex d-none">
+            <div class="row align-items-center programs-layout-row p-t-120 g-0 d-lg-flex d-none">
                 <div class="col-6 p-md-80">
                     <div class="title">
                         STUDENT <br class="d-lg-block d-none"> SUPPORT
@@ -250,9 +255,9 @@ include 'elements/nav-pages-programs.php';
                     </p>
                 </div>
             </div>
-            <div class="row align-items-center programs-layout-row programs-last-lay-row g-0 d-lg-flex d-none">
+            <div class="row align-items-center programs-layout-row programs-last-lay-row p-t-120 g-0 d-lg-flex d-none">
                 <div class="col-lg-6 col-12">
-                    <img class="w-100" src="<?= get_template_directory_uri() . '/resources/education/beyond.jpg'; ?>" alt="">
+                    <img class="w-100" src="<?= get_template_directory_uri() . '/resources/education/beyond_ele.jpg'; ?>" alt="">
                 </div>
                 <div class="col-lg-6 col-12 p-md-80">
                     <div class="title">
@@ -270,7 +275,7 @@ include 'elements/nav-pages-programs.php';
                     </div>
                 </div>
                 <div class="col-lg-6 col-12 p-b-30">
-                    <img class="w-100" src="<?= get_template_directory_uri() . '/resources/education/beyond.jpg'; ?>" alt="">
+                    <img class="w-100" src="<?= get_template_directory_uri() . '/resources/education/beyond_ele.jpg'; ?>" alt="">
                 </div>
                 <div class="col-12">
                     <p>

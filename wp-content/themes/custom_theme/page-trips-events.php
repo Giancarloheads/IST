@@ -37,7 +37,7 @@ include 'elements/nav-pages-students.php';
         <div class="col-12">
             <div class="row align-items-center programs-layout-row g-0 d-lg-flex d-none">
                 <div class="col-lg-6 col-12">
-                    <img class="w-100" src="<?= get_template_directory_uri() . '/resources/education/beyond.jpg'; ?>" alt="">
+                    <img class="w-100" src="<?= get_template_directory_uri() . '/resources/img/trips-1.jpg'; ?>" alt="">
                 </div>
                 <div class="col-lg-6 col-12 p-md-80">
                     <div class="title">
@@ -52,14 +52,14 @@ include 'elements/nav-pages-students.php';
             <div class="row align-items-center programs-layout-row programs-last-lay-row g-0 d-lg-flex d-none" style="border-bottom: none!important; ">
                 <div class="col-lg-6 col-12 order-2 order-lg-1 p-md-80">
                     <div class="title">
-                        SECONDARY 'WEEK WITHOUT FALLS'
+                        SECONDARY 'WEEK WITHOUT WALLS'
                     </div>
                     <p class="m-0">
                         The Secondary school operates a ‘Week Without Walls’ outdoor education program each year. The focus of the trips is for students to explore connections between their learning and the world around them. Each grade level has its own destination and a program designed to maximize the experience for the students. These trips take place during the first quarter of the school year and also provides opportunities for the classes to grow as a group and to develop bonds that will last throughout the year.
                     </p>
                 </div>
                 <div class="col-lg-6 col-12 order-1 order-lg-2">
-                    <img class="w-100" src="<?= get_template_directory_uri() . '/resources/education/student-support.jpg'; ?>" alt="">
+                    <img class="w-100" src="<?= get_template_directory_uri() . '/resources/img/trips-2.jpg'; ?>" alt="">
                 </div>
             </div>
             <div class="row align-items-center programs-layout-row g-0 d-lg-none d-flex">
@@ -69,7 +69,7 @@ include 'elements/nav-pages-students.php';
                     </div>
                 </div>
                 <div class="col-12">
-                    <img class="w-100" src="<?= get_template_directory_uri() . '/resources/education/beyond.jpg'; ?>" alt="">
+                    <img class="w-100" src="<?= get_template_directory_uri() . '/resources/img/trips-1.jpg'; ?>" alt="">
                 </div>
                 <div class="col-12 p-t-30">
                     <p class="m-0">
@@ -80,11 +80,11 @@ include 'elements/nav-pages-students.php';
             <div class="row align-items-center programs-layout-row programs-last-lay-row g-0 d-lg-none d-flex" style="border-bottom: none!important; ">
                 <div class="col-12">
                     <div class="title">
-                        SECONDARY 'WEEK WITHOUT FALLS'
+                        SECONDARY 'WEEK WITHOUT WALLS'
                     </div>
                 </div>
                 <div class="col-lg-6 col-12">
-                    <img class="w-100" src="<?= get_template_directory_uri() . '/resources/education/student-support.jpg'; ?>" alt="">
+                    <img class="w-100" src="<?= get_template_directory_uri() . '/resources/img/trips-2.jpg'; ?>" alt="">
                 </div>
                 <div class="col-12 p-t-30">
                     <p class="m-0">

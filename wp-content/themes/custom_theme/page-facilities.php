@@ -50,7 +50,17 @@ include_once 'elements/nav-campus.php';
 <section class="container-fluid p-t-60 p-b-60 p-b-md-0">
     <div class="row align-items-center p-b-60 d-lg-flex d-none">
         <div class="col-6">
-            <img class="w-100" src="<?= get_template_directory_uri() . '/resources/campus/facilities_1.jpg' ?>" alt="">
+            <div class="slider-facilities-1 w-100 h-100">
+                <div>
+                    <img class="w-100" src="<?= get_template_directory_uri() . '/resources/campus/facilities_1.jpg' ?>" alt="">
+                </div>
+                <div>
+                    <img class="w-100" src="<?= get_template_directory_uri() . '/resources/campus/facilities_2.jpg' ?>" alt="">
+                </div>
+                <div>
+                    <img class="w-100" src="<?= get_template_directory_uri() . '/resources/campus/facilities_3.jpg' ?>" alt="">
+                </div>
+            </div>
         </div>
         <div class="col-4 offset-1">
             <div class="ist-section-title-2 p-b-25" style="font-weight:300;margin-right:-50px;">THE HAN BUILDING</div>
@@ -66,7 +76,17 @@ include_once 'elements/nav-campus.php';
             <div class="ist-section-title-2 p-b-25 p-t-md-25" style="font-weight:300;margin-right:-50px;">THE HAN BUILDING</div>
         </div>
         <div class="col-12">
-            <img class="w-100" src="<?= get_template_directory_uri() . '/resources/campus/facilities_1.jpg' ?>" alt="">
+            <div class="slider-facilities-1-mobile">
+                <div>
+                    <img class="w-100" src="<?= get_template_directory_uri() . '/resources/campus/facilities_1.jpg' ?>" alt="">
+                </div>
+                <div>
+                    <img class="w-100" src="<?= get_template_directory_uri() . '/resources/campus/facilities_2.jpg' ?>" alt="">
+                </div>
+                <div>
+                    <img class="w-100" src="<?= get_template_directory_uri() . '/resources/campus/facilities_3.jpg' ?>" alt="">
+                </div>
+            </div>
         </div>
         <div class="col-12 p-t-30">
             <div class="ist-caption-1">
@@ -160,7 +180,17 @@ include_once 'elements/nav-campus.php';
             </div>
         </div>
         <div class="col-6 offset-1">
-            <img class="w-100" src="<?= get_template_directory_uri() . '/resources/campus/facilities_1.jpg' ?>" alt="">
+            <div class="slider-facilities-2">
+                <div>
+                    <img class="w-100" src="<?= get_template_directory_uri() . '/resources/campus/facilities_2.jpg' ?>" alt="">
+                </div>
+                <div>
+                    <img class="w-100" src="<?= get_template_directory_uri() . '/resources/campus/facilities_1.jpg' ?>" alt="">
+                </div>
+                <div>
+                    <img class="w-100" src="<?= get_template_directory_uri() . '/resources/campus/facilities_3.jpg' ?>" alt="">
+                </div>
+            </div>
         </div>
     </div>
     <div class="row align-items-center justify-content-center p-b-60 d-lg-none d-flex">
@@ -168,7 +198,17 @@ include_once 'elements/nav-campus.php';
             <div class="ist-section-title-2 p-b-25 p-t-md-25" style="font-weight:300;margin-right:-50px;">THE QIN BUILDING</div>
         </div>
         <div class="col-12">
-            <img class="w-100" src="<?= get_template_directory_uri() . '/resources/campus/facilities_1.jpg' ?>" alt="">
+            <div class="slider-facilities-2-mobile">
+                <div>
+                    <img class="w-100" src="<?= get_template_directory_uri() . '/resources/campus/facilities_2.jpg' ?>" alt="">
+                </div>
+                <div>
+                    <img class="w-100" src="<?= get_template_directory_uri() . '/resources/campus/facilities_1.jpg' ?>" alt="">
+                </div>
+                <div>
+                    <img class="w-100" src="<?= get_template_directory_uri() . '/resources/campus/facilities_3.jpg' ?>" alt="">
+                </div>
+            </div>
         </div>
         <div class="col-12 p-t-30">
             <div class="ist-caption-1">
@@ -254,7 +294,17 @@ include_once 'elements/nav-campus.php';
 <section class="container-fluid p-t-60 p-b-60">
     <div class="row align-items-center p-b-60 d-lg-flex d-none">
         <div class="col-6">
-            <img class="w-100" src="<?= get_template_directory_uri() . '/resources/campus/campus-ground.jpg' ?>" alt="">
+            <div class="slider-facilities-3">
+                <div>
+                    <img class="w-100" src="<?= get_template_directory_uri() . '/resources/campus/facilities_3.jpg' ?>" alt="">
+                </div>
+                <div>
+                    <img class="w-100" src="<?= get_template_directory_uri() . '/resources/campus/facilities_2.jpg' ?>" alt="">
+                </div>
+                <div>
+                    <img class="w-100" src="<?= get_template_directory_uri() . '/resources/campus/facilities_1.jpg' ?>" alt="">
+                </div>
+            </div>
         </div>
         <div class="col-4 offset-1">
             <div class="neg-m-r ist-section-title-2 p-b-25 " style="font-weight:300;">THE CAMPUS GROUNDS</div>
@@ -268,9 +318,19 @@ include_once 'elements/nav-campus.php';
             <div class="neg-m-r ist-section-title-2 p-b-25 " style="font-weight:300;">THE CAMPUS GROUNDS</div>
         </div>
         <div class="col-12">
-            <img class="w-100" src="<?= get_template_directory_uri() . '/resources/campus/campus-ground.jpg' ?>" alt="">
+            <div class="slider-facilities-3-mobile">
+                <div>
+                    <img class="w-100" src="<?= get_template_directory_uri() . '/resources/campus/facilities_3.jpg' ?>" alt="">
+                </div>
+                <div>
+                    <img class="w-100" src="<?= get_template_directory_uri() . '/resources/campus/facilities_2.jpg' ?>" alt="">
+                </div>
+                <div>
+                    <img class="w-100" src="<?= get_template_directory_uri() . '/resources/campus/facilities_1.jpg' ?>" alt="">
+                </div>
+            </div>
         </div>
-        <div class="col-12 p-t-30">    
+        <div class="col-12 p-t-30">
             <div class="ist-caption-1">
                 IST’s magnificent buildings are designed to ensure that virtually every classroom window looks directly into either an internal garden or the school’s extensive park-like grounds and outdoor recreational spaces.
             </div>

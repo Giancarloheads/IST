@@ -355,13 +355,13 @@
         .flickity-slider {
             margin-left: calc(100% / 12);
             height: 100%;
-            @media(min-width:1921px){
-                margin-left: 11%!important;
+            @media(min-width:1681px){
+                margin-left: 11.5%!important;
             }
-            @media(max-width:1920px) and (min-width:1680px){
-                margin-left: 11%!important;
+            @media(max-width:1680) and (min-width:945px){
+                margin-left: 9.1%!important;
             }
-            @media(max-width:1679px){
+            @media(max-width:946px){
                 margin-left: 0%;
             }
         }

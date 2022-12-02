@@ -5,7 +5,7 @@
 <section class="container-fluid p-t-60 p-b-60">
     <div class="row justify-content-center">
         <div class="col-lg-10 col-12">
-            <div class="row <?= is_page(219) ? 'justify-content-center' : ''; ?>">
+            <div class="row <?= is_page(219) || is_page(184) ? 'justify-content-center' : ''; ?>">
                 <?php if(!is_page(39)){ ?>
                 <div class="<?= get_the_ID() == 164 || get_the_ID() == 219 ? '' : 'p-b-60'; ?> col-12 text-center key-resource-title">
                     <?php if(is_page(162)){ ?>

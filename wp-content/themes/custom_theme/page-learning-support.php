@@ -18,7 +18,7 @@ include 'elements/nav-pages-programs.php';
     </div>
 </section>
 
-<section class="container-fluid p-b-60">
+<section class="container-fluid p-b-60 p-t-60">
     <div class="row justify-content-center align-items-center g-0">
         <div class="col-12">
             <div class="row align-items-center programs-layout-row p-t-md-120 g-0 d-lg-flex d-none" style="border:none; border-top:1px solid #C0C0C0;padding-bottom:0;">
@@ -141,7 +141,7 @@ include 'elements/nav-pages-programs.php';
 <section class="container-fluid p-b-60">
     <div class="row justify-content-center align-items-center">
         <div class="col-12">
-            <div class="row align-items-center programs-layout-row g-0 d-lg-flex d-none" style="border:none; border-top:1px solid #C0C0C0;padding-bottom:0!important;">
+            <div class="row align-items-center programs-layout-row p-t-md-120 g-0 d-lg-flex d-none" style="border:none; border-top:1px solid #C0C0C0;padding-bottom:0!important;">
                 <div class="col-lg-6 col-12 p-md-80">
                     <div class="title">
                         INDIVIDUAL NEEDS PROGRAM
@@ -320,7 +320,7 @@ include 'elements/nav-pages-programs.php';
                             </div>
                         </div>
                     </div>
-                    <div class="elementary-collapse support-collapse beliefs-collapse" data-collapse-pos="6" style="border-bottom:#000 1px solid!important">
+                    <div class="elementary-collapse support-collapse beliefs-collapse" data-collapse-pos="6" style="border-bottom:#C0C0C0 1px solid!important">
                         <div class="d-flex justify-content-between align-items-center d-sm-wrap" data-bs-toggle="collapse" href="#support-6" role="button" data-collapse-pos="6" aria-expanded="false" aria-controls="support-6">
                             <div class="collapse-title-about">
                                 Responsabilities of the counselor

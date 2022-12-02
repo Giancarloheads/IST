@@ -43,9 +43,9 @@
 									</div>
 								</div>
 							</div>
-							<div class="col-lg-5 offset-lg-2 col-4 offset-0 justify-content-center">
+							<div class="col-lg-5 offset-lg-2 col-4 offset-0 justify-content-around">
 								<div class="header-links-container d-lg-block d-none text-center">
-									<ul>
+									<ul class="d-flex aling-items-center justify-content-around">
 										<li>
 											<a class="<?= is_page(229) ? 'active-link' : ''; ?>" href="<?= get_permalink(229); ?>">
 												WHY IST?
@@ -273,12 +273,12 @@
 									</ul>
 								</div>
 							</div>
-							<div class="row desktop-nav-footer align-items-end p-b-80">
+							<div class="row desktop-nav-footer align-items-end p-b-110">
 								<div class="col-6">
-									<div class="ist-cta">
+									<a class="ist-cta" href="<?= get_permalink(217); ?>">
 										Contact us
 										<img onload="SVGInject(this);" src="<?= get_template_directory_uri() . '/resources/icons/arrow.svg'; ?>" alt="">
-									</div>
+									</a>
 								</div>
 								<div class="col-3">
 									<ul>

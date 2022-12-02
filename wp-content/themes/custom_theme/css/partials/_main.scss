@@ -535,11 +535,10 @@ a:visited {
 .pre-footer-img {
     position: absolute;
     left: 50%;
-    top: 50%;
+    top: 42%;
     transform: translate(-50%, -50%);
-    width: 100%;
-    height: 100%;
-
+    width: 93%;
+    height: 84%;
     @media(max-width:768px) {
         top: 50%;
         height: 80%;
@@ -803,8 +802,8 @@ a:visited {
     color: #000;
     padding-top: 20px;
     padding-bottom: 20px;
-    border-top: solid 1px black;
-    border-bottom: solid 1px black;
+    border-top: solid 1px #C0C0C0;
+    border-bottom: solid 1px #C0C0C0;
 }
 
 #collapse-top-building-1,
@@ -963,7 +962,7 @@ body {
         align-items: center;
 
         .flickity-slider:first-child {
-            margin-left: 9%;
+            margin-left: 8%;
             display: flex;
             height: 100%;
 
@@ -1464,4 +1463,42 @@ body {
     img{
         border-radius: 50%;
     }
+    .ist-caption-1{
+        padding-top:20px; 
+        padding-bottom:30px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content:center;
+        svg{
+            width:13px;
+            height:13px;
+            transition: all ease .3s;
+            path{
+                stroke : #000;
+            }
+        }
+        &:hover{
+            svg{
+                transform : rotate(45deg);
+            }
+        }
+    }
+}
+
+
+.collapse-co-curricular-txt{
+    font-size: 20px;
+    font-weight: 400;
+    padding-top: 40px;
+}
+
+.collapse-single-svg-plus{
+    height:15px;
+    width:auto;
+}
+
+.collapse-single-svg-minus{
+    height:14px;
+    width: auto;
 }

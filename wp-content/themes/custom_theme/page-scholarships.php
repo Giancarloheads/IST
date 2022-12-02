@@ -33,7 +33,7 @@ include 'elements/nav-admission.php';
 <section class="container-fluid p-b-60">
     <div class="row">
         <div class="col-lg-9 col-12">
-            <img class="w-100" src="<?= get_template_directory_uri() . '/resources/admission/scolarship.jpg'  ?>" alt="">
+            <img class="w-100" src="<?= get_template_directory_uri() . '/resources/img/scholarship.jpg'  ?>" alt="">
         </div>
     </div>
 </section>

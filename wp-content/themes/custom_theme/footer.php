@@ -16,10 +16,10 @@
         <div class="row justify-content-center">
             <div class="col-12">
                 <div class="row">
-                    <div class="col-12 col-lg-4">
+                    <div class="col-12 col-lg-3 offset-lg-1 offset-0">
                         <div class="ist-section-title-1">International <br> School of Tianjin</div>
                     </div>
-                    <div class="col-12 col-lg-4 p-md-t-40">
+                    <div class="col-12 col-lg-3 offset-lg-1 offset-0 p-md-t-40">
                         <ul>
                             <li class="footer-label">CONTACT</li>
                             <li class="footer-txt">

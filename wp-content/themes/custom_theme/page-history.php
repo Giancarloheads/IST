@@ -79,8 +79,8 @@ include_once 'elements/nav-pages-infos.php';
                                 <div class="col-lg-3 col-8 order-2 order-lg-1">
                                     1994 Founding of TEDA International School, Tianjin (TIST) at original Mu Nan Dao downtown campus.
                                 </div>
-                                <div class="col-lg-6 col-12 offset-lg-2 offset-0 m-b-sm-60 order-1 order-lg-2">
-                                    <img class="w-100" src="https://via.placeholder.com/1000x800/?text=1994" alt="">
+                                <div class="col-lg-7 col-12 offset-lg-2 offset-0 m-b-sm-60 order-1 order-lg-2">
+                                    <img class="w-100" src="https://via.placeholder.com/1100x650/?text=1994" alt="">
                                 </div>
                             </div>
                         </div>
@@ -89,8 +89,8 @@ include_once 'elements/nav-pages-infos.php';
                                 <div class="col-lg-3 col-8 order-2 order-lg-1">
                                     1998 Founding of TEDA International School, Tianjin (TIST) at original Mu Nan Dao downtown campus.
                                 </div>
-                                <div class="col-lg-6 col-12 offset-lg-2 offset-0 m-b-sm-60 order-1 order-lg-2">
-                                    <img class="w-100" src="https://via.placeholder.com/1000x800/?text=1998" alt="">
+                                <div class="col-lg-7 col-12 offset-lg-2 offset-0 m-b-sm-60 order-1 order-lg-2">
+                                    <img class="w-100" src="https://via.placeholder.com/1100x650/?text=1998" alt="">
                                 </div>
                             </div>
                         </div>
@@ -99,8 +99,8 @@ include_once 'elements/nav-pages-infos.php';
                                 <div class="col-lg-3 col-8 order-2 order-lg-1">
                                     2001 Founding of TEDA International School, Tianjin (TIST) at original Mu Nan Dao downtown campus.
                                 </div>
-                                <div class="col-lg-6 col-12 offset-lg-2 offset-0 m-b-sm-60 order-1 order-lg-2">
-                                    <img class="w-100" src="https://via.placeholder.com/1000x800/?text=2001" alt="">
+                                <div class="col-lg-7 col-12 offset-lg-2 offset-0 m-b-sm-60 order-1 order-lg-2">
+                                    <img class="w-100" src="https://via.placeholder.com/1100x650/?text=2001" alt="">
                                 </div>
                             </div>
                         </div>
@@ -109,8 +109,8 @@ include_once 'elements/nav-pages-infos.php';
                                 <div class="col-lg-3 col-8 order-2 order-lg-1">
                                     2002 Founding of TEDA International School, Tianjin (TIST) at original Mu Nan Dao downtown campus.
                                 </div>
-                                <div class="col-lg-6 col-12 offset-lg-2 offset-0 m-b-sm-60 order-1 order-lg-2">
-                                    <img class="w-100" src="https://via.placeholder.com/1000x800/?text=2002" alt="">
+                                <div class="col-lg-7 col-12 offset-lg-2 offset-0 m-b-sm-60 order-1 order-lg-2">
+                                    <img class="w-100" src="https://via.placeholder.com/1100x650/?text=2002" alt="">
                                 </div>
                             </div>
                         </div>
@@ -120,7 +120,7 @@ include_once 'elements/nav-pages-infos.php';
                                 2004 - 2005 Founding of TEDA International School, Tianjin (TIST) at original Mu Nan Dao downtown campus.
                                 </div>
                                 <div class="col-lg-6 col-12 offset-lg-2 offset-0 m-b-sm-60 order-1 order-lg-2">
-                                    <img class="w-100" src="https://via.placeholder.com/1000x800/?text=2004-2005" alt="">
+                                    <img class="w-100" src="https://via.placeholder.com/1100x650/?text=2004-2005" alt="">
                                 </div>
                             </div>
                         </div>
@@ -129,8 +129,8 @@ include_once 'elements/nav-pages-infos.php';
                                 <div class="col-lg-3 col-8 order-2 order-lg-1">
                                     2005 Founding of TEDA International School, Tianjin (TIST) at original Mu Nan Dao downtown campus.
                                 </div>
-                                <div class="col-lg-6 col-12 offset-lg-2 offset-0 m-b-sm-60 order-1 order-lg-2">
-                                    <img class="w-100" src="https://via.placeholder.com/1000x800/?text=2005" alt="">
+                                <div class="col-lg-7 col-12 offset-lg-2 offset-0 m-b-sm-60 order-1 order-lg-2">
+                                    <img class="w-100" src="https://via.placeholder.com/1100x650/?text=2005" alt="">
                                 </div>
                             </div>
                         </div>
@@ -139,8 +139,8 @@ include_once 'elements/nav-pages-infos.php';
                                 <div class="col-lg-3 col-8 order-2 order-lg-1">
                                     2014 Founding of TEDA International School, Tianjin (TIST) at original Mu Nan Dao downtown campus.
                                 </div>
-                                <div class="col-lg-6 col-12 offset-lg-2 offset-0 m-b-sm-60 order-1 order-lg-2">
-                                    <img class="w-100" src="https://via.placeholder.com/1000x800/?text=2014" alt="">
+                                <div class="col-lg-7 col-12 offset-lg-2 offset-0 m-b-sm-60 order-1 order-lg-2">
+                                    <img class="w-100" src="https://via.placeholder.com/1100x650/?text=2014" alt="">
                                 </div>
                             </div>
                         </div>
@@ -149,8 +149,8 @@ include_once 'elements/nav-pages-infos.php';
                                 <div class="col-lg-3 col-8 order-2 order-lg-1">
                                     2016 - 2017 Founding of TEDA International School, Tianjin (TIST) at original Mu Nan Dao downtown campus.
                                 </div>
-                                <div class="col-lg-6 col-12 offset-lg-2 offset-0 m-b-sm-60 order-1 order-lg-2">
-                                    <img class="w-100" src="https://via.placeholder.com/1000x800/?text=2016-2017" alt="">
+                                <div class="col-lg-7 col-12 offset-lg-2 offset-0 m-b-sm-60 order-1 order-lg-2">
+                                    <img class="w-100" src="https://via.placeholder.com/1100x650/?text=2016-2017" alt="">
                                 </div>
                             </div>
                         </div>
@@ -159,8 +159,8 @@ include_once 'elements/nav-pages-infos.php';
                                 <div class="col-lg-3 col-8 order-2 order-lg-1">
                                     2018 - 2019 Founding of TEDA International School, Tianjin (TIST) at original Mu Nan Dao downtown campus.
                                 </div>
-                                <div class="col-lg-6 col-12 offset-lg-2 offset-0 m-b-sm-60 order-1 order-lg-2">
-                                    <img class="w-100" src="https://via.placeholder.com/1000x800/?text=2018-2019" alt="">
+                                <div class="col-lg-7 col-12 offset-lg-2 offset-0 m-b-sm-60 order-1 order-lg-2">
+                                    <img class="w-100" src="https://via.placeholder.com/1100x650/?text=2018-2019" alt="">
                                 </div>
                             </div>
                         </div>
@@ -169,8 +169,8 @@ include_once 'elements/nav-pages-infos.php';
                                 <div class="col-lg-3 col-8 order-2 order-lg-1">
                                     2020 Founding of TEDA International School, Tianjin (TIST) at original Mu Nan Dao downtown campus.
                                 </div>
-                                <div class="col-lg-6 col-12 offset-lg-2 offset-0 m-b-sm-60 order-1 order-lg-2">
-                                    <img class="w-100" src="https://via.placeholder.com/1000x800/?text=2020" alt="">
+                                <div class="col-lg-7 col-12 offset-lg-2 offset-0 m-b-sm-60 order-1 order-lg-2">
+                                    <img class="w-100" src="https://via.placeholder.com/1100x650/?text=2020" alt="">
                                 </div>
                             </div>
                         </div>
@@ -179,15 +179,15 @@ include_once 'elements/nav-pages-infos.php';
                                 <div class="col-lg-3 col-8 order-2 order-lg-1">
                                     2021 Founding of TEDA International School, Tianjin (TIST) at original Mu Nan Dao downtown campus.
                                 </div>
-                                <div class="col-lg-6 col-12 offset-lg-2 offset-0 m-b-sm-60 order-1 order-lg-2">
-                                    <img class="w-100" src="https://via.placeholder.com/1000x800/?text=2021" alt="">
+                                <div class="col-lg-7 col-12 offset-lg-2 offset-0 m-b-sm-60 order-1 order-lg-2">
+                                    <img class="w-100" src="https://via.placeholder.com/1100x650/?text=2021" alt="">
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
+        </div> 
     </div>
 </section>
 </div>

@@ -19,7 +19,7 @@ include_once 'elements/nav-pages-infos.php';
         <div class="col-lg-10 col-12">
             <div class="row">
                 <div class="col-12">
-                    <div class="accreditation-collapse" data-collapse-pos="1" style="border-top: solid 1px black">
+                    <div class="accreditation-collapse" data-collapse-pos="1" style="border-top: solid 1px #C0C0C0">
                         <div class="row" data-bs-toggle="collapse" href="#accreditation-collapse-1" role="button" data-collapse-pos="1" aria-expanded="false" aria-controls="accreditation-collapse-1">
                             <div class="col-lg-6 col-12 order-1">
                                 <img src="<?= get_template_directory_uri() . '/resources/icons/ib_blue.svg' ?>" alt="">
@@ -46,7 +46,7 @@ include_once 'elements/nav-pages-infos.php';
                             </div>
                         </div>
                     </div>
-                    <div class="accreditation-collapse" data-collapse-pos="2" style="border-top: solid 1px black">
+                    <div class="accreditation-collapse" data-collapse-pos="2" style="border-top: solid 1px #C0C0C0">
                         <div class="row" data-bs-toggle="collapse" href="#accreditation-collapse-2" role="button" data-collapse-pos="2" aria-expanded="false" aria-controls="accreditation-collapse-2">
                             <div class="col-lg-6 col-12 order-1 logo-container-accreditation">
                                 <img class="logo-accreditation" src="<?= get_template_directory_uri() . '/resources/icons/cis-logo.svg' ?>" alt="">
@@ -74,7 +74,7 @@ include_once 'elements/nav-pages-infos.php';
                             </div>
                         </div>
                     </div>
-                    <div class="accreditation-collapse" data-collapse-pos="3" style="border-top: solid 1px black">
+                    <div class="accreditation-collapse" data-collapse-pos="3" style="border-top: solid 1px #C0C0C0">
                         <div class="row" data-bs-toggle="collapse" href="#accreditation-collapse-3" role="button" data-collapse-pos="3" aria-expanded="false" aria-controls="accreditation-collapse-3">
                             <div class="col-lg-6 col-12 d-flex flex-column align-items-start justify-content-start order-1">
                                 <div class="w-100 d-flex align-items-center justify-content-start w-75 p-b-30">

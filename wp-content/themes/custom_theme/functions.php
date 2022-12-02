@@ -188,3 +188,5 @@ acf_add_options_page(array(
 	'capability'    => 'edit_posts',
 	'redirect'      => false
 ));
+
+include_once 'inc/forms.php';

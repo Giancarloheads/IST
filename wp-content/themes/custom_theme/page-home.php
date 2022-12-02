@@ -102,7 +102,7 @@ get_header();
 <!--EXPANDED IMG -->
 <section style="background-color:#fff!important">
     <div class="expand-img-container container-1-expand">
-        <div id="img-1-home" style="background-image:url('<?= get_template_directory_uri() . '/resources/img/home-1.jpg'; ?>')"></div>
+        <div id="img-1-home" style="background-image:url('<?= get_template_directory_uri() . '/resources/home/first-jumbo-img-home.jpg'; ?>')"></div>
         <div class="img-1-overlay"></div>
         <div class="img-1-caption">
             <div class="title">WORLD CLASS FACILITIES</div>
@@ -465,7 +465,7 @@ get_header();
 </div>
 <section style="background-color:#fff" class="pt-anim">
     <div class="expand-img-container container-2-expand">
-        <div id="img-2-home" style="background-image:url('<?= get_template_directory_uri() . '/resources/img/home-2.jpg'; ?>')"></div>
+        <div id="img-2-home" style="background-image:url('<?= get_template_directory_uri() . '/resources/home/jumbo-2-img-home.jpg'; ?>')"></div>
         <div class="img-2-overlay"></div>
         <div class="img-2-caption">
             <div style="color:#fff" class="ist-subtitle-1 text-center p-b-10 d-none d-lg-block">Tianjin's</div>
@@ -582,13 +582,25 @@ get_header();
                     $cat_color = 'hover-yellow'; 
                     break;
             }
+
+            $thumbnail = get_the_post_thumbnail_url($p -> ID);
         ?>
             <a class="recent-news-slider-item" href="<?= get_permalink($p -> ID); ?>"> 
                 <div class="recent-news">
                     <div class="news-cover">
+                        <?php 
+                            if($thumbnail != '') {
+                        ?>
                         <div class="news-img">
                             <img src="<?= get_the_post_thumbnail_url($p -> ID); ?>" alt="">
                         </div>
+                        <?php 
+                            } else {
+                        ?>
+                        <div class="news-title-hidden">
+                            <?= substr(get_the_excerpt($p -> ID) , 0 , 150) . '...'; ?>
+                        </div>
+                        <?php } ?>
                         <div class="news-caption">
                             <div class="news-title">
                                 <?= get_the_Title($p -> ID); ?>

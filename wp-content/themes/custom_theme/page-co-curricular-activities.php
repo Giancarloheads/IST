@@ -36,7 +36,7 @@ include 'elements/nav-pages-students.php';
         </div>
     </div>
 </section>
-<section class="container-fluid bg-grey p-t-60 p-b-150">
+<section class="container-fluid bg-grey p-t-60 p-b-100">
     <div class="row justify-content-center">
         <div class="col-lg-10 col-12">
             <div class="row">
@@ -62,58 +62,69 @@ include 'elements/nav-pages-students.php';
                             <img class="w-100" src="<?= get_template_directory_uri() . '/resources/co-curricular/activity-2.jpg'; ?>" alt="">
                             <div class="ist-caption-1">
                                 Performing Arts
+                                <img onload="SVGInject(this);" src="<?= get_template_directory_uri() . '/resources/icons/arrow.svg'; ?>" alt="">
                             </div>
                         </div>
                         <div class="activity-container">
                             <img class="w-100" src="<?= get_template_directory_uri() . '/resources/co-curricular/activity-3.jpg'; ?>" alt="">
                             <div class="ist-caption-1">
                                 Active Pursuit
+                                <img onload="SVGInject(this);" src="<?= get_template_directory_uri() . '/resources/icons/arrow.svg'; ?>" alt="">
                             </div>
                         </div>
                         <div class="activity-container">
                             <img class="w-100" src="<?= get_template_directory_uri() . '/resources/co-curricular/activity-4.jpg'; ?>" alt="">
                             <div class="ist-caption-1">
-                                Classroomw Extension
+                                Classroom Extension
+                                <img onload="SVGInject(this);" src="<?= get_template_directory_uri() . '/resources/icons/arrow.svg'; ?>" alt="">
                             </div>
                         </div>
                         <div class="activity-container">
                             <img class="w-100" src="<?= get_template_directory_uri() . '/resources/co-curricular/activity-5.jpg'; ?>" alt="">
                             <div class="ist-caption-1">
                                 Life Skills
+                                <img onload="SVGInject(this);" src="<?= get_template_directory_uri() . '/resources/icons/arrow.svg'; ?>" alt="">
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-12 d-block d-lg-none">
                     <div class="row justify-content-center mobile-activities-co-curricular-container">
-                        <div class="col-8">
-                            <img class="w-100" src="<?= get_template_directory_uri() . '/resources/co-curricular/activity-2.jpg'; ?>" alt="">
+                        <div class="col-md-7 col-10">
+                            <img class="w-100" src="<?= get_template_directory_uri() . '/resources/co-curricular/activity-1.jpg'; ?>" alt="">
                             <div class="ist-caption-1">
-                                Performing Arts
+                                <a href="<?= get_permalink(186); ?>">
+                                    Sport
+                                    <img onload="SVGInject(this);" src="<?= get_template_directory_uri() . '/resources/icons/arrow.svg'; ?>" alt="">
+                                </a>
                             </div>
                         </div>
-                        <div class="col-8">
+                        <div class="col-md-7 col-10">
                             <img class="w-100" src="<?= get_template_directory_uri() . '/resources/co-curricular/activity-2.jpg'; ?>" alt="">
                             <div class="ist-caption-1">
                                 Performing Arts
+                                <img onload="SVGInject(this);" src="<?= get_template_directory_uri() . '/resources/icons/arrow.svg'; ?>" alt="">
                             </div>
                         </div>
-                        <div class="col-8">
-                            <img class="w-100" src="<?= get_template_directory_uri() . '/resources/co-curricular/activity-2.jpg'; ?>" alt="">
+                        <div class="col-md-7 col-10">
+                            <img class="w-100" src="<?= get_template_directory_uri() . '/resources/co-curricular/activity-3.jpg'; ?>" alt="">
                             <div class="ist-caption-1">
-                                Performing Arts
+                                Active Pursuits
+                                <img onload="SVGInject(this);" src="<?= get_template_directory_uri() . '/resources/icons/arrow.svg'; ?>" alt="">
                             </div>
                         </div>
-                        <div class="col-8">
-                            <img class="w-100" src="<?= get_template_directory_uri() . '/resources/co-curricular/activity-2.jpg'; ?>" alt="">
+                        <div class="col-md-7 col-10">
+                            <img class="w-100" src="<?= get_template_directory_uri() . '/resources/co-curricular/activity-4.jpg'; ?>" alt="">
                             <div class="ist-caption-1">
-                                Performing Arts
+                                Classroom Extension
+                                <img onload="SVGInject(this);" src="<?= get_template_directory_uri() . '/resources/icons/arrow.svg'; ?>" alt="">
                             </div>
                         </div>
-                        <div class="col-8">
-                            <img class="w-100" src="<?= get_template_directory_uri() . '/resources/co-curricular/activity-2.jpg'; ?>" alt="">
+                        <div class="col-md-7 col-10">
+                            <img class="w-100" src="<?= get_template_directory_uri() . '/resources/co-curricular/activity-5.jpg'; ?>" alt="">
                             <div class="ist-caption-1">
-                                Performing Arts
+                                Life Skills
+                                <img onload="SVGInject(this);" src="<?= get_template_directory_uri() . '/resources/icons/arrow.svg'; ?>" alt="">
                             </div>
                         </div>
                     </div>
@@ -122,35 +133,132 @@ include 'elements/nav-pages-students.php';
         </div>
     </div>
 </section>
-<section class="container-fluid">
-    <div class="row justify-content-center align-items-center">
+<section class="container-fluid p-t-120 p-b-60">
+    <div class="row justify-content-center">
         <div class="col-12">
-            <div class="row align-items-center programs-layout-row g-0">
-                <div class="col-lg-6 col-12">
-                    <img class="m-0" src="<?= get_template_directory_uri() . '/resources/education/beyond.jpg'; ?>" alt="">
-                </div>
-                <div class="col-lg-6 col-12 p-md-80">
-                    <div class="title">
-                        ELEMENTARY <br class="d-lg-block d-none"> FIELD TRIPS
-
+            <div class="row align-items-center d-lg-flex d-none">
+                <div class="col-lg-4 offset-lg-1 col-12 offset-0">
+                    <div class="ist-section-title-2 p-b-25">
+                        ATHLETICS <br> AND ACTIVITIES OFFICE
                     </div>
-                    <p class="m-0">
-                        Elementary students participate in regular fieldtrips throughout the course of each school year. The majority of these excursions will be day outings in the Tianjin area associated with ‘Units of Inquiry’; however, as students become older they will venture further away from Tianjin until eventually they participate in a mini ‘Week Without Walls’ preparation trip which will involve them spending two to three nights away from their homes with their classmates and teachers.
-                    </p>
+                    <div class="ist-caption-1">
+                        IST has a fully staffed Athletic and Activities Office to support the Athletics, CCAs, Field Trips, and other necessary local contacts for educational purposes.
+                    </div>
+                </div>
+                <div class="col-lg-6 offset-lg-1 col-12 offset-0">
+                    <img class="w-100" src="<?= get_template_directory_uri() . '/resources/img/co-curricular.jpg'; ?>" alt="">
                 </div>
             </div>
-            <div class="row align-items-center programs-layout-row programs-last-lay-row g-0" style="border-bottom: none!important; ">
-                <div class="col-lg-6 col-12 order-2 order-lg-1 p-md-80">
-                    <div class="title">
-                        SECONDARY 'WEEK WITHOUT FALLS'
+            <div class="row align-items-center d-lg-none d-block">
+                <div class="col-12">
+                    <div class="ist-section-title-2 p-b-25">
+                        ATHLETICS <br> AND ACTIVITIES OFFICE
                     </div>
-                    <p class="m-0">
-                        The Secondary school operates a ‘Week Without Walls’ outdoor education program each year. The focus of the trips is for students to explore connections between their learning and the world around them. Each grade level has its own destination and a program designed to maximize the experience for the students. These trips take place during the first quarter of the school year and also provides opportunities for the classes to grow as a group and to develop bonds that will last throughout the year.
-                    </p>
                 </div>
-                <div class="col-lg-6 col-12 order-1 order-lg-2">
-                    <img class="w-100" src="<?= get_template_directory_uri() . '/resources/education/student-support.jpg'; ?>" alt="">
+                <div class="col-12">
+                    <img class="w-100" src="<?= get_template_directory_uri() . '/resources/img/co-curricular.jpg'; ?>" alt="">
                 </div>
+                <div class="col-12 p-t-40">
+                    <div class="ist-caption-1">
+                        IST has a fully staffed Athletic and Activities Office to support the Athletics, CCAs, Field Trips, and other necessary local contacts for educational purposes.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="container-fluid p-b-60">
+    <div class="row justify-content-center">
+        <div class="col-lg-10 col-12">
+            <div class="row">
+                <div class="col-12 beliefs-collapse-container">
+                    <div class="beliefs-collapse" data-collapse-pos="1">
+                        <div class="d-flex justify-content-between align-items-center d-sm-wrap" data-bs-toggle="collapse" href="#beliefs-collapse-1" role="button" data-collapse-pos="1" aria-expanded="false" aria-controls="beliefs-collapse-1">
+                            <div class="collapse-title-about">
+                                What does the Activities and Athletics Office do?
+                            </div>
+                            <div class="d-flex justify-content-center align-items-center">
+                                <img class="plus-icon-collapse" class="plus-icon-collapse" id="beliefs-collapse-1-icon" style="width:20px; height:20px;" src="<?= get_template_directory_uri() . '/resources/icons/plus_collapse.svg' ?>" alt="">
+                            </div>
+                        </div>
+                        <div class="collapse" id="beliefs-collapse-1">
+                            <div class="container-fluid p-t-40">
+                                <div class="row">
+                                    <div class="col-lg-6 col-12 collapse-co-curricular-list">
+                                        <ul>
+                                            <li>
+                                                Supports Athletic programs and assists the two Athletics and Activity Directors
+                                            </li>
+                                            <li>
+                                                Arranges transportation and accommodation for events
+                                            </li>
+                                            <li>
+                                                Supports tournament planning and management
+                                            </li>
+                                            <li>
+                                                Facilitates CCAs, field trips, and community service
+                                            </li>
+                                            <li>
+                                                Coordinate the Co-Curricular Activities Program, including hiring instructors and local facilities, liaise with the community, conduct surveys, visit facilities; etc.
+                                            </li>
+                                            <li>
+                                                Research and collect information of potential field trip destinations, conduct IST Risk-Assessment policy and procedure
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-lg-6 col-12 collapse-co-curricular-list">
+                                        <ul>
+                                            <li>
+                                                Consult with leading teachers to develop itineraries for Week Without Walls school trips
+                                            </li>
+                                            <li>
+                                                Arrange and liaise accommodation and activities for field trips; develop contracts for overnight trips as necessary
+                                            </li>
+                                            <li>
+                                                Facilitate IST Safeguarding policies and procedures for all IST community members and external providers
+                                            </li>
+                                            <li>
+                                                Coordinate with community service programs to build partnerships with local organizations and provide administrative support
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="container-fluid p-t-60 p-b-120">
+    <div class="row justify-content-center">
+        <div class="col-lg-6 col-md-8 col-10">
+            <div class="ist-par-about-1 text-center">
+                Families are welcome to contact the IST Athletics and Activities Office via telephone or via e-mail.
+            </div>
+        </div>
+    </div>
+    <div class="row justify-content-center p-t-50">
+        <div class="col-lg-4">
+            <div class="single-key-resources">
+                <a target="_blank" href="mailto:studentservice@isttianjin.org.cn">
+                    <div class="">Telephone</div>
+                    <a href="tel:285920018150" class="key-resources-cta c-red">
+                        2859-2001 ext.8150
+                    </a>
+                </a>
+            </div>
+        </div>
+        <div class="col-lg-4">
+            <div class="single-key-resources">
+                <a target="_blank" href="mailto:studentservice@isttianjin.org.cn">
+                    <div class="">E-mail</div>
+                    <a href="mailto:ying_gou@istisnjin.org.cn" class="key-resources-cta c-red">
+                        ying_gou@istisnjin.org.cn
+                    </a>
+                </a>
             </div>
         </div>
     </div>

@@ -114,8 +114,8 @@
 }
 
 .programs-layout-row{
-    padding-top:60px;
-    padding-bottom:60px;
+    padding-top:120px;
+    padding-bottom:120px;
     border-top: 1px #C0C0C0 solid;
     border-bottom: 1px #C0C0C0 solid;
     @media(max-width:768px){
@@ -220,5 +220,20 @@
     @media(max-width:768px){
         align-items:center;
         justify-content: center;
+    }
+}
+
+.elementary-download-inquiry{
+    color: $red;
+    font-size: 20px;
+    font-weight: 400;
+    padding-top: 40px;
+    svg{
+        height: 15px; 
+        width: 15px; 
+        transform: rotate(90deg);
+        path{
+            stroke: $red;
+        }
     }
 }

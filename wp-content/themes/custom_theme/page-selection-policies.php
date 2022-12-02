@@ -34,7 +34,7 @@ include 'elements/nav-admission.php';
 <section class="container-fluid p-l-20 p-r-20 p-b-60  d-lg-block d-none">
     <div class="row">
         <div class="col-lg-9 col-12">
-            <img class="w-100" src="<?= get_template_directory_uri() . '/resources/admission/top-img-1.jpg'  ?>" alt="">
+             <img class="w-100" src="<?= get_template_directory_uri() . '/resources/img/selection-policies.jpg'  ?>" alt="">
         </div>
     </div>
 </section>

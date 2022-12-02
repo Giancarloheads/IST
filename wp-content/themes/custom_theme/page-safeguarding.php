@@ -23,7 +23,7 @@ include_once 'elements/nav-campus.php';
         <div class="col-12">
             <div class="row align-items-center programs-layout-row g-0 d-lg-flex d-none" style="padding-top:60px;border:none; border-top:1px solid #C0C0C0;padding-bottom:0;">
                 <div class="col-lg-6 col-12 p-0">
-                    <img class="w-100" src="<?= get_template_directory_uri() . '/resources/campus/child-protection.jpg' ?>" alt="">
+                    <img class="w-100" src="<?= get_template_directory_uri() . '/resources/campus/child_protection.jpg' ?>" alt="">
                 </div>
                 <div class="col-lg-5 col-12 p-md-80">
                     <div class="title">
