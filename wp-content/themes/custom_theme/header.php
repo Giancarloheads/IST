@@ -90,9 +90,9 @@
 				<div class="close-ham-btn-container">
 					<img id="header-ham-close-btn" onload="SVGInject(this)" src="<?= get_template_directory_uri() . '/resources/icons/ham-close.svg'; ?>" alt="">
 				</div>
-				<div class="container-fluid p-t-40 p-b-40">
-					<div class="row justify-content-center">
-						<div class="col-11 column-container-header-desktop">
+				<div class="container-fluid p-t-40 p-b-40 h-100">
+					<div class="row justify-content-center h-100">
+						<div class="col-11 column-container-header-desktop h-100">
 							<div class="row link-lists-header">
 								<div class="col-4">
 									<ul>
@@ -275,7 +275,7 @@
 							</div>
 							<div class="row desktop-nav-footer align-items-end p-b-110">
 								<div class="col-6">
-									<a class="ist-cta" href="<?= get_permalink(217); ?>">
+									<a class="ist-cta" href="<?= get_permalink(217); ?>" style="color: #CC0001;">
 										Contact us
 										<img onload="SVGInject(this);" src="<?= get_template_directory_uri() . '/resources/icons/arrow.svg'; ?>" alt="">
 									</a>

@@ -553,3 +553,9 @@ header {
     z-index:1004;
 }
 
+.column-container-header-desktop{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
