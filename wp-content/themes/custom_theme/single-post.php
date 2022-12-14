@@ -18,7 +18,7 @@ get_header();
                 ?>
 
                     <div class="col-12">
-                        <img src="<?= get_the_post_thumbnail_url(get_the_ID()); ?>" alt="" class="w-100">
+                        <img src="<?= get_the_post_thumbnail_url(get_the_ID()); ?>" alt="" class="w-100 lazy">
                     </div>
                 <?php endif; ?>
                 <div class="col-12 single-post-content <?= $thumbnail != '' ?  'p-t-60' : ''; ?>">

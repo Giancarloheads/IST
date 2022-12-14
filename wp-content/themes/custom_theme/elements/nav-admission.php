@@ -2,11 +2,11 @@
 $id = strval(get_the_ID());
 ?>
 
-<section class="container-fluid p-t-240 p-b-60 d-lg-block d-none">
+<section class="container-fluid p-t-180 <?= !is_page(164) ?  'p-b-md-120' : 'p-b-lg-120'; ?> d-lg-block d-none">
     <div class="row justify-content-center">
         <div class="col-md-10 col-12">
-            <div class="row justify-content-center p-b-60">
-                <div class="col-lg-6 col-12 text-center ist-section-title-2">
+            <div class="row justify-content-center">
+                <div class="col-lg-6 col-12 text-center <?= !is_page(164) ? 'p-b-lg-60' : 'p-b-lg-110'; ?> ist-section-title-2">
                     <?php
 
                     switch ($id) {
@@ -54,10 +54,10 @@ $id = strval(get_the_ID());
     </div>
 </section>
 
-<section class="container-fluid p-t-180 d-block d-lg-none">
+<section class="container-fluid p-t-180 <?= !is_page(164) ? 'p-b-md-120' : 'p-b-lg-120' ?> d-block d-lg-none">
     <div class="row justify-content-center">
         <div class="col-md-10 col-12">
-            <div class="row justify-content-center p-b-60">
+            <div class="row justify-content-center <?= !is_page(164) ? 'p-b-60' : ''; ?> ">
                 <div class="col-12 text-center breadcrumbs-mobile p-b-30">
                     <?php
                         switch ($id) {

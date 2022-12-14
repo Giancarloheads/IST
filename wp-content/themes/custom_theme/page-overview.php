@@ -14,12 +14,12 @@ include_once 'elements/nav-pages-programs.php';
         </div>
     </div>
 </section>
-<section class="container-fluid p-t-60 p-b-60">
+<section class="container-fluid p-t-60 p-b-80">
     <div class="row justify-content-center">
         <div class="col-lg-10 col-12">
             <div class="row g-5 programs-container">
                 <div class="col-lg-4 col-12 d-flex">
-                    <div class="programme-container">
+                    <a target="_blank" href="https://www.ibo.org/programmes/primary-years-programme/" class="programme-container">
                         <div>
                             <img src="<?= get_template_directory_uri() . '/resources/programs/primary.svg' ?>" alt="">
                             <div class="par">
@@ -27,12 +27,12 @@ include_once 'elements/nav-pages-programs.php';
                             </div>
                         </div>
                         <div class="p-t-40 p-b-20">
-                            <img onload="SVGInject(this);" src="<?= get_template_directory_uri() . '/resources/icons/arrow.svg' ?>" alt="">
+                            <img class="programme-arrow" onload="SVGInject(this);" src="<?= get_template_directory_uri() . '/resources/icons/arrow.svg' ?>" alt="">
                         </div>
-                    </div>
+                    </a>
                 </div>
                 <div class="col-lg-4 col-12 d-flex">
-                    <div class="programme-container">
+                    <a target="_blank" href="https://www.ibo.org/programmes/middle-years-programme/" class="programme-container">
                         <div>
                             <img src="<?= get_template_directory_uri() . '/resources/programs/middle.svg' ?>" alt="">
                             <div class="par">
@@ -40,12 +40,12 @@ include_once 'elements/nav-pages-programs.php';
                             </div>
                         </div>
                         <div class="p-t-40 p-b-20">
-                            <img onload="SVGInject(this);" src="<?= get_template_directory_uri() . '/resources/icons/arrow.svg' ?>" alt="">
+                            <img class="programme-arrow" onload="SVGInject(this);" src="<?= get_template_directory_uri() . '/resources/icons/arrow.svg' ?>" alt="">
                         </div>
-                    </div>
+                    </a>
                 </div>
                 <div class="col-lg-4 col-12 d-flex">
-                    <div class="programme-container">
+                    <a target="_blank" href="https://www.ibo.org/programmes/diploma-programme/" class="programme-container">
                         <div>
                             <img src="<?= get_template_directory_uri() . '/resources/programs/diploma.svg' ?>" alt="">
                             <div class="par">
@@ -53,15 +53,15 @@ include_once 'elements/nav-pages-programs.php';
                             </div>
                         </div>
                         <div class="p-t-40 p-b-20">
-                            <img onload="SVGInject(this);" src="<?= get_template_directory_uri() . '/resources/icons/arrow.svg' ?>" alt="">
+                            <img class="programme-arrow" onload="SVGInject(this);" src="<?= get_template_directory_uri() . '/resources/icons/arrow.svg' ?>" alt="">
                         </div>
-                    </div>
+                    </a>
                 </div>
             </div>
         </div>
     </div>
 </section>
-<section class="container-fluid p-b-60">
+<section class="container-fluid p-b-80">
     <div class="row justify-content-center">
         <div class="col-12">
             <div class="row p-t-60">
@@ -69,10 +69,10 @@ include_once 'elements/nav-pages-programs.php';
                     <h1 style="color:#000;position:relative;z-index:9999">INQUIRY-DRIVEN, STUDENT-CENTERED LEARNING</h1>
                 </div>
                 <div class="col-12 scrreveal d-lg-block d-none" style="position:relative;bottom:40px;">
-                    <img class="w-100" src="<?= get_template_directory_uri() . '/resources/programs/overview-top-img.jpg'; ?>" alt="">
+                    <img class="w-100 lazy" src="<?= get_template_directory_uri() . '/resources/programs/overview-top-img.jpg'; ?>" alt="">
                 </div>
                 <div class="col-12 d-lg-none d-block scrreveal" style="position:relative;bottom:40px;">
-                    <img class="w-100" src="<?= get_template_directory_uri() . '/resources/about/overview-mobile-1.jpg'; ?>" alt="">
+                    <img class="w-100 lazy" src="<?= get_template_directory_uri() . '/resources/about/overview-mobile-1.jpg'; ?>" alt="">
                 </div>
             </div>
         </div>
@@ -82,7 +82,7 @@ include_once 'elements/nav-pages-programs.php';
     <div class="row justify-content-center">
         <div class="col-lg-10 col-12">
             <div class="row">
-                <div class="col-lg-6 col-12 p-b-60">
+                <div class="col-lg-6 col-12 p-b-110">
                     <div class="collapse-container-single">
                         <div data-bs-toggle="collapse" href="#elementary-collapse-single" role="button" aria-expanded="false" aria-controls="elementary-collapse-single">
                             <div class="single-collapse-par-big-txt">
@@ -168,7 +168,7 @@ include_once 'elements/nav-pages-programs.php';
         <div class="img-1-caption">
             <div class="title">LEARNING SUPPORT</div>
             <div class="img-2-cta">
-                <a href="#" class="ist-cta justify-content-center" href="">Learn more<img onload="SVGInject(this);" src="<?= get_template_directory_uri() . '/resources/icons/arrow.svg' ?>" alt=""> </a>
+                <a href="<?= get_permalink(39); ?>" class="ist-cta justify-content-center" href="">Learn more<img onload="SVGInject(this);" src="<?= get_template_directory_uri() . '/resources/icons/arrow.svg' ?>" alt=""> </a>
             </div>
         </div>
     </div>

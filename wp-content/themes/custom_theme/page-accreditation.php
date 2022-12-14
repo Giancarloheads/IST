@@ -3,7 +3,7 @@ get_header();
 include_once 'elements/nav-pages-infos.php';
 ?>
 
-<section class="container-fluid p-b-60">
+<section class="container-fluid p-b-90">
     <div class="row justify-content-center">
         <div class="col-lg-10 col-12">
             <div class="row">
@@ -25,7 +25,7 @@ include_once 'elements/nav-pages-infos.php';
                                 <img src="<?= get_template_directory_uri() . '/resources/icons/ib_blue.svg' ?>" alt="">
                             </div>
                             <div class="accreditation-collapse-title-container col-lg-6 col-12 order-2 d-sm-wrap p-t-sm-30">
-                                <div class="accreditation-collapse-title" style="flex-grow:15">
+                                <div class="accreditation-collapse-title p-r-lg-30">
                                     International Baccalaureate Authorization
                                 </div>
                                 <img class="accreditation-collapse-icon" id="accreditation-collapse-1-icon" src="<?= get_template_directory_uri() . '/resources/icons/plus_collapse.svg' ?>" alt="">
@@ -36,11 +36,11 @@ include_once 'elements/nav-pages-infos.php';
                         <div class="row">
                             <div class="offset-lg-6 col-lg-6 col-12 offset-0 p-md-0">
                                 <div class="acr-par">IST is the only fully authorized, three program ‘International Baccalaureate (IB) World School’ in Tianjin. The IB, based in Geneva, is the provider of the world’s most prestigious curriculum for international schools. There are three IB programs, as follows:</div>
-                                <a href="<?= get_permalink(143) ?>" class="acr-cta">Primary Years Program <img onload="SVGInject(this)" src="<?= get_template_directory_uri() . '/resources/icons/arrow.svg'; ?>" alt=""></a>
+                                <a target="_blank" href="https://www.ibo.org/programmes/primary-years-programme/" class="acr-cta">Primary Years Program <img onload="SVGInject(this)" src="<?= get_template_directory_uri() . '/resources/icons/arrow.svg'; ?>" alt=""></a>
                                 <div class="acr-subtitle">for student aged 3 to 11 years</div>
-                                <a href="<?= get_permalink(146); ?>" class="acr-cta">Middle Years Program <img onload="SVGInject(this)" src="<?= get_template_directory_uri() . '/resources/icons/arrow.svg'; ?>" alt=""></a>
+                                <a target="_blank" href="https://www.ibo.org/programmes/middle-years-programme/" class="acr-cta">Middle Years Program <img onload="SVGInject(this)" src="<?= get_template_directory_uri() . '/resources/icons/arrow.svg'; ?>" alt=""></a>
                                 <div class="acr-subtitle">for student aged 12 to 16</div>
-                                <a href="<?= get_permalink(147) ?>" class="acr-cta">Diploma Program <img onload="SVGInject(this)" src="<?= get_template_directory_uri() . '/resources/icons/arrow.svg' ?>" alt=""> </a>
+                                <a target="_blank" href="https://www.ibo.org/programmes/diploma-programme/" class="acr-cta">Diploma Program <img onload="SVGInject(this)" src="<?= get_template_directory_uri() . '/resources/icons/arrow.svg' ?>" alt=""> </a>
                                 <div class="acr-subtitle">for student aged 17 and above</div>
                                 <div class="acr-par">Schools seeking to teach any of the IB programs must undertake a rigorous process called Authorization, which is similar to Accreditation but with a focus on curriculum and teaching standards only. The process of authorization takes approximately 2 years for each IB program. IST has been authorized since May 2002</div>
                             </div>
@@ -53,7 +53,7 @@ include_once 'elements/nav-pages-infos.php';
                                 <img class="m-t-md-60 logo-accreditation" src="<?= get_template_directory_uri() . '/resources/icons/wasc-logo.svg'; ?>" alt="">
                             </div>
                             <div class="accreditation-collapse-title-container col-lg-6 col-12 order-2 d-sm-wrap p-t-sm-30">
-                                <div class="accreditation-collapse-title">
+                                <div class="accreditation-collapse-title p-r-lg-30">
                                     International School Accreditation
                                 </div>
                                 <img id="accreditation-collapse-2-icon" style="width:20px; height:20px;" src="<?= get_template_directory_uri() . '/resources/icons/plus_collapse.svg' ?>" alt="">
@@ -90,7 +90,7 @@ include_once 'elements/nav-pages-infos.php';
                                 </div>
                             </div>
                             <div class="accreditation-collapse-title-container col-lg-6 col-12 order-2 d-sm-wrap p-t-sm-30" style="z-index:999;">
-                                <div class="accreditation-collapse-title">
+                                <div class="accreditation-collapse-title p-r-lg-30">
                                     Membership in Regional
                                 </div>
                                 <img id="accreditation-collapse-3-icon" style="width:20px; height:20px;" src="<?= get_template_directory_uri() . '/resources/icons/plus_collapse.svg' ?>" alt="">

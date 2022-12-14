@@ -1,13 +1,12 @@
-<section class="container-fluid p-t-180 p-b-60">
+<section class="container-fluid p-t-180 p-b-md-120">
     <div class="row justify-content-center">
         <div class="col-lg-10 col-12">
             <div class="row p-b-60 g-0">
                 <div class="col-12 text-center d-block d-lg-none breadcrumbs-mobile p-b-30">
                     <?php
-
                     switch (get_the_ID()) {
                         case 108:
-                            echo 'FACILITIES';
+                            echo 'World class facilities: <br> modern, bright, extensive';
                             break;
                         case 111:
                             echo 'SCHOOL SERVICE';
@@ -19,7 +18,21 @@
                     ?>
                 </div>
                 <div class="col-12 text-center ist-section-title-2">
-                    <?= get_the_Title(); ?>
+                    <?php 
+                        $id = get_the_ID();
+                        switch ($id) {
+                            case 108:
+                                echo 'World class facilities <br> modern, bright, extensive';
+                                break;
+                            case 111:
+                                echo 'School services <br> for stundents';
+                                break;
+                            case 113:
+                                echo 'Safeguarding';
+                                break;
+                        };
+                    ?>
+
                 </div>
             </div>
             <div class="row d-lg-block d-none justify-content-center p-t-60">

@@ -13,10 +13,10 @@ include 'elements/nav-community.php';
                 </div>
                 <div class="col-12">
                     <div class="row gx-3">
-                        <div class="col-lg-3 col-md-4 col-6  p-b-30">
+                        <div class="col-lg-3  col-6  p-b-30">
                             <div class="d-flex flex-column">
                                 <div class="h-75">
-                                    <img style="width:100%; height:auto;.t" src="<?= get_template_directory_uri() . '/resources/team/team-1.jpg' ?>" alt="">
+                                    <img class="lazy w-100 h-auto" src="<?= get_template_directory_uri() . '/resources/team/team-1.jpg' ?>" alt="">
                                 </div>
                                 <div>
                                     <div class="team-title">
@@ -31,10 +31,10 @@ include 'elements/nav-community.php';
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-4 col-6 p-b-30">
+                        <div class="col-lg-3  col-6 p-b-30">
                             <div class="d-flex flex-column">
                                 <div class="h-75">
-                                    <img style="width:100%; height:auto;.t" src="<?= get_template_directory_uri() . '/resources/team/team-1.jpg' ?>" alt="">
+                                    <img class="lazy w-100 h-auto" src="<?= get_template_directory_uri() . '/resources/team/team-1.jpg' ?>" alt="">
                                 </div>
                                 <div>
                                     <div class="team-title">
@@ -46,10 +46,10 @@ include 'elements/nav-community.php';
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-4 col-6 p-b-30">
+                        <div class="col-lg-3  col-6 p-b-30">
                             <div class="d-flex flex-column">
                                 <div class="h-75">
-                                    <img style="width:100%; height:auto;.t" src="<?= get_template_directory_uri() . '/resources/team/team-1.jpg' ?>" alt="">
+                                    <img class="lazy w-100 h-auto" src="<?= get_template_directory_uri() . '/resources/team/team-1.jpg' ?>" alt="">
                                 </div>
                                 <div>
                                     <div class="team-title">
@@ -61,10 +61,10 @@ include 'elements/nav-community.php';
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-4 col-6 p-b-30">
+                        <div class="col-lg-3  col-6 p-b-30">
                             <div class="d-flex flex-column">
                                 <div class="h-75">
-                                    <img style="width:100%; height:auto;" src="<?= get_template_directory_uri() . '/resources/team/team-1.jpg' ?>" alt="">
+                                    <img class="lazy w-100 h-auto" src="<?= get_template_directory_uri() . '/resources/team/team-1.jpg' ?>" alt="">
                                 </div>
                                 <div>
                                     <div class="team-title">
@@ -78,10 +78,10 @@ include 'elements/nav-community.php';
                         </div>
                     </div>
                     <div class="row gx-3 collapse" id="team-collapse-1">
-                        <div class="col-lg-3 col-md-4 col-6 p-b-30">
+                        <div class="col-lg-3  col-6 p-b-30">
                             <div class="d-flex flex-column">
                                 <div class="h-75">
-                                    <img style="width:100%; height:auto;" src="<?= get_template_directory_uri() . '/resources/team/team-1.jpg' ?>" alt="">
+                                    <img class="lazy w-100 h-auto" src="<?= get_template_directory_uri() . '/resources/team/team-1.jpg' ?>" alt="">
                                 </div>
                                 <div>
                                     <div class="team-title">
@@ -93,10 +93,10 @@ include 'elements/nav-community.php';
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-4 col-6 p-b-30">
+                        <div class="col-lg-3  col-6 p-b-30">
                             <div class="d-flex flex-column">
                                 <div class="h-75">
-                                    <img style="width:100%; height:auto;" src="<?= get_template_directory_uri() . '/resources/team/team-1.jpg' ?>" alt="">
+                                    <img class="lazy w-100 h-auto" src="<?= get_template_directory_uri() . '/resources/team/team-1.jpg' ?>" alt="">
                                 </div>
                                 <div>
                                     <div class="team-title">
@@ -108,10 +108,10 @@ include 'elements/nav-community.php';
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-4 col-6 p-b-30">
+                        <div class="col-lg-3  col-6 p-b-30">
                             <div class="d-flex flex-column">
                                 <div class="h-75">
-                                    <img style="width:100%; height:auto;" src="<?= get_template_directory_uri() . '/resources/team/team-1.jpg' ?>" alt="">
+                                    <img class="lazy w-100 h-auto" src="<?= get_template_directory_uri() . '/resources/team/team-1.jpg' ?>" alt="">
                                 </div>
                                 <div>
                                     <div class="team-title">
@@ -123,10 +123,10 @@ include 'elements/nav-community.php';
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-4 col-6 p-b-30">
+                        <div class="col-lg-3  col-6 p-b-30">
                             <div class="d-flex flex-column">
                                 <div class="h-75">
-                                    <img style="width:100%; height:auto;" src="<?= get_template_directory_uri() . '/resources/team/team-1.jpg' ?>" alt="">
+                                    <img class="lazy w-100 h-auto" src="<?= get_template_directory_uri() . '/resources/team/team-1.jpg' ?>" alt="">
                                 </div>
                                 <div>
                                     <div class="team-title">
@@ -138,10 +138,10 @@ include 'elements/nav-community.php';
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-4 col-6 p-b-30">
+                        <div class="col-lg-3  col-6 p-b-30">
                             <div class="d-flex flex-column">
                                 <div class="h-75">
-                                    <img style="width:100%; height:auto;" src="<?= get_template_directory_uri() . '/resources/team/team-1.jpg' ?>" alt="">
+                                    <img class="lazy w-100 h-auto" src="<?= get_template_directory_uri() . '/resources/team/team-1.jpg' ?>" alt="">
                                 </div>
                                 <div>
                                     <div class="team-title">
@@ -153,10 +153,10 @@ include 'elements/nav-community.php';
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-4 col-6 p-b-30">
+                        <div class="col-lg-3  col-6 p-b-30">
                             <div class="d-flex flex-column">
                                 <div class="h-75">
-                                    <img style="width:100%; height:auto;" src="<?= get_template_directory_uri() . '/resources/team/team-1.jpg' ?>" alt="">
+                                    <img class="lazy w-100 h-auto" src="<?= get_template_directory_uri() . '/resources/team/team-1.jpg' ?>" alt="">
                                 </div>
                                 <div>
                                     <div class="team-title">
@@ -168,10 +168,10 @@ include 'elements/nav-community.php';
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-4 col-6 p-b-30">
+                        <div class="col-lg-3  col-6 p-b-30">
                             <div class="d-flex flex-column">
                                 <div class="h-75">
-                                    <img style="width:100%; height:auto;" src="<?= get_template_directory_uri() . '/resources/team/team-1.jpg' ?>" alt="">
+                                    <img class="lazy w-100 h-auto" src="<?= get_template_directory_uri() . '/resources/team/team-1.jpg' ?>" alt="">
                                 </div>
                                 <div>
                                     <div class="team-title">
@@ -186,10 +186,10 @@ include 'elements/nav-community.php';
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-4 col-6 p-b-30">
+                        <div class="col-lg-3  col-6 p-b-30">
                             <div class="d-flex flex-column">
                                 <div class="h-75">
-                                    <img style="width:100%; height:auto;" src="<?= get_template_directory_uri() . '/resources/team/team-1.jpg' ?>" alt="">
+                                    <img class="lazy w-100 h-auto" src="<?= get_template_directory_uri() . '/resources/team/team-1.jpg' ?>" alt="">
                                 </div>
                                 <div>
                                     <div class="team-title">
@@ -203,8 +203,8 @@ include 'elements/nav-community.php';
                         </div>
                     </div>
                     <div class="row justify-content-center p-t-40">
-                        <div class="col-lg-6 col-10 text-center">
-                            <button class="team-collapse-btn" type="button" data-bs-toggle="collapse" data-bs-target="#team-collapse-1" aria-expanded="false" aria-controls="team-collapse-1">
+                        <div class="col-lg-6 col-10 d-flex justify-content-center">
+                            <button class="team-collapse-btn d-flex align-items-center" type="button" data-bs-toggle="collapse" data-bs-target="#team-collapse-1" aria-expanded="false" aria-controls="team-collapse-1">
                                 <span>SEE MORE</span><img onload="SVGInject(this);" src="<?= get_template_directory_uri() . '/resources/icons/arrow.svg' ?>" alt="">
                             </button>
                         </div>
@@ -224,10 +224,10 @@ include 'elements/nav-community.php';
                 </div>
                 <div class="col-12">
                     <div class="row gx-3">
-                        <div class="col-lg-3 col-md-4 col-6 p-b-30">
+                        <div class="col-lg-3  col-6 p-b-30">
                             <div class="d-flex flex-column">
                                 <div class="h-75">
-                                    <img style="width:100%; height:auto;.t" src="<?= get_template_directory_uri() . '/resources/team/team-2.jpg' ?>" alt="">
+                                    <img class="lazy w-100 h-auto" src="<?= get_template_directory_uri() . '/resources/team/team-2.jpg' ?>" alt="">
                                 </div>
                                 <div>
                                     <div class="team-title">
@@ -242,10 +242,10 @@ include 'elements/nav-community.php';
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-4 col-6 p-b-30">
+                        <div class="col-lg-3  col-6 p-b-30">
                             <div class="d-flex flex-column">
                                 <div class="h-75">
-                                    <img style="width:100%; height:auto;.t" src="<?= get_template_directory_uri() . '/resources/team/team-2.jpg' ?>" alt="">
+                                    <img class="lazy w-100 h-auto" src="<?= get_template_directory_uri() . '/resources/team/team-2.jpg' ?>" alt="">
                                 </div>
                                 <div>
                                     <div class="team-title">
@@ -257,10 +257,10 @@ include 'elements/nav-community.php';
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-4 col-6 p-b-30">
+                        <div class="col-lg-3  col-6 p-b-30">
                             <div class="d-flex flex-column">
                                 <div class="h-75">
-                                    <img style="width:100%; height:auto;.t" src="<?= get_template_directory_uri() . '/resources/team/team-1.jpg' ?>" alt="">
+                                    <img class="lazy w-100 h-auto" src="<?= get_template_directory_uri() . '/resources/team/team-1.jpg' ?>" alt="">
                                 </div>
                                 <div>
                                     <div class="team-title">
@@ -272,10 +272,10 @@ include 'elements/nav-community.php';
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-4 col-6 p-b-30">
+                        <div class="col-lg-3  col-6 p-b-30">
                             <div class="d-flex flex-column">
                                 <div class="h-75">
-                                    <img style="width:100%; height:auto;" src="<?= get_template_directory_uri() . '/resources/team/team-1.jpg' ?>" alt="">
+                                    <img class="lazy w-100 h-auto" src="<?= get_template_directory_uri() . '/resources/team/team-1.jpg' ?>" alt="">
                                 </div>
                                 <div>
                                     <div class="team-title">
@@ -289,10 +289,10 @@ include 'elements/nav-community.php';
                         </div>
                     </div>
                     <div class="row gx-3 collapse" id="team-collapse-2">
-                        <div class="col-lg-3 col-md-4 col-6 p-b-30">
+                        <div class="col-lg-3  col-6 p-b-30">
                             <div class="d-flex flex-column">
                                 <div class="h-75">
-                                    <img style="width:100%; height:auto;" src="<?= get_template_directory_uri() . '/resources/team/team-1.jpg' ?>" alt="">
+                                    <img class="lazy w-100 h-auto" src="<?= get_template_directory_uri() . '/resources/team/team-1.jpg' ?>" alt="">
                                 </div>
                                 <div>
                                     <div class="team-title">
@@ -304,10 +304,10 @@ include 'elements/nav-community.php';
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-4 col-6 p-b-30">
+                        <div class="col-lg-3  col-6 p-b-30">
                             <div class="d-flex flex-column">
                                 <div class="h-75">
-                                    <img style="width:100%; height:auto;" src="<?= get_template_directory_uri() . '/resources/team/team-1.jpg' ?>" alt="">
+                                    <img class="lazy w-100 h-auto" src="<?= get_template_directory_uri() . '/resources/team/team-1.jpg' ?>" alt="">
                                 </div>
                                 <div>
                                     <div class="team-title">
@@ -319,10 +319,10 @@ include 'elements/nav-community.php';
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-4 col-6 p-b-30">
+                        <div class="col-lg-3  col-6 p-b-30">
                             <div class="d-flex flex-column">
                                 <div class="h-75">
-                                    <img style="width:100%; height:auto;" src="<?= get_template_directory_uri() . '/resources/team/team-1.jpg' ?>" alt="">
+                                    <img class="lazy w-100 h-auto" src="<?= get_template_directory_uri() . '/resources/team/team-1.jpg' ?>" alt="">
                                 </div>
                                 <div>
                                     <div class="team-title">
@@ -334,10 +334,10 @@ include 'elements/nav-community.php';
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-4 col-6 p-b-30">
+                        <div class="col-lg-3  col-6 p-b-30">
                             <div class="d-flex flex-column">
                                 <div class="h-75">
-                                    <img style="width:100%; height:auto;" src="<?= get_template_directory_uri() . '/resources/team/team-2.jpg' ?>" alt="">
+                                    <img class="lazy w-100 h-auto" src="<?= get_template_directory_uri() . '/resources/team/team-2.jpg' ?>" alt="">
                                 </div>
                                 <div>
                                     <div class="team-title">
@@ -349,10 +349,10 @@ include 'elements/nav-community.php';
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-4 col-6 p-b-30">
+                        <div class="col-lg-3  col-6 p-b-30">
                             <div class="d-flex flex-column">
                                 <div class="h-75">
-                                    <img style="width:100%; height:auto;" src="<?= get_template_directory_uri() . '/resources/team/team-1.jpg' ?>" alt="">
+                                    <img class="lazy w-100 h-auto" src="<?= get_template_directory_uri() . '/resources/team/team-1.jpg' ?>" alt="">
                                 </div>
                                 <div>
                                     <div class="team-title">
@@ -364,10 +364,10 @@ include 'elements/nav-community.php';
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-4 col-6 p-b-30">
+                        <div class="col-lg-3  col-6 p-b-30">
                             <div class="d-flex flex-column">
                                 <div class="h-75">
-                                    <img style="width:100%; height:auto;" src="<?= get_template_directory_uri() . '/resources/team/team-1.jpg' ?>" alt="">
+                                    <img class="lazy w-100 h-auto" src="<?= get_template_directory_uri() . '/resources/team/team-1.jpg' ?>" alt="">
                                 </div>
                                 <div>
                                     <div class="team-title">
@@ -379,10 +379,10 @@ include 'elements/nav-community.php';
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-4 col-6 p-b-30">
+                        <div class="col-lg-3  col-6 p-b-30">
                             <div class="d-flex flex-column">
                                 <div class="h-75">
-                                    <img style="width:100%; height:auto;" src="<?= get_template_directory_uri() . '/resources/team/team-2.jpg' ?>" alt="">
+                                    <img class="lazy w-100 h-auto" src="<?= get_template_directory_uri() . '/resources/team/team-2.jpg' ?>" alt="">
                                 </div>
                                 <div>
                                     <div class="team-title">
@@ -397,10 +397,10 @@ include 'elements/nav-community.php';
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-4 col-6 p-b-30">
+                        <div class="col-lg-3  col-6 p-b-30">
                             <div class="d-flex flex-column">
                                 <div class="h-75">
-                                    <img style="width:100%; height:auto;" src="<?= get_template_directory_uri() . '/resources/team/team-2.jpg' ?>" alt="">
+                                    <img class="lazy w-100 h-auto" src="<?= get_template_directory_uri() . '/resources/team/team-2.jpg' ?>" alt="">
                                 </div>
                                 <div>
                                     <div class="team-title">
@@ -414,8 +414,8 @@ include 'elements/nav-community.php';
                         </div>
                     </div>
                     <div class="row justify-content-center p-t-40">
-                        <div class="col-lg-6 col-10 text-center">
-                            <button class="team-collapse-btn" type="button" data-bs-toggle="collapse" data-bs-target="#team-collapse-2" aria-expanded="false" aria-controls="team-collapse-2">
+                        <div class="col-lg-6 col-10 text-center d-flex justify-content-center">
+                            <button class="team-collapse-btn d-flex align-items-center" type="button" data-bs-toggle="collapse" data-bs-target="#team-collapse-2" aria-expanded="false" aria-controls="team-collapse-2">
                                 <span>SEE MORE</span><img onload="SVGInject(this);" src="<?= get_template_directory_uri() . '/resources/icons/arrow.svg' ?>" alt="">
                             </button>
                         </div>
@@ -435,10 +435,10 @@ include 'elements/nav-community.php';
                 </div>
                 <div class="col-12">
                     <div class="row gx-3">
-                        <div class="col-lg-3 col-md-4 col-6 p-b-30">
+                        <div class="col-lg-3  col-6 p-b-30">
                             <div class="d-flex flex-column">
                                 <div class="h-75">
-                                    <img style="width:100%; height:auto;.t" src="<?= get_template_directory_uri() . '/resources/team/team-2.jpg' ?>" alt="">
+                                    <img class="lazy w-100 h-auto" src="<?= get_template_directory_uri() . '/resources/team/team-2.jpg' ?>" alt="">
                                 </div>
                                 <div>
                                     <div class="team-title">
@@ -453,10 +453,10 @@ include 'elements/nav-community.php';
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-4 col-6 p-b-30">
+                        <div class="col-lg-3  col-6 p-b-30">
                             <div class="d-flex flex-column">
                                 <div class="h-75">
-                                    <img style="width:100%; height:auto;.t" src="<?= get_template_directory_uri() . '/resources/team/team-2.jpg' ?>" alt="">
+                                    <img class="lazy w-100 h-auto" src="<?= get_template_directory_uri() . '/resources/team/team-2.jpg' ?>" alt="">
                                 </div>
                                 <div>
                                     <div class="team-title">
@@ -468,10 +468,10 @@ include 'elements/nav-community.php';
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-4 col-6 p-b-30">
+                        <div class="col-lg-3  col-6 p-b-30">
                             <div class="d-flex flex-column">
                                 <div class="h-75">
-                                    <img style="width:100%; height:auto;.t" src="<?= get_template_directory_uri() . '/resources/team/team-1.jpg' ?>" alt="">
+                                    <img class="lazy w-100 h-auto" src="<?= get_template_directory_uri() . '/resources/team/team-1.jpg' ?>" alt="">
                                 </div>
                                 <div>
                                     <div class="team-title">
@@ -483,10 +483,10 @@ include 'elements/nav-community.php';
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-4 col-6 p-b-30">
+                        <div class="col-lg-3  col-6 p-b-30">
                             <div class="d-flex flex-column">
                                 <div class="h-75">
-                                    <img style="width:100%; height:auto;" src="<?= get_template_directory_uri() . '/resources/team/team-1.jpg' ?>" alt="">
+                                    <img class="lazy w-100 h-auto" src="<?= get_template_directory_uri() . '/resources/team/team-1.jpg' ?>" alt="">
                                 </div>
                                 <div>
                                     <div class="team-title">
@@ -500,10 +500,10 @@ include 'elements/nav-community.php';
                         </div>
                     </div>
                     <div class="row gx-3 collapse" id="team-collapse-3">
-                        <div class="col-lg-3 col-md-4 col-6 p-b-30">
+                        <div class="col-lg-3  col-6 p-b-30">
                             <div class="d-flex flex-column">
                                 <div class="h-75">
-                                    <img style="width:100%; height:auto;" src="<?= get_template_directory_uri() . '/resources/team/team-1.jpg' ?>" alt="">
+                                    <img class="lazy w-100 h-auto" src="<?= get_template_directory_uri() . '/resources/team/team-1.jpg' ?>" alt="">
                                 </div>
                                 <div>
                                     <div class="team-title">
@@ -515,10 +515,10 @@ include 'elements/nav-community.php';
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-4 col-6 p-b-30">
+                        <div class="col-lg-3  col-6 p-b-30">
                             <div class="d-flex flex-column">
                                 <div class="h-75">
-                                    <img style="width:100%; height:auto;" src="<?= get_template_directory_uri() . '/resources/team/team-1.jpg' ?>" alt="">
+                                    <img class="lazy w-100 h-auto" src="<?= get_template_directory_uri() . '/resources/team/team-1.jpg' ?>" alt="">
                                 </div>
                                 <div>
                                     <div class="team-title">
@@ -530,10 +530,10 @@ include 'elements/nav-community.php';
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-4 col-6 p-b-30">
+                        <div class="col-lg-3  col-6 p-b-30">
                             <div class="d-flex flex-column">
                                 <div class="h-75">
-                                    <img style="width:100%; height:auto;" src="<?= get_template_directory_uri() . '/resources/team/team-1.jpg' ?>" alt="">
+                                    <img class="lazy w-100 h-auto" src="<?= get_template_directory_uri() . '/resources/team/team-1.jpg' ?>" alt="">
                                 </div>
                                 <div>
                                     <div class="team-title">
@@ -545,10 +545,10 @@ include 'elements/nav-community.php';
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-4 col-6 p-b-30">
+                        <div class="col-lg-3  col-6 p-b-30">
                             <div class="d-flex flex-column">
                                 <div class="h-75">
-                                    <img style="width:100%; height:auto;" src="<?= get_template_directory_uri() . '/resources/team/team-2.jpg' ?>" alt="">
+                                    <img class="lazy w-100 h-auto" src="<?= get_template_directory_uri() . '/resources/team/team-2.jpg' ?>" alt="">
                                 </div>
                                 <div>
                                     <div class="team-title">
@@ -560,10 +560,10 @@ include 'elements/nav-community.php';
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-4 col-6 p-b-30">
+                        <div class="col-lg-3  col-6 p-b-30">
                             <div class="d-flex flex-column">
                                 <div class="h-75">
-                                    <img style="width:100%; height:auto;" src="<?= get_template_directory_uri() . '/resources/team/team-1.jpg' ?>" alt="">
+                                    <img class="lazy w-100 h-auto" src="<?= get_template_directory_uri() . '/resources/team/team-1.jpg' ?>" alt="">
                                 </div>
                                 <div>
                                     <div class="team-title">
@@ -575,10 +575,10 @@ include 'elements/nav-community.php';
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-4 col-6 p-b-30">
+                        <div class="col-lg-3  col-6 p-b-30">
                             <div class="d-flex flex-column">
                                 <div class="h-75">
-                                    <img style="width:100%; height:auto;" src="<?= get_template_directory_uri() . '/resources/team/team-1.jpg' ?>" alt="">
+                                    <img class="lazy w-100 h-auto" src="<?= get_template_directory_uri() . '/resources/team/team-1.jpg' ?>" alt="">
                                 </div>
                                 <div>
                                     <div class="team-title">
@@ -590,10 +590,10 @@ include 'elements/nav-community.php';
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-4 col-6 p-b-30">
+                        <div class="col-lg-3  col-6 p-b-30">
                             <div class="d-flex flex-column">
                                 <div class="h-75">
-                                    <img style="width:100%; height:auto;" src="<?= get_template_directory_uri() . '/resources/team/team-2.jpg' ?>" alt="">
+                                    <img class="lazy w-100 h-auto" src="<?= get_template_directory_uri() . '/resources/team/team-2.jpg' ?>" alt="">
                                 </div>
                                 <div>
                                     <div class="team-title">
@@ -608,10 +608,10 @@ include 'elements/nav-community.php';
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-4 col-6 p-b-30">
+                        <div class="col-lg-3  col-6 p-b-30">
                             <div class="d-flex flex-column">
                                 <div class="h-75">
-                                    <img style="width:100%; height:auto;" src="<?= get_template_directory_uri() . '/resources/team/team-2.jpg' ?>" alt="">
+                                    <img class="lazy w-100 h-auto" src="<?= get_template_directory_uri() . '/resources/team/team-2.jpg' ?>" alt="">
                                 </div>
                                 <div>
                                     <div class="team-title">
@@ -625,8 +625,8 @@ include 'elements/nav-community.php';
                         </div>
                     </div>
                     <div class="row justify-content-center p-t-40">
-                        <div class="col-lg-6 col-10 text-center">
-                            <button class="team-collapse-btn" type="button" data-bs-toggle="collapse" data-bs-target="#team-collapse-3" aria-expanded="false" aria-controls="team-collapse-3">
+                        <div class="col-lg-6 col-10 text-center d-flex justify-content-center">
+                            <button class="team-collapse-btn d-flex align-items-center" type="button" data-bs-toggle="collapse" data-bs-target="#team-collapse-3" aria-expanded="false" aria-controls="team-collapse-3">
                                 <span>SEE MORE</span><img onload="SVGInject(this);" src="<?= get_template_directory_uri() . '/resources/icons/arrow.svg' ?>" alt="">
                             </button>
                         </div>
@@ -646,10 +646,10 @@ include 'elements/nav-community.php';
                 </div>
                 <div class="col-12">
                     <div class="row gx-3">
-                        <div class="col-lg-3 col-md-4 col-6 p-b-30">
+                        <div class="col-lg-3  col-6 p-b-30">
                             <div class="d-flex flex-column">
                                 <div class="h-75">
-                                    <img style="width:100%; height:auto;.t" src="<?= get_template_directory_uri() . '/resources/team/team-2.jpg' ?>" alt="">
+                                    <img class="lazy w-100 h-auto" src="<?= get_template_directory_uri() . '/resources/team/team-2.jpg' ?>" alt="">
                                 </div>
                                 <div>
                                     <div class="team-title">
@@ -664,10 +664,10 @@ include 'elements/nav-community.php';
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-4 col-6 p-b-30">
+                        <div class="col-lg-3  col-6 p-b-30">
                             <div class="d-flex flex-column">
                                 <div class="h-75">
-                                    <img style="width:100%; height:auto;.t" src="<?= get_template_directory_uri() . '/resources/team/team-2.jpg' ?>" alt="">
+                                    <img class="lazy w-100 h-auto" src="<?= get_template_directory_uri() . '/resources/team/team-2.jpg' ?>" alt="">
                                 </div>
                                 <div>
                                     <div class="team-title">
@@ -679,10 +679,10 @@ include 'elements/nav-community.php';
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-4 col-6 p-b-30">
+                        <div class="col-lg-3  col-6 p-b-30">
                             <div class="d-flex flex-column">
                                 <div class="h-75">
-                                    <img style="width:100%; height:auto;.t" src="<?= get_template_directory_uri() . '/resources/team/team-1.jpg' ?>" alt="">
+                                    <img class="lazy w-100 h-auto" src="<?= get_template_directory_uri() . '/resources/team/team-1.jpg' ?>" alt="">
                                 </div>
                                 <div>
                                     <div class="team-title">
@@ -694,7 +694,7 @@ include 'elements/nav-community.php';
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-4 col-6 p-b-30">
+                        <div class="col-lg-3  col-6 p-b-30">
                             <div class="d-flex flex-column">
                                 <div class="h-75">
                                     <img style="width:100%; height:auto;" src="<?= get_template_directory_uri() . '/resources/team/team-1.jpg' ?>" alt="">
@@ -711,7 +711,7 @@ include 'elements/nav-community.php';
                         </div>
                     </div>
                     <div class="row gx-3 collapse" id="team-collapse-4">
-                        <div class="col-lg-3 col-md-4 col-6 p-b-30">
+                        <div class="col-lg-3  col-6 p-b-30">
                             <div class="d-flex flex-column">
                                 <div class="h-75">
                                     <img style="width:100%; height:auto;" src="<?= get_template_directory_uri() . '/resources/team/team-1.jpg' ?>" alt="">
@@ -726,7 +726,7 @@ include 'elements/nav-community.php';
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-4 col-6 p-b-30">
+                        <div class="col-lg-3  col-6 p-b-30">
                             <div class="d-flex flex-column">
                                 <div class="h-75">
                                     <img style="width:100%; height:auto;" src="<?= get_template_directory_uri() . '/resources/team/team-1.jpg' ?>" alt="">
@@ -741,7 +741,7 @@ include 'elements/nav-community.php';
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-4 col-6 p-b-30">
+                        <div class="col-lg-3  col-6 p-b-30">
                             <div class="d-flex flex-column">
                                 <div class="h-75">
                                     <img style="width:100%; height:auto;" src="<?= get_template_directory_uri() . '/resources/team/team-1.jpg' ?>" alt="">
@@ -756,7 +756,7 @@ include 'elements/nav-community.php';
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-4 col-6 p-b-30">
+                        <div class="col-lg-3  col-6 p-b-30">
                             <div class="d-flex flex-column">
                                 <div class="h-75">
                                     <img style="width:100%; height:auto;" src="<?= get_template_directory_uri() . '/resources/team/team-2.jpg' ?>" alt="">
@@ -771,7 +771,7 @@ include 'elements/nav-community.php';
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-4 col-6 p-b-30">
+                        <div class="col-lg-3  col-6 p-b-30">
                             <div class="d-flex flex-column">
                                 <div class="h-75">
                                     <img style="width:100%; height:auto;" src="<?= get_template_directory_uri() . '/resources/team/team-1.jpg' ?>" alt="">
@@ -786,7 +786,7 @@ include 'elements/nav-community.php';
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-4 col-6 p-b-30">
+                        <div class="col-lg-3  col-6 p-b-30">
                             <div class="d-flex flex-column">
                                 <div class="h-75">
                                     <img style="width:100%; height:auto;" src="<?= get_template_directory_uri() . '/resources/team/team-1.jpg' ?>" alt="">
@@ -801,7 +801,7 @@ include 'elements/nav-community.php';
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-4 col-6 p-b-30">
+                        <div class="col-lg-3  col-6 p-b-30">
                             <div class="d-flex flex-column">
                                 <div class="h-75">
                                     <img style="width:100%; height:auto;" src="<?= get_template_directory_uri() . '/resources/team/team-2.jpg' ?>" alt="">
@@ -819,7 +819,7 @@ include 'elements/nav-community.php';
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-4 col-6 p-b-30">
+                        <div class="col-lg-3  col-6 p-b-30">
                             <div class="d-flex flex-column">
                                 <div class="h-75">
                                     <img style="width:100%; height:auto;" src="<?= get_template_directory_uri() . '/resources/team/team-2.jpg' ?>" alt="">
@@ -857,10 +857,10 @@ include 'elements/nav-community.php';
                 </div>
                 <div class="col-12">
                     <div class="row gx-3">
-                        <div class="col-lg-3 col-md-4 col-6 p-b-30">
+                        <div class="col-lg-3  col-6 p-b-30">
                             <div class="d-flex flex-column">
                                 <div class="h-75">
-                                    <img style="width:100%; height:auto;.t" src="<?= get_template_directory_uri() . '/resources/team/team-2.jpg' ?>" alt="">
+                                    <img class="lazy w-100 h-auto" src="<?= get_template_directory_uri() . '/resources/team/team-2.jpg' ?>" alt="">
                                 </div>
                                 <div>
                                     <div class="team-title">
@@ -875,10 +875,10 @@ include 'elements/nav-community.php';
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-4 col-6 p-b-30">
+                        <div class="col-lg-3  col-6 p-b-30">
                             <div class="d-flex flex-column">
                                 <div class="h-75">
-                                    <img style="width:100%; height:auto;.t" src="<?= get_template_directory_uri() . '/resources/team/team-2.jpg' ?>" alt="">
+                                    <img class="lazy w-100 h-auto" src="<?= get_template_directory_uri() . '/resources/team/team-2.jpg' ?>" alt="">
                                 </div>
                                 <div>
                                     <div class="team-title">
@@ -890,10 +890,10 @@ include 'elements/nav-community.php';
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-4 col-6 p-b-30">
+                        <div class="col-lg-3  col-6 p-b-30">
                             <div class="d-flex flex-column">
                                 <div class="h-75">
-                                    <img style="width:100%; height:auto;.t" src="<?= get_template_directory_uri() . '/resources/team/team-1.jpg' ?>" alt="">
+                                    <img class="lazy w-100 h-auto" src="<?= get_template_directory_uri() . '/resources/team/team-1.jpg' ?>" alt="">
                                 </div>
                                 <div>
                                     <div class="team-title">
@@ -905,7 +905,7 @@ include 'elements/nav-community.php';
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-4 col-6 p-b-30">
+                        <div class="col-lg-3  col-6 p-b-30">
                             <div class="d-flex flex-column">
                                 <div class="h-75">
                                     <img style="width:100%; height:auto;" src="<?= get_template_directory_uri() . '/resources/team/team-1.jpg' ?>" alt="">
@@ -922,7 +922,7 @@ include 'elements/nav-community.php';
                         </div>
                     </div>
                     <div class="row gx-3 collapse" id="team-collapse-5">
-                        <div class="col-lg-3 col-md-4 col-6 p-b-30">
+                        <div class="col-lg-3  col-6 p-b-30">
                             <div class="d-flex flex-column">
                                 <div class="h-75">
                                     <img style="width:100%; height:auto;" src="<?= get_template_directory_uri() . '/resources/team/team-1.jpg' ?>" alt="">
@@ -937,7 +937,7 @@ include 'elements/nav-community.php';
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-4 col-6 p-b-30">
+                        <div class="col-lg-3  col-6 p-b-30">
                             <div class="d-flex flex-column">
                                 <div class="h-75">
                                     <img style="width:100%; height:auto;" src="<?= get_template_directory_uri() . '/resources/team/team-1.jpg' ?>" alt="">
@@ -952,7 +952,7 @@ include 'elements/nav-community.php';
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-4 col-6 p-b-30">
+                        <div class="col-lg-3  col-6 p-b-30">
                             <div class="d-flex flex-column">
                                 <div class="h-75">
                                     <img style="width:100%; height:auto;" src="<?= get_template_directory_uri() . '/resources/team/team-1.jpg' ?>" alt="">
@@ -967,7 +967,7 @@ include 'elements/nav-community.php';
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-4 col-6 p-b-30">
+                        <div class="col-lg-3  col-6 p-b-30">
                             <div class="d-flex flex-column">
                                 <div class="h-75">
                                     <img style="width:100%; height:auto;" src="<?= get_template_directory_uri() . '/resources/team/team-2.jpg' ?>" alt="">
@@ -982,7 +982,7 @@ include 'elements/nav-community.php';
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-4 col-6 p-b-30">
+                        <div class="col-lg-3  col-6 p-b-30">
                             <div class="d-flex flex-column">
                                 <div class="h-75">
                                     <img style="width:100%; height:auto;" src="<?= get_template_directory_uri() . '/resources/team/team-1.jpg' ?>" alt="">
@@ -997,7 +997,7 @@ include 'elements/nav-community.php';
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-4 col-6 p-b-30">
+                        <div class="col-lg-3  col-6 p-b-30">
                             <div class="d-flex flex-column">
                                 <div class="h-75">
                                     <img style="width:100%; height:auto;" src="<?= get_template_directory_uri() . '/resources/team/team-1.jpg' ?>" alt="">
@@ -1012,7 +1012,7 @@ include 'elements/nav-community.php';
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-4 col-6 p-b-30">
+                        <div class="col-lg-3  col-6 p-b-30">
                             <div class="d-flex flex-column">
                                 <div class="h-75">
                                     <img style="width:100%; height:auto;" src="<?= get_template_directory_uri() . '/resources/team/team-2.jpg' ?>" alt="">
@@ -1030,7 +1030,7 @@ include 'elements/nav-community.php';
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-4 col-6 p-b-30">
+                        <div class="col-lg-3  col-6 p-b-30">
                             <div class="d-flex flex-column">
                                 <div class="h-75">
                                     <img style="width:100%; height:auto;" src="<?= get_template_directory_uri() . '/resources/team/team-2.jpg' ?>" alt="">
@@ -1047,8 +1047,8 @@ include 'elements/nav-community.php';
                         </div>
                     </div>
                     <div class="row justify-content-center p-t-40">
-                        <div class="col-lg-6 col-10 text-center">
-                            <button class="team-collapse-btn" type="button" data-bs-toggle="collapse" data-bs-target="#team-collapse-5" aria-expanded="false" aria-controls="team-collapse-5">
+                        <div class="col-lg-6 col-10 text-center d-flex justify-content-center">
+                            <button class="team-collapse-btn d-flex align-items-center" type="button" data-bs-toggle="collapse" data-bs-target="#team-collapse-5" aria-expanded="false" aria-controls="team-collapse-5">
                                 <span>SEE MORE</span><img onload="SVGInject(this);" src="<?= get_template_directory_uri() . '/resources/icons/arrow.svg' ?>" alt="">
                             </button>
                         </div>
@@ -1061,7 +1061,9 @@ include 'elements/nav-community.php';
 
 
 <?php
-include 'elements/key-resources.php';
+include 'elements/key-resources.php'; ?>
+<div class="p-t-60 p-b-60"></div>
+<?php 
 include 'elements/about-pre-footer.php';
 get_footer();
 ?>

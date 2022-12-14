@@ -1,4 +1,4 @@
-<section class="container-fluid bg-grey p-t-160 p-b-160">
+<section class="container-fluid bg-grey p-t-180 p-b-md-120">
     <div class="row justify-content-center">
         <div class="col-md-10 col-sm-12">
             <div class="row">

@@ -40,7 +40,7 @@ jQuery(document).ready(function ($) {
 
     if (SLIDER_COLLEGE.length != 0) {
         SLIDER_COLLEGE.slick({
-            "slidesToShow": 8,
+            "slidesToShow": 7,
             "slidesToScroll": 1,
             "infinite": true,
             "autoplay": true,
@@ -49,6 +49,9 @@ jQuery(document).ready(function ($) {
             "cssEase": "linear",
             "arrows": false,
             "dots": false,
+            "pauseOnHover" : false,
+            "pauseOnFocus" :  false,
+            "draggable" : false,
             "responsive": [
                 {
                     breakpoint: 1199,
@@ -204,7 +207,7 @@ jQuery(document).ready(function ($) {
 
     const SLIDER_NAV_PROGRAM = $('.program-nav-slider');
     
-    if(SLIDER_NAV_PROGRAM.length != 0){
+    /* if(SLIDER_NAV_PROGRAM.length != 0){
         console.log('slider nav');
         SLIDER_NAV_PROGRAM.slick({
             'variableWidth' :  true,
@@ -233,7 +236,7 @@ jQuery(document).ready(function ($) {
                 }
             ]
         });
-    };
+    }; */
 
     const SLIDER_MOBILE_BELIFIES = $('.beliefs-slider-mobile');
     

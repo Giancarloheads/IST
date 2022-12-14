@@ -3,10 +3,10 @@ get_header();
 include 'elements/nav-community.php';
 ?>
 
-<section class="container-fluid p-b-60">
+<section class="container-fluid p-b-110">
     <div class="row justify-content-center">
         <div class="col-lg-10 col-12">
-            <div class="row justify-content-center">
+            <div class="row justify-content-start">
                 <div class="col-lg-6 col-12">
                     <div class="ist-caption-2">
                         Our school is fortunate to have a strong Parent Faculty Organization where volunteerism is a hallmark of our community spirit. At IST we do not aim to achieve; we achieve, and we do so by working, learning and acting together as a community.
@@ -19,11 +19,11 @@ include 'elements/nav-community.php';
 <section class="container-fluid">
     <div class="row">
         <div class="col-12">
-            <img class="w-100" src="<?= get_template_directory_uri() . '/resources/team/pfo-top-img.jpg' ?>" alt="">
+            <img class="w-100 lazy" src="<?= get_template_directory_uri() . '/resources/team/pfo-top-img.jpg' ?>" alt="">
         </div>
     </div>
 </section>
-<section class="container-fluid p-t-60">
+<section class="container-fluid p-t-90">
     <div class="row justify-content-center">
         <div class="col-lg-10 col-12">
             <div class="row gx-4">
@@ -61,6 +61,9 @@ include 'elements/nav-community.php';
 </section>
 <?php
 include 'elements/key-resources.php';
+?>
+<div class="p-t-60 p-b-60"></div>
+<?php 
 include 'elements/about-pre-footer.php';
 get_footer();
 ?>

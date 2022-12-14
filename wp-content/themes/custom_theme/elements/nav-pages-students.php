@@ -1,8 +1,8 @@
-<section class="container-fluid p-t-180 p-b-60">
+<section class="container-fluid p-t-180 p-b-md-120">
     <div class="row justify-content-center">
         <div class="col-lg-10 col-12">
             <div class="row justify-content-center">
-            <div class="col-12 text-center d-block d-lg-none breadcrumbs-mobile p-b-30">
+                <div class="col-10 text-center d-block d-lg-none breadcrumbs-mobile p-b-30">
                     <?php
 
                     switch (get_the_ID()) {
@@ -24,8 +24,8 @@
                     };
                     ?>
                 </div>
-                <div class="col-12 text-center ist-section-title-2">
-                    <?php 
+                <div class="col-10 text-center ist-section-title-2">
+                    <?php
                     switch (get_the_ID()) {
                         case '184':
                             echo 'Co-curricular activities Program';
@@ -38,7 +38,7 @@
                             break;
                         case '190':
                             echo 'Trips & Events';
-                            break; 
+                            break;
                         default:
                             echo get_the_Title();
                             break;
@@ -50,7 +50,7 @@
                 <div class="col-12 text-center">
                     <nav class="page-nav">
                         <ul>
-                            <li class="<?= get_the_ID() == 184 ? 'active-link-nav' : ''; ?>" >
+                            <li class="<?= get_the_ID() == 184 ? 'active-link-nav' : ''; ?>">
                                 <a href="<?= get_permalink(184); ?>">CO-CURRICULAR ACTIVITIES</a>
                             </li>
                             <li class="<?= get_the_ID() == 186 ? 'active-link-nav' : ''; ?>">

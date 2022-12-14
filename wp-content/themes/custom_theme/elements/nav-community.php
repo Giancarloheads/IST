@@ -19,7 +19,7 @@ switch ($id) {
 }
 ?>
 
-<section class="container-fluid p-t-180 p-b-60">
+<section class="container-fluid p-t-180 p-b-md-120">
     <div class="row justify-content-center">
         <div class="col-lg-10 col-12">
             <div class="row justify-content-center g-0">
@@ -42,7 +42,7 @@ switch ($id) {
                     };
                     ?>
                 </div>
-                <div class="col-lg-6 col-md-10 col-12 text-center title-nav-section ist-section-title-2">
+                <div class="col-lg-8 col-md-10 col-12 text-center title-nav-section ist-section-title-2">
                     <?= $title; ?>
                 </div>
             </div>

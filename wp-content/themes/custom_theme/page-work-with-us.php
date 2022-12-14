@@ -83,7 +83,7 @@ get_header();
 <section class="container-fluid p-b-60">
     <div class="row g-0">
         <div class="col-lg-9 col-12">
-            <img src="<?= get_template_directory_uri() . '/resources/img/wwu.jpg'; ?>" alt="Work with us" class="w-100">
+            <img src="<?= get_template_directory_uri() . '/resources/img/wwu.jpg'; ?>" alt="Work with us" class="w-100 lazy">
         </div>
     </div>
 </section>

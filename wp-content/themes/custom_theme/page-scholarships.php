@@ -33,7 +33,7 @@ include 'elements/nav-admission.php';
 <section class="container-fluid p-b-60">
     <div class="row">
         <div class="col-lg-9 col-12">
-            <img class="w-100" src="<?= get_template_directory_uri() . '/resources/img/scholarship.jpg'  ?>" alt="">
+            <img class="w-100 lazy" src="<?= get_template_directory_uri() . '/resources/img/scholarship.jpg'  ?>" alt="">
         </div>
     </div>
 </section>
@@ -47,7 +47,7 @@ include 'elements/nav-admission.php';
                         <div class="col-lg-2 col-12 p-b-md-30 fee-index">
                             Description and value of scolarships
                         </div>
-                        <div class="col-lg-9 offset-lg-1 col-12 offset-0 p-b-20">
+                        <div class="col-lg-9 offset-lg-1 col-12 offset-0 p-b-60">
                             <p class="fee-p">
                                 The IST scholarships are awarded for a period of up to two years to students about to enter 11th grade. <br>
                                 the following scholarships are offered:
@@ -82,7 +82,7 @@ include 'elements/nav-admission.php';
                         <div class="col-lg-2 col-12 p-b-md-30 fee-index">
                             Selection process
                         </div>
-                        <div class="col-lg-9 offset-lg-1 col-12 offset-0 p-b-20">
+                        <div class="col-lg-9 offset-lg-1 col-12 offset-0 p-b-60">
                             <p class="fee-p">
                                 A maximum of three IST scholarships or bursaries may be awarded every year to current-IST-student candidates. A similar number will be awarded to students outside of the IST community.
                                 The selection process will include examinations, a formal interview, and a final selection by the IST Scholarship Committee of the IST School Board of Governors.
@@ -138,7 +138,7 @@ include 'elements/nav-admission.php';
                         <div class="col-lg-2 col-12 p-b-md-30 fee-index">
                             Who is elegible to apply?
                         </div>
-                        <div class="col-lg-9 offset-lg-1 col-12 offset-0 p-b-20">
+                        <div class="col-lg-9 offset-lg-1 col-12 offset-0 p-b-60">
                             <p class="fee-p">
                                 Students of all nationalities are invited to apply for an IST scholarship. Current students at IST with demonstrable financial difficulty are welcome to apply. A strong command of written and spoken English is essential. <br>
                                 It is the policy of the school that a family cannot receive more than 1 full scholarship at any given time. Students with other family members currently receiving scholarships may not be offered scholarships for the full two years of the award.
@@ -159,7 +159,7 @@ include 'elements/nav-admission.php';
                         <div class="col-lg-2 col-12 p-b-md-30 fee-index">
                             Method of application
                         </div>
-                        <div class="col-lg-9 offset-lg-1 offset-0 col-12 p-b-20">
+                        <div class="col-lg-9 offset-lg-1 offset-0 col-12 p-b-60">
                             <p class="fee-p">
                             All candidates should contact the school to receive an application package. <br>
                             The closing date for applications is Friday, February 11th, 2022. Applications received after this deadline will not be considered. <br>

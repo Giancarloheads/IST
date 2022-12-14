@@ -8,7 +8,7 @@ get_header();
 include 'elements/nav-pages-programs.php';
 ?>
 
-<section class="container-fluid">
+<section class="container-fluid p-b-60">
     <div class="row justify-content-center">
         <div class="col-lg-10 col-12">
             <div class="row align-items-start justify-content-between">
@@ -16,20 +16,18 @@ include 'elements/nav-pages-programs.php';
                     Our Secondary School offers a dynamic, academically rigorous and holistic curriculum aimed to prepare students to become life-long learners. IST is fully authorized to offer the International Baccalaureate Middle Years (IB-MYP) and Diploma (IB-DP) curriculum frameworks.
                 </div>
                 <div class="col-lg-6 col-12 logo-container-programs order-1 order-lg-2">
-                    <div>
+                    <a target="_blank" href="https://www.ibo.org/programmes/middle-years-programme/">
                         <img onload="SVGInject(this)" src="<?= get_template_directory_uri() . '/resources/programs/logo-secondary-1.svg'; ?>" alt="">
-                    </div>
-                    <div>
+                    </a>
+                    <a target="_blank" href="https://www.ibo.org/programmes/diploma-programme/">
                         <img class="m-t-md-30" onload="SVGInject(this)" src="<?= get_template_directory_uri() . '/resources/programs/logo-secondary-2.svg'; ?>" alt="">
-                    </div>
+                    </a>
                 </div>
             </div>
         </div>
     </div>
 </section>
-
-
-<section class="container-fluid p-t-60 p-b-60">
+<section class="container-fluid p-t-md-60 p-b-110">
     <div class="row justify-content-center">
         <div class="col-md-10 col-sm-12">
             <div class="row g-3 edu-container">
@@ -69,7 +67,7 @@ include 'elements/nav-pages-programs.php';
         </div>
     </div>
 </section>
-<section class="container-fluid p-b-60">
+<section class="container-fluid p-b-120">
     <div class="row justify-content-center">
         <div class="col-lg-10 col-12">
             <div class="row">
@@ -110,7 +108,7 @@ include 'elements/nav-pages-programs.php';
                                     </p>
                                 </div>
                                 <div class="col-lg-6 col-12 flex-md-center order-lg-2 order-1 p-b-md-30">
-                                    <img src="<?= get_template_directory_uri() . '/resources/programs/justin-lobsey.jpg' ?>" alt="">
+                                    <img class="lazy" src="<?= get_template_directory_uri() . '/resources/programs/justin-lobsey.jpg' ?>" alt="">
                                 </div>
                             </div>
                         </div>
@@ -151,7 +149,7 @@ include 'elements/nav-pages-programs.php';
         </div>
     </div>
 </section>
-<section class="container-fluid p-b-60 p-t-60">
+<section class="container-fluid p-b-60 p-t-lg-60">
     <div class="row justify-content-center">
         <div class="col-12">
             <div class="row">
@@ -159,15 +157,15 @@ include 'elements/nav-pages-programs.php';
                     <h1 style="color:#000;position:relative;z-index:9999">LOREM ISPSUM DOLOR SIT AMET LOREM</h1>
                 </div>
                 <div class="col-12 scrreveal" style="position:relative;bottom:40px;">
-                    <img class="w-100 d-lg-block d-none" src="<?= get_template_directory_uri() . '/resources/programs/secondary-img-1.jpg'; ?>" alt="">
-                    <img class="w-100 d-lg-none d-block" src="<?= get_template_directory_uri() . '/resources/programs/secondary-mobile-1.jpg'; ?>" alt="">
+                    <img class="w-100 d-lg-block d-none lazy" src="<?= get_template_directory_uri() . '/resources/programs/secondary-img-1.jpg'; ?>" alt="">
+                    <img class="w-100 d-lg-none d-block lazy" src="<?= get_template_directory_uri() . '/resources/programs/secondary-mobile-1.jpg'; ?>" alt="">
                 </div>
             </div>
         </div>
-        <div class="col-10">
+        <div class="col-lg-10 col-12">
             <div class="row">
                 <div class="col-lg-6 offset-lg-6 col-12 offset-0">
-                    <div class="collapse-container-single">
+                    <div class="collapse-container-single p-t-40 p-b-40">
                         <div data-bs-toggle="collapse" href="#elementary-collapse-single" role="button" aria-expanded="false" aria-controls="elementary-collapse-single">
                             <div class="single-collapse-par-big-txt" style="font-size:30px;">
                                 The Secondary School comprises Grades 6 to 12. Grade 6 to 8 is termed ‘Middle School’ for pastoral purposes while Grade 9 to 12 is termed ‘High School.’
@@ -206,17 +204,17 @@ include 'elements/nav-pages-programs.php';
                     </p>
                 </div>
                 <div class="col-lg-6 col-12">
-                    <img class="w-100" src="<?= get_template_directory_uri() . '/resources/education/support.jpg' ?>" alt="">
+                    <img class="w-100 lazy" src="<?= get_template_directory_uri() . '/resources/education/support.jpg' ?>" alt="">
                 </div>
             </div>
-            <div class="row align-items-center programs-layout-row g-0 d-lg-none d-flex">
+            <div class="row align-items-center programs-layout-row p-t-md-0 g-0 d-lg-none d-flex">
                 <div class="col-lg-12">
                     <div class="title">
                         STUDENT <br class="d-lg-block d-none"> SUPPORT
                     </div>
                 </div>
-                <div class="col-12">
-                    <img class="w-100" src="<?= get_template_directory_uri() . '/resources/education/support.jpg' ?>" alt="">
+                <div class="col-12 p-t-10 p-b-10">
+                    <img class="w-100 lazy" src="<?= get_template_directory_uri() . '/resources/education/support.jpg' ?>" alt="">
                 </div>
                 <div class="col-12 p-t-30">
                     <p>
@@ -226,7 +224,7 @@ include 'elements/nav-pages-programs.php';
             </div>
             <div class="row align-items-center programs-layout-row programs-last-lay-row g-0 d-lg-flex d-none">
                 <div class="col-6">
-                    <img class="w-100" src="<?= get_template_directory_uri() . '/resources/education/beyond-2.jpg'; ?>" alt="">
+                    <img class="w-100 lazy" src="<?= get_template_directory_uri() . '/resources/education/beyond-2.jpg'; ?>" alt="">
                 </div>
                 <div class="col-6 p-md-80">
                     <div class="title">
@@ -239,12 +237,12 @@ include 'elements/nav-pages-programs.php';
             </div>
             <div class="row align-items-center programs-layout-row programs-last-lay-row g-0 d-lg-none d-flex">
                 <div class="col-12">
-                    <div class="title">
+                    <div class="title p-t-10 p-b-10">
                         BEYOND THE CURRICULUM
                     </div>
                 </div>
-                <div class="col-12">
-                    <img class="w-100" src="<?= get_template_directory_uri() . '/resources/education/beyond-2.jpg'; ?>" alt="">
+                <div class="col-12 p-t-10 p-b-10">
+                    <img class="w-100 lazy" src="<?= get_template_directory_uri() . '/resources/education/beyond-2.jpg'; ?>" alt="">
                 </div>
                 <div class="col-12 p-t-30">
                     <p>

@@ -4,7 +4,7 @@ include 'elements/nav-admission.php';
 include 'elements/key-resources.php';
 ?>
 
-<section class="container-fluid p-t-60">
+<section class="container-fluid p-t-110">
     <div class="row justify-content-center">
         <div class="col-lg-10 col-12">
             <div class="row">
@@ -30,7 +30,7 @@ include 'elements/key-resources.php';
                     <h1 style="color:#000!important;" class="text-center">CONTACT THE <br> SCHOOL OFFICE</h1>
                 </div>
                 <div class="col-lg-6 col-10 d-flex align-items-center justify-content-center p-t-60">
-                    <a href="#" class="cta-red">CONTACT US<img onload="SVGInject(this);" src="<?= get_template_directory_uri()  . '/resources/icons/arrow.svg'; ?>" alt=""> </a>
+                    <a href="<?= get_permalink(217); ?>" class="cta-red">CONTACT US<img onload="SVGInject(this);" src="<?= get_template_directory_uri()  . '/resources/icons/arrow.svg'; ?>" alt=""> </a>
                 </div>
             </div>
         </div>

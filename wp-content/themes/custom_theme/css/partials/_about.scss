@@ -353,7 +353,7 @@
         display: flex;
 
         .flickity-slider {
-            margin-left: calc(100% / 12);
+            margin-left: 9%;
             height: 100%;
             @media(min-width:1681px){
                 margin-left: 11.5%!important;
@@ -368,9 +368,9 @@
     }
 
     .related-item {
-        width: 540px;
-        height: 310px;
-        border-radius: 5px;
+        width: 570px;
+        height: 380px;
+        border-radius: 8px;
         overflow: hidden;
         display: block;
         @media(max-width:768px){
@@ -447,7 +447,7 @@
 
 .accreditation-collapse {
     padding-top: 30px;
-    padding-bottom: 100px;
+    padding-bottom: 120px;
 
     .accreditation-collapse-title {
         font-size: 30px;
@@ -532,8 +532,8 @@
     position: absolute;
     left: 10px;
     top: 10px;
-    width:540px;
-    height:310px;
+    width:570px;
+    height:380px;
     @media(max-width:768px){
         width:310px;
         height: 360px;
@@ -545,7 +545,7 @@
     background: linear-gradient(180deg, #000000 0%, rgba(255, 255, 255, 0) 100%);
     mix-blend-mode: multiply;
     opacity: 0.8;
-    border-radius: 5px;
+    border-radius: 8px;
     transform: rotate(-180deg);
     z-index:99999;
 }

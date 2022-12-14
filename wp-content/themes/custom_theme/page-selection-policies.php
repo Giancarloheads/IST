@@ -7,7 +7,7 @@ include 'elements/nav-admission.php';
     <div class="row justify-content-center">
         <div class="col-lg-10 col-12">
             <div class="row">
-                <div class="col-lg-6 col-12 ist-par-about-1 p-b-60">
+                <div class="col-lg-6 col-12 ist-par-about-1 p-b-110">
                     <div class="collapse-container-single">
                         <div data-bs-toggle="collapse" href="#elementary-collapse-single" role="button" aria-expanded="false" aria-controls="elementary-collapse-single">
                             <div class="single-collapse-par-big-txt">
@@ -31,10 +31,10 @@ include 'elements/nav-admission.php';
     </div>
 </section>
 
-<section class="container-fluid p-l-20 p-r-20 p-b-60  d-lg-block d-none">
+<section class="container-fluid p-l-20 p-r-20 p-b-110  d-lg-block d-none">
     <div class="row">
         <div class="col-lg-9 col-12">
-             <img class="w-100" src="<?= get_template_directory_uri() . '/resources/img/selection-policies.jpg'  ?>" alt="">
+             <img class="w-100 lazy" src="<?= get_template_directory_uri() . '/resources/img/selection-policies.jpg'  ?>" alt="">
         </div>
     </div>
 </section>
@@ -42,12 +42,12 @@ include 'elements/nav-admission.php';
 <section class="container-fluid p-b-60 d-lg-none d-block">
     <div class="row g-0">
         <div class="col-12">
-            <img class="w-100 d-lg-none d-block" src="<?= get_template_directory_uri() . '/resources/admission/selection-mobile-1.jpg'; ?>" alt="">
+            <img class="w-100 d-lg-none d-block lazy" src="<?= get_template_directory_uri() . '/resources/admission/selection-mobile-1.jpg'; ?>" alt="">
         </div>
     </div>
 </section>
 
-<section class="container-fluid p-b-60">
+<section class="container-fluid p-b-md-60 p-b-lg-110">
     <div class="row justify-content-center">
         <div class="col-lg-10 col-12">
             <div class="row">
@@ -65,11 +65,11 @@ include 'elements/nav-admission.php';
         <div class="col-lg-10 col-12">
             <div class="row criteria-row">
                 <div class="col-lg-3 col-12">
-                    <div class="criteria-title p-b-md-30">
+                    <div class="criteria-title p-t-md-20 p-b-md-20 p-b-md-30">
                         Age criterion
                     </div>
                 </div>
-                <div class="col-lg-9 col-12 d-lg-block d-none">
+                <div class="col-lg-9 col-12 d-lg-block d-none p-b-60">
                     <p>
                         Students are be placed in grade levels by age. The cut-off date determining grade placement shall be September 30th, although exemptions may be considered for students demonstrating developmental readiness whose date of birth falls within seven days of the cut-off (i.e., 7 October). The minimum age for admission shall be two years and nine months. No student may be admitted who shall turn 20 years of age prior to the date of his or her graduation. The Director shall specify any exceptions.
                     </p>
@@ -128,11 +128,11 @@ include 'elements/nav-admission.php';
             </div>
             <div class="row criteria-row">
                 <div class="col-lg-3 col-12">
-                    <div class="criteria-title p-b-md-30">
+                    <div class="criteria-title p-t-md-20 p-b-md-20 p-b-md-30">
                         Priority Admissions
                     </div>
                 </div>
-                <div class="col-lg-9 col-12 d-lg-block d-none">
+                <div class="col-lg-9 col-12 d-lg-block d-none p-b-60">
                     <p>
                         The school gives priority for admission within the following provisions:
                     </p>
@@ -165,7 +165,7 @@ include 'elements/nav-admission.php';
                             </div>
                         </div>
                         <div class="collapse" id="elementary-collapse-single-mobile-2">
-                            <div class="beliefs-collapse-par single-collapse-par">
+                            <div class="beliefs-collapse-par single-collapse-par p-b-60">
                                 <ul>
                                     <li>
                                         Preferred Capital Levy holders and Associate Members* take precedence over Normal Capital Levy payers, regardless of the date that the application was received (until open registration in the first week of May).

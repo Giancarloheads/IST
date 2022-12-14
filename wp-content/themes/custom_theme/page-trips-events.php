@@ -37,12 +37,11 @@ include 'elements/nav-pages-students.php';
         <div class="col-12">
             <div class="row align-items-center programs-layout-row g-0 d-lg-flex d-none">
                 <div class="col-lg-6 col-12">
-                    <img class="w-100" src="<?= get_template_directory_uri() . '/resources/img/trips-1.jpg'; ?>" alt="">
+                    <img class="w-100 lazy" src="<?= get_template_directory_uri() . '/resources/img/trips-1.jpg'; ?>" alt="">
                 </div>
                 <div class="col-lg-6 col-12 p-md-80">
                     <div class="title">
                         ELEMENTARY <br class="d-lg-block d-none"> FIELD TRIPS
-
                     </div>
                     <p class="m-0">
                         Elementary students participate in regular fieldtrips throughout the course of each school year. The majority of these excursions will be day outings in the Tianjin area associated with ‘Units of Inquiry’; however, as students become older they will venture further away from Tianjin until eventually they participate in a mini ‘Week Without Walls’ preparation trip which will involve them spending two to three nights away from their homes with their classmates and teachers.
@@ -59,7 +58,7 @@ include 'elements/nav-pages-students.php';
                     </p>
                 </div>
                 <div class="col-lg-6 col-12 order-1 order-lg-2">
-                    <img class="w-100" src="<?= get_template_directory_uri() . '/resources/img/trips-2.jpg'; ?>" alt="">
+                    <img class="w-100 lazy" src="<?= get_template_directory_uri() . '/resources/img/trips-2.jpg'; ?>" alt="">
                 </div>
             </div>
             <div class="row align-items-center programs-layout-row g-0 d-lg-none d-flex">
@@ -69,7 +68,7 @@ include 'elements/nav-pages-students.php';
                     </div>
                 </div>
                 <div class="col-12">
-                    <img class="w-100" src="<?= get_template_directory_uri() . '/resources/img/trips-1.jpg'; ?>" alt="">
+                    <img class="w-100 lazy" src="<?= get_template_directory_uri() . '/resources/img/trips-1.jpg'; ?>" alt="">
                 </div>
                 <div class="col-12 p-t-30">
                     <p class="m-0">
@@ -84,7 +83,7 @@ include 'elements/nav-pages-students.php';
                     </div>
                 </div>
                 <div class="col-lg-6 col-12">
-                    <img class="w-100" src="<?= get_template_directory_uri() . '/resources/img/trips-2.jpg'; ?>" alt="">
+                    <img class="w-100 lazy" src="<?= get_template_directory_uri() . '/resources/img/trips-2.jpg'; ?>" alt="">
                 </div>
                 <div class="col-12 p-t-30">
                     <p class="m-0">

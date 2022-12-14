@@ -6,7 +6,7 @@ get_header();
 include_once 'elements/nav-campus.php';
 ?>
 
-<section class="container-fluid p-b-60">
+<section class="container-fluid p-b-110">
     <div class="row justify-content-center">
         <div class="col-lg-10 col-12">
             <div class="row">
@@ -20,14 +20,14 @@ include_once 'elements/nav-campus.php';
         </div>
     </div>
 </section>
-<section class="container-fluid p-b-60">
+<section class="container-fluid p-b-110">
     <div class="row justify-content-center align-items-center">
         <div class="col-12">
-            <div class="row align-items-center programs-layout-row g-0 d-lg-flex d-none" style="padding-top:60px;border:none; border-top:1px solid #C0C0C0;padding-bottom:0;">
+            <div class="row align-items-center programs-layout-row g-0 p-t-110 d-lg-flex d-none" style="border:none; border-top:1px solid #C0C0C0;padding-bottom:0;">
                 <div class="col-lg-6 col-12">
-                    <img class="w-100" src="<?= get_template_directory_uri() . '/resources/campus/services-1.jpg' ?>" alt="">
+                    <img class="w-100 lazy" src="<?= get_template_directory_uri() . '/resources/campus/services-1.jpg' ?>" alt="">
                 </div>
-                <div class="col-lg-5 col-12 p-md-80">
+                <div class="col-lg-6 col-12 p-md-80">
                     <div class="title">
                         STUDENT & CAMPUS SAFETY
                     </div>
@@ -36,14 +36,14 @@ include_once 'elements/nav-campus.php';
                     </p>
                 </div>
             </div>
-            <div class="row align-items-center programs-layout-row g-0 d-lg-none d-flex" style="padding-top:60px;border:none; border-top:1px solid #C0C0C0;padding-bottom:0;">
+            <div class="row align-items-center programs-layout-row g-0 p-t-110 d-lg-none d-flex" style="border:none; border-top:1px solid #C0C0C0;padding-bottom:0;">
                 <div class="col-12">
                     <div class="title">
                         STUDENT & CAMPUS SAFETY
                     </div>
                 </div>
                 <div class="col-12">
-                    <img class="w-100" src="<?= get_template_directory_uri() . '/resources/campus/services-1.jpg' ?>" alt="">
+                    <img class="w-100 lazy" src="<?= get_template_directory_uri() . '/resources/campus/services-1.jpg' ?>" alt="">
                 </div>
                 <div class="col-12 p-t-30">
                     <p>
@@ -55,11 +55,11 @@ include_once 'elements/nav-campus.php';
     </div>
 </section>
 
-<section class="container-fluid p-b-60">
+<section class="container-fluid p-b-110">
     <div class="row justify-content-center">
         <div class="col-lg-10 col-12">
             <div class="row">
-                <div class="col-12 -container">
+                <div class="col-12 ">
                     <div class="safeguard-collapse" data-collapse-pos="1">
                         <div class="d-flex justify-content-between align-items-center d-sm-wrap" data-bs-toggle="collapse" href="#safeguard-1" role="button" data-collapse-pos="1" aria-expanded="false" aria-controls="safeguard-1">
                             <div class="collapse-title-about">
@@ -141,13 +141,11 @@ include_once 'elements/nav-campus.php';
         </div>
     </div>
 </section>
-
-
-<section class="container-fluid p-b-60">
+<section class="container-fluid p-b-110">
     <div class="row justify-content-center align-items-center g-0">
         <div class="col-12">
-            <div class="row align-items-center programs-layout-row g-0 d-lg-flex d-none" style="padding-top:60px;border:none; border-top:1px solid #C0C0C0;padding-bottom:0;">
-                <div class="col-lg-5 col-12 p-md-80 order-2 order-lg-1">
+            <div class="row align-items-center programs-layout-row g-0 d-lg-flex d-none p-t-110" style="border:none; border-top:1px solid #C0C0C0;padding-bottom:0;">
+                <div class="col-lg-6 col-12 p-md-80 order-2 order-lg-1">
                     <div class="title">
                         BUS SERVICE
                     </div>
@@ -155,18 +153,18 @@ include_once 'elements/nav-campus.php';
                         IST’s bus service is available to all students, with special drop off times for half‐day Nursery children, and a late bus service for students participating in extra‐curricular activities.
                     </p>
                 </div>
-                <div class="col-lg-6 offset-lg-1 col-12 offset-0 p-0 col-12 order-1 order-lg-2">
-                    <img class="w-100" src="<?= get_template_directory_uri() . '/resources/campus/services-2.jpg' ?>" alt="">
+                <div class="col-lg-6 col-12 p-0 col-12 order-1 order-lg-2">
+                    <img class="w-100 lazy" src="<?= get_template_directory_uri() . '/resources/campus/services-2.jpg' ?>" alt="">
                 </div>
             </div>
-            <div class="row align-items-center programs-layout-row g-0 d-lg-none d-flex" style="padding-top:60px;border:none; border-top:1px solid #C0C0C0;padding-bottom:0;">
+            <div class="row align-items-center programs-layout-row g-0 d-lg-none d-flex p-t-110" style="border:none; border-top:1px solid #C0C0C0;padding-bottom:0;">
                 <div class="col-12">
                     <div class="title">
                         BUS SERVICE
                     </div>
                 </div>
                 <div class="col-12 p-0">
-                    <img class="w-100" src="<?= get_template_directory_uri() . '/resources/campus/services-2.jpg' ?>" alt="">
+                    <img class="w-100 lazy" src="<?= get_template_directory_uri() . '/resources/campus/services-2.jpg' ?>" alt="">
                 </div>
                 <div class="col-12 p-t-30">
                     <p>
@@ -177,7 +175,7 @@ include_once 'elements/nav-campus.php';
         </div>
     </div>
 </section>
-<section class="container-fluid p-b-60">
+<section class="container-fluid p-b-110">
     <div class="row justify-content-center">
         <div class="col-lg-10 col-12">
             <div class="row">
@@ -213,14 +211,14 @@ include_once 'elements/nav-campus.php';
 </section>
 
 
-<section class="container-fluid p-b-60">
+<section class="container-fluid">
     <div class="row justify-content-center align-items-center g-0">
         <div class="col-12">
-            <div class="row align-items-center programs-layout-row g-0 d-lg-flex d-none" style="padding-top:60px;border:none; border-top:1px solid #C0C0C0;padding-bottom:0;">
+            <div class="row align-items-center programs-layout-row g-0 d-lg-flex d-none" style="border:none; border-top:1px solid #C0C0C0;">
                 <div class="col-lg-6 p-0 col-12">
-                    <img class="w-100" src="<?= get_template_directory_uri() . '/resources/campus/clinic.jpg' ?>" alt="">
+                    <img class="w-100 lazy" src="<?= get_template_directory_uri() . '/resources/campus/clinic.jpg' ?>" alt="">
                 </div>
-                <div class="col-lg-5 col-12 p-md-80">
+                <div class="col-lg-6 col-12 p-md-80">
                     <div class="title">
                         SCHOOL CLINIC
                     </div>
@@ -229,16 +227,16 @@ include_once 'elements/nav-campus.php';
                     </p>
                 </div>
             </div>
-            <div class="row align-items-center programs-layout-row g-0 d-lg-none d-block" style="padding-top:60px;border:none; border-top:1px solid #C0C0C0;padding-bottom:0;">
+            <div class="row align-items-center programs-layout-row g-0 d-lg-none d-block p-t-110" style="border:none; border-top:1px solid #C0C0C0;padding-bottom:0;">
                 <div class="col-12">
                     <div class="title">
                         SCHOOL CLINIC
                     </div>
                 </div>
                 <div class="col-12 p-0">
-                    <img class="w-100" src="<?= get_template_directory_uri() . '/resources/campus/clinic.jpg' ?>" alt="">
+                    <img class="w-100 lazy" src="<?= get_template_directory_uri() . '/resources/campus/clinic.jpg' ?>" alt="">
                 </div>
-                <div class="col-12 p-t-30">
+                <div class="col-12 p-t-60">
                     <p>
                         IST has a fully operational school clinic staffed by 2 qualified nurses who remain on duty throughout the school day and after school during standard CCAs, athletics practices, and other special school events. Our nurses monitor the general health and physical wellbeing of our students and also circulate general health and wellness information.
                     </p>
@@ -247,7 +245,7 @@ include_once 'elements/nav-campus.php';
         </div>
     </div>
 </section>
-<section class="container-fluid p-b-60">
+<section class="container-fluid p-b-110">
     <div class="row justify-content-center">
         <div class="col-lg-10 col-12">
             <div class="row">
@@ -385,12 +383,11 @@ include_once 'elements/nav-campus.php';
         </div>
     </div>
 </section>
-
-<section class="container-fluid p-b-60">
+<section class="container-fluid p-b-110">
     <div class="row justify-content-center align-items-center">
         <div class="col-12">
-            <div class="row align-items-center programs-layout-row g-0 d-lg-flex d-none" style="padding-top:60px;border:none; border-top:1px solid #C0C0C0;padding-bottom:0;">
-                <div class="col-lg-5 col-12 p-md-80 order-2 order-lg-1">
+            <div class="row align-items-center programs-layout-row g-0 d-lg-flex d-none p-t-110" style="border:none; border-top:1px solid #C0C0C0;padding-bottom:0;">
+                <div class="col-lg-6 col-12 p-md-80 order-2 order-lg-1">
                     <div class="title">
                         SCHOOL LIBRARY
                     </div>
@@ -398,18 +395,18 @@ include_once 'elements/nav-campus.php';
                         With over 37,000 titles in more than 6 languages, the IST Library is the largest of any international school in Tianjin. We strive to bring all members of the IST community a wide variety of reading choices, whether purely for pleasure or for teaching and learning.
                     </p>
                 </div>
-                <div class="col-lg-6 col-12 offset-lg-1 offset-0 p-0 col-12 order-1 order-lg-2">
-                    <img class="w-100" src="<?= get_template_directory_uri() . '/resources/campus/library.jpg' ?>" alt="">
+                <div class="col-lg-6 col-12 p-0 col-12 order-1 order-lg-2">
+                    <img class="w-100 lazy" src="<?= get_template_directory_uri() . '/resources/campus/library.jpg' ?>" alt="">
                 </div>
             </div>
-            <div class="row align-items-center programs-layout-row g-0 d-flex d-lg-none" style="padding-top:60px;border:none; border-top:1px solid #C0C0C0;padding-bottom:0;">
+            <div class="row align-items-center programs-layout-row g-0 d-flex d-lg-none p-t-110" style="border:none; border-top:1px solid #C0C0C0;padding-bottom:0;">
                 <div class="col-12">
                     <div class="title">
                         SCHOOL LIBRARY
                     </div>
                 </div>
                 <div class="col-12 p-0">
-                    <img class="w-100" src="<?= get_template_directory_uri() . '/resources/campus/library.jpg' ?>" alt="">
+                    <img class="w-100 lazy" src="<?= get_template_directory_uri() . '/resources/campus/library.jpg' ?>" alt="">
                 </div>
                 <div class="col-12 p-t-30">
                     <p>
@@ -423,9 +420,9 @@ include_once 'elements/nav-campus.php';
 <section class="container-fluid">
     <div class="row justify-content-center align-items-center">
         <div class="col-12">
-            <div class="row align-items-center programs-layout-row g-0 d-lg-flex d-none" style="padding-bottom:60px;padding-top:60px;border:none; border-top:solid 1px #C0C0C0!important;border-bottom:solid 1px #C0C0C0;">
+            <div class="row align-items-center programs-layout-row g-0 d-lg-flex d-none p-t-110 p-b-110" style="border:none; border-top:solid 1px #C0C0C0!important;border-bottom:solid 1px #C0C0C0;">
                 <div class="col-lg-6 p-0 col-12">
-                    <img class="w-100" src="<?= get_template_directory_uri() . '/resources/campus/cafeteria.jpg' ?>" alt="">
+                    <img class="w-100 lazy" src="<?= get_template_directory_uri() . '/resources/campus/cafeteria.jpg' ?>" alt="">
                 </div>
                 <div class="col-lg-5 col-12 p-md-80">
                     <div class="title">
@@ -444,7 +441,7 @@ include_once 'elements/nav-campus.php';
                     </div>
                 </div>
                 <div class="col-12 p-0">
-                    <img class="w-100" src="<?= get_template_directory_uri() . '/resources/campus/cafeteria.jpg' ?>" alt="">
+                    <img class="w-100 lazy" src="<?= get_template_directory_uri() . '/resources/campus/cafeteria.jpg' ?>" alt="">
                 </div>
                 <div class="col-12 p-t-30">
                     <p>

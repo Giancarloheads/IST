@@ -7,7 +7,7 @@ include_once 'elements/nav-pages-infos.php';
     <div class="row justify-content-center">
         <div class="col-lg-10 col-12">
             <div class="row">
-                <div class="col-lg-6 col-12 ist-par-about-1 p-b-60">
+                <div class="col-lg-6 col-12 ist-par-about-1 p-b-90">
                     The International School of Tianjin is a not-for-profit school offering an outstanding education for the students of the international community of Tianjin. <br>
                     <i>
                         Working together, <br>
@@ -23,13 +23,13 @@ include_once 'elements/nav-pages-infos.php';
 <section class="container-fluid p-l-md-30 p-r-md-30 p-b-60">
     <div class="row g-0">
         <div class="col-lg-9 col-12">
-            <img class="w-100 d-lg-block d-none" src="<?= get_template_directory_uri() . '/resources/about/beliefs-img-1.jpg'  ?>" alt="">
-            <img class="w-100 d-block d-lg-none" src=<?= get_template_directory_uri() . '/resources/about/beliefs-mobile-1.jpg'; ?>" alt="">
+            <img class="w-100 lazy d-lg-block d-none" src="<?= get_template_directory_uri() . '/resources/about/beliefs-img-1.jpg'  ?>" alt="">
+            <img class="w-100 lazy d-block d-lg-none" src=<?= get_template_directory_uri() . '/resources/about/beliefs-mobile-1.jpg'; ?>" alt="">
         </div>
     </div>
 </section>
 <section class="container-fluid p-b-60">
-    <div class="row justify-content-center">
+    <div class="row justify-content-center p-t-90 p-b-100">
         <div class="col-lg-10 col-12">
             <div class="row">
                 <div class="col-12 beliefs-collapse-container">
@@ -42,7 +42,7 @@ include_once 'elements/nav-pages-infos.php';
                                 <img class="plus-icon-collapse" class="plus-icon-collapse" id="beliefs-collapse-1-icon" style="width:20px; height:20px;" src="<?= get_template_directory_uri() . '/resources/icons/plus_collapse.svg' ?>" alt="">
                             </div>
                         </div>
-                        <div class="collapse" id="beliefs-collapse-1">
+                        <div class="collapse w-lg-50" id="beliefs-collapse-1">
                             <div class="beliefs-collapse-par">
                                 We all agree that the school and the family must work closely together to help each child achieve his or her unique potential. We help our students develop resilience and self-confidence, expecting them to be respectful of others and to recognize that everybody is entitled to his or her own point of view.
                             </div>
@@ -57,7 +57,7 @@ include_once 'elements/nav-pages-infos.php';
                                 <img class="plus-icon-collapse" id="beliefs-collapse-2-icon" style="width:20px; height:20px;" src="<?= get_template_directory_uri() . '/resources/icons/plus_collapse.svg' ?>" alt="">
                             </div>
                         </div>
-                        <div class="collapse" id="beliefs-collapse-2">
+                        <div class="collapse w-lg-50" id="beliefs-collapse-2">
                             <div class="beliefs-collapse-par">
                                 They learn to think for themselves, but they also understand the benefit of working together in teams. Our students learn how to think creatively and critically, how to make sound judgments, and how to apply their knowledge in real life situations. Teachers and parents have high social, moral and academic expectations of our students. Together, they challenge students to make the most of their abilities, and help them to make meaningful connections between the different branches of human knowledge. Our teachers appreciate that individual students learn differently, so they provide a variety of learning experiences and use a wide range of teaching resources, technologies, methods and assessment strategies. Our community promotes balance and wellbeing, celebrates all kinds of student success and appreciates that adults, too, are learners.
                             </div>
@@ -72,7 +72,7 @@ include_once 'elements/nav-pages-infos.php';
                                 <img class="plus-icon-collapse" id="beliefs-collapse-3-icon" style="width:20px; height:20px;" src="<?= get_template_directory_uri() . '/resources/icons/plus_collapse.svg' ?>" alt="">
                             </div>
                         </div>
-                        <div class="collapse" id="beliefs-collapse-3">
+                        <div class="collapse w-lg-50" id="beliefs-collapse-3">
                             <div class="beliefs-collapse-par">
                                 For this reason, our students learn that they have a duty to the wider community and to the environment. They learn to take part in government, to give service to others, and to work towards a better and more peaceful world. They learn about our host country, China, embrace multilingualism, and reflect on how different people in the world can learn from each other. Our students learn to be honest, to persevere in everything they do, and to have the courage to defend their views while making informed and ethical choices as future leaders in our changing world.
                             </div>
@@ -329,7 +329,7 @@ include_once 'elements/nav-pages-infos.php';
     </div>
 </div>
 
-<section class="container-fluid p-t-60 p-b-60">
+<section class="container-fluid p-t-110 p-b-110">
     <div class="row justify-content-center">
         <div class="col-12">
             <div class="row align-items-center">
@@ -352,7 +352,7 @@ include_once 'elements/nav-pages-infos.php';
                     </div>
                 </div>
                 <div class="col-lg-6 offset-lg-1 col-12 offset-0 p-t-sm-30 order-2">
-                    <img src="<?= get_template_directory_uri() . '/resources/about/beliefs-img-2.jpg' ?>" alt="">
+                    <img class="lazy" src="<?= get_template_directory_uri() . '/resources/about/beliefs-img-2.jpg' ?>" alt="">
                 </div>
             </div>
         </div>

@@ -1,4 +1,4 @@
-<section class="container-fluid p-b-30 p-t-30">
+<section class="container-fluid p-b-30 p-t-90">
     <div class="row">
         <div class="col-12">
             <div class="ist-about-title related-section-title">EXPLORE MORE</div>
@@ -20,7 +20,7 @@ $pages = get_posts($args);
 
 
 ?>
-<div class="related-slider-container p-b-60 p-l-10" style="position:relative;">
+<div class="related-slider-container p-b-120 p-l-10" style="position:relative;">
     <div class="related-slider">
         <?php
         foreach ($pages as $key => $p) :

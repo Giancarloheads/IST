@@ -2,12 +2,12 @@
     $key_resources = get_field('key_resources', get_the_ID());
     if($key_resources != '' || is_page(39)) :
 ?>
-<section class="container-fluid p-t-60 p-b-60">
+<section class="container-fluid p-b-lg-90 <?= is_page(164) ? 'p-b-0i p-t-lg-110' : 'p-t-110'; ?> <?= is_page(158) || is_page(162) ? 'p-b-90i' : ''; ?> ">
     <div class="row justify-content-center">
         <div class="col-lg-10 col-12">
             <div class="row <?= is_page(219) || is_page(184) ? 'justify-content-center' : ''; ?>">
                 <?php if(!is_page(39)){ ?>
-                <div class="<?= get_the_ID() == 164 || get_the_ID() == 219 ? '' : 'p-b-60'; ?> col-12 text-center key-resource-title">
+                <div class="<?= get_the_ID() == 164 || get_the_ID() == 219 ? '' : 'p-b-40'; ?> col-12 text-center key-resource-title">
                     <?php if(is_page(162)){ ?>
                         Candidates can download the required documents:
                     <?php } else if(is_page(164)){ ?>
@@ -28,7 +28,7 @@
                             $acf_file = get_field('file' , $k);
                             if($acf_file){
                         ?>
-                            <div class="g-3 col-lg-4 col-md-6 col-12">
+                            <div class="g-4 col-lg-4 col-md-6 col-12">
                                 <div class="single-key-resources">
                                     <a download href="<?= get_field('file',$k); ?>">
                                         <div class=""><?= get_the_Title($k); ?></div>

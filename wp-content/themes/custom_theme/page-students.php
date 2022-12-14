@@ -7,10 +7,10 @@ include 'elements/nav-community.php';
     <div class="row justify-content-center">
         <div class="col-lg-10 col-12">
             <div class="row">
-                <div class="col-lg-6 col-12 ist-par-about-1 p-b-60">
+                <div class="col-lg-6 col-12 ist-par-about-1 p-b-110">
                     <div class="collapse-container-single">
                         <div>
-                            <div class="single-collapse-par-big-txt">
+                            <div class="single-collapse-par-med-txt">
                                 Our students are the sole reason for our school to exist and for our international community to commune in our wonderful host city of Tianjin. Our mission is to provide a welcoming environment where the diverse needs of our students come first, and we are very proud of each and every one of them.
                             </div>
                         </div>
@@ -20,15 +20,15 @@ include 'elements/nav-community.php';
         </div>
     </div>
 </section>
-<section class="container-fluid p-b-60">
+<section class="container-fluid p-b-110">
     <div class="row">
         <div class="col-lg-9 col-12">
-            <img class="w-100 d-none d-lg-block" src="<?= get_template_directory_uri() . '/resources/community/students-1.jpg'  ?>" alt="">
-            <img class="w-100 d-block d-lg-none" src="<?= get_template_Directory_uri() . '/resources/community/students-mobile-1.jpg' ?>" alt="">
+            <img class="w-100 d-none d-lg-block lazy" src="<?= get_template_directory_uri() . '/resources/community/students-1.jpg'  ?>" alt="">
+            <img class="w-100 d-block d-lg-none lazy" src="<?= get_template_Directory_uri() . '/resources/community/students-mobile-1.jpg' ?>" alt="">
         </div>
     </div>
 </section>
-<section class="container-fluid p-b-60">
+<section class="container-fluid p-b-110">
     <div class="row justify-content-center">
         <div class="col-lg-10 col-12">
             <div class="row">
@@ -88,7 +88,7 @@ include 'elements/nav-community.php';
         </div>
     </div>
 </section>
-<section class="container-fluid p-b-60">
+<section class="container-fluid p-b-110">
     <div class="row justify-content-center">
         <div class="col-12">
             <div class="row">
@@ -96,8 +96,8 @@ include 'elements/nav-community.php';
                     <h1 style="color:#000;position:relative;z-index:9999">WHAT IST STUDENTS LOVE MOST</h1>
                 </div>
                 <div class="col-12 scrreveal" style="position:relative;bottom:30px;">
-                    <img class="w-100 d-none d-lg-block" src="https://via.placeholder.com/1920x1080" alt="">
-                    <img class="w-100 d-block d-lg-none" src="<?= get_template_directory_uri() . '/resources/community/students-mobile-2.jpg'; ?>" alt="">
+                    <img class="w-100 d-none d-lg-block lazy" src="https://via.placeholder.com/1920x1080?text=video/interview?" alt="">
+                    <img class="w-100 d-block d-lg-none lazy" src="<?= get_template_directory_uri() . '/resources/community/students-mobile-2.jpg'; ?>" alt="">
                 </div>
             </div>
         </div>
@@ -106,7 +106,7 @@ include 'elements/nav-community.php';
                 <div class="col-lg-6 offset-lg-6 col-12 offset-0">
                     <div class="collapse-container-single">
                         <div>
-                            <div class="single-collapse-par-big-txt">
+                            <div class="single-collapse-par-med-txt p-t-60">
                                 IST is proud to host the most diverse and international community, with over 30 different nationalities, and to form students who attend some of the most recognized and respected universities in the world.
                             </div>
                         </div>
@@ -130,7 +130,7 @@ include 'elements/nav-community.php';
                     </p>
                 </div>
                 <div class="col-lg-6 col-12 g-0 p-t-40">
-                    <img class="w-100" src="<?= get_template_directory_uri() . '/resources/education/student-support.jpg'; ?>" alt="">
+                    <img class="w-100 lazy" src="<?= get_template_directory_uri() . '/resources/education/student-support.jpg'; ?>" alt="">
                 </div>
             </div>
             <div class="row align-items-center programs-layout-row g-0 d-lg-none d-flex" style="border-top: 1px solid #C0C0C0!important;"> 
@@ -140,7 +140,7 @@ include 'elements/nav-community.php';
                     </div>
                 </div>
                 <div class="col-12 g-0">
-                    <img class="w-100" src="<?= get_template_directory_uri() . '/resources/education/student-support.jpg'; ?>" alt="">
+                    <img class="w-100 lazy" src="<?= get_template_directory_uri() . '/resources/education/student-support.jpg'; ?>" alt="">
                 </div>
                 <div class="col-12 p-t-30">
                     <p>
@@ -150,7 +150,7 @@ include 'elements/nav-community.php';
             </div>
             <div class="row align-items-center programs-layout-row programs-last-lay-row g-0 d-lg-flex d-none">
                 <div class="col-6">
-                    <img class="w-100" src="<?= get_template_directory_uri() . '/resources/education/beyond.jpg'; ?>" alt="">
+                    <img class="w-100 lazy" src="<?= get_template_directory_uri() . '/resources/education/beyond.jpg'; ?>" alt="">
                 </div>
                 <div class="col-6 p-md-80 students-par">
                     <div>
@@ -168,7 +168,7 @@ include 'elements/nav-community.php';
                     </div>
                 </div>
                 <div class="col-12">
-                    <img class="w-100" src="<?= get_template_directory_uri() . '/resources/education/beyond.jpg'; ?>" alt="">
+                    <img class="w-100 lazy" src="<?= get_template_directory_uri() . '/resources/education/beyond.jpg'; ?>" alt="">
                 </div>
                 <div class="col-12 p-t-30">
                     <p>
@@ -186,7 +186,7 @@ include 'elements/nav-community.php';
                     </p>
                 </div>
                 <div class="col-lg-6 col-12">
-                    <img src="<?= get_template_directory_uri() . '/resources/education/student-support.jpg'; ?>" alt="">
+                    <img class="w-100 lazy" src="<?= get_template_directory_uri() . '/resources/education/student-support.jpg'; ?>" alt="">
                 </div>
             </div>
             <div class="row align-items-center programs-layout-row g-0 d-flex d-lg-none" style="border-bottom:none;">
@@ -196,7 +196,7 @@ include 'elements/nav-community.php';
                     </div>
                 </div>
                 <div class="col-lg-6 col-12">
-                    <img src="<?= get_template_directory_uri() . '/resources/education/student-support.jpg'; ?>" alt="">
+                    <img class="w-100 lazy" src="<?= get_template_directory_uri() . '/resources/education/student-support.jpg'; ?>" alt="">
                 </div>
                 <div class="col-12 p-t-30">
                     <p>

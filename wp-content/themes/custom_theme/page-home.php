@@ -17,7 +17,7 @@ get_header();
     <div class="row justify-content-center">
         <div class="col-md-10 col-sm-11">
             <div class="row">
-                <div class="col-6">
+                <div class="col-lg-6 col-10">
                     <div class="jumbotron-caption-container">
                         <h1 class="p-b-60 p-r-40">WORKING LEARNING ACTING TOGETHER</h1>
                         <div class="col-md-10 col-sm-11 col-xs-12">
@@ -42,7 +42,7 @@ get_header();
         </div>
     </div>
 </section>
-<section id="first-section" class="main-section p-t-60 p-b-60">
+<section id="first-section" class="main-section p-t-90 p-b-90">
     <div class="container-fluid">
         <div class="row justify-content-center">
             <div class="col-md-10 col-sm-11">
@@ -61,7 +61,7 @@ get_header();
                                 TOP 2%
                             </div>
                             <div>
-                                IB schools worlwide among 5500 IB schools in 160 countries
+                                <strong>IB schools worlwide</strong> among 5500 IB schools in 160 countries
                             </div>
                         </div>
                         <div class="main-top-container">
@@ -74,19 +74,19 @@ get_header();
                         </div>
                         <div class="main-logos-container">
                             <div class="grey-logo-container">
-                                <a href="">
+                                <a target="_blank" href="https://www.ibo.org/">
                                     <img class="ib-logo-home grey-svg dis-block" src="<?= get_template_directory_uri() . '/resources/icons/ib-grey.svg'; ?>" alt="">
-                                    <img class="ib-logo-home grey-svg dis-none" src="<?= get_template_directory_uri() . '/resources/icons/ib-logo.svg'; ?>" alt="">
+                                    <img class="ib-logo-home grey-svg dis-none" src="<?= get_template_directory_uri() . '/resources/icons/ib_footer_logo.svg'; ?>" alt="">
                                 </a>
                             </div>
                             <div class="grey-logo-container">
-                                <a href="">
+                                <a target="_blank" href="https://www.cois.org/for-schools/international-accreditation">
                                     <img class="cis-logo-home grey-svg dis-block" src="<?= get_template_directory_uri() . '/resources/icons/cis-grey.svg'; ?>" alt="">
                                     <img class="cis-logo-home grey-svg dis-none" src="<?= get_template_directory_uri() . '/resources/icons/cis-logo.svg'; ?>" alt="">
                                 </a>
                             </div>
                             <div class="grey-logo-container">
-                                <a href="">
+                                <a target="_blank" href="https://www.acswasc.org/">
                                     <img class="wasc-logo-home grey-svg dis-block" src="<?= get_template_directory_uri() . '/resources/icons/wasc-grey.svg'; ?>" alt="">
                                     <img class="wasc-logo-home grey-svg dis-none" src="<?= get_template_directory_uri() . '/resources/icons/wasc-logo.svg'; ?>" alt="">
                                 </a>
@@ -107,14 +107,14 @@ get_header();
         <div class="img-1-caption">
             <div class="title">WORLD CLASS FACILITIES</div>
             <div class="img-2-cta">
-                <a href="#" class="ist-cta justify-content-center" href="">Explore our Campus<img onload="SVGInject(this);" src="<?= get_template_directory_uri() . '/resources/icons/arrow.svg' ?>" alt=""> </a>
+                <a class="ist-cta justify-content-center" href="<?= get_permalink(108); ?>">Explore our Campus<img onload="SVGInject(this);" src="<?= get_template_directory_uri() . '/resources/icons/arrow.svg' ?>" alt=""> </a>
             </div>
         </div>
     </div>
 </section>
 
 <!-- SLIDER CLASSI -->
-<section id="slider-classes-container" class="container-fluid p-t-40 p-b-40 d-lg-block d-none">
+<section id="slider-classes-container" class="container-fluid p-t-90 p-b-40 d-lg-block d-none">
     <div class="row justify-content-center">
         <div class="col-md-10 col-sm-11">
             <div class="row">
@@ -128,7 +128,7 @@ get_header();
         </div>
     </div>
 </section>
-<section class="container-fluid p-b-60 d-lg-block d-none">
+<section class="container-fluid p-b-120 d-lg-block d-none">
     <div class="row justify-content-center">
         <div class="col-md-10 col-sm-11">
             <div class="row justify-content-center">
@@ -158,7 +158,7 @@ get_header();
                                             </a>
                                         </li>
                                         <li>
-                                            <a class="ist-cta" href="">
+                                            <a class="ist-cta" href="<?= get_permalink(143); ?>">
                                                 PYP KG3 - Grade 5
                                                 <img class="cta-black" onload="SVGInject(this); " src="<?= get_template_directory_uri() . '/resources/icons/arrow.svg' ?>" alt="">
                                             </a>
@@ -203,7 +203,7 @@ get_header();
     </div>
 </section>
 <!-- SLIDER CLASSI MOBILE -->
-<section class="container-fluid d-lg-none d-block bg-grey p-b-60">
+<section class="container-fluid d-lg-none d-block bg-grey p-b-90">
     <div class="row jutify-content-center">
         <div class="col-12">
             <div class="row">
@@ -227,7 +227,7 @@ get_header();
                                 </a>
                             </li>
                             <li>
-                                <a class="ist-cta" href="">
+                                <a class="ist-cta" href="<?= get_permalink(143); ?>">
                                     PYP KG3 - Grade 5
                                     <img class="cta-black" onload="SVGInject(this); " src="<?= get_template_directory_uri() . '/resources/icons/arrow.svg' ?>" alt="">
                                 </a>
@@ -261,23 +261,23 @@ get_header();
         </div>
     </div>
 </section>
-<section class="container-fluid p-t-60 p-b-60 bg-red bg-wh-mobile">
+<section class="container-fluid p-t-80 p-b-80 bg-red bg-wh-mobile">
     <div class="row justify-content-center">
         <div class="col-md-10 col-sm-11">
             <div class="row">
-                <div class="col-lg-3 col-12 p-md-b-40">
+                <div class="col-lg-2 col-12 p-md-b-40">
                     <div class="ist-section-title">
                         How Our Graduates Compare
                     </div>
                 </div>
-                <div class="col-lg-6 offset-lg-3 col-12 offset-0 compare-section">
+                <div class="col-lg-8 offset-lg-2 col-12 offset-0 compare-section">
                     <ul>
                         <li>
                             <div>
                                 37 pts
                             </div>
                             <div class="col-12">
-                                Average <strong> IB diploma score </strong>
+                                Average <strong class="str_bold"> IB diploma score </strong>
                                 <br>
                                 (vs 31 worldwide)
                             </div>
@@ -287,7 +287,7 @@ get_header();
                                 24%
                             </div>
                             <div>
-                                Score <strong>40+ points</strong> <br>
+                                Score <strong class="str_bold">40+ points</strong> <br>
                                 (vs 9% worldwide)
                             </div>
                         </li>
@@ -296,7 +296,7 @@ get_header();
                                 6%
                             </div>
                             <div>
-                                Score <strong>44+ points</strong>
+                                Score <strong class="str_bold">44+ points</strong>
                                 <br>
                                 (vs 0,3% worldwide)
                             </div>
@@ -426,7 +426,7 @@ get_header();
     </div>
 </section>
 <div class="slide-2-container">
-    <section class="community-section p-b-60 container-fluid rounded-section pos-rel">
+    <section class="community-section p-b-50 container-fluid rounded-section pos-rel">
         <div class="row justify-content-center">
             <div class="col-md-10 col-sm-11">
                 <div class="row">
@@ -437,7 +437,7 @@ get_header();
             </div>
         </div>
     </section>
-    <div id="review-container" class="container-fluid p-b-100">
+    <div id="review-container" class="container-fluid p-b-120">
         <div class="row">
             <div class="col-12 community-slider">
                 <?php
@@ -471,7 +471,7 @@ get_header();
             <div style="color:#fff" class="ist-subtitle-1 text-center p-b-10 d-none d-lg-block">Tianjin's</div>
             <div class="title">MOST DIVERSE LEARNING COMMUNITY</div>
             <div class="img-2-cta">
-                <a href="#" class="ist-cta justify-content-center" href="">Learn more <img onload="SVGInject(this);" src="<?= get_template_directory_uri() . '/resources/icons/arrow.svg' ?>" alt=""> </a>
+                <a href="<?= get_permalink(178); ?>" class="ist-cta justify-content-center" href="">Learn more <img onload="SVGInject(this);" src="<?= get_template_directory_uri() . '/resources/icons/arrow.svg' ?>" alt=""> </a>
             </div>
         </div>
     </div>
@@ -489,49 +489,49 @@ get_header();
                     </div>
                     <ul class="beyond-list d-lg-block d-none">
                         <li>
-                            <a class="ist-cta" href="">
+                            <a class="ist-cta" href="<?= get_permalink(184); ?>">
                                 Co-curricular activities <img class="cta-black" onload="SVGInject(this);" src="<?= get_template_directory_uri() . '/resources/icons/arrow.svg' ?>" alt="">
                             </a>
                         </li>
                         <li>
-                            <a class="ist-cta" href="">
+                            <a class="ist-cta" href="<?= get_permalink(186); ?>">
                                 Athletics <img class="cta-black" onload="SVGInject(this);" src="<?= get_template_directory_uri() . '/resources/icons/arrow.svg' ?>" alt="">
                             </a>
                         </li>
                         <li>
-                            <a class="ist-cta" href="">
+                            <a class="ist-cta" href="<?= get_permalink(188); ?>">
                                 Community & Service <img class="cta-black" onload="SVGInject(this);" src="<?= get_template_directory_uri() . '/resources/icons/arrow.svg' ?>" alt="">
                             </a>
                         </li>
                         <li>
-                            <a class="ist-cta" href="">
+                            <a class="ist-cta" href="<?= get_permalink(190); ?>">
                                 Trips & Events <img class="cta-black" onload="SVGInject(this);" src="<?= get_template_directory_uri() . '/resources/icons/arrow.svg' ?>" alt="">
                             </a>
                         </li>
                     </ul>
                 </div>
                 <div class="scrreveal col-lg-6 col-12 p-md-t-30">
-                    <img class="w-100" style="margin:25px auto!important;" src="<?= get_template_directory_uri() . '/resources/home/home-3.png' ?>" alt="">
+                    <img class="w-100 lazy" style="margin:25px auto!important;" src="<?= get_template_directory_uri() . '/resources/home/home-3.png' ?>" alt="">
                 </div>
                 <div class="col-12">
                     <ul class="beyond-list d-lg-none d-block p-t-40">
                         <li>
-                            <a class="ist-cta" href="">
+                            <a class="ist-cta" href="<?= get_permalink(184); ?>">
                                 Co-curricular activities <img class="cta-black" onload="SVGInject(this);" src="<?= get_template_directory_uri() . '/resources/icons/arrow.svg' ?>" alt="">
                             </a>
                         </li>
                         <li>
-                            <a class="ist-cta" href="">
+                            <a class="ist-cta" href="<?= get_permalink(186); ?>">
                                 Athletics <img class="cta-black" onload="SVGInject(this);" src="<?= get_template_directory_uri() . '/resources/icons/arrow.svg' ?>" alt="">
                             </a>
                         </li>
                         <li>
-                            <a class="ist-cta" href="">
+                            <a class="ist-cta" href="<?= get_permalink(188); ?>">
                                 Community & Service <img class="cta-black" onload="SVGInject(this);" src="<?= get_template_directory_uri() . '/resources/icons/arrow.svg' ?>" alt="">
                             </a>
                         </li>
                         <li>
-                            <a class="ist-cta" href="">
+                            <a class="ist-cta" href="<?= get_permalink(190); ?>">
                                 Trips & Events <img class="cta-black" onload="SVGInject(this);" src="<?= get_template_directory_uri() . '/resources/icons/arrow.svg' ?>" alt="">
                             </a>
                         </li>
@@ -544,7 +544,7 @@ get_header();
 
 <section class="container-fluid bg-white p-t-60">
     <div class="row justify-content-center">
-        <div class="col-md-10 col-xs-11">
+        <div class="col-md-10">
             <div class="row">
                 <div class="col-12">
                     <div class="ist-section-title-2">RECENT UPDATES</div>
@@ -553,7 +553,7 @@ get_header();
         </div>
     </div>
 </section>
-<section class="recent-news-slider-section">
+<section class="recent-news-slider-section p-b-120">
     <div class="recent-news-slider-container p-l-20">
         <?php
         $args = array(
@@ -567,7 +567,7 @@ get_header();
         foreach ($posts as $index => $p) :
             switch ($index) {
                 case 0:
-                    $cat_color = 'hover-green';
+                    $cat_color = 'hover-red';
                     break;
                 case 1:
                     $cat_color = 'hover-yellow';
@@ -584,6 +584,11 @@ get_header();
             }
 
             $thumbnail = get_the_post_thumbnail_url($p -> ID);
+
+            $title = get_the_Title($p -> ID);
+             if(strlen($title) > 40 ){
+                $title = substr($title , '0' , '40') . '...';
+             }
         ?>
             <a class="recent-news-slider-item" href="<?= get_permalink($p -> ID); ?>"> 
                 <div class="recent-news">
@@ -591,9 +596,7 @@ get_header();
                         <?php 
                             if($thumbnail != '') {
                         ?>
-                        <div class="news-img">
-                            <img src="<?= get_the_post_thumbnail_url($p -> ID); ?>" alt="">
-                        </div>
+                        <div class="news-img" style="background-image:url('<?= $thumbnail; ?>'); background-position:center; background-repeat: no-repeat; background-size: cover; object-fit:cover;"></div>
                         <?php 
                             } else {
                         ?>
@@ -603,7 +606,7 @@ get_header();
                         <?php } ?>
                         <div class="news-caption">
                             <div class="news-title">
-                                <?= get_the_Title($p -> ID); ?>
+                                <?= $title ?>
                             </div>
                             <div class="news-date">
                                 <?= get_the_date("Y-m-d H:i:s" , $p -> ID); ?>
@@ -640,7 +643,9 @@ get_header();
                     <div class="row d-flex align-items-center">
                         <div class="cta-pre-footer ist-cta-1 m-md-b-40 col-lg-5 col-md-10">
                             <div>
-                                INQUIRE NOW
+                                <a href="<?= get_permalink(217); ?>">    
+                                    INQUIRE NOW
+                                </a>
                             </div>
                             <div>
                                 <img onload="SVGInject(this);" src="<?= get_template_directory_uri() . '/resources/icons/arrow.svg'; ?>" alt="">
@@ -648,14 +653,16 @@ get_header();
                         </div>
                         <div class="cta-pre-footer ist-cta-1  col-lg-5 col-md-10">
                             <div>
-                                WORK WITH US
+                                <a href="<?= get_permalink(219); ?>">
+                                    WORK WITH US
+                                </a>
                             </div>
                             <img onload="SVGInject(this); " src="<?= get_template_directory_uri() . '/resources/icons/arrow.svg'; ?>" alt="">
                         </div>
                     </div>
                 </div>
                 <div class="pre-footer-cta-2">
-                    OR <div class="d-block d-lg-none p-md-b-20"><br></div> <span>LEARN MORE ABOUT OUR PROGRAMMES</span> <img class="m-l-10 " onload="SVGInject(this);" src="<?= get_template_directory_uri() . '/resources/icons/arrow.svg'; ?>" alt="">
+                    OR <div class="d-block d-lg-none p-md-b-20"><br></div> <span class="m-l-10"> <a href="<?= get_permalink(23); ?>"> LEARN MORE ABOUT OUR PROGRAMMES</a></span> <img class="m-l-10 " onload="SVGInject(this);" src="<?= get_template_directory_uri() . '/resources/icons/arrow.svg'; ?>" alt="">
                 </div>
             </div>
         </div>

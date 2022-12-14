@@ -15,15 +15,15 @@ include 'elements/nav-pages-programs.php';
                 <div class="col-lg-6 col-12 ist-par-about-1 p-b-md-30">
                     Our Elementary School offers a welcoming, inclusive international experience for children from Nursery to Grade 5 in which engaged parents and highly skilled and committed teachers work together to nurture each child’s unique academic and social-emotional learning needs in an environment of quality learning resources and world class facilities.
                 </div>
-                <div class="col-lg-6 col-12 text-right m-b-sm-30 flex-sm-center">
+                <a target="_blank" href="https://www.ibo.org/programmes/primary-years-programme/" class="col-lg-6 col-12 text-right m-b-sm-30 flex-sm-center">
                     <img class="float-icon-left" onload="SVGInject(this)" src="<?= get_template_directory_uri() . '/resources/programs/logo-elementary.svg' ?>" alt="">
-                </div>
+                </a>
             </div>
         </div>
     </div>
 </section>
 
-<section class="container-fluid p-t-md-60 p-b-60">
+<section class="container-fluid p-t-md-60 p-b-110">
     <div class="row justify-content-center">
         <div class="col-md-10 col-sm-12">
             <div class="row g-3 edu-container">
@@ -32,7 +32,7 @@ include 'elements/nav-pages-programs.php';
                         <div class="p-t-20">
                             <img onload="SVGInject(this);" class="h-100 edu-box-img" src="<?= get_template_directory_uri() . '/resources/education/edu-1.svg' ?>" alt="">
                         </div>
-                        <a class="ist-cta" href="<?= get_permalink(144); ?>">
+                        <a class="ist-cta">
                             Baby Dragon Playgroup
                             <img class="cta-black" onload="SVGInject(this); " src="<?= get_template_directory_uri() . '/resources/icons/arrow.svg' ?>" alt="">
                         </a>
@@ -46,7 +46,7 @@ include 'elements/nav-pages-programs.php';
                         <div>
                             <img onload="SVGInject(this);" class="h-100 edu-box-img" src="<?= get_template_directory_uri() . '/resources/education/edu-2.svg' ?>" alt="">
                         </div>
-                        <a class="ist-cta" href="<?= get_permalink(145); ?>">
+                        <a class="ist-cta">
                             PYP Early Years
                             <img class="cta-black" onload="SVGInject(this); " src="<?= get_template_directory_uri() . '/resources/icons/arrow.svg' ?>" alt="">
                         </a>
@@ -79,7 +79,7 @@ include 'elements/nav-pages-programs.php';
         </div>
     </div>
 </section>
-<section class="container-fluid p-b-60">
+<section class="container-fluid p-b-120">
     <div class="row justify-content-center">
         <div class="col-lg-10 col-12">
             <div class="row">
@@ -123,7 +123,7 @@ include 'elements/nav-pages-programs.php';
                                     </p>
                                 </div>
                                 <div class="col-lg-6 col-12 flex-md-center order-1 order-lg-2 p-b-md-30">
-                                    <img src="<?= get_template_directory_uri() . '/resources/programs/justin-lobsey-1.jpg' ?>" alt="">
+                                    <img class="lazy" src="<?= get_template_directory_uri() . '/resources/programs/justin-lobsey-1.jpg' ?>" alt="">
                                 </div>
                             </div>
                         </div>
@@ -165,7 +165,7 @@ include 'elements/nav-pages-programs.php';
                                     </ul>
                                     </p>
                                     <div class="elementary-download-inquiry">
-                                        <a href="<?= get_permalink(); ?>">
+                                        <a target="_blank" class="ist-cta" download style="color:#CC0001" href="<?= get_permalink(208); ?>">
                                             Download IST Program if Inquiry <img onload="SVGInject(this)" src="<?= get_template_directory_uri() . '/resources/icons/arrow.svg'; ?>" alt="">
                                         </a>
                                     </div>
@@ -185,7 +185,7 @@ include 'elements/nav-pages-programs.php';
         </div>
     </div>
 </section>
-<section class="container-fluid p-b-60 p-t-60">
+<section class="container-fluid p-b-60 p-t-lg-60">
     <div class="row justify-content-center">
         <div class="col-12">
             <div class="row">
@@ -193,15 +193,15 @@ include 'elements/nav-pages-programs.php';
                     <h1 style="color:#000;position:relative;z-index:9999">LOREM ISPSUM DOLOR SIT AMET LOREM</h1>
                 </div>
                 <div class="col-12 scrreveal" style="position:relative;bottom:40px;">
-                    <img class="w-100 d-lg-block d-none" src="<?= get_template_directory_uri() . '/resources/programs/elementary-img-1.jpg'; ?>" alt="">
-                    <img class="w-100 d-lg-none d-block" src="<?= get_template_directory_uri() . '/resources/programs/elementary-mobile-1.jpg'; ?>" alt="">
+                    <img class="w-100 d-lg-block d-none lazy" src="<?= get_template_directory_uri() . '/resources/programs/elementary-img-1.jpg'; ?>" alt="">
+                    <img class="w-100 d-lg-none d-block lazy" src="<?= get_template_directory_uri() . '/resources/programs/elementary-mobile-1.jpg'; ?>" alt="">
                 </div>
             </div>
         </div>
         <div class="col-lg-10 col-12">
             <div class="row">
                 <div class="col-lg-6 offset-lg-6 col-12 offset-0">
-                    <div class="collapse-container-single">
+                    <div class="collapse-container-single p-t-40 p-b-40">
                         <div data-bs-toggle="collapse" href="#elementary-collapse-single" role="button" aria-expanded="false" aria-controls="elementary-collapse-single">
                             <div class="single-collapse-par-big-txt">
                                 The IST elementary school incorporates both the early childhood (Nursery and Pre-Kindergarten) and the elementary/primary (Kindergarten to Grade 5) sections.
@@ -237,17 +237,17 @@ include 'elements/nav-pages-programs.php';
                     </p>
                 </div>
                 <div class="col-6">
-                    <img class="w-100" src="<?= get_template_directory_uri() . '/resources/education/student-support.jpg'; ?>" alt="">
+                    <img class="w-100 lazy" src="<?= get_template_directory_uri() . '/resources/education/student-support.jpg'; ?>" alt="">
                 </div>
             </div>
-            <div class="row align-items-center programs-layout-row g-0 d-lg-none d-flex">
+            <div class="row align-items-center programs-layout-row p-t-md-0 g-0 d-lg-none d-flex">
                 <div class="col-12 p-md-80">
                     <div class="title">
                         STUDENT SUPPORT
                     </div>
                 </div>
-                <div class="col-12">
-                    <img class="w-100" src="<?= get_template_directory_uri() . '/resources/education/student-support.jpg'; ?>" alt="">
+                <div class="col-12 p-b-40 p-t-10">
+                    <img class="w-100 lazy" src="<?= get_template_directory_uri() . '/resources/education/student-support.jpg'; ?>" alt="">
                 </div>
                 <div class="col-12 p-t-30">
                     <p>
@@ -257,7 +257,7 @@ include 'elements/nav-pages-programs.php';
             </div>
             <div class="row align-items-center programs-layout-row programs-last-lay-row p-t-120 g-0 d-lg-flex d-none">
                 <div class="col-lg-6 col-12">
-                    <img class="w-100" src="<?= get_template_directory_uri() . '/resources/education/beyond_ele.jpg'; ?>" alt="">
+                    <img class="w-100 lazy" src="<?= get_template_directory_uri() . '/resources/education/beyond_ele.jpg'; ?>" alt="">
                 </div>
                 <div class="col-lg-6 col-12 p-md-80">
                     <div class="title">
@@ -274,8 +274,8 @@ include 'elements/nav-pages-programs.php';
                         BEYOND THE CURRICULUM
                     </div>
                 </div>
-                <div class="col-lg-6 col-12 p-b-30">
-                    <img class="w-100" src="<?= get_template_directory_uri() . '/resources/education/beyond_ele.jpg'; ?>" alt="">
+                <div class="col-lg-6 col-12 p-b-40 p-t-10">
+                    <img class="w-100 lazy" src="<?= get_template_directory_uri() . '/resources/education/beyond_ele.jpg'; ?>" alt="">
                 </div>
                 <div class="col-12">
                     <p>

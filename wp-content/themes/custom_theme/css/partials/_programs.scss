@@ -14,7 +14,14 @@
         align-items: flex-start;
         justify-content: space-between;
         border-bottom: solid 1px $grey;
-
+        &:hover{
+            .programme-arrow{
+                transform:rotate(45deg);
+            }
+        }
+        .programme-arrow{
+            transition: all ease .3s;
+        }
         div {
             >img {
                 width: 85%;
@@ -42,12 +49,12 @@
 }
 
 .overview-edu-container {
-    border-top: solid 1px #000;
-    padding-top: 10px;
+    border-top: solid 1px #C0C0C0;
+    padding-top: 15px;
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
-    padding-bottom: 60px;
+    padding-bottom: 140px;
 
     @media(max-width:768px) {
         flex-direction: column;
@@ -154,7 +161,8 @@
                 transition: all ease .3s;
                 transform: rotate(90deg);
                 margin-left: 10px;
-
+                width:15px;
+                height: 15px;
                 path {
                     stroke: $red;
                 }

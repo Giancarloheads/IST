@@ -5,7 +5,7 @@ get_header();
 include_once 'elements/nav-campus.php';
 ?>
 
-<section class="container-fluid p-b-60">
+<section class="container-fluid p-b-110">
     <div class="row justify-content-center">
         <div class="col-lg-10 col-12">
             <div class="row">
@@ -18,12 +18,12 @@ include_once 'elements/nav-campus.php';
         </div>
     </div>
 </section>
-<section class="container-fluid p-b-60">
+<section class="container-fluid p-b-110">
     <div class="row justify-content-center align-items-center">
         <div class="col-12">
-            <div class="row align-items-center programs-layout-row g-0 d-lg-flex d-none" style="padding-top:60px;border:none; border-top:1px solid #C0C0C0;padding-bottom:0;">
+            <div class="row align-items-center programs-layout-row g-0 d-lg-flex d-none p-t-110" style="border:none; border-top:1px solid #C0C0C0;padding-bottom:0;">
                 <div class="col-lg-6 col-12 p-0">
-                    <img class="w-100" src="<?= get_template_directory_uri() . '/resources/campus/child_protection.jpg' ?>" alt="">
+                    <img class="w-100 lazy" src="<?= get_template_directory_uri() . '/resources/campus/child_protection.jpg' ?>" alt="">
                 </div>
                 <div class="col-lg-5 col-12 p-md-80">
                     <div class="title">
@@ -41,7 +41,7 @@ include_once 'elements/nav-campus.php';
                     </div>
                 </div>
                 <div class="col-12 p-0">
-                    <img class="w-100" src="<?= get_template_directory_uri() . '/resources/campus/child-protection.jpg' ?>" alt="">
+                    <img class="w-100 lazy" src="<?= get_template_directory_uri() . '/resources/campus/child-protection.jpg' ?>" alt="">
                 </div>
                 <div class="col-12">
                     <p class="single-collapse-par p-t-30">

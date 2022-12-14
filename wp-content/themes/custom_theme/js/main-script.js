@@ -5,6 +5,11 @@ window.onbeforeunload = function () {
 
 history.scrollRestoration = "manual";
 
+var lazyLoadingImages = document.getElementsByClassName('lazy');
+console.log(lazyLoadingImages);
+
+lazyLoadingImages.lazyload();
+
 jQuery(document).ready(function ($) {
 
     var home1img = document.getElementById('img-1-home');
@@ -433,12 +438,20 @@ jQuery(document).ready(function ($) {
     var supportCollapse = $('.support-collapse');
     var programCollapse = $('.single-program-collapse');
     var safeguardCollapse = $('.safeguard-collapse');
+    var singleCollapseTrigger = $('.single-collapse-trigger');
 
+    singleCollapseTrigger.on('click', function(){
+        console.log($(this).attr('aria-expanded'));
+        if($(this).attr('aria-expanded') == 'true'){
+            $(this).html($(this).html().replace('Read more','Read less'));
+        } else{ 
+            $(this).html($(this).html().replace('Read less','Read more'));
+        }
+    })
 
     facilitiesCollapse.on('click', function () {
+        console.log('facilities-collapse');
         let pos = $(this).attr('data-collapse-pos');
-        console.log(pos);
-        console.log($('#facilities-collapse-' + pos + '-icon'));
         let isOpen = $(this).find('div[data-bs-toggle]').hasClass('collapsed');
         if (!isOpen) {
             $('#facilities-collapse-' + pos + '-icon').attr('src', icons.minus);
@@ -450,6 +463,7 @@ jQuery(document).ready(function ($) {
     })
 
     beliefsCollapse.on('click', function () {
+        console.log('beliefsCollapse');
         var pos = $(this).attr('data-collapse-pos');
         isOpen = $(this).find('div[data-bs-toggle]').hasClass('collapsed');
         if (!isOpen) {
@@ -475,6 +489,7 @@ jQuery(document).ready(function ($) {
     });
 
     elementaryCollapse.on('click', function () {
+        console.log('elementaryCollapse');
         var pos = $(this).attr('data-collapse-pos');
         isOpen = $(this).find('div[data-bs-toggle]').hasClass('collapsed');
         if (!isOpen) {
@@ -487,6 +502,7 @@ jQuery(document).ready(function ($) {
     });
 
     supportCollapse.on('click', function () {
+        console.log('supportCollapse');
         var pos = $(this).attr('data-collapse-pos');
         isOpen = $(this).find('div[data-bs-toggle]').hasClass('collapsed');
         if (!isOpen) {
@@ -499,6 +515,7 @@ jQuery(document).ready(function ($) {
     });
 
     programCollapse.on('click', function () {
+        console.log('programm-collapse');
         var pos = $(this).attr('data-collapse-pos');
         isOpen = $(this).find('div[data-bs-toggle]').hasClass('collapsed');
         if (!isOpen) {
@@ -511,6 +528,7 @@ jQuery(document).ready(function ($) {
     });
 
     safeguardCollapse.on('click', function () {
+        console.log('safeguarding');
         var pos = $(this).attr('data-collapse-pos');
         isOpen = $(this).find('div[data-bs-toggle]').hasClass('collapsed');
         if (!isOpen) {
@@ -524,6 +542,7 @@ jQuery(document).ready(function ($) {
 
 
     $('.team-collapse-btn').on('click', function () {
+        console.log('team-collapse');
         isOpen = $(this).attr('aria-expanded');
         console.log(isOpen);
         if (isOpen == 'true') {
@@ -534,10 +553,6 @@ jQuery(document).ready(function ($) {
             $(this).find('svg').css('transform', 'rotate(135deg)');
         }
     });
-
-    //LAZYLOAD
-    $('.lazy').lazyload();
-
 
     $('#weChatBtn').on('click', function () {
         $('#qr-code-wechat-modal').css('display', 'block');
@@ -617,5 +632,14 @@ jQuery(document).ready(function ($) {
 
         // Handle dropped files
         dropArea.addEventListener('drop', handleDrop, false);
+    }
+
+
+    console.log(page);
+    
+    if(page.id == 108){
+        $('html, body').animate({
+            scrollTop : 520
+        },200);
     }
 });

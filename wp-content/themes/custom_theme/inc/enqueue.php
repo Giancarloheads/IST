@@ -41,6 +41,11 @@
             'plus' => get_template_directory_uri() . '/resources/icons/plus.svg'
         ));
 
+        wp_localize_script('main-script' , 'page' , array(
+            'id' => get_the_ID(),
+            'title' => get_the_Title()
+        ));
+
         if(is_page(231)){
             wp_enqueue_script('mixitup' , 'https://cdnjs.cloudflare.com/ajax/libs/mixitup/3.3.1/mixitup.min.js' , array('jquery') , '3.3.1' , true);
             wp_enqueue_script('mix-js' , get_template_directory_uri() . '/js/mix.js' , array('jquery') , _S_VERSION , true);

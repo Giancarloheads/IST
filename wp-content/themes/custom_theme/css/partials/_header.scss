@@ -47,6 +47,27 @@ header {
     }
 }
 
+.blured{
+    .header-links-container{
+        ul{
+            li{
+                &:hover{
+                   background-color: $grey;  
+                }
+            }
+        }
+    }
+    svg{
+        border-radius:50%;
+        background-color:$grey;
+        transition: all ease .3s;
+        &:hover{
+            background-color:white;
+        }
+
+    }
+}
+
 .hide-header {
     top: -85px;
 }
@@ -558,4 +579,55 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
+
+.program-nav-slider{
+    display: flex!important;
+    align-items: center!important;
+    justify-content:center!important;
+    flex-wrap: nowrap!important;
+    .program-link{
+        padding:10px!important;
+    }
+}
+
+.prev-slider-anchor{
+    position: absolute;
+    left:50%;
+    top: 50%;
+    transform:translate(-50% , -50%);
+}
+
+.nav-slider-container{
+    padding-top:0!important;
+}
+
+.contact-us-svg{
+    border-radius: 0!important;
+    background-color: transparent!important;
+}
+
+.single-program-cta{
+    color: $red;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex; 
+    align-items: center;
+    padding-bottom: 40px;
+    svg{
+        width:16px;
+        height: 14px;
+        margin-left: 8px;
+        transform: rotate(90deg);
+        transition: all ease .3s;
+        path{
+            stroke: $red;
+        }
+    }
+    &:hover{
+        color: $red!important;
+        svg{
+            transform: rotate(135deg);
+        }
+    }
 }

@@ -36,7 +36,7 @@ include 'elements/nav-pages-students.php';
         <div class="col-12">
             <div class="row align-items-center programs-layout-row g-0 d-lg-flex d-none">
                 <div class="col-lg-6 col-12 p-t-30 p-b-30">
-                    <img class="w-100" src="<?= get_template_directory_uri() . '/resources/education/beyond.jpg'; ?>" alt="">
+                    <img class="w-100 lazy" src="<?= get_template_directory_uri() . '/resources/education/beyond.jpg'; ?>" alt="">
                 </div>
                 <div class="col-lg-6 col-12 p-md-80">
                     <div class="title">
@@ -55,7 +55,7 @@ include 'elements/nav-pages-students.php';
                     </div>
                 </div>
                 <div class="col-12">
-                    <img class="w-100" src="<?= get_template_directory_uri() . '/resources/education/beyond.jpg'; ?>" alt="">
+                    <img class="w-100 lazy" src="<?= get_template_directory_uri() . '/resources/education/beyond.jpg'; ?>" alt="">
                 </div>
                 <div class="col-12 p-t-30">
                     <p>
@@ -74,7 +74,7 @@ include 'elements/nav-pages-students.php';
                     </p>
                 </div>
                 <div class="col-lg-6 col-12 p-t-30 p-b-30">
-                    <img class="w-100" src="<?= get_template_directory_uri() . '/resources/img/athletic_1.jpg'; ?>" alt="">
+                    <img class="w-100 lazy" src="<?= get_template_directory_uri() . '/resources/img/athletic_1.jpg'; ?>" alt="">
                 </div>
                 <div class="col-10 m-auto beliefs-collapse-container">
                     <div class="beliefs-collapse" data-collapse-pos="1">
@@ -119,7 +119,7 @@ include 'elements/nav-pages-students.php';
                     </div>
                 </div>
                 <div class="col-12">
-                    <img class="w-100" src="<?= get_template_directory_uri() . '/resources/img/athletic_1.jpg'; ?>" alt="">
+                    <img class="w-100 lazy" src="<?= get_template_directory_uri() . '/resources/img/athletic_1.jpg'; ?>" alt="">
                 </div>
                 <div class="col-12 p-t-30">
                     <p>
@@ -130,7 +130,7 @@ include 'elements/nav-pages-students.php';
             </div>
             <div class="row align-items-center programs-layout-row g-0 d-lg-flex d-none">
                 <div class="col-lg-6 col-12 p-t-30 p-b-30">
-                    <img class="w-100" src="<?= get_template_directory_uri() . '/resources/img/athletic_2.jpg'; ?>" alt="">
+                    <img class="w-100 lazy" src="<?= get_template_directory_uri() . '/resources/img/athletic_2.jpg'; ?>" alt="">
                 </div>
                 <div class="col-lg-6 col-12 p-md-80">
                     <div class="title">
@@ -150,7 +150,7 @@ include 'elements/nav-pages-students.php';
                     </div>
                 </div>
                 <div class="col-12">
-                    <img class="w-100" src="<?= get_template_directory_uri() . '/resources/img/athletic_2.jpg'; ?>" alt="">
+                    <img class="w-100 lazy" src="<?= get_template_directory_uri() . '/resources/img/athletic_2.jpg'; ?>" alt="">
                 </div>
                 <div class="col-12 p-t-30">
                     <p>

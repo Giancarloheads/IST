@@ -22,7 +22,7 @@
     <div class="row justify-content-center">
         <div class="col-12">
             <div class="row">
-                <img class="w-100" src="https://via.placeholder.com/1920x1400" alt="">
+                <img class="w-100 lazy" src="https://via.placeholder.com/1920x1400" alt="">
             </div>
         </div>
     </div>

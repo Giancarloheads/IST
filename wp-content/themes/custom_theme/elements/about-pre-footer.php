@@ -36,7 +36,7 @@
         default:
             $svg = get_template_directory_uri() . '/resources/history/about-prefooter-img.svg';
             $title = 'JOIN OUR SCHOOL';
-            $bg = 'bg-orange-2';
+            $bg = 'bg-orange';
             $cta_color = 'inherit';
             $cta_class= '';
             $mod_height = '';

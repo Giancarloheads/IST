@@ -7,7 +7,7 @@ include 'elements/nav-pages-students.php';
 <section class="container-fluid">
     <div class="row justify-content-center">
         <div class="col-12 p-b-60">
-            <img src="<?= get_template_directory_uri() . '/resources/img/co-curricular.jpg'; ?>" alt="" class="w-100">
+            <img src="<?= get_template_directory_uri() . '/resources/img/co-curricular.jpg'; ?>" alt="" class="w-100 lazy">
         </div>
         <div class="col-lg-10 col-12">
             <div class="row">
@@ -50,7 +50,7 @@ include 'elements/nav-pages-students.php';
                 <div class="col-12 d-lg-block d-none">
                     <div class="co-curricular-activities-container">
                         <div class="activity-container">
-                            <img class="w-100" src="<?= get_template_directory_uri() . '/resources/co-curricular/activity-1.jpg'; ?>" alt="">
+                            <img class="w-100 lazy" src="<?= get_template_directory_uri() . '/resources/co-curricular/activity-1.jpg'; ?>" alt="">
                             <div class="ist-caption-1">
                                 <a href="<?= get_permalink(186); ?>" class="d-flex align-items-center justify-content-center">
                                     Sport
@@ -59,28 +59,28 @@ include 'elements/nav-pages-students.php';
                             </div>
                         </div>
                         <div class="activity-container">
-                            <img class="w-100" src="<?= get_template_directory_uri() . '/resources/co-curricular/activity-2.jpg'; ?>" alt="">
+                            <img class="w-100 lazy" src="<?= get_template_directory_uri() . '/resources/co-curricular/activity-2.jpg'; ?>" alt="">
                             <div class="ist-caption-1">
                                 Performing Arts
                                 <img onload="SVGInject(this);" src="<?= get_template_directory_uri() . '/resources/icons/arrow.svg'; ?>" alt="">
                             </div>
                         </div>
                         <div class="activity-container">
-                            <img class="w-100" src="<?= get_template_directory_uri() . '/resources/co-curricular/activity-3.jpg'; ?>" alt="">
+                            <img class="w-100 lazy" src="<?= get_template_directory_uri() . '/resources/co-curricular/activity-3.jpg'; ?>" alt="">
                             <div class="ist-caption-1">
                                 Active Pursuit
                                 <img onload="SVGInject(this);" src="<?= get_template_directory_uri() . '/resources/icons/arrow.svg'; ?>" alt="">
                             </div>
                         </div>
                         <div class="activity-container">
-                            <img class="w-100" src="<?= get_template_directory_uri() . '/resources/co-curricular/activity-4.jpg'; ?>" alt="">
+                            <img class="w-100 lazy" src="<?= get_template_directory_uri() . '/resources/co-curricular/activity-4.jpg'; ?>" alt="">
                             <div class="ist-caption-1">
                                 Classroom Extension
                                 <img onload="SVGInject(this);" src="<?= get_template_directory_uri() . '/resources/icons/arrow.svg'; ?>" alt="">
                             </div>
                         </div>
                         <div class="activity-container">
-                            <img class="w-100" src="<?= get_template_directory_uri() . '/resources/co-curricular/activity-5.jpg'; ?>" alt="">
+                            <img class="w-100 lazy" src="<?= get_template_directory_uri() . '/resources/co-curricular/activity-5.jpg'; ?>" alt="">
                             <div class="ist-caption-1">
                                 Life Skills
                                 <img onload="SVGInject(this);" src="<?= get_template_directory_uri() . '/resources/icons/arrow.svg'; ?>" alt="">
@@ -91,7 +91,7 @@ include 'elements/nav-pages-students.php';
                 <div class="col-12 d-block d-lg-none">
                     <div class="row justify-content-center mobile-activities-co-curricular-container">
                         <div class="col-md-7 col-10">
-                            <img class="w-100" src="<?= get_template_directory_uri() . '/resources/co-curricular/activity-1.jpg'; ?>" alt="">
+                            <img class="w-100 lazy" src="<?= get_template_directory_uri() . '/resources/co-curricular/activity-1.jpg'; ?>" alt="">
                             <div class="ist-caption-1">
                                 <a href="<?= get_permalink(186); ?>">
                                     Sport
@@ -100,28 +100,28 @@ include 'elements/nav-pages-students.php';
                             </div>
                         </div>
                         <div class="col-md-7 col-10">
-                            <img class="w-100" src="<?= get_template_directory_uri() . '/resources/co-curricular/activity-2.jpg'; ?>" alt="">
+                            <img class="w-100 lazy" src="<?= get_template_directory_uri() . '/resources/co-curricular/activity-2.jpg'; ?>" alt="">
                             <div class="ist-caption-1">
                                 Performing Arts
                                 <img onload="SVGInject(this);" src="<?= get_template_directory_uri() . '/resources/icons/arrow.svg'; ?>" alt="">
                             </div>
                         </div>
                         <div class="col-md-7 col-10">
-                            <img class="w-100" src="<?= get_template_directory_uri() . '/resources/co-curricular/activity-3.jpg'; ?>" alt="">
+                            <img class="w-100 lazy" src="<?= get_template_directory_uri() . '/resources/co-curricular/activity-3.jpg'; ?>" alt="">
                             <div class="ist-caption-1">
                                 Active Pursuits
                                 <img onload="SVGInject(this);" src="<?= get_template_directory_uri() . '/resources/icons/arrow.svg'; ?>" alt="">
                             </div>
                         </div>
                         <div class="col-md-7 col-10">
-                            <img class="w-100" src="<?= get_template_directory_uri() . '/resources/co-curricular/activity-4.jpg'; ?>" alt="">
+                            <img class="w-100 lazy" src="<?= get_template_directory_uri() . '/resources/co-curricular/activity-4.jpg'; ?>" alt="">
                             <div class="ist-caption-1">
                                 Classroom Extension
                                 <img onload="SVGInject(this);" src="<?= get_template_directory_uri() . '/resources/icons/arrow.svg'; ?>" alt="">
                             </div>
                         </div>
                         <div class="col-md-7 col-10">
-                            <img class="w-100" src="<?= get_template_directory_uri() . '/resources/co-curricular/activity-5.jpg'; ?>" alt="">
+                            <img class="w-100 lazy" src="<?= get_template_directory_uri() . '/resources/co-curricular/activity-5.jpg'; ?>" alt="">
                             <div class="ist-caption-1">
                                 Life Skills
                                 <img onload="SVGInject(this);" src="<?= get_template_directory_uri() . '/resources/icons/arrow.svg'; ?>" alt="">
@@ -146,7 +146,7 @@ include 'elements/nav-pages-students.php';
                     </div>
                 </div>
                 <div class="col-lg-6 offset-lg-1 col-12 offset-0">
-                    <img class="w-100" src="<?= get_template_directory_uri() . '/resources/img/co-curricular.jpg'; ?>" alt="">
+                    <img class="w-100 lazy" src="<?= get_template_directory_uri() . '/resources/img/co-curricular.jpg'; ?>" alt="">
                 </div>
             </div>
             <div class="row align-items-center d-lg-none d-block">
@@ -156,7 +156,7 @@ include 'elements/nav-pages-students.php';
                     </div>
                 </div>
                 <div class="col-12">
-                    <img class="w-100" src="<?= get_template_directory_uri() . '/resources/img/co-curricular.jpg'; ?>" alt="">
+                    <img class="w-100 lazy" src="<?= get_template_directory_uri() . '/resources/img/co-curricular.jpg'; ?>" alt="">
                 </div>
                 <div class="col-12 p-t-40">
                     <div class="ist-caption-1">

@@ -96,27 +96,27 @@
 							<div class="row link-lists-header">
 								<div class="col-4">
 									<ul>
-										<li style="font-size:20px; font-weight:500;">
+										<li style="font-size:20px;">
 											PROGRAMS
 										</li>
 										<li>
-											<a class="<?= get_the_ID() == 23 ? 'active-link' : '';  ?>" style="font-size:20px; font-weight:500;" href="<?= get_permalink(23); ?>">
+											<a class="<?= get_the_ID() == 23 ? 'active-link' : '';  ?>" style="font-size:20px;" href="<?= get_permalink(23); ?>">
 												Overview
 											</a>
 										</li>
 										<li>
-											<a class="<?= get_the_ID() == 35 ? 'active-link' : ''; ?>" style="font-size:20px; font-weight:500;" href="<?= get_permalink(35); ?>">
+											<a class="<?= get_the_ID() == 35 ? 'active-link' : ''; ?>" style="font-size:20px;" href="<?= get_permalink(35); ?>">
 												Elementary Education
 											</a>
 										</li>
 										<li>
-											<a class="<?= get_the_ID() == 144 ? 'active-link' : ''; ?>" href="<?= get_permalink(144); ?>">
+											<a class="<?= get_the_ID() == 144 ? 'active-link' : ''; ?>">
 												Baby Dragon Playgroup <br>
 												0 - 3 years
 											</a>
 										</li>
 										<li>
-											<a class="<?= get_the_ID() == 145 ? 'active-link' : ''; ?>" href="<?= get_permalink(145); ?>">
+											<a class="<?= get_the_ID() == 145 ? 'active-link' : ''; ?>">
 												PYP Early Years<br>
 												KG1 - KG2
 											</a>
@@ -128,24 +128,24 @@
 											</a>
 										</li>
 										<li>
-											<a class="<?= get_the_ID() == 37 ? 'active-link' : ''; ?>" style="font-size:20px; font-weight:500;" href="<?= get_permalink(37); ?>">
+											<a class="<?= get_the_ID() == 37 ? 'active-link' : ''; ?>" style="font-size:20px;" href="<?= get_permalink(37); ?>">
 												Secondary Education
 											</a>
 										</li>
 										<li>
-											<a class="<?= get_the_ID() == 146 ? 'active-link' : ''; ?>" href="<?= get_permalink(146); ?>">
+											<a class="<?= get_the_ID() == 146 ? 'active-link' : ''; ?>">
 												MYP Grades <br>
 												6 - 10
 											</a>
 										</li>
 										<li>
-											<a class="<?= get_the_ID() == 147 ? 'active-link' : ''; ?>" href="<?= get_permalink(147); ?>">
+											<a class="<?= get_the_ID() == 147 ? 'active-link' : ''; ?>">
 												DP Grades <br>
 												11 - 12
 											</a>
 										</li>
 										<li>
-											<a class="<?= get_the_ID() == 39 ? 'active-link' : ''; ?>" style="font-size:20px; font-weight:500;" href="<?= get_permalink(39); ?>">
+											<a class="<?= get_the_ID() == 39 ? 'active-link' : ''; ?>" style="font-size:20px;" href="<?= get_permalink(39); ?>">
 												Learning support
 											</a>
 										</li>
@@ -225,12 +225,7 @@
 										</li>
 										<li>
 											<a class="<?= get_the_ID() == 158 ? 'active-link' : ''; ?>" href="<?= get_permalink(158); ?>">
-												Selection Activities
-											</a>
-										</li>
-										<li>
-											<a class="<?= get_the_ID() == 164 ? 'active-link' : ''; ?>" href="<?= get_permalink(164); ?>">
-												Application forms
+												Selection policies
 											</a>
 										</li>
 										<li>
@@ -241,6 +236,11 @@
 										<li>
 											<a class="<?= get_the_ID() == 162 ? 'active-link' : ''; ?>" href="<?= get_permalink(162); ?>">
 												Scholarships
+											</a>
+										</li>
+										<li>
+											<a class="<?= get_the_ID() == 164 ? 'active-link' : ''; ?>" href="<?= get_permalink(164); ?>">
+												Application forms
 											</a>
 										</li>
 									</ul>
@@ -273,11 +273,11 @@
 									</ul>
 								</div>
 							</div>
-							<div class="row desktop-nav-footer align-items-end p-b-110">
+							<div class="row desktop-nav-footer align-items-end">
 								<div class="col-6">
 									<a class="ist-cta" href="<?= get_permalink(217); ?>" style="color: #CC0001;">
 										Contact us
-										<img onload="SVGInject(this);" src="<?= get_template_directory_uri() . '/resources/icons/arrow.svg'; ?>" alt="">
+										<img class="contact-us-svg" onload="SVGInject(this);" src="<?= get_template_directory_uri() . '/resources/icons/arrow.svg'; ?>" alt="">
 									</a>
 								</div>
 								<div class="col-3">
@@ -344,12 +344,12 @@
 								<div>
 									<ul>
 										<li>
-											<a class="<?= get_the_ID() == 144 ? 'active-link' : ''; ?>" href="<?= get_permalink(144); ?>">
+											<a class="<?= get_the_ID() == 144 ? 'active-link' : ''; ?>">
 												Baby Dragon Playground 0 - 3 years
 											</a>
 										</li>
 										<li>
-											<a class="<?= get_the_ID() == 145 ? 'active-link' : ''; ?>" href="<?= get_permalink(145); ?>">
+											<a class="<?= get_the_ID() == 145 ? 'active-link' : ''; ?>">
 												PYP Early Years KG1 - KG2
 											</a>
 										</li>
@@ -369,12 +369,12 @@
 							<li class="collapse-links-container collapse" id="collapse-secondary">
 								<ul>
 									<li>
-										<a class="<?= get_the_ID() == 146 ? 'active-link' : ''; ?>" href="<?= get_permalink(146); ?>">
+										<a class="<?= get_the_ID() == 146 ? 'active-link' : ''; ?>">
 											MYP Grades 6 - 10
 										</a>
 									</li>
 									<li>
-										<a class="<?= get_the_ID() == 147 ? 'active-link' : ''; ?>" href="<?= get_permalink(147); ?>">
+										<a class="<?= get_the_ID() == 147 ? 'active-link' : ''; ?>">
 											DP Grades 11 - 12
 										</a>
 									</li>
@@ -484,11 +484,6 @@
 							</a>
 						</li>
 						<li>
-							<a class="<?= get_the_ID() == 164 ? 'active-link' : ''; ?>" href="<?= get_permalink(164); ?>">
-								Application forms
-							</a>
-						</li>
-						<li>
 							<a class="<?= get_the_ID() == 160 ? 'active-link' : ''; ?>" href="<?= get_permalink(160); ?>">
 								Fees
 							</a>
@@ -496,6 +491,11 @@
 						<li>
 							<a class="<?= get_the_ID() == 162 ? 'active-link' : ''; ?>" href="<?= get_permalink(162); ?>">
 								Scholarship
+							</a>
+						</li>
+						<li>
+							<a class="<?= get_the_ID() == 164 ? 'active-link' : ''; ?>" href="<?= get_permalink(164); ?>">
+								Application forms
 							</a>
 						</li>
 					</ul>

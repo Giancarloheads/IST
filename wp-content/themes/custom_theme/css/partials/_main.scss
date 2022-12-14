@@ -99,7 +99,7 @@ a:visited {
         }
 
         @media(max-width:546px) {
-            padding-top: 150px;
+            padding-top: 250px;
         }
 
         >div {
@@ -260,7 +260,7 @@ a:visited {
                 width: 50%;
                 font-size: 24px;
                 line-height: 1.2;
-                font-weight: 100;
+                font-weight: 400;
 
                 @media(max-width:987px) {
                     width: 100%;
@@ -268,6 +268,11 @@ a:visited {
                     br {
                         display: none;
                     }
+                }
+
+                strong {
+                    font-weight: 700 !important;
+                    font-size: 25px;
                 }
             }
         }
@@ -279,8 +284,10 @@ a:visited {
 }
 
 .college-slider-home {
-    padding-top: 40px;
-    padding-bottom: 50px;
+    @media(max-width:976px) {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
 
     div {
         padding: 15px 45px;
@@ -300,7 +307,7 @@ a:visited {
 }
 
 .community-section {
-    padding-top: 60px;
+    padding-top: 110px;
 }
 
 .community-slider {
@@ -311,8 +318,8 @@ a:visited {
     }
 
     .community-item {
-        padding: 12px;
-        width: 52%;
+        padding: 10px;
+        width: 43%;
 
         @media(max-width:765px) {
             width: 400px;
@@ -504,11 +511,13 @@ a:visited {
 
     .pre-footer-cta-2 {
         text-align: center;
-        padding-top: 40px;
+        padding-top: 30px;
         font-size: 16px;
         font-weight: 500;
         line-height: 1.3;
-
+        display: flex;
+        align-items: center;
+        justify-content:center;
         span {
             text-decoration: underline;
         }
@@ -516,6 +525,9 @@ a:visited {
         svg {
             transition: all ease .3s;
             margin-right: 15px;
+            path{
+                stroke: #000;
+            }
         }
 
         &:hover {
@@ -539,6 +551,7 @@ a:visited {
     transform: translate(-50%, -50%);
     width: 93%;
     height: 84%;
+
     @media(max-width:768px) {
         top: 50%;
         height: 80%;
@@ -560,7 +573,7 @@ a:visited {
 }
 
 .hover-yellow {
-    background-color: sandybrown;
+    background-color: #F9A80E;
 
     .news-title {
         color: #fff !important;
@@ -580,18 +593,6 @@ a:visited {
 
     .news-date {
         color: #000 !important;
-    }
-}
-
-.hover-green {
-    background-color: green;
-
-    .news-title {
-        color: #fff !important;
-    }
-
-    .news-date {
-        color: #fff !important;
     }
 }
 
@@ -639,7 +640,7 @@ a:visited {
     position: relative;
     width: 100%;
     height: 100%;
-    filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.1));
+    filter: drop-shadow(0px 0px 4px rgba(0, 0, 0, 0.1));
     border-radius: 8px;
 
     .news-cover,
@@ -939,7 +940,7 @@ body {
 
 .recent-news-slider-section {
     padding-top: 60px;
-    padding-bottom: 60px;
+    padding-bottom: 120px;
 
     .recent-news-slider-container {
         display: flex;
@@ -1035,26 +1036,22 @@ body {
 
 .news-img {
     width: 100%;
+    height: 300px;
 
-    img {
-        width: 100%;
-        height: 350px;
-
-        @media(max-width:996px) {
-            height: 325px;
-        }
+    @media(max-width:996px) {
+        height: 260px;
     }
 }
 
 .hidden-side-news {
     .news-title-hidden {
-        max-height: 350px;
-        min-height: 350px;
+        max-height: 250px;
+        min-height: 250px;
         font-size: 20px !important;
 
         @media(max-width:996px) {
-            max-height: 325px;
-            min-height: 325px;
+            max-height: 225px;
+            min-height: 225px;
         }
     }
 
@@ -1065,11 +1062,7 @@ body {
 }
 
 .recent-news-slider-item {
-    height: 600px;
-
-    @media(max-width:996px) {
-        height: 600px;
-    }
+    height: 450px;
 }
 
 
@@ -1211,6 +1204,17 @@ body {
     width: 100%;
     border-bottom: solid 1px #C0C0C0;
 
+    @media(max-width:976px) {
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        border: none;
+
+        button {
+            padding-right: 0 !important;
+        }
+    }
+
     button {
         padding-left: 0;
         border: none;
@@ -1279,8 +1283,8 @@ body {
 }
 
 .news-title-hidden {
-    max-height: 350px;
-    min-height: 350px;
+    max-height: 300px;
+    min-height: 300px;
     font-size: 20px !important;
 
     @media(max-width:996px) {
@@ -1401,57 +1405,65 @@ body {
     }
 }
 
-.single-post-content{
+.single-post-content {
     font-size: 20px;
     line-height: 1.2;
 }
 
-.co-curricular-activities-container{
+.co-curricular-activities-container {
     display: flex;
-    width:100%;
-    justify-content:center;
+    width: 100%;
+    justify-content: center;
     align-items: flex-start;
     flex-wrap: nowrap;
-    >div{
+
+    >div {
         padding-left: 10px;
-        padding-right:10px;
-    }
-    >div:first-child{
         padding-right: 10px;
-        padding-left:0;
     }
 
-    >div:last-child{
-        padding-left:10px;
-        padding-right:0;
+    >div:first-child {
+        padding-right: 10px;
+        padding-left: 0;
     }
-    >div{
-        width:calc(100% / 5);
+
+    >div:last-child {
+        padding-left: 10px;
+        padding-right: 0;
     }
-    .activity-container{
-        img{
-            border-radius:50%;
+
+    >div {
+        width: calc(100% / 5);
+    }
+
+    .activity-container {
+        img {
+            border-radius: 50%;
             object-fit: cover;
         }
-        .ist-caption-1{
-            padding-top:25px;
+
+        .ist-caption-1 {
+            padding-top: 25px;
             text-align: center;
-            a{
-                svg{
-                    width:13px;
-                    height:13px;
-                    transition:all ease .3s;
+
+            a {
+                svg {
+                    width: 13px;
+                    height: 13px;
+                    transition: all ease .3s;
                     transform: rotate(0);
-                    margin-left:10px;
-                    path{
+                    margin-left: 10px;
+
+                    path {
                         stroke: #000;
                     }
                 }
             }
         }
-        &:hover{
-            a{
-                svg{
+
+        &:hover {
+            a {
+                svg {
                     transform: rotate(45deg);
                 }
             }
@@ -1459,50 +1471,77 @@ body {
     }
 }
 
-.mobile-activities-co-curricular-container{
-    img{
+.mobile-activities-co-curricular-container {
+    img {
         border-radius: 50%;
     }
-    .ist-caption-1{
-        padding-top:20px; 
-        padding-bottom:30px;
+
+    .ist-caption-1 {
+        padding-top: 20px;
+        padding-bottom: 30px;
         text-align: center;
         display: flex;
         align-items: center;
-        justify-content:center;
-        svg{
-            width:13px;
-            height:13px;
+        justify-content: center;
+
+        svg {
+            width: 13px;
+            height: 13px;
             transition: all ease .3s;
-            path{
-                stroke : #000;
+
+            path {
+                stroke: #000;
             }
         }
-        &:hover{
-            svg{
-                transform : rotate(45deg);
+
+        &:hover {
+            svg {
+                transform: rotate(45deg);
             }
         }
     }
 }
 
 
-.collapse-co-curricular-txt{
+.collapse-co-curricular-txt {
     font-size: 20px;
     font-weight: 400;
     padding-top: 40px;
 }
 
-.collapse-single-svg-plus{
-    height:15px;
-    width:auto;
-}
-
-.collapse-single-svg-minus{
-    height:14px;
+.collapse-single-svg-plus {
+    height: 15px;
     width: auto;
 }
 
-textarea{
+.collapse-single-svg-minus {
+    height: 14px;
+    width: auto;
+}
+
+textarea {
     resize: none;
+}
+
+.news-img-archive{
+    height:270px;
+}
+.news-title-hidden-archive{
+    height:270px;
+}
+
+.hidden-side-news .news-title-hidden-archive{
+    height: 180px;
+}
+
+.hide-side-news-archive{
+    height: 140px;
+}
+
+.news-caption-hidden-archive{
+    height: 140px!important;
+}
+
+.news-img-archive{
+    height:250px;
 }

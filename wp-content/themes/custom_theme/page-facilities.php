@@ -8,26 +8,27 @@ include_once 'elements/nav-campus.php';
 
 <section class="container-fluid d-lg-block d-none">
     <div class="row">
-        <div class="col-12 placeholder-3d-container">
-            <img class="placeholder-3d" src="https://via.placeholder.com/1920x900/?text=placeholder_3d" alt="">
+        <div class="col-12">
+            <img class="placeholder-3d" src="https://via.placeholder.com/1920x900/C4C4C4/CC0001?text=Virtual%20tour%20(video/3d)" alt="">
         </div>
     </div>
 </section>
-<section class="container-fluid d-block d-lg-none">
+<section class="container-fluid d-block d-lg-none" id="d3-tour-placeholder">
     <div class="row">
         <div class="col-12">
-            <img class="w-100" src="https://via.placeholder.com/500x800/?text=placeholder_3d" alt="">
+            <img class="w-100" src="https://via.placeholder.com/500x800/C4C4C4/CC0001?text=Virtual%20tour%20(video/3d)" alt="">
         </div>
     </div>
 </section>
-<section class="container-fluid p-t-60">
+<div class="m-t-60" id="d3-tour-placeholder"></div>
+<section class="container-fluid p-t-80">
     <div class="row justify-content-center">
         <div class="col-lg-10 col-12">
             <div class="row">
-                <div class="col-lg-6 col-12 ist-par-about-1 p-b-60 p-b-md-0">
+                <div class="col-lg-6 col-12 ist-par-about-1 p-b-80 p-b-md-0">
                     <div class="collapse-container-single">
                         <div data-bs-toggle="collapse" href="#elementary-collapse-single" role="button" aria-expanded="false" aria-controls="elementary-collapse-single">
-                            <div class="single-collapse-par-big-txt">
+                            <div id="anchor-3d" class="single-collapse-par-med-txt">
                                 Accompanying IST’s dynamic curriculum development has been the construction and expansion of our world class, purpose-built school campus, the first in Tianjin.
                             </div>
                         </div>
@@ -47,18 +48,18 @@ include_once 'elements/nav-campus.php';
         </div>
     </div>
 </section>
-<section class="container-fluid p-t-60 p-b-60 p-b-md-0">
-    <div class="row align-items-center p-b-60 d-lg-flex d-none">
+<section class="container-fluid p-t-60 p-b-110 p-b-md-0">
+    <div class="row align-items-center p-b-110 d-lg-flex d-none">
         <div class="col-6">
             <div class="slider-facilities-1 w-100 h-100">
                 <div>
-                    <img class="w-100" src="<?= get_template_directory_uri() . '/resources/campus/facilities_1.jpg' ?>" alt="">
+                    <img class="w-100 lazy" src="<?= get_template_directory_uri() . '/resources/campus/facilities_1.jpg' ?>" alt="">
                 </div>
                 <div>
-                    <img class="w-100" src="<?= get_template_directory_uri() . '/resources/campus/facilities_2.jpg' ?>" alt="">
+                    <img class="w-100 lazy" src="<?= get_template_directory_uri() . '/resources/campus/facilities_2.jpg' ?>" alt="">
                 </div>
                 <div>
-                    <img class="w-100" src="<?= get_template_directory_uri() . '/resources/campus/facilities_3.jpg' ?>" alt="">
+                    <img class="w-100 lazy" src="<?= get_template_directory_uri() . '/resources/campus/facilities_3.jpg' ?>" alt="">
                 </div>
             </div>
         </div>
@@ -71,20 +72,20 @@ include_once 'elements/nav-campus.php';
             </div>
         </div>
     </div>
-    <div class="row align-items-center p-b-60 d-lg-none d-flex">
+    <div class="row align-items-center p-b-60 d-lg-none d-flex p-t-110">
         <div class="col-12">
             <div class="ist-section-title-2 p-b-25 p-t-md-25" style="font-weight:300;margin-right:-50px;">THE HAN BUILDING</div>
         </div>
         <div class="col-12">
             <div class="slider-facilities-1-mobile">
                 <div>
-                    <img class="w-100" src="<?= get_template_directory_uri() . '/resources/campus/facilities_1.jpg' ?>" alt="">
+                    <img class="w-100 lazy" src="<?= get_template_directory_uri() . '/resources/campus/facilities_1.jpg' ?>" alt="">
                 </div>
                 <div>
-                    <img class="w-100" src="<?= get_template_directory_uri() . '/resources/campus/facilities_2.jpg' ?>" alt="">
+                    <img class="w-100 lazy" src="<?= get_template_directory_uri() . '/resources/campus/facilities_2.jpg' ?>" alt="">
                 </div>
                 <div>
-                    <img class="w-100" src="<?= get_template_directory_uri() . '/resources/campus/facilities_3.jpg' ?>" alt="">
+                    <img class="w-100 lazy" src="<?= get_template_directory_uri() . '/resources/campus/facilities_3.jpg' ?>" alt="">
                 </div>
             </div>
         </div>
@@ -96,7 +97,7 @@ include_once 'elements/nav-campus.php';
             </div>
         </div>
     </div>
-    <div class="row justify-content-center">
+    <div class="row justify-content-center p-b-110" style="border-bottom: solid 1px silver">
         <div class="col-lg-10 col-12">
             <div class="top-building-collapse" data-collapse-pos="1">
                 <div class="d-flex justify-content-between align-items-center d-sm-wrap" data-bs-toggle="collapse" href="#collapse-top-building-1" role="button" aria-expanded="false" aria-controls="collapse-top-building-1">
@@ -108,8 +109,8 @@ include_once 'elements/nav-campus.php';
                     </div>
                 </div>
                 <div class="collapse" id="collapse-top-building-1">
-                    <div>
-                        <ul class="p-b-md-30 single-collapse-par">
+                    <div class="d-flex justify-content-between align-items-start">
+                        <ul class="p-b-md-30 single-collapse-par w-lg-45">
                             <li>
                                 <span>
                                     Main and secondary administrative offices
@@ -136,7 +137,7 @@ include_once 'elements/nav-campus.php';
                                 </span>
                             </li>
                         </ul>
-                        <ul class="single-collapse-par">
+                        <ul class="single-collapse-par w-lg-45">
                             <li>
                                 <span>
                                     Magnificent library with resources, specialists and accomodations for all age groups
@@ -170,8 +171,8 @@ include_once 'elements/nav-campus.php';
     </div>
 </section>
 
-<section class="container-fluid p-t-60 p-b-60 p-b-md-0">
-    <div class="row align-items-center justify-content-center p-b-60 d-lg-flex d-none">
+<section class="container-fluid p-b-110 p-b-md-0">
+    <div class="row align-items-center justify-content-center p-b-110 d-lg-flex d-none">
         <div class="offset-1 col-4">
             <div class="ist-section-title-2 p-b-25" style="font-weight:300;margin-right:-50px;">THE QIN BUILDING</div>
             <div class="ist-caption-1">
@@ -182,31 +183,31 @@ include_once 'elements/nav-campus.php';
         <div class="col-6 offset-1">
             <div class="slider-facilities-2">
                 <div>
-                    <img class="w-100" src="<?= get_template_directory_uri() . '/resources/campus/facilities_2.jpg' ?>" alt="">
+                    <img class="w-100 lazy" src="<?= get_template_directory_uri() . '/resources/campus/facilities_2.jpg' ?>" alt="">
                 </div>
                 <div>
-                    <img class="w-100" src="<?= get_template_directory_uri() . '/resources/campus/facilities_1.jpg' ?>" alt="">
+                    <img class="w-100 lazy" src="<?= get_template_directory_uri() . '/resources/campus/facilities_1.jpg' ?>" alt="">
                 </div>
                 <div>
-                    <img class="w-100" src="<?= get_template_directory_uri() . '/resources/campus/facilities_3.jpg' ?>" alt="">
+                    <img class="w-100 lazy" src="<?= get_template_directory_uri() . '/resources/campus/facilities_3.jpg' ?>" alt="">
                 </div>
             </div>
         </div>
     </div>
-    <div class="row align-items-center justify-content-center p-b-60 d-lg-none d-flex">
+    <div class="row align-items-center justify-content-center p-b-60 d-lg-none d-flex p-t-110">
         <div class="col-12">
             <div class="ist-section-title-2 p-b-25 p-t-md-25" style="font-weight:300;margin-right:-50px;">THE QIN BUILDING</div>
         </div>
         <div class="col-12">
             <div class="slider-facilities-2-mobile">
                 <div>
-                    <img class="w-100" src="<?= get_template_directory_uri() . '/resources/campus/facilities_2.jpg' ?>" alt="">
+                    <img class="w-100 lazy" src="<?= get_template_directory_uri() . '/resources/campus/facilities_2.jpg' ?>" alt="">
                 </div>
                 <div>
-                    <img class="w-100" src="<?= get_template_directory_uri() . '/resources/campus/facilities_1.jpg' ?>" alt="">
+                    <img class="w-100 lazy" src="<?= get_template_directory_uri() . '/resources/campus/facilities_1.jpg' ?>" alt="">
                 </div>
                 <div>
-                    <img class="w-100" src="<?= get_template_directory_uri() . '/resources/campus/facilities_3.jpg' ?>" alt="">
+                    <img class="w-100 lazy" src="<?= get_template_directory_uri() . '/resources/campus/facilities_3.jpg' ?>" alt="">
                 </div>
             </div>
         </div>
@@ -217,8 +218,8 @@ include_once 'elements/nav-campus.php';
             </div>
         </div>
     </div>
-    <div class="row justify-content-center">
-        <div class="col-lg-10 col-12">
+    <div class="row justify-content-center" style="border-bottom: solid 1px silver">
+        <div class="col-lg-10 col-12 p-b-110">
             <div class="top-building-collapse" data-collapse-pos="2">
                 <div class="d-flex justify-content-between align-items-center d-sm-wrap" data-bs-toggle="collapse" href="#collapse-top-building-2" role="button" aria-expanded="false" aria-controls="collapse-top-building-2">
                     <div class="single-collapse-par-big-txt">
@@ -229,8 +230,8 @@ include_once 'elements/nav-campus.php';
                     </div>
                 </div>
                 <div class="collapse" id="collapse-top-building-2">
-                    <div>
-                        <ul class="single-collapse-par">
+                    <div class="d-flex align-items-start justify-content-between">
+                        <ul class="single-collapse-par w-lg-45">
                             <li>
                                 <span>
                                     Elementary administrative offices
@@ -248,39 +249,59 @@ include_once 'elements/nav-campus.php';
                             </li>
                             <li>
                                 <span>
-                                    Extensive internal and external gardens and leisure and private study spaces
+                                    40 general classrooms (equipped with computers, digital projectors and whitboards)
                                 </span>
                             </li>
                             <li>
                                 <span>
-                                    30 general classrooms (equipped with computers ad digital projectors)
+                                    Kitchen and scince laboratory
+                                </span>
+                            </li>
+                            <li>
+                                <span>
+                                    Whole school ceramics studio and kiln
+                                </span>
+                            </li>
+                            <li>
+                                <span>
+                                    Lower and upper elementary inside playrooms
                                 </span>
                             </li>
                         </ul>
-                        <ul class="single-collapse-par">
+                        <ul class="single-collapse-par w-lg-45">
                             <li>
                                 <span>
-                                    Magnificent library with resources, specialists and accomodations for all age groups
+                                    6 Mac computer labs
                                 </span>
                             </li>
                             <li>
                                 <span>
-                                    4 science laboratories
+                                    Gymnasium (double sized) with floor-to-ceiling climbing wall
                                 </span>
                             </li>
                             <li>
                                 <span>
-                                    520-seat theater
+                                    PFO (PTA) social room
                                 </span>
                             </li>
                             <li>
                                 <span>
-                                    Black Box theater
+                                    Dedicated early childhood center and outdoor play areas
                                 </span>
                             </li>
                             <li>
                                 <span>
-                                    Extendive music suites
+                                    Cafeteria
+                                </span>
+                            </li>
+                            <li>
+                                <span>
+                                    Fully operational school clinic staffed by qualified local and expatriate nurses
+                                </span>
+                            </li>
+                            <li>
+                                <span>
+                                    Visual arts suites
                                 </span>
                             </li>
                         </ul>
@@ -291,18 +312,18 @@ include_once 'elements/nav-campus.php';
     </div>
 </section>
 
-<section class="container-fluid p-t-60 p-b-60">
-    <div class="row align-items-center p-b-60 d-lg-flex d-none">
+<section class="container-fluid p-b-110">
+    <div class="row align-items-center p-b-110 d-lg-flex d-none">
         <div class="col-6">
             <div class="slider-facilities-3">
                 <div>
-                    <img class="w-100" src="<?= get_template_directory_uri() . '/resources/campus/facilities_3.jpg' ?>" alt="">
+                    <img class="w-100 lazy" src="<?= get_template_directory_uri() . '/resources/campus/facilities_3.jpg' ?>" alt="">
                 </div>
                 <div>
-                    <img class="w-100" src="<?= get_template_directory_uri() . '/resources/campus/facilities_2.jpg' ?>" alt="">
+                    <img class="w-100 lazy" src="<?= get_template_directory_uri() . '/resources/campus/facilities_2.jpg' ?>" alt="">
                 </div>
                 <div>
-                    <img class="w-100" src="<?= get_template_directory_uri() . '/resources/campus/facilities_1.jpg' ?>" alt="">
+                    <img class="w-100 lazy" src="<?= get_template_directory_uri() . '/resources/campus/facilities_1.jpg' ?>" alt="">
                 </div>
             </div>
         </div>
@@ -313,31 +334,31 @@ include_once 'elements/nav-campus.php';
             </div>
         </div>
     </div>
-    <div class="row align-items-center p-b-60 d-lg-none d-flex">
+    <div class="row align-items-center p-b-110 d-lg-none d-flex p-t-110">
         <div class="col-12">
             <div class="neg-m-r ist-section-title-2 p-b-25 " style="font-weight:300;">THE CAMPUS GROUNDS</div>
         </div>
         <div class="col-12">
             <div class="slider-facilities-3-mobile">
                 <div>
-                    <img class="w-100" src="<?= get_template_directory_uri() . '/resources/campus/facilities_3.jpg' ?>" alt="">
+                    <img class="w-100 lazy" src="<?= get_template_directory_uri() . '/resources/campus/facilities_3.jpg' ?>" alt="">
                 </div>
                 <div>
-                    <img class="w-100" src="<?= get_template_directory_uri() . '/resources/campus/facilities_2.jpg' ?>" alt="">
+                    <img class="w-100 lazy" src="<?= get_template_directory_uri() . '/resources/campus/facilities_2.jpg' ?>" alt="">
                 </div>
                 <div>
-                    <img class="w-100" src="<?= get_template_directory_uri() . '/resources/campus/facilities_1.jpg' ?>" alt="">
+                    <img class="w-100 lazy" src="<?= get_template_directory_uri() . '/resources/campus/facilities_1.jpg' ?>" alt="">
                 </div>
             </div>
         </div>
-        <div class="col-12 p-t-30">
+        <div class="col-12 p-t-60">
             <div class="ist-caption-1">
                 IST’s magnificent buildings are designed to ensure that virtually every classroom window looks directly into either an internal garden or the school’s extensive park-like grounds and outdoor recreational spaces.
             </div>
         </div>
     </div>
-    <div class="row justify-content-center">
-        <div class="col-lg-10 col-12">
+    <div class="row justify-content-center" style="border-bottom: solid 1px silver">
+        <div class="col-lg-10 col-12 p-b-110">
             <div class="top-building-collapse" data-collapse-pos="3">
                 <div class="d-flex justify-content-between align-items-center d-sm-wrap" data-bs-toggle="collapse" href="#collapse-top-building-3" role="button" aria-expanded="false" aria-controls="collapse-top-building-3">
                     <div class="single-collapse-par-big-txt">
@@ -348,8 +369,8 @@ include_once 'elements/nav-campus.php';
                     </div>
                 </div>
                 <div class="collapse" id="collapse-top-building-3">
-                    <div>
-                        <ul class="single-collapse-par">
+                    <div class="d-flex justify-content-between align-items-start">
+                        <ul class="single-collapse-par w-lg-45">
                             <li>
                                 <span>
                                     Eight delightful internal gardens and play areas
@@ -371,7 +392,7 @@ include_once 'elements/nav-campus.php';
                                 </span>
                             </li>
                         </ul>
-                        <ul class="single-collapse-par">
+                        <ul class="single-collapse-par w-lg-45">
                             <li>
                                 <span>
                                     An additional full-sized grass field

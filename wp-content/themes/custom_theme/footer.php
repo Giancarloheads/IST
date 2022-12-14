@@ -125,7 +125,7 @@
             <div class="col-lg-10 col-xs-12">
                 <div class="row align-items-center justify-content-between post-footer">
                     <div class="cookie-container col-lg-4 col-xs-12 order-lg-1 order-2">
-                        <div>
+                        <div class="m-r-lg-40">
                             <a href="">Privacy</a> & <a href="">Policy Statements</a>
                         </div>
                         <div>
@@ -134,7 +134,7 @@
                     </div>
                     <div class="d-flex justify-content-lg-end justify-content-center align-items-center col-lg-8 col-xs-12 order-1 order-lg-2">
                         <a class="footer-svgs" target="_blank" href="https://www.ibo.org/">
-                            <img class="w-100" src="<?= get_template_directory_uri() . '/resources/icons/ib-logo.svg' ?>" alt="">
+                            <img class="w-100" src="<?= get_template_directory_uri() . '/resources/icons/ib_footer_logo.svg' ?>" alt="">
                         </a>
                         <a class="footer-svgs" target="_blank" href="https://www.cois.org/">
                             <img class="w-100" src="<?= get_template_directory_uri() . '/resources/icons/cis-logo.svg' ?>" alt="">
@@ -148,7 +148,6 @@
         </div>
     </div>
 </section>
-
 <div id="qr-code-wechat-modal">
     <div class="layover"></div>
     <div class="content">
